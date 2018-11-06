@@ -1,2 +1,0 @@
-println "rootProject is: " + rootProject.name
-apply from: "subprojects.gradle"
