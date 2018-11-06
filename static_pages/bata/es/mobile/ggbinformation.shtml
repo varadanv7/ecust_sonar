@@ -1,0 +1,127 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+<title>FasTrak&reg; - Siempre en movimiento con FasTrak</title>
+<!--#include file="header-meta.html" -->
+<!--#include file="../common/headerinclude.html"-->
+<script language="javascript" type="text/javascript">
+		function popitup(url) {
+			newwindow=window.open(url,'name','height=625px,width=520px');
+			if (window.focus) {newwindow.focus()}
+			return false;
+		}
+	</script>
+<style>
+.sub-header{
+border-top:1px solid;
+border-bottom:1px solid;
+border-color:#ADADAD;
+padding:0.7em;
+color: #0098A3;
+background-color: rgba(173, 173, 173, 0.22);
+font-weight: normal;
+width:100%;
+}
+</style>
+</head>
+<body>
+<!--#include file="header.html" -->
+<!--Content start-->
+<div editarea="img11">
+<div id="title_nav">PARA CRUZAR EL PUENTE GOLDEN GATE</div>
+<dl style="margin: 0;">
+	<dt class="sub-header">Solo conduzca.Se acabaron las casetas de cobro.</dt>
+	<dd class="panel-body">
+		<div class="ctggbimg">
+		<div class="outer imgLiquidFill imgLiquid">
+			<img class="respimg" src="../images/GGbridge_1200x484_72dpi.png" border='0' alt="GGB Bridge">
+			<div class="inner">
+				<h1>Solo conduzca.</h1>
+				<h1>Se acabaron las casetas de cobro.</h1>
+			</div>
+		</div>
+		</div>
+		<p><br>
+			El peaje totalmente electr&oacute;nico hace que sea f&aacute;cil cruzar el Golden Gate: ya no hay que detenerse ni preocuparse por sacar el dinero. La gran variedad de opciones de pago le da la libertad de elegir, adem&aacute;s de ayudarle a que su trayecto sea m&aacute;s r&aacute;pido.
+		</p>
+	</dd>
+	<h1 class="page-header-noborder">
+		C&oacute;mo pagar un peaje del puente Golden Gate
+	</h1>
+	<dd class="panel-body">
+		<p>
+			<b>Pago &uacute;nico en l&iacute;nea</b>
+			<br>
+			Puede hacer un pago &uacute;nico en l&iacute;nea por medio de su tarjeta de cr&eacute;dito, antes de cruzar o a m&aacute;s tardar 48 horas despu&eacute;s. You can use your computer or mobile device with an internet connection.
+		</p>
+		<button type="button" class="btn btngf btnbt-default" onclick="document.location='../routers/otpHome.html'">Hacer Un Pago &Uacute;nico</button><br><br>
+		<p>
+			<b>Abra una cuenta de FasTrak</b>
+			<br>
+			&iexcl;Abra una cuenta de FasTrak para pagar sus peajes de forma c&oacute;moda y ahorrar tiempo! &iexcl;Adem&aacute;s, los usuarios de FasTrak reciben descuentos en peajes para el puente Golden Gate!
+		</p>
+		<button type="button" class="btn btngf btnbt-default" onclick="document.location='../signup/fastrakprep.shtml'">SUSCRIBIRSE</button><br><br>
+		<p>
+			<b>Facturas</b>
+			<br>
+			Una factura se env&iacute;a al propietario registro del veh&iacute;culo, por la cantidad del peaje, unos cuantos d&iacute;as despu&eacute;s del cruce.
+		</p>
+		<button type="button" class="btn btngf btnbt-default" onclick="document.location='../routers/invoice.html'">PAGAR UNA FACTURA</button><br><br>
+		<p>
+			<b>Abrir una cuenta de placa</b>
+			<br>
+			Las cuentas de placa son especiales solo para el puente Golden Gate. No se necesitan dispositivos de peaje para este tipo de cuenta: la imagen de la placa de su veh&iacute;culo se vincula con su cuenta. Sus peajes se cargan de forma autom&aacute;tica a la tarjeta de cr&eacute;dito que tenemos registrada o se deducen del saldo prepagado de su cuenta.
+		</p>
+		<button type="button" class="btn btngf btnbt-default" onclick="document.location='../signup/licenseprep.shtml'">SUSCRIBIRSEP</button><br><br>
+		
+		<p>
+			<br>
+			Usted puede pagar cualquiera de los m&eacute;todos de pago de peaje utilizando dinero en efectivo en un pago en efectivo Ubicaci&oacute;n o en un Centro de Servicio al Cliente en San Francisco.
+		</p>
+		<button type="button" class="btn btngf btnbt-default" onclick="return popitup('../howitworks/cashLocationsMap.html');">BUSCAR UNA UBICACI&Oacute;N DE PAGO EN EFECTIVO</button><br><br>
+	</dd>
+	<dt class="sub-header">&iquest;Usa un veh&iacute;culo rentado?</dt>
+	<dd class="panel-body">
+		<div><img src="../images/RentalCar_400x289_72dpi.jpg" border='0' alt="In a Rental Car?"></div>
+		La mayor&iacute;a de las empresas de renta proporcionan un programa de pago de peajes. Si ha decidido no usar el programa de la agencia de veh&iacute;culos rentados, tiene que hacer un pago antes o a m&aacute;s tardar 48 horas despu&eacute;s de cruzar.
+		
+	</dd>
+	<dt class="sub-header">&iquest;Es nuevo residente o nuevo conductor?</dt>
+	<dd class="panel-body">
+	&iexcl;Obtenga FasTrak hoy mismo! Haga clic <a href="../signup/signup.shtml">aqui</a> para iniciar.
+	</dd>
+	<dt class="sub-header">Para llegar al puente Golden Gate</dt>
+	<dd class="panel-body">
+		<div style="width:500px;height:500px;">
+			<div id="ggbmap">
+				<!--#include file="../ggb/ggbmap.html" -->
+			</div>
+		</div><br>
+		<p>
+			<b>Desde San Francisco</b>
+			<br>
+			<p>Tome la Pacific Coast Highway Route 1 o la US Highway 101 hacia el norte, para atravesar el puente Golden Gate. Los peajes se cobran solo cuando se va al sur.</p>
+		</p>
+		<p>
+			<b>Desde el condado Marin</b>
+			<br>
+			<p>Tome la US Highway 101 hacia el sur, para atravesar el puente Golden Gate. Los peajes se cobran solo cuando se va al sur.</p>
+		</p>
+		<p>
+			<b>Desde el Este de la Bah&iacute;a</b>
+			<br>
+			<p>Tome la US Highway 580 en direcci&oacute;n oeste y despu&eacute;s tome la US Highway 101 hacia el sur, para atravesar el puente Golden Gate. Los peajes se cobran solo cuando se va al sur.</p>
+		</p>
+		<p><h5 class="bach"><p><br>Para m&aacute;s informaci&oacute;n &uacute;til para visitantes, visite el sito web oficial del <a href="http://www.goldengatebridge.org/" target="_blank">puente Golden Gate</a>.</h5></p>
+	</dd>
+	
+</dl>
+</div>
+<!--content end-->
+<!--#include file="footer.html"-->
+<!--#include file="../common/footerinclude.html"-->
+</body>
+<script>
+setheader();
+</script>
+</html>

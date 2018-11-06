@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+
+<title>FasTrak</title>
+
+<!-- INCLUDE MODERNIZR USING CDN -->
+<script
+	src="../common/js/modernizr.min.js"
+	type="text/javascript" charset="utf-8"></script>
+
+<!--#include file="../common/headerinclude.html"-->
+
+<!-- SET BROWSER WIDTH & LOCK SCALE -->
+<meta name="viewport"
+	content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+    <script src="../assets/js/html5shiv.js"></script>
+  <![endif]-->
+
+</head>
+
+<body onLoad="setWindowSizeP()">
+	<!--#include file="../common/html/pageheader.shtml"-->
+	<!--div class="contentTopper"><ol class="breadcrumb">
+	  <li><a href="../home/index.shtml"><img src="../images/breadcrumb/Home_icon.png"></a></li>	  
+	  <li class="active">FasTrak 通行費標籤</li>
+	</ol>
+</div-->
+	<div class="contentTopper">
+		<a href="../home/index.shtml"><ol class="breadcrumb">
+				<li><img src="../images/breadcrumb/Home_icon.png" border="0">
+		</a>
+		</li>
+		<li class="active">FasTrak 通行費標籤</li>
+		</ol>
+	</div>
+	<div class="contentEnvelope" editarea="tollTagChinese" editareadesc="toll Tag Chinese">
+		<!-- content -->
+		<div class="contentTitle">
+			<div style="display: inline-block; float: left; width: 240px;">&nbsp;</div>
+			<div style="display: inline-block;">FasTrak 通行費標籤</div>
+		</div>
+		<div class="menuCol">
+			<div class="menuBox">
+				<div class="navBox" id="benefit">
+					<div id="benefitOrangeBox">&nbsp;</div>
+					<a href="benefitsChinese.shtml" class="leftNav"
+						onMouseover="langMouse('benefit','benefitOrangeBox')"
+						onMouseOut="langMouseOut('benefit','benefitOrangeBox')">益處</a>
+				</div>
+				<div class="navBox" id="getting">
+					<div id="gettingOrangeBox">&nbsp;</div>
+					<a href="startedChinese.shtml" class="leftNav"
+						onMouseover="langMouse('getting','gettingOrangeBox')"
+						onMouseOut="langMouseOut('getting','gettingOrangeBox')">入門指南</a>
+				</div>
+				<div class="navBoxActive" id="get">
+					<div id="getOrangeBoxAlt" style="visibility: visible;">&nbsp;</div>
+					FasTrak 通行費標籤</a>
+				</div>
+				<div class="navBox" id="use">
+					<div id="useOrangeBox">&nbsp;</div>
+					<a href="usingChinese.shtml" class="leftNav"
+						onMouseover="langMouse('use','useOrangeBox')"
+						onMouseOut="langMouseOut('use','useOrangeBox')">使用 FasTrak</a>
+				</div>
+				<div class="navBox" id="where">
+					<div id="whereOrangeBox">&nbsp;</div>
+					<a href="whereChinese.shtml" class="leftNav"
+						onMouseover="langMouse('where','whereOrangeBox')"
+						onMouseOut="langMouseOut('where','whereOrangeBox')">在哪裡使用
+						FasTrak</a>
+				</div>
+				<div class="navBox" id="GG">
+					<div id="GGOrangeBox">&nbsp;</div>
+					<a href="ggGateChinese.shtml" class="leftNav"
+						onMouseover="langMouse('GG','GGOrangeBox')"
+						onMouseOut="langMouseOut('GG','GGOrangeBox')">金門大橋通行費</a>
+				</div>
+				<div class="navBox" id="invoice">
+					<div id="invoiceOrangeBox">&nbsp;</div>
+					<a href="invoiceChinese.shtml" class="leftNav"
+						onMouseover="langMouse('invoice','invoiceOrangeBox')"
+						onMouseOut="langMouseOut('invoice','invoiceOrangeBox')">賬單或違規通知</a>
+				</div>
+				<div class="navBox" id="discount">
+					<div id="discountOrangeBoxAlt">&nbsp;</div>
+					<a href="discountsChinese.shtml" class="leftNav"
+						onMouseover="langMouse('discount','discountOrangeBoxAlt')"
+						onMouseOut="langMouseOut('discount','discountOrangeBoxAlt')">減價優惠和免費通行</a>
+				</div>
+				<div class="navBox" id="contact">
+					<div id="contactOrangeBoxAlt">&nbsp;</div>
+					<a href="contactChinese.shtml" class="leftNav"
+						onMouseover="langMouse('contact','contactOrangeBoxAlt')"
+						onMouseOut="langMouseOut('contact','contactOrangeBoxAlt')">與我們聯絡</a>
+				</div>
+			</div>
+		</div>
+		<div id="contentCol">
+			<div class="colFull">
+				<img src="../images/tollTags_1.jpg" width="100%"
+					style="max-width: 742px"> <br>
+				<br>
+				<div class="indento">您可以從兩類通行費標籤中選擇。</div>
+			</div>
+			<div class="colLeft">
+				<div style="width: 100%; text-align: center; height: 70%;">
+					<img src="../images/tollTags_2.jpg" width="100%"
+						style="max-width: 205px">
+				</div>
+				<br>
+				<div class="indento">
+					<b>標準 FasTrak 通行</b>費標籤可在所有灣區收費橋樑、單人駕駛快車道上使用，並可用於支付三藩市國際機場（SFO）停車費。
+				</div>
+			</div>
+			<div class="colRight">
+				<div style="width: 100%; text-align: center; height: 70%">
+					<img src="../images/tollTags_3.jpg" width="100%"
+						style="max-width: 187px">
+				</div>
+				<br> <b>FasTrak Flex 通行</b> 通行費標籤可用作標準 FasTrak 通行費標籤，並具有在 I-580
+				和 I-680 Contra Costa
+				快車道上合夥搭車所要求的附加功能。該標籤有一個三相轉換開關，顯示您是在快車道上獨自駕車還是合夥搭車。如需（用英語）瞭解有關該通行費標籤如何運作的進一步資訊，請查閱
+				<a href="../guide/doINeedFlex.shtml"
+					class="inLineLinkk">FasTrak Flex 通行費標籤。</a>
+			</div>
+			<div class="colFull">
+				<div class="greenArticleTop">領取 FasTrak 通行費標籤</div>
+				<div class="indento">當您在網上開設您的 FasTrak
+					賬戶後，您可以訂取、在零售店領取或前往客戶服務中心領取一個或多個通行費標籤。您還可以選擇今後在您的賬戶中增加一個或多個通行證標籤。</div>
+			</div>
+			<div class="colFull">
+				<div class="greenArticleTop">將通行證標籤掛在車上</div>
+				<img src="../images/tollTags_4Chin.png" width="100%"
+					style="max-width: 740px; margin: 7px 0 10px 0;"> <br>
+				<div class="indento">FasTrak 通行證標籤掛在您的車內擋風玻璃上，以便 FasTrak
+					探測到通行證標籤。請查閱下圖中經批准的懸掛位置。</div>
+				<div class="greenArticleTop">退回或更換通行費標籤</div>
+			</div>
+			<div class="colLeft">
+				<div class="indento">
+					<div class="orangeTitleCallout">退回通行費標籤</div>
+					如果您希望退回無法使用的通行費標籤或者您不再需要通行費標籤，您可以將通行費標籤放在郵箱內寄回，無需裝在信封內。退回地址已印在通行費標籤上，且已預付郵資，因此郵局可以將通行費標籤送還給
+					FasTrak。我們將從您的賬戶中刪除該通行費標籤，並將存款退給您（如有）。如果您希望追蹤您寄回的通行費標籤，請用掛號信郵寄。
+				</div>
+			</div>
+			<div class="colRight">
+				<div class="orangeTitleCallout">更換通行費標籤</div>
+				如果您需要更換通行費標籤或者需要另一類通行費標籤，請打電話給客戶服務中心，與服務代表通話。請告訴他們您希望更換通行費標籤。請提供您需要更換的通行費標籤號碼，並說明您希望更換哪一種類型的通行費標籤。我們會將您的新通行費標籤寄給您，並會隨附一個郵資已付信封，供您在退回舊通行費標籤時使用。
+			</div>
+			<br> <a href="#top" class="backToTopChinese"
+				style="float: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;返回最上方</a>
+		</div>
+	</div>
+	<!-- end content -->
+	</div>
+	<div class="footerTopperRelated">
+		<div class="footerToppler">Keep moving with FasTrak</div>
+	</div>
+	<script src="../common/js/footer.js"></script>
+
+</body>
+</html>

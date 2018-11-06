@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+
+<title>FasTrak</title>
+
+<!--#include file="../common/headerinclude.html"-->
+</head>
+
+<body onload="setWindowSize()">
+
+	<!--#include file="../common/html/homepageheader_maint.shtml"-->
+	<!--#include file="center_buttons_maint.shtml"-->
+	
+	<div class="wrapperFront">
+		<div class="commute">
+			<img src="../images/dailyCommute.png" /><a name="dailyCommute"></a>
+		</div>
+		<div class="indexShadow">&nbsp;</div>
+		<div class="frontContent">
+			<!-- CMS content begin -->
+			<div class="row">
+				<div class="col-md-6">
+					<div class="text-left date">
+						TODAY: <span id="currDate"></span>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div id="nav-05" class="text-right">
+						<a href="#" class="previous"><img
+							src="../images/home_previous.png" /> </a>&nbsp;&nbsp;<img
+							src="../images/home_middle.png" />&nbsp;&nbsp; <a href="#"
+							class="next"><img src="../images/home_next.png" /> </a>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="panels-05 crsl-items" data-navigation="nav-05">
+					<div class="crsl-wrap">
+						<!--#include file="../common/dailyCommute.html"-->
+					</div>
+				</div>
+			</div>
+			<!-- CMS content end -->
+		</div>
+		<div class="footerTopperRelated">
+			<div class="footerToppler">Keep moving with FasTrak</div>
+		</div>
+		<script src="../common/js/footer.js"></script>
+	</div>
+	
+</body>
+</html>

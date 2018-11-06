@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+<title>FasTrak&reg; - Keeping the Bay Area Moving</title>
+<!--#include file="header-meta.html" -->
+<style>
+.sub-header{
+border-top:1px solid;
+border-bottom:1px solid;
+border-color:#ADADAD;
+padding:0.7em;
+color: #0098A3;
+background-color: rgba(173, 173, 173, 0.22);
+font-weight: normal;
+width:100%;
+}
+</style>
+</head>
+<body>
+<!--#include file="header.html" -->
+<!--Content start-->
+<div id="title_nav">Alerts</div>
+<dl style="margin: 0;">
+	<dt class="sub-header">Shut Down Period</dt>
+	<dd class="panel-body">
+		<p> All sundays 10.00PM - 12.00PM</p>
+	</dd>
+	<dt class="sub-header">Holiday</dt>
+	<dd class="panel-body">
+		<p>07-21-2014</p>
+		<p>09-01-2014</p>
+		<p>12-31-2014</p>
+	</dd>
+</dl>
+<!--content end-->
+<!--#include file="footer.html"-->
+</body>
+<script>
+setheader();
+</script>
+</html>

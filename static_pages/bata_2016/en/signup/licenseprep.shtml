@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+	<!--#include file="../common/headerinclude.html"-->
+    </head>
+    <body onLoad="setWindowSizeP()">
+ 	<!--#include file="../common/html/pageheader.shtml"--> 
+	
+	<div class="container"><ol class="breadcrumb">
+	  <li><a href="../home/index.shtml"><img src="../images/breadcrumb/Home_icon.png"></a></li>
+	  <li><a href="../guide/GGBridgeToll.shtml">GGB</a></li>
+	  <li class="active">Open a License Plate Account</li>
+	</ol></div>
+	
+	<div class="contentEnvelope" editarea="licenseprep" editareadesc="licenseprep">
+		<div class="contentTitle">Open a License Plate Account</div>
+		<div class="twoColCopyBlock">
+			You will need the following information for the enrollment process. For security reasons, you will have 30 minutes to complete the sign up process before your session times out.
+			<br><br><br>
+			<b>What you'll need</b>
+		</div>
+
+	
+		<div class=fourColumn>
+			<div class="greenArticleTop">Valid Email Address</div>
+			<div style="padding: 15px 5px 10px 5px;">
+				A valid e-mail address is required in order to enroll in a License Plate account.
+			</div>
+		</div>
+		<div class="fourColumn">
+			<div class="greenArticleTop">Credit Card</div>
+			<div style="padding: 15px 5px 10px 5px;">
+				A valid credit card is required to register online. If you want to open an account using cash or a check, you'll need to contact Customer Service for assistance
+			</div>
+		</div>
+		<div class="fourColumn">
+			<div class="greenArticleTop">License Plate Information</div>
+			<div style="padding: 15px 5px 10px 5px;">
+				You must have your license plate number and state for each vehicle you would like to register.
+			</div>
+		</div>
+	<p>
+    <br><br>
+    <a href="../routers/videoaccount.html" class="greenButton" >Accept and Begin Enrollment</a>
+	<a href="../guide/GGBridgeToll.shtml" class="beigeButton" >Cancel</a>
+	</div>
+	
+	<!--#include file="../common/html/footerpage.shtml"-->
+    </body>
+</html>

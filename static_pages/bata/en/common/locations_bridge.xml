@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<locations>
+	<location id="Antioch" icon="../images/mm_20_red.png" lat="38.026532" lng="-121.750799" offx="-5" offy="-30">
+		<name>Antioch Bridge</name>
+		<type>point</type>
+	</location>
+	<location id="Benicia" icon="../images/mm_20_red.png" lat="38.038545" lng="-122.121386" offx="-10" offy="-35">
+		<name>Benicia-Martinez Bridge</name>
+		<type>point</type>
+	</location>
+	<location id="Carquinez" icon="../images/mm_20_red.png" lat="38.061219" lng="-122.225343" offx="-105" offy="-30">
+		<name>Carquinez Bridge</name>
+		<type>point</type>
+	</location>
+	<location id="Dumbarton" icon="../images/mm_20_red.png" lat="37.524405" lng="-122.099615" offx="-125" offy="-17">
+		<name>Dumbarton Bridge</name>
+		<type>point</type>
+	</location>
+	<location id="Golden" icon="../images/mm_20_red.png" lat="37.816403" lng="-122.477956" offx="-5" offy="-26">
+		<name>Golden Gate Bridge</name>
+		<type>point</type>
+	</location>
+	<location id="Richmond" icon="../images/mm_20_red.png" lat="37.935010" lng="-122.444515" offx="-5" offy="-30">
+		<name>Richmond-San Rafael Bridge</name>
+		<type>point</type>
+	</location>
+	<location id="Oakland" icon="../images/mm_20_red.png" lat="37.798224" lng="-122.377749" offx="-5" offy="-28">
+		<name>San Francisco-Oakland Bay Bridge</name>
+		<type>point</type>
+	</location>
+	<location id="Mateo" icon="../images/mm_20_red.png" lat="37.601882" lng="-122.204709" offx="-5" offy="-30">
+		<name>San Mateo-Hayward Bridge</name>
+		<type>point</type>
+	</location>
+	<location id="I680" icon="../images/mm_20_red.png" lat="37.534581" lng="-121.934777" offx="5" offy="-5">
+		<name>I-680 South Express Lane</name>
+		<type>line</type>
+		<line>37.575679, -121.880188,37.573366, -121.885939,37.569217, -121.893664,37.565203, -121.900959,37.562005, -121.904736,37.560032, -121.909113,37.558875, -121.912547,37.552071, -121.917696,37.548158, -121.919799,37.545402, -121.919928,37.541727, -121.922846,37.538664, -121.926966,37.534581, -121.934777,37.530905, -121.941686,37.527672, -121.946021,37.525596, -121.946836,37.523486, -121.946321,37.520422, -121.943574,37.515521, -121.940227,37.509734, -121.936880,37.506091, -121.934691,37.500848, -121.929412,37.494345, -121.921988,37.489884, -121.918211,37.483516, -121.914006,37.476365, -121.911560,37.472959, -121.910744</line>
+	</location>
+	<location id="SR237" icon="../images/mm_20_red.png" lat="37.427544" lng="-121.910058" offx="-5" offy="5">
+		<name>SR 237 Express Lanes</name>
+		<type>line</type>
+		<line>37.420830, -121.936365,37.422159, -121.929627,37.423045, -121.922803,37.423625, -121.921258,37.425363, -121.916280,37.426692, -121.911903,37.427544, -121.910058,37.429111, -121.909585,37.430441, -121.908341,37.431395, -121.906667,37.431804, -121.902419</line>
+	</location>
+	<location id="I580" icon="../images/mm_20_red.png" lat="37.700061" lng="-121.82251" offx="-35" offy="-25">
+		<name>I-580 Express Lanes (future)</name>
+		<type>line</type>
+		<line>37.700876,-121.915894,37.70074,-121.893235,37.70074,-121.877614,37.700604,-121.854611,37.700061,-121.82251,37.700061,-121.794014,37.699314, -121.788435,37.699585, -121.778737,37.701351, -121.769467</line>
+	</location>
+	<location id="I680cc" icon="../images/mm_20_red.png" lat="37.784325" lng="-121.978808" offx="-35" offy="-25">
+		<name>I-680 Contra Costa Express Lane (future)</name>
+		<type>line</type>
+		<line>37.723673, -121.940291, 37.728493, -121.944411, 37.739761, -121.952394, 37.748211, -121.957779, 37.755948, -121.962800, 37.765753, -121.969367, 37.770790, -121.971984, 37.775031, -121.973958, 37.779474, -121.976276, 37.784325, -121.978808, 37.788089, -121.980954, 37.792023, -121.982627, 37.795381, -121.984559, 37.798128, -121.986447, 37.800467, -121.988249, 37.806130, -121.990610, 37.813318, -121.993270, 37.816878, -121.993185, 37.820387, -121.992970, 37.822183, -121.993185, 37.823573, -121.993657, 37.825404, -121.995030, 37.827098, -121.996875, 37.830522, -122.002497, 37.835335, -122.009964, 37.839843, -122.017260, 37.846909, -122.026873</line>
+	</location>
+</locations>

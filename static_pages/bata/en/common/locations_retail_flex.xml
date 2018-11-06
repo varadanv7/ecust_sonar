@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<locations>
+    <location id="_1001" icon="Costco" lat="38.008682" long="-121.835444">
+        <name>Costco (Flex Tag)</name>
+        <street>2201 Verne Roberts Circle</street>
+        <city>Antioch</city>
+        <state>CA</state>
+        <zip>94509</zip>
+        <phone>757-7130</phone>
+        <notes></notes>
+    </location>
+    <location id="_1002" icon="Costco" lat="37.959142" long="-122.034196">
+        <name>Costco (Flex Tag)</name>
+        <street>2400 Monument Boulevard</street>
+        <city>Concord</city>
+        <state>CA</state>
+        <zip>94518</zip>
+        <phone>566-4003</phone>
+        <notes></notes>
+    </location>
+    <location id="_1003" icon="Costco" lat="37.78259" long="-121.972853">
+        <name>Costco (Flex Tag)</name>
+        <street>3150 Fostoria Way</street>
+        <city>Danville</city>
+        <state>CA</state>
+        <zip>94526</zip>
+        <phone>277-0407</phone>
+        <notes></notes>
+    </location>
+    <location id="_1004" icon="Costco" lat="37.702888" long="-121.812562">
+        <name>Costco (Flex Tag)</name>
+        <street>2800 Independence Drive</street>
+        <city>Livermore</city>
+        <state>CA</state>
+        <zip>94550</zip>
+        <phone>443-6306</phone>
+        <notes></notes>
+    </location>
+    <location id="_1005" icon="Costco" lat="38.10026" long="-121.263328">
+        <name>Costco (Flex Tag)</name>
+        <street>2680 Reynolds Ranch Parkway</street>
+        <city>Lodi</city>
+        <state>CA</state>
+        <zip>95240</zip>
+        <phone>366-7300</phone>
+        <notes></notes>
+    </location>
+    <location id="_1006" icon="Costco" lat="37.785154" long="-121.260319">
+        <name>Costco (Flex Tag)</name>
+        <street>2440 Daniels Street</street>
+        <city>Manteca</city>
+        <state>CA</state>
+        <zip>95336</zip>
+        <phone>825-8200</phone>
+        <notes></notes>
+    </location>
+    <location id="_1007" icon="Costco" lat="37.702865" long="-121.064949">
+        <name>Costco (Flex Tag)</name>
+        <street>3801 Pelandale Ave.</street>
+        <city>Modesto</city>
+        <state>CA</state>
+        <zip>95356</zip>
+        <phone>342-4903</phone>
+        <notes></notes>
+    </location>
+    <location id="_1008" icon="Costco" lat="38.018799" long="-121.292752">
+        <name>Costco (Flex Tag)</name>
+        <street>1616 East Hammer Lane</street>
+        <city>Stockton</city>
+        <state>CA</state>
+        <zip>95210</zip>
+        <phone>478-2040 </phone>
+        <notes></notes>
+    </location>
+    <location id="_1009" icon="Costco" lat="37.750507" long="-121.475704">
+        <name>Costco (Flex Tag)</name>
+        <street>3250 W. Grant Line Road</street>
+        <city>Tracy</city>
+        <state>CA</state>
+        <zip>95377</zip>
+        <phone>830-5340</phone>
+        <notes></notes>
+    </location>
+    <location id="_1010" icon="Costco" lat="37.519131" long="-120.888552">
+        <name>Costco (Flex Tag)</name>
+        <street>2955 North Tegner Road</street>
+        <city>Turlock</city>
+        <state>CA</state>
+        <zip>95380</zip>
+        <phone>656-5301</phone>
+        <notes></notes>
+    </location>
+    <location id="_1011" icon="Safeway" lat="37.850540" long="-122.034934">
+        <name>Safeway (Flex Tag)</name>
+        <street>200 Alamo Plaza</street>
+        <city>Alamo</city>
+        <state>CA</state>
+        <zip>94507</zip>
+        <phone>820-8022</phone>
+        <notes></notes>
+    </location>
+    <location id="_1012" icon="Safeway" lat="37.924033" long="-121.721989">
+        <name>Safeway (Flex Tag)</name>
+        <street>3110 Balfour Road</street>
+        <city>Brentwood</city>
+        <state>CA</state>
+        <zip>94513</zip>
+        <phone>626-6020</phone>
+        <notes></notes>
+    </location>
+    <location id="_1013" icon="Safeway" lat="37.935795" long="-121.699081">
+        <name>Safeway (Flex Tag)</name>
+        <street>1125 2nd Street</street>
+        <city>Brentwood</city>
+        <state>CA</state>
+        <zip>94513</zip>
+        <phone>634-6780</phone>
+        <notes></notes>
+    </location>
+    <location id="_1014" icon="Safeway" lat="37.953826" long="-121.953717">
+        <name>Safeway (Flex Tag)</name>
+        <street>5431 Clayton Road</street>
+        <city>Clayton</city>
+        <state>CA</state>
+        <zip>94517</zip>
+        <phone>672-2135</phone>
+        <notes></notes>
+    </location>
+    <location id="_1015" icon="Safeway" lat="37.978254" long="-122.028094">
+        <name>Safeway (Flex Tag)</name>
+        <street>2600 Willow Pass Road</street>
+        <city>Concord</city>
+        <state>CA</state>
+        <zip>94519</zip>
+        <phone>689-3240</phone>
+        <notes></notes>
+    </location>
+    <location id="_1016" icon="Safeway" lat="37.965888" long="-121.991194">
+        <name>Safeway (Flex Tag)</name>
+        <street>4309 Clayton Road</street>
+        <city>Concord</city>
+        <state>CA</state>
+        <zip>94521</zip>
+        <phone>356-2710</phone>
+        <notes></notes>
+    </location>
+    <location id="_1017" icon="Safeway" lat="37.798123" long="-121.917766">
+        <name>Safeway (Flex Tag)</name>
+        <street>3496 Camino Tassajara</street>
+        <city>Danville</city>
+        <state>CA</state>
+        <zip>94506</zip>
+        <phone>736-0298</phone>
+        <notes></notes>
+    </location>
+    <location id="_1018" icon="Safeway" lat="37.889814" long="-121.622675">
+        <name>Safeway (Flex Tag)</name>
+        <street>14840 Hwy. 4</street>
+        <city>Discovery Bay</city>
+        <state>CA</state>
+        <zip>94514</zip>
+        <phone>626-6011</phone>
+        <notes></notes>
+    </location>
+    <location id="_1019" icon="Safeway" lat="37.723452" long="-121.872977">
+        <name>Safeway (Flex Tag)</name>
+        <street>4440 Camino Tassajara Road</street>
+        <city>Dublin</city>
+        <state>CA</state>
+        <zip>94568</zip>
+        <phone>551-4710</phone>
+        <notes></notes>
+    </location>
+    <location id="_1020" icon="Safeway" lat="37.705371" long="-121.926334">
+        <name>Safeway (Flex Tag)</name>
+        <street>7497 Dublin Boulevard</street>
+        <city>Dublin</city>
+        <state>CA</state>
+        <zip>94568</zip>
+        <phone>556-4034</phone>
+        <notes></notes>
+    </location>
+    <location id="_1021" icon="Safeway" lat="37.695243" long="-121.743087">
+        <name>Safeway (Flex Tag)</name>
+        <street>4495 1st Street</street>
+        <city>Livermore</city>
+        <state>CA</state>
+        <zip>94550</zip>
+        <phone>455-2520</phone>
+        <notes></notes>
+    </location>
+    <location id="_1021" icon="Safeway" lat="37.680445" long="-121.777173">
+        <name>Safeway (Flex Tag)</name>
+        <street>1554 First Street</street>
+        <city>Livermore</city>
+        <state>CA</state>
+        <zip>94550</zip>
+        <phone>455-5667</phone>
+        <notes></notes>
+    </location>
+    <location id="_1022" icon="Safeway" lat="38.117472" long="-121.305786">
+        <name>Safeway (Flex Tag)</name>
+        <street>2449 W. Kettleman Ln</street>
+        <city>Lodi</city>
+        <state>CA</state>
+        <zip>95242</zip>
+        <phone>367-7875</phone>
+        <notes></notes>
+    </location>
+    <location id="_1023" icon="Safeway" lat="37.813777" long="-121.218585">
+        <name>Safeway (Flex Tag)</name>
+        <street>1187 S. Main St</street>
+        <city>Manteca</city>
+        <state>CA</state>
+        <zip>95336</zip>
+        <phone>239-1809</phone>
+        <notes></notes>
+    </location>
+    <location id="_1024" icon="Safeway" lat="37.957793" long="-122.093931">
+        <name>Safeway (Flex Tag)</name>
+        <street>6688 Alhambra Avenue</street>
+        <city>Martinez</city>
+        <state>CA</state>
+        <zip>94553</zip>
+        <phone>933-0540</phone>
+        <notes></notes>
+    </location>
+    <location id="_1025" icon="Safeway" lat="38.00078" long="-122.133041">
+        <name>Safeway (Flex Tag)</name>
+        <street>3334 Alhambra Avenue</street>
+        <city>Martinez</city>
+        <state>CA</state>
+        <zip>94553</zip>
+        <phone>229-0212</phone>
+        <notes></notes>
+    </location>
+    <location id="_1026" icon="Safeway" lat="37.673328" long="-120.995228">
+        <name>Safeway (Flex Tag)</name>
+        <street>2001 Mchenry Ave Suite C</street>
+        <city>Modesto</city>
+        <state>CA</state>
+        <zip>95350</zip>
+        <phone>571-6288</phone>
+        <notes></notes>
+    </location>
+    <location id="_1027" icon="Safeway" lat="38.016014" long="-121.943564">
+        <name>Safeway (Flex Tag)</name>
+        <street>660 Bailey Road</street>
+        <city>Pittsburg</city>
+        <state>CA</state>
+        <zip>94565</zip>
+        <phone>458-0181</phone>
+        <notes></notes>
+    </location>
+    <location id="_1028" icon="Safeway" lat="37.934291" long="-122.072275">
+        <name>Safeway (Flex Tag)</name>
+        <street>600 Patterson Boulevard</street>
+        <city>Pleasant Hill</city>
+        <state>CA</state>
+        <zip>94523</zip>
+        <phone>933-8243</phone>
+        <notes></notes>
+    </location>
+    <location id="_1029" icon="Safeway" lat="37.94902" long="-122.057918">
+        <name>Safeway (Flex Tag)</name>
+        <street>1978 Contra Costa Boulevard</street>
+        <city>Pleasant Hill</city>
+        <state>CA</state>
+        <zip>94523</zip>
+        <phone>688-0680</phone>
+        <notes></notes>
+    </location>
+    <location id="_1030" icon="Safeway" lat="37.674909" long="-121.87427">
+        <name>Safeway (Flex Tag)</name>
+        <street>1701 Santa Rita Road</street>
+        <city>Pleasanton</city>
+        <state>CA</state>
+        <zip>94566</zip>
+        <phone>417-5530</phone>
+        <notes></notes>
+    </location>
+    <location id="_1031" icon="Safeway" lat="37.773209" long="-121.976832">
+        <name>Safeway (Flex Tag)</name>
+        <street>2505 San Ramon Valley Boulevard</street>
+        <city>San Ramon</city>
+        <state>CA</state>
+        <zip>94583</zip>
+        <phone>831-9515</phone>
+        <notes></notes>
+    </location>
+    <location id="_1032" icon="Safeway" lat="37.7748" long="-121.922073">
+        <name>Safeway (Flex Tag)</name>
+        <street>11050 Bollinger Canyon Road</street>
+        <city>San Ramon</city>
+        <state>CA</state>
+        <zip>94582</zip>
+        <phone>359-2001</phone>
+        <notes></notes>
+    </location>
+    <location id="_1033" icon="Safeway" lat="37.962240" long="-121.337557">
+        <name>Safeway (Flex Tag)</name>
+        <street>2808 Country Club</street>
+        <city>Stockton </city>
+        <state>CA</state>
+        <zip>95204</zip>
+        <phone>461-5555</phone>
+        <notes></notes>
+    </location>
+    <location id="_1034" icon="Safeway" lat="38.00841" long="-121.321265">
+        <name>Safeway (Flex Tag)</name>
+        <street>6445 Pacific Ave.</street>
+        <city>Stockton </city>
+        <state>CA</state>
+        <zip>95207</zip>
+        <phone>472-8605</phone>
+        <notes></notes>
+    </location>
+    <location id="_1035" icon="Safeway" lat="37.740099" long="-121.449593">
+        <name>Safeway (Flex Tag)</name>
+        <street>1801 W. 11Th St.</street>
+        <city>Tracy</city>
+        <state>CA</state>
+        <zip>95376</zip>
+        <phone>830-2950</phone>
+        <notes></notes>
+    </location>
+    <location id="_1036" icon="Safeway" lat="37.878221" long="-122.07185">
+        <name>Safeway (Flex Tag)</name>
+        <street>1972 Tice Valley Boulevard</street>
+        <city>Walnut Creek</city>
+        <state>CA</state>
+        <zip>94595</zip>
+        <phone>939-7213</phone>
+        <notes></notes>
+    </location>
+    <location id="_1037" icon="Safeway" lat="37.898103" long="-122.056644">
+        <name>Safeway (Flex Tag)</name>
+        <street>600 S Broadway</street>
+        <city>Walnut Creek</city>
+        <state>CA</state>
+        <zip>94596</zip>
+        <phone>935-9205</phone>
+        <notes></notes>
+    </location>
+    <location id="_1038" icon="Safeway" lat="37.928506" long="-122.039371">
+        <name>Safeway (Flex Tag)</name>
+        <street>710 Bancroft Road</street>
+        <city>Walnut Creek</city>
+        <state>CA</state>
+        <zip>94598</zip>
+        <phone>937-8537</phone>
+        <notes></notes>
+    </location>
+    <location id="_1039" icon="Safeway" lat="37.925916" long="-122.015307">
+        <name>Safeway (Flex Tag)</name>
+        <street>2941 Ygnacio Valley Road</street>
+        <city>Walnut Creek</city>
+        <state>CA</state>
+        <zip>94598</zip>
+        <phone>939-1811</phone>
+        <notes></notes>
+    </location>
+    <location id="_1040" icon="Safeway" lat="37.987893" long="-121.784246">
+        <name>Safeway (Flex Tag)</name>
+        <street>3365 Deer Valley Rd</street>
+        <city>Antioch</city>
+        <state>CA</state>
+        <zip>94531</zip>
+        <phone>706-4150</phone>
+        <notes></notes>
+    </location>
+    <location id="_1041" icon="Safeway" lat="37.971124" long="-122.0618">
+        <name>Safeway (Flex Tag)</name>
+        <street>707 Contra Costa Blvd.</street>
+        <city>Pleasant Hill</city>
+        <state>CA</state>
+        <zip>94523</zip>
+        <phone>689-2044</phone>
+        <notes></notes>
+    </location>
+    <location id="_1042" icon="Safeway" lat="37.656077" long="-121.899427">
+        <name>Safeway (Flex Tag)</name>
+        <street>6790 Bernal Avenue</street>
+        <city>Pleasanton</city>
+        <state>CA</state>
+        <zip>94566</zip>
+        <phone>846-8644</phone>
+        <notes></notes>
+    </location>
+    <location id="_1043" icon="Walgreens" lat="37.989901" long="-121.786325">
+        <name>Walgreens (Flex Tag)</name>
+        <street>3416 Deer Valley Road</street>
+        <city>Antioch</city>
+        <state>CA</state>
+        <zip>94509</zip>
+        <phone>978-8000</phone>
+        <notes></notes>
+    </location>
+    <location id="_1044" icon="Walgreens" lat="37.962506" long="-121.731831">
+        <name>Walgreens (Flex Tag)</name>
+        <street>6570 Lone Tree Way</street>
+        <city>Brentwood</city>
+        <state>CA</state>
+        <zip>94513</zip>
+        <phone>240-6043</phone>
+        <notes></notes>
+    </location>
+    <location id="_1045" icon="Walgreens" lat="37.926109" long="-121.73727">
+        <name>Walgreens (Flex Tag)</name>
+        <street>2271 Balfour Road</street>
+        <city>Brentwood</city>
+        <state>CA</state>
+        <zip>94513</zip>
+        <phone>626-3491</phone>
+        <notes></notes>
+    </location>
+    <location id="_1046" icon="Walgreens" lat="37.924938" long="-121.695345">
+        <name>Walgreens (Flex Tag)</name>
+        <street>4520 Balfour Road</street>
+        <city>Brentwood</city>
+        <state>CA</state>
+        <zip>94513</zip>
+        <phone>513-4055</phone>
+        <notes></notes>
+    </location>
+    <location id="_1047" icon="Walgreens" lat="37.952369" long="-121.954901">
+        <name>Walgreens (Flex Tag)</name>
+        <street>5437 Clayton Road</street>
+        <city>Clayton</city>
+        <state>CA</state>
+        <zip>94517</zip>
+        <phone>672-1356</phone>
+        <notes></notes>
+    </location>
+    <location id="_1048" icon="Walgreens" lat="37.977497" long="-122.038413">
+        <name>Walgreens (Flex Tag)</name>
+        <street>1800 Concord Avenue</street>
+        <city>Concord</city>
+        <state>CA</state>
+        <zip>94520</zip>
+        <phone>674-9477</phone>
+        <notes></notes>
+    </location>
+    <location id="_1049" icon="Walgreens" lat="37.814011" long="-121.996777">
+        <name>Walgreens (Flex Tag)</name>
+        <street>611 San Ramon Valley</street>
+        <city>Danville</city>
+        <state>CA</state>
+        <zip>94526</zip>
+        <phone>743-0166</phone>
+        <notes></notes>
+    </location>
+    <location id="_1050" icon="Walgreens" lat="37.824109" long="-121.992323">
+        <name>Walgreens (Flex Tag)</name>
+        <street>480 Diablo Road</street>
+        <city>Danville</city>
+        <state>CA</state>
+        <zip>94526</zip>
+        <phone>855-8145</phone>
+        <notes></notes>
+    </location>
+    <location id="_1051" icon="Walgreens" lat="37.827196" long="-121.286271">
+        <name>Walgreens (Flex Tag)</name>
+        <street>14780 S Harland Rd</street>
+        <city>Lathrop</city>
+        <state>CA</state>
+        <zip>85330</zip>
+        <phone>858-2801</phone>
+        <notes></notes>
+    </location>
+    <location id="_1052" icon="Walgreens" lat="37.680034" long="-121.775918">
+        <name>Walgreens (Flex Tag)</name>
+        <street>1620 First Street</street>
+        <city>Livermore</city>
+        <state>CA</state>
+        <zip>94550</zip>
+        <phone>724-0131</phone>
+        <notes></notes>
+    </location>
+    <location id="_1053" icon="Walgreens" lat="38.135683" long="-121.289387">
+        <name>Walgreens (Flex Tag)</name>
+        <street>75 N Ham Ln</street>
+        <city>Lodi</city>
+        <state>CA</state>
+        <zip>95242</zip>
+        <phone>369-8575</phone>
+        <notes></notes>
+    </location>
+    <location id="_1054" icon="Walgreens" lat="37.811549" long="-121.217709">
+        <name>Walgreens (Flex Tag)</name>
+        <street>1071 N Main Street</street>
+        <city>Manteca</city>
+        <state>CA</state>
+        <zip>95336</zip>
+        <phone>825-5481</phone>
+        <notes></notes>
+    </location>
+    <location id="_1055" icon="Walgreens" lat="37.99845" long="-122.13164">
+        <name>Walgreens (Flex Tag)</name>
+        <street>3655 Alhambra Avenue</street>
+        <city>Martinez</city>
+        <state>CA</state>
+        <zip>94553</zip>
+        <phone>372-0337</phone>
+        <notes></notes>
+    </location>
+    <location id="_1056" icon="Walgreens" lat="38.00956" long="-121.891516">
+        <name>Walgreens (Flex Tag)</name>
+        <street>2901 Railroad Avenue</street>
+        <city>Pittsburg</city>
+        <state>CA</state>
+        <zip>94565</zip>
+        <phone>439-8575</phone>
+        <notes></notes>
+    </location>
+    <location id="_1057" icon="Walgreens" lat="37.948458" long="-122.081944">
+        <name>Walgreens (Flex Tag)</name>
+        <street>721 Gregory Lane</street>
+        <city>Pleasant Hill</city>
+        <state>CA</state>
+        <zip>94523</zip>
+        <phone>944-1592</phone>
+        <notes></notes>
+    </location>
+    <location id="_1058" icon="Walgreens" lat="37.675957" long="-121.874913">
+        <name>Walgreens (Flex Tag)</name>
+        <street>1763 Santa Rita Road</street>
+        <city>Pleasanton</city>
+        <state>CA</state>
+        <zip>94566</zip>
+        <phone>426-1562</phone>
+        <notes></notes>
+    </location>
+    <location id="_1059" icon="Walgreens" lat="37.972625" long="-121.148742">
+        <name>Walgreens (Flex Tag)</name>
+        <street>102 N Jack Tone Rd</street>
+        <city>Ripon</city>
+        <state>CA</state>
+        <zip>95366</zip>
+        <phone>599-1639</phone>
+        <notes></notes>
+    </location>
+    <location id="_1060" icon="Walgreens" lat="37.723993" long="-121.944545">
+        <name>Walgreens (Flex Tag)</name>
+        <street>21001 San Ramon Valley</street>
+        <city>San Ramon</city>
+        <state>CA</state>
+        <zip>94583</zip>
+        <phone>803-0893</phone>
+        <notes></notes>
+    </location>
+    <location id="_1061" icon="Walgreens" lat="37.938968" long="-121.243049">
+        <name>Walgreens (Flex Tag)</name>
+        <street>2040 E Mariposa Rd</street>
+        <city>Stockton</city>
+        <state>CA</state>
+        <zip>95205</zip>
+        <phone>465-4167</phone>
+        <notes></notes>
+    </location>
+    <location id="_1062" icon="Walgreens" lat="37.9676" long="-121.295831">
+        <name>Walgreens (Flex Tag)</name>
+        <street>15 W Harding Way</street>
+        <city>Stockton</city>
+        <state>CA</state>
+        <zip>95207</zip>
+        <phone>941-9632</phone>
+        <notes></notes>
+    </location>
+    <location id="_1063" icon="Walgreens" lat="37.960655" long="-121.271872">
+        <name>Walgreens (Flex Tag)</name>
+        <street>1528 E. Fremont St</street>
+        <city>Stockton</city>
+        <state>CA</state>
+        <zip>95208</zip>
+        <phone>467-7861</phone>
+        <notes></notes>
+    </location>
+    <location id="_1064" icon="Walgreens" lat="37.990317" long="-121.313398">
+        <name>Walgreens (Flex Tag)</name>
+        <street>660 W. March Ln</street>
+        <city>Stockton</city>
+        <state>CA</state>
+        <zip>95207</zip>
+        <phone>478-0891</phone>
+        <notes></notes>
+    </location>
+    <location id="_1065" icon="Walgreens" lat="38.021823" long="-121.355444">
+        <name>Walgreens (Flex Tag)</name>
+        <street>3131 W Hammer Ln</street>
+        <city>Stockton</city>
+        <state>CA</state>
+        <zip>95209</zip>
+        <phone>476-8819</phone>
+        <notes></notes>
+    </location>
+    <location id="_1066" icon="Walgreens" lat="38.148217" long="-121.30223">
+        <name>Walgreens (Flex Tag)</name>
+        <street>7929 Lower Sacramento Rd</street>
+        <city>Stockton</city>
+        <state>CA</state>
+        <zip>95210</zip>
+        <phone>474-0880</phone>
+        <notes></notes>
+    </location>
+    <location id="_1067" icon="Walgreens" lat="38.019796" long="-121.294277">
+        <name>Walgreens (Flex Tag)</name>
+        <street>7850 West Ln</street>
+        <city>Stockton</city>
+        <state>CA</state>
+        <zip>95210</zip>
+        <phone>473-9515</phone>
+        <notes></notes>
+    </location>
+    <location id="_1068" icon="Walgreens" lat="37.738279" long="-121.450568">
+        <name>Walgreens (Flex Tag)</name>
+        <street>1830 W 11th St</street>
+        <city>Tracy</city>
+        <state>CA</state>
+        <zip>95376</zip>
+        <phone>832-1498</phone>
+        <notes></notes>
+    </location>
+    <location id="_1069" icon="Walgreens" lat="37.709828" long="-121.434095">
+        <name>Walgreens (Flex Tag)</name>
+        <street>2810 S Tracy Blvd</street>
+        <city>Tracy</city>
+        <state>CA</state>
+        <zip>95377</zip>
+        <phone>834-0248</phone>
+        <notes></notes>
+    </location>
+    <location id="_1070" icon="Walgreens" lat="37.92567" long="-122.015984">
+        <name>Walgreens (Flex Tag)</name>
+        <street>2923 Ygnacio Valley Road</street>
+        <city>Walnut Creek</city>
+        <state>CA</state>
+        <zip>94598</zip>
+        <phone>256-7230</phone>
+        <notes></notes>
+    </location>
+    <location id="_1071" icon="Walgreens" lat="37.887997" long="-122.056317">
+        <name>Walgreens (Flex Tag)</name>
+        <street>2900 N Main Street</street>
+        <city>Walnut Creek</city>
+        <state>CA</state>
+        <zip>94596</zip>
+        <phone>933-0307</phone>
+        <notes></notes>
+    </location>
+</locations>

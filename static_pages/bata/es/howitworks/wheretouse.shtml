@@ -1,0 +1,991 @@
+<!DOCTYPE html><!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]--><!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]--><!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]--><!--[if gt IE 8]><!--><html class="no-js"><!--<![endif]--><head>
+	<!--#include file="../common/headerinclude.html"-->
+    <style>
+	.panel-collapse h4{
+		color: #169499;
+		font-weight: 700;
+		margin-bottom: 10px;
+		font-size: 18px;
+	}
+	.mapHighlight a:focus,h4 a:focus{
+		outline	:0;
+	}
+	.mapHighlight a{
+		padding-left :20px;
+	}
+	</style></head>
+	
+    <body onload="openbridge()">
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.
+        <![endif]-->
+	<!--#include file="../common/topnavigationnh.html"-->
+	<div class="container"><ol class="breadcrumb">
+	  <li><a href="../home/index.shtml"><img src="../images/breadcrumb/Home_icon.png" /></a></li>
+	  <li>PARA COMENZAR</li>
+	  <li class="active">D&Oacute;NDE USARLO</li>
+	</ol></div>
+	<div class="container clstatic custom-bodyfont wtu" editarea="img111">
+	
+
+	<h1 class="page-header-noborder">
+		D&Oacute;NDE USARLO 
+	</h1>
+	<p class="custom-subhead">Puede usar su dispositivo de FasTrak en cualquier lugar en donde vea su logotipo.
+	<div class="container row custom-wrap">
+		<div class="col-md-6">
+            <div id="ggbmap">			
+                <div id="mapOuter">
+                    <a href="#" data-featherlight="../images/FasTrakMap-OWC_15.png"><img src="../images/FasTrakMap-OWC_15-small.png" width="312"/></a>
+                    <sub>Haga click para ampliar</sub>
+                </div>
+			</div>
+			<div class="custom-wrap2">
+				<h3>Puentes de peaje</h3>
+					<div class="acclinks bach custom1">
+						<p><a href="#Antioch" class="collapseLink Antioch" ref="Antioch">Puente Antioch</a></p>
+						<p><a href="#Benicia" class="collapseLink Benicia" ref="Benicia">Puente Benicia-Martinez</a></p>
+						<p><a href="#Carquinez" class="collapseLink Carquinez" ref="Carquinez">Puente Carquinez</a></p>
+						<p><a href="#Dumbarton" class="collapseLink Dumbarton" ref="Dumbarton">Puente Dumbarton</a></p>
+						<p><a href="#Golden" class="collapseLink Golden" ref="Golden">Puente Golden Gate</a></p>
+						<p><a href="#Richmond" class="collapseLink Richmond" ref="Richmond">Puente Richmond-San Rafael</a></p>
+						<p><a href="#Oakland" class="collapseLink Oakland" ref="Oakland">Puente San Francisco-Bah&iacute;a de Oakland</a></p>
+						<p><a href="#Mateo" class="collapseLink Mateo" ref="Mateo">Puente San Mateo-Hayward</a></p>
+					</div>
+			</div>
+		</div>
+		<div class="col-md-5 bach">
+			<h3>Carriles expr&eacute;s</h3>
+			<h4 class="hide-desk">Toll Bridges & Express Lanes</h4>
+            <p class="hide-desk">See Below</p>
+            <div class="acclinks2 bach">
+                <p><a href="#I680" class="collapseLink I680" ref="I680" rel="lightbox">Carril expr&eacute;s de la I-680 South</a></p>
+                <p><a href="#SR237" class="collapseLink SR237" ref="SR237" rel="lightbox">Carriles expr&eacute;s de la SR-237</a></p>
+                <p><a href="#I580" class="collapseLink I580" ref="I580">Carriles expr&eacute;s de la I-580 (la apertura sera a principios del 2016)</a></p>
+                <p><a href="#I680x" class="collapseLink I680x" ref="I580">Carril expr&eacute;s en la I-680 (a partir del verano de 2016)</a></p>
+                <hr>
+                <p><a href="#socal" class="collapseLink socal" ref="socal"><h4>Carriles expr&eacute;s del sur de California</h4></a></p>
+                <hr>
+			</div>
+            <a id="flex-link" href="flextag.shtml">
+            	<figure id="flex-ad">
+                	<img src="../common/images/flex-ad.jpg" alt="Flex Tags improve your commute along Express Lanes and HOV." />
+					<figcaption>Dispositivos de FasTrak Flex para usuarios de viajes compartidos de la I-580 en el &aacute;rea de los tres valles (Tri-Valley)</figcaption>
+                    <span class="custom-btn">More Info</span>
+                </figure>
+            </a>
+            <h3>Estacionamiento</h3>
+			<h4 class="hide-desk">Parking</h4>
+			<a href="http://www.flysfo.com/to-from/parking#icon_block" target="_blank" class="linkext">Aeropuerto Internacional de San Francisco</a>
+		</div>
+	</div>
+	<hr />
+	
+	<div class="panel-group" id="accordion" >
+	  <div class="panel panel-default">
+		<div class="panel-heading">
+		  <h4 class="panel-title">
+			<a href="#Antioch">
+			  Puente Antioch
+			</a>
+		  </h4>
+		</div>
+		<div id="Antioch" class="panel-collapse collapse collapsediv">
+		  <div class="panel-body">
+			<h1><img src="../images/Antioch_Bill_Hall.jpg" editarea="Antiochimg" editareadesc="Antioch Image" width="288px" height="192px" border="0" alt="Antioch Bridge" class="" /></h1>
+			<h4>Peajes en el puente Antioch</h4>
+			<p>Los peajes se cobran cuando se va hacia el este. Las tarifas de los peajes se basan en el n&uacute;mero total de ejes en el camino, combinados en un veh&iacute;culo, y son de la siguiente forma (en vigor desde el 1 de julio de 2011): </p>
+			<div class="tollRates table-responsive">
+				<table cellpadding="0" cellspacing="0">
+					<tbody><tr>
+						<th width="130">N&uacute;mero de ejes</th>
+						<th width="110">Peaje</th>
+						<th width="40" style="border-left: 1px solid #7f7f7f;">&nbsp;</th>
+						<th width="">FasTrak</th>
+					</tr>
+					<tr>
+						<td>2&nbsp;ejes</td>
+						<td>$5.00</td>
+						<td rowspan="6" style="border-left: 1px solid #7f7f7f;">&nbsp;</td>
+						<td rowspan="6">
+							El cobro para veh&iacute;culos que usen FasTrak ser&aacute; el mismo que la tarifa mostrada arriba, excepto para los veh&iacute;culos que viajen por el carril para viajes compartidos (carpool), como se describe abajo. Para conocer la ubicaci&oacute;n de carriles exclusivos para FasTrak en este puente, haga clic <a class="Antiochpdf" href="../images/LaneDiagAntioch-final.pdf" target="_blank">aqu&iacute;</a>.</td>
+					</tr>
+					<tr>
+						<td>3&nbsp;ejes </td>
+						<td>$15.00</td>
+					</tr>
+					<tr>
+						<td>4&nbsp;ejes</td>
+						<td>$20.00</td>
+					</tr>
+					<tr>
+						<td>5&nbsp;ejes</td>
+						<td>$25.00</td>
+					</tr>
+					<tr>
+						<td>6&nbsp;ejes</td>
+						<td>$30.00</td>
+					</tr>
+					<tr>
+						<td>7&nbsp;ejes o m&aacute;s</td>
+						<td>$35.00</td>
+					</tr>
+				</tbody></table>
+				<div class="clear"></div>
+			</div>
+			<br><br>
+			<h4>Informaci&oacute;n del puente Antioch</h4>
+			<p>Para m&aacute;s informaci&oacute;n acerca del puente Antioch, visite el sitio<br><a href="http://bata.mtc.ca.gov/bridges/antioch.htm"  target="_blank" class="linkext">http://bata.mtc.ca.gov/bridges/antioch.htm</a>.</p>
+			<h4>Autobuses o transportes colectivos (vanpool)</h4>
+			<p>Un autob&uacute;s o un transporte colectivo (vanpool) pueden cruzar sin pagar peaje en todo momento, si van en el o los carriles designados, de acuerdo con los procedimientos operativos.</p>
+			<p>Para pasar por un carril atendido por personal, es necesario tener un boleto de autob&uacute;s de peaje gratuito o un dispositivo no lucrativo para peaje emitido por FasTrak; de otra forma, se cobrar&aacute; un peaje con base en el n&uacute;mero de ejes.</p> 
+			<h4>Viajes compartidos (carpool)</h4> 
+			<p>Cuando realicen viajes compartidos, a los siguientes tipos de veh&iacute;culos se les cobrar&aacute; un peaje especial de $ 2.50, en el carril designado para viajes compartidos durante los horarios determinados para este fin:</p> 
+			<ul class="bodyCopy">
+			<li>Cualquier veh&iacute;culo de 2 ejes, sin remolque, que lleve a tres o m&aacute;s personas</li>
+				<li>Cualquier veh&iacute;culo de emisiones inherentemente bajas (IELV) para un solo ocupante, con calcoman&iacute;as emitidas por el Departamento de Veh&iacute;culos Motorizados (DMV)</li>
+				<li>Cualquier veh&iacute;culo de 2 ejes, sin remolque, que lleve a dos pasajeros (y que est&eacute; designado por el fabricante para transportar a no m&aacute;s de dos personas)</li>
+				<li>Cualquier motocicleta</li>
+			</ul>
+			<h4>Importante:</h4>
+			<p>Cualquier veh&iacute;culo para viaje compartido debe usar los carriles para este fin (carpool) y portar un dispositivo de peaje de FasTrak para pagar.</p>
+			<p>Los horarios del carril para viajes compartidos son de lunes a viernes, de 5 am a 10 am y de 3 pm a 7 pm.</p>
+			<h4>Peatones y ciclistas</h4>
+			<p>Los peatones y ciclistas pueden cruzar el puente Antioch sin pagar peaje en los carriles designados, de acuerdo con los procedimientos operativos.</p>
+			<h4>Definiciones de veh&iacute;culos para asignaci&oacute;n de peaje en puentes</h4>
+			<p><strong>Autob&uacute;s:</strong> Un autob&uacute;s incluye cualquier veh&iacute;culo con las siguientes caracter&iacute;sticas:</p>
+			<ol class="bodyCopy">
+				<li>Ha sido dise&ntilde;ado, se usa o se mantiene para el transporte de 10 o m&aacute;s personas, incluyendo el conductor.</li>
+				<li>Atraviesa un puente propiedad del estado, en una ruta que comienza y termina dentro de un radio de 50 millas (80 kil&oacute;metros) del punto en el que se cobra el peaje de ese puente.</li>
+				<li>Funciona durante un horario regular para cualquier organismo municipal o p&uacute;blico; distrito de tr&aacute;nsito; distrito de servicios p&uacute;blicos o subdivisi&oacute;n pol&iacute;tica; para una empresa privada para el transporte no lucrativo de sus empleados, con fines laborales; o cualquier empresa de transporte que opere bajo un certificado de conveniencia y necesidad p&uacute;blica, emitido por la Comisi&oacute;n de Servicios P&uacute;blicos de California.</li>
+			</ol>
+			<p><strong>Transporte colectivo (vanpool):</strong> Un veh&iacute;culo para transporte colectivo (vanpool) es un veh&iacute;culo que funciona bajo los lineamientos de las leyes y regulaciones vigentes para viajes compartidos, y est&aacute; dise&ntilde;ado para llevar a m&aacute;s de 10 pero menos de 15 personas, incluyendo al conductor, y que se mantiene y se usa principalmente para el transporte no lucrativo de personas, con fines laborales, con el prop&oacute;sito de compartir un traslado.</p>
+			<p><strong>Motocicletas:</strong> Una motocicleta incluye cualquier veh&iacute;culo motorizado que tenga un asiento o montura para el uso del motociclista, con hasta cuatro ruedas en contacto con el camino (dos de las cuales son una parte funcional de un carrito lateral).</p>
+			<p><strong>Capacidad de asientos:</strong> Si existen asientos individuales, el n&uacute;mero de estos debe usarse para determinar la capacidad de asientos. Si no se usan asientos individuales, la capacidad se determinar&aacute; tomando como base 17 pulgadas (43 cm) de anchura de asiento por persona.</p>
+			<p><strong>Combinaciones de veh&iacute;culos:</strong> Las combinaciones de veh&iacute;culos incluyen cualquier combinaci&oacute;n de veh&iacute;culos motorizados y de arrastre. El peaje se basa en el n&uacute;mero total de ejes en el camino, en su combinaci&oacute;n total.</p> 
+			<p><strong>Remolque:</strong> El remolque incluye cualquier veh&iacute;culo dise&ntilde;ado para llevar personas o bienes, y ser arrastrado por un veh&iacute;culo motorizado; esta clasificaci&oacute;n incluye a los semirremolques. </p> 
+		  </div>
+		</div>
+	  </div>
+	  <div class="panel panel-default">
+		<div class="panel-heading">
+		  <h4 class="panel-title">
+			<a href="#Benicia">
+			  Puente Benicia-Martinez
+			</a>
+		  </h4>
+		</div>
+		<div id="Benicia" class="panel-collapse collapse collapsediv">
+		  <div class="panel-body">
+			<h1><img src="../images/Benicia_Karl_Nielsen.jpg" editarea="Beniciaimg" editareadesc="Benicia Image" width="288px" height="192px" border="0" alt="Benecia Martinez Bridge" /></h1>
+			<h4>Peajes en el Puente Benicia-Martinez</h4>
+			<p>Los peajes se cobran cuando se va hacia el este. Las tarifas de los peajes se basan en el n&uacute;mero total de ejes en el camino, combinados en un veh&iacute;culo, y son de la siguiente forma (en vigor desde el 1 de julio de 2011): </p>
+			<div class="tollRates table-responsive">
+				<table cellpadding="0" cellspacing="0">
+					<tbody><tr>
+						<th width="130">N&uacute;mero de ejes</th>
+						<th width="110">Peaje</th>
+						<th width="40" style="border-left: 1px solid #7f7f7f;">&nbsp;</th>
+						<th width="">FasTrak</th>
+					</tr>
+					<tr>
+						<td>2&nbsp;ejes </td>
+						<td>$5.00</td>
+						<td rowspan="6" style="border-left: 1px solid #7f7f7f;">&nbsp;</td>
+						<td rowspan="6">El cobro para veh&iacute;culos que usen FasTrak ser&aacute; el mismo que la tarifa mostrada arriba, excepto para los veh&iacute;culos que viajen por el carril para viajes compartidos (carpool), como se describe abajo. Para conocer la ubicaci&oacute;n de carriles exclusivos para FasTrak en este puente, haga clic <a class="Beniciapdf" href="../images/LaneDiagBenicia-Martin-final.pdf" target="_blank">aqu&iacute;</a>.</td>
+					</tr>
+					<tr>
+						<td>3&nbsp;ejes </td>
+						<td>$15.00</td>
+					</tr>
+					<tr>
+						<td>4&nbsp;ejes </td>
+						<td>$20.00</td>
+					</tr>
+					<tr>
+						<td>5&nbsp;ejes </td>
+						<td>$25.00</td>
+					</tr>
+					<tr>
+						<td>6&nbsp;ejes</td>
+						<td>$30.00</td>
+					</tr>
+					<tr>
+						<td>7&nbsp;ejes o m&aacute;s</td>
+						<td>$35.00</td>
+					</tr>
+				</tbody></table>
+				<div class="clear"></div>
+			</div>
+			<br><br>
+			<h4>Informaci&oacute;n del Puente Benicia-Martinez</h4>
+			<p>Para m&aacute;s informaci&oacute;n acerca del puente Benicia-Martinez, visite el sitio web<br><a href="http://bata.mtc.ca.gov/bridges/ben-mar.htm"  target="_blank" class="linkext">http://bata.mtc.ca.gov/bridges/ben-mar.htm</a>.</p>
+			<h4>Autobuses o transportes colectivos (vanpool)</h4>
+			<p>Un autob&uacute;s o un transporte colectivo (vanpool) pueden cruzar sin pagar peaje en todo momento, si van en el o los carriles designados, de acuerdo con los procedimientos operativos.</p>
+			<p>Para pasar por un carril atendido por personal, es necesario tener un boleto de autob&uacute;s de peaje gratuito o un dispositivo no lucrativo para peaje emitido por FasTrak; de otra forma, se cobrar&aacute; un peaje con base en el n&uacute;mero de ejes.</p> 
+			<h4>Viajes compartidos (carpool)</h4> 
+			<p>Cuando realicen viajes compartidos, a los siguientes tipos de veh&iacute;culos se les cobrar&aacute; un peaje especial de $ 2.50, en el carril designado para viajes compartidos durante los horarios determinados para este fin:</p> 
+			<ul class="bodyCopy">
+			<li>Cualquier veh&iacute;culo de 2 ejes, sin remolque, que lleve a tres o m&aacute;s personas</li>
+				
+				<li>Cualquier veh&iacute;culo de emisiones inherentemente bajas (IELV) para un solo ocupante, con calcoman&iacute;as emitidas por el Departamento de Veh&iacute;culos Motorizados (DMV)</li>
+				<li>Cualquier veh&iacute;culo de 2 ejes, sin remolque, que lleve a dos pasajeros (y que est&eacute; designado por el fabricante para transportar a no m&aacute;s de dos personas)</li>
+				<li>Cualquier motocicleta</li>
+			</ul>
+			<h4>Importante:</h4>
+			<p>Cualquier veh&iacute;culo para viaje compartido debe usar los carriles para este fin (carpool) y portar un dispositivo de peaje de FasTrak para pagar.</p>
+			<p>Los horarios del carril para viajes compartidos son de lunes a viernes, de 5 am a 10 am y de 3 pm a 7 pm.</p>
+			<h4>Peatones y ciclistas</h4>
+			<p>Los peatones y ciclistas pueden cruzar el puente Antioch sin pagar peaje en los carriles designados, de acuerdo con los procedimientos operativos.</p>
+			<h4>Definiciones de veh&iacute;culos para asignaci&oacute;n de peaje en puentes</h4>
+			<p><strong>Autob&uacute;s:</strong>Un autob&uacute;s incluye cualquier veh&iacute;culo con las siguientes caracter&iacute;sticas:</p>
+			<ol class="bodyCopy">
+				<li>Ha sido dise&ntilde;ado, se usa o se mantiene para el transporte de 10 o m&aacute;s personas, incluyendo el conductor.</li>
+				<li>Atraviesa un puente propiedad del estado, en una ruta que comienza y termina dentro de un radio de 50 millas (80 kil&oacute;metros) del punto en el que se cobra el peaje de ese puente.</li>
+				<li>Funciona durante un horario regular para cualquier organismo municipal o p&uacute;blico; distrito de tr&aacute;nsito; distrito de servicios p&uacute;blicos o subdivisi&oacute;n pol&iacute;tica; para una empresa privada para el transporte no lucrativo de sus empleados, con fines laborales; o cualquier empresa de transporte que opere bajo un certificado de conveniencia y necesidad p&uacute;blica, emitido por la Comisi&oacute;n de Servicios P&uacute;blicos de California.</li>
+			</ol>
+			<p><strong>Transporte colectivo (vanpool): </strong> Un veh&iacute;culo para transporte colectivo (vanpool) es un veh&iacute;culo que funciona bajo los lineamientos de las leyes y regulaciones vigentes para viajes compartidos, y est&aacute; dise&ntilde;ado para llevar a m&aacute;s de 10 pero menos de 15 personas, incluyendo al conductor, y que se mantiene y se usa principalmente para el transporte no lucrativo de personas, con fines laborales, con el prop&oacute;sito de compartir un traslado.</p>
+			<p><strong>Motocicletas: </strong>Una motocicleta incluye cualquier veh&iacute;culo motorizado que tenga un asiento o montura para el uso del motociclista, con hasta cuatro ruedas en contacto con el camino (dos de las cuales son una parte funcional de un carrito lateral).</p>
+			<p><strong>Capacidad de asientos: </strong> Si existen asientos individuales, el n&uacute;mero de estos debe usarse para determinar la capacidad de asientos. Si no se usan asientos individuales, la capacidad se determinar&aacute; tomando como base 17 pulgadas (43 cm) de anchura de asiento por persona.</p>
+			<p><strong>Combinaciones de veh&iacute;culos: </strong>Las combinaciones de veh&iacute;culos incluyen cualquier combinaci&oacute;n de veh&iacute;culos motorizados y de arrastre. El peaje se basa en el n&uacute;mero total de ejes en el camino, en su combinaci&oacute;n total.</p> 
+			<p><strong>Remolque: </strong>El remolque incluye cualquier veh&iacute;culo dise&ntilde;ado para llevar personas o bienes, y ser arrastrado por un veh&iacute;culo motorizado; esta clasificaci&oacute;n incluye a los semirremolques.</p>
+		  </div>
+		</div>
+	  </div>
+	  <div class="panel panel-default">
+		<div class="panel-heading">
+		  <h4 class="panel-title">
+			<a href="#Carquinez">
+			  Puente Carquinez
+			</a>
+		  </h4>
+		</div>
+		<div id="Carquinez" class="panel-collapse collapse collapsediv">
+		  <div class="panel-body">
+			<h1><img src="../images/Carquinez_Tom_Paiva.jpg" editarea="Carquinezimg" editareadesc="Carquinez Image" width="288px" height="192px" border="0" alt="Carquinez Bridge" /></h1>
+			<h4>Peajes en el puente Carquinez</h4>
+			<p>Los peajes se cobran cuando se va hacia el este. Las tarifas de los peajes se basan en el n&uacute;mero total de ejes en el camino, combinados en un veh&iacute;culo, y son de la siguiente forma (en vigor desde el 1 de julio de 2011): </p>
+			<div class="tollRates table-responsive">
+				<table cellpadding="0" cellspacing="0">
+					<tbody><tr>
+						<th width="130">N&uacute;mero de ejes</th>
+						<th width="110">Peaje</th>
+						<th width="40" style="border-left: 1px solid #7f7f7f;">&nbsp;</th>
+						<th width="">FasTrak</th>
+					</tr>
+					<tr>
+						<td>2&nbsp;ejes</td>
+						<td>$5.00</td>
+						<td rowspan="6" style="border-left: 1px solid #7f7f7f;">&nbsp;</td>
+						<td rowspan="6">
+							El cobro para veh&iacute;culos que usen FasTrak ser&aacute; el mismo que la tarifa mostrada arriba, excepto para los veh&iacute;culos que viajen por el carril para viajes compartidos (carpool), como se describe abajo. Para conocer la ubicaci&oacute;n de carriles exclusivos para FasTrak en este puente, haga clic <a class="Carquinezpdf" href="../images/LaneDiagCarqBridg-final.pdf" target="_blank">caqu&iacute;</a>.</td>
+					</tr>
+					<tr>
+						<td>3&nbsp;ejes </td>
+						<td>$15.00</td>
+					</tr>
+					<tr>
+						<td>4&nbsp;ejes</td>
+						<td>$20.00</td>
+					</tr>
+					<tr>
+						<td>5&nbsp;ejes</td>
+						<td>$25.00</td>
+					</tr>
+					<tr>
+						<td>6&nbsp;ejes</td>
+						<td>$30.00</td>
+					</tr>
+					<tr>
+						<td>7&nbsp;ejes o m&aacute;s</td>
+						<td>$35.00</td>
+					</tr>
+				</tbody></table>
+				<div class="clear"></div>
+			</div>
+			<br><br>
+			<h4>Informaci&oacute;n acerca del puente Carquinez</h4>
+			<p>Para m&aacute;s informaci&oacute;n acerca del puente Carquinez, visite el sitio web <br><a href=" http://bata.mtc.ca.gov/bridges/carquinez.htm"  target="_blank" class="linkext">http://bata.mtc.ca.gov/bridges/carquinez.htm</a>.</p> 
+			<h4>Autobuses o transportes colectivos (vanpool)</h4>
+			<p>Un autob&uacute;s o un transporte colectivo (vanpool) pueden cruzar sin pagar peaje en todo momento, si van en el o los carriles designados, de acuerdo con los procedimientos operativos. Para pasar por un carril atendido por personal, es necesario tener un boleto de autob&uacute;s de peaje gratuito o un dispositivo no lucrativo para peaje emitido por FasTrak; de otra forma, se cobrar&aacute; un peaje con base en el n&uacute;mero de ejes.</p>
+			<h4>Viajes compartidos (carpool)</h4>
+			<p>Cuando realicen viajes compartidos, a los siguientes tipos de veh&iacute;culos se les cobrar&aacute; un peaje especial de $ 2.50, en el carril designado para viajes compartidos durante los horarios determinados para este fin:</p>
+			<ul class="bodyCopy">
+				<li>Cualquier veh&iacute;culo de 2 ejes, sin remolque, que lleve a tres o m&aacute;s personas</li>
+
+				<li>Cualquier veh&iacute;culo de emisiones inherentemente bajas (IELV) para un solo ocupante, con calcoman&iacute;as emitidas por el Departamento de Veh&iacute;culos Motorizados (DMV)</li>
+				<li>Cualquier veh&iacute;culo de 2 ejes, sin remolque, que lleve a dos pasajeros (y que est&eacute; designado por el fabricante para transportar a no m&aacute;s de dos personas)</li>
+				<li>Cualquier motocicleta</li>
+			</ul>
+			<h4>Importante:</h4> 
+			<p>Cualquier veh&iacute;culo para viaje compartido debe usar los carriles para este fin (carpool) y portar un dispositivo de peaje de FasTrak para pagar.</p>
+			<p>Los horarios del carril para viajes compartidos son de lunes a viernes, de 5 am a 10 am y de 3 pm a 7 pm.</p>
+			<h4>Peatones y ciclistas</h4>
+			<p>Los peatones y ciclistas pueden cruzar el puente Carquinez sin pagar peaje en los carriles designados, de acuerdo con los procedimientos operativos.</p>
+
+			<h4>Definiciones de veh&iacute;culos para asignaci&oacute;n de peaje en puentes</h4>
+			<p><strong>Autob&uacute;s:</strong> Un autob&uacute;s incluye cualquier veh&iacute;culo con las siguientes caracter&iacute;sticas:</p>
+			<ol class="bodyCopy">
+				<li>Ha sido dise&ntilde;ado, se usa o se mantiene para el transporte de 10 o m&aacute;s personas, incluyendo el conductor.</li>
+				<li>Atraviesa un puente propiedad del estado, en una ruta que comienza y termina dentro de un radio de 50 millas (80 kil&oacute;metros) del punto en el que se cobra el peaje de ese puente.</li>
+				<li>Funciona durante un horario regular para cualquier organismo municipal o p&uacute;blico; distrito de tr&aacute;nsito; distrito de servicios p&uacute;blicos o subdivisi&oacute;n pol&iacute;tica; para una empresa privada para el transporte no lucrativo de sus empleados, con fines laborales; o cualquier empresa de transporte que opere bajo un certificado de conveniencia y necesidad p&uacute;blica, emitido por la Comisi&oacute;n de Servicios P&uacute;blicos de California.</li>
+			</ol>
+			<p><strong>Transporte colectivo (vanpool): </strong>Un veh&iacute;culo para transporte colectivo (vanpool) es un veh&iacute;culo que funciona bajo los lineamientos de las leyes y regulaciones vigentes para viajes compartidos, y est&aacute; dise&ntilde;ado para llevar a m&aacute;s de 10 pero menos de 15 personas, incluyendo al conductor, y que se mantiene y se usa principalmente para el transporte no lucrativo de personas, con fines laborales, con el prop&oacute;sito de compartir un traslado.</p>
+			<p><strong>Motocicletas: </strong>Una motocicleta incluye cualquier veh&iacute;culo motorizado que tenga un asiento o montura para el uso del motociclista, con hasta cuatro ruedas en contacto con el camino (dos de las cuales son una parte funcional de un carrito lateral).</p>
+
+			<p><strong>Capacidad de asientos: </strong>Si se proporcionan asientos individuales, el n&uacute;mero de estos debe usarse para determinar la capacidad de asientos. Si no se usan asientos individuales, la capacidad se determinar&aacute; tomando como base 17 pulgadas (43 cm) de anchura de asiento por persona.</p>
+
+			<p><strong>Combinaciones de veh&iacute;culos:</strong> Las combinaciones de veh&iacute;culos incluyen cualquier combinaci&oacute;n de veh&iacute;culos motorizados y de arrastre. El peaje se basa en el n&uacute;mero total de ejes en el camino, en su combinaci&oacute;n total.</p>
+
+			<p><strong>Remolque:</strong> El remolque incluye cualquier veh&iacute;culo dise&ntilde;ado para llevar personas o bienes, y ser arrastrado por un veh&iacute;culo motorizado; esta clasificaci&oacute;n incluye a los semirremolques.</p>
+		  </div>
+		</div>
+	  </div>
+	  <div class="panel panel-default">
+		<div class="panel-heading">
+		  <h4 class="panel-title">
+			<a href="#Dumbarton">
+			  Puente Dumbarton
+			</a>
+		  </h4>
+		</div>
+		<div id="Dumbarton" class="panel-collapse collapse collapsediv">
+		  <div class="panel-body">
+			<h1><img src="../images/Dumbarton.jpg" editarea="Dumbartonimg" editareadesc="Dumbarton Image" width="288px" height="192px" border="0" alt="Dumbarton Bridge" /></h1>
+			<h4>Peajes en el puente Dumbarton</h4>
+			<p>Los peajes se cobran cuando se va al oeste. Las tarifas de los peajes se basan en el n&uacute;mero total de ejes en el camino, combinados en un veh&iacute;culo, y son de la siguiente forma (en vigor desde el 1 de julio de 2011):</p>
+			<div class="tollRates table-responsive">
+				<table cellpadding="0" cellspacing="0">
+					<tbody><tr>
+						<th width="130">N&uacute;mero de ejes</th>
+						<th width="110">Peaje</th>
+						<th width="40" style="border-left: 1px solid #7f7f7f;">&nbsp;</th>
+						<th width="">FasTrak</th>
+					</tr>
+					<tr>
+						<td>2&nbsp;ejes</td>
+						<td>$5.00</td>
+						<td rowspan="6" style="border-left: 1px solid #7f7f7f;">&nbsp;</td>
+						<td rowspan="6">
+							El cobro para veh&iacute;culos que usen FasTrak ser&aacute; el mismo que la tarifa mostrada arriba, excepto para los veh&iacute;culos que viajen por el carril para viajes compartidos (carpool), como se describe abajo. Para conocer la ubicaci&oacute;n de carriles exclusivos para FasTrak en este puente, haga clic <a class="Dumbartonpdf" href="../images/LaneDiagDumbarton-final.pdf" target="_blank">aqu&iacute;</a>.</td>
+					</tr>
+					<tr>
+						<td>3&nbsp;ejes </td>
+						<td>$15.00</td>
+					</tr>
+					<tr>
+						<td>4&nbsp;ejes</td>
+						<td>$20.00</td>
+					</tr>
+					<tr>
+						<td>5&nbsp;ejes</td>
+						<td>$25.00</td>
+					</tr>
+					<tr>
+						<td>6&nbsp;ejes</td>
+						<td>$30.00</td>
+					</tr>
+					<tr>
+						<td>7&nbsp;ejes o m&aacute;s </td>
+						<td>$35.00</td>
+					</tr>
+				</tbody></table>
+				<div class="clear"></div>
+			</div>
+			<br><br>
+			<h4>Informaci&oacute;n del puente Dumbarton</h4>
+			<p>Para m&aacute;s informaci&oacute;n acerca del puente Dumbarton, visite el sitio<br> 
+			<a href="http://bata.mtc.ca.gov/bridges/dumbarton.htm" target="_blank" class="linkext">http://bata.mtc.ca.gov/bridges/dumbarton.htm</a>.</p>
+			<h4>Autobuses o transportes colectivos (vanpool)</h4>
+			<p>Un autob&uacute;s o un transporte colectivo (vanpool) pueden cruzar sin pagar peaje en todo momento, si van en el o los carriles designados, de acuerdo con los procedimientos operativos.</p>
+			<p>Para pasar por un carril atendido por personal, es necesario tener un boleto de autob&uacute;s de peaje gratuito o un dispositivo no lucrativo para peaje emitido por FasTrak; de otra forma, se cobrar&aacute; un peaje con base en el n&uacute;mero de ejes.</p> 
+			<h4>Viajes compartidos (carpool)</h4> 
+			<p>Cuando realicen viajes compartidos, a los siguientes tipos de veh&iacute;culos se les cobrar&aacute; un peaje especial de $ 2.50, en el carril designado para viajes compartidos durante los horarios determinados para este fin:</p> 
+			<ul class="bodyCopy">
+			<li>Cualquier veh&iacute;culo de 2 ejes, sin remolque, que lleve a tres o m&aacute;s personas</li>
+
+				<li>Cualquier veh&iacute;culo de emisiones inherentemente bajas (IELV) para un solo ocupante, con calcoman&iacute;as emitidas por el Departamento de Veh&iacute;culos Motorizados (DMV)</li>
+				<li>Cualquier veh&iacute;culo de 2 ejes, sin remolque, que lleve a dos pasajeros (y que est&eacute; designado por el fabricante para transportar a no m&aacute;s de dos personas)</li>
+				<li>Cualquier motocicleta</li>
+			</ul>
+			<h4>Importante:</h4>
+			<p>Cualquier veh&iacute;culo para viaje compartido debe usar los carriles para este fin (carpool) y portar un dispositivo de peaje de FasTrak para pagar.</p>
+			<p>Los horarios del carril para viajes compartidos son de lunes a viernes, de 5 am a 10 am y de 3 pm a 7 pm.</p>
+			<h4>Peatones y ciclistas</h4>
+			<p>Los peatones y ciclistas pueden cruzar el puente Antioch sin pagar peaje en los carriles designados, de acuerdo con los procedimientos operativos.</p>
+			<h4>Definiciones de veh&iacute;culos para asignaci&oacute;n de peaje en puentes</h4>
+			<p><strong>Autob&uacute;s:</strong> Un autob&uacute;s incluye cualquier veh&iacute;culo con las siguientes caracter&iacute;sticas:</p>
+			<ol class="bodyCopy">
+				<li>Ha sido dise&ntilde;ado, se usa o se mantiene para el transporte de 10 o m&aacute;s personas, incluyendo el conductor.</li>
+				<li>Atraviesa un puente propiedad del estado, en una ruta que comienza y termina dentro de un radio de 50 millas (80 kil&oacute;metros) del punto en el que se cobra el peaje de ese puente.</li>
+				<li>Funciona durante un horario regular para cualquier organismo municipal o p&uacute;blico; distrito de tr&aacute;nsito; distrito de servicios p&uacute;blicos o subdivisi&oacute;n pol&iacute;tica; para una empresa privada para el transporte no lucrativo de sus empleados, con fines laborales; o cualquier empresa de transporte que opere bajo un certificado de conveniencia y necesidad p&uacute;blica, emitido por la Comisi&oacute;n de Servicios P&uacute;blicos de California.</li>
+			</ol>
+			<p><strong>Transporte colectivo (vanpool):</strong> Un veh&iacute;culo para transporte colectivo (vanpool) es un veh&iacute;culo que funciona bajo los lineamientos de las leyes y regulaciones vigentes para viajes compartidos, y est&aacute; dise&ntilde;ado para llevar a m&aacute;s de 10 pero menos de 15 personas, incluyendo al conductor, y que se mantiene y se usa principalmente para el transporte no lucrativo de personas, con fines laborales, con el prop&oacute;sito de compartir un traslado.</p>
+			<p><strong>Motocicletas:</strong> Una motocicleta incluye cualquier veh&iacute;culo motorizado que tenga un asiento o montura para el uso del motociclista, con hasta cuatro ruedas en contacto con el camino (dos de las cuales son una parte funcional de un carrito lateral).</p>
+			<p><strong>Capacidad de asientos:</strong> Si se proporcionan asientos individuales, el n&uacute;mero de estos debe usarse para determinar la capacidad de asientos. Si no se usan asientos individuales, la capacidad se determinar&aacute; tomando como base 17 pulgadas (43 cm) de anchura de asiento por persona.</p>
+			<p><strong>Combinaciones de veh&iacute;culos: </strong> Las combinaciones de veh&iacute;culos incluyen cualquier combinaci&oacute;n de veh&iacute;culos motorizados y de arrastre. El peaje se basa en el n&uacute;mero total de ejes en el camino, en su combinaci&oacute;n total.</p> 
+			<p><strong>Remolque:</strong> El remolque incluye cualquier veh&iacute;culo dise&ntilde;ado para llevar personas o bienes, y ser arrastrado por un veh&iacute;culo motorizado; esta clasificaci&oacute;n incluye a los semirremolques. </p>
+		  </div>
+		</div>
+	  </div>
+	  <div class="panel panel-default">
+		<div class="panel-heading">
+		  <h4 class="panel-title">
+			<a href="#Golden">
+			  puente Golden Gate
+			</a>
+		  </h4>
+		</div>
+		<div id="Golden" class="panel-collapse collapse collapsediv">
+		  <div class="panel-body">
+			<h1><img src="../images/GoldenGate_Peter_Beeler.jpg" editarea="Goldenimg" editareadesc="Golden Image" width="288px" height="192px" border="0" alt="Golden Gate Bridge" /></h1>
+			<h4>Peajes en el puente Golden Gate</h4>
+				<p>Los peajes se cobran solo cuando se va al sur (yendo hacia San Francisco). Las tarifas de los peajes se basan en el n&uacute;mero total de ejes en el camino, combinados en un veh&iacute;culo, y son de la siguiente forma (en vigor desde el 7 de abril de 2014):</p>
+				<div class="tollRates table-responsive">
+					<table cellpadding="0" cellspacing="0">
+						<tbody><tr>
+							<th width="20%">N&uacute;mero de ejes</th>
+							<th width="20%"><img src="../images/payByplate-table.png" /></th>
+							<th width="20%"><img src="../images/fasTrak-table.png" /></th>
+							<th style="border-left: 1px solid #7f7f7f;" width="5%">&nbsp;</th>
+							<th width="">FasTrak</th>
+						</tr>
+						<tr>
+							<td>2&nbsp;ejes</td>
+							<td>$7.25</td>
+							<td>$6.25</td>
+							<td rowspan="6" style="border-left: 1px solid #7f7f7f;">&nbsp;</td>
+							<td rowspan="6">
+								Para conocer la ubicaci&oacute;n de carriles exclusivos para FasTrak en este puente, haga clic <a class="GGBpdf" href="../images/LaneDiagGGB-final.pdf" target="_blank">aqu&iacute;</a>.</td>
+						</tr>
+						<tr>
+							<td>3&nbsp;ejes  </td>
+							<td>$21.75</td>
+							<td>$18.75</td>
+						</tr>
+						<tr>
+							<td>4&nbsp;ejes </td>
+							<td>$29.00</td>
+							<td>$25.00</td>
+						</tr>
+						<tr>
+							<td>5&nbsp;ejes</td>
+							<td>$36.25</td>
+							<td>$31.25</td>
+						</tr>
+						<tr>
+							<td>6&nbsp;ejes </td>
+							<td>$43.50</td>
+							<td>$37.50</td>
+						</tr>
+						<tr>
+							<td>7&nbsp;ejes o m&aacute;s</td>
+							<td>$50.75</td>
+							<td>$43.75</td>
+						</tr>
+					</tbody></table>
+					<div class="clear"></div>
+				</div>
+			<br><br>
+			<h4>Viajes compartidos (carpool)</h4>
+			
+			<p><strong>Los autobuses, veh&iacute;culos para viajes compartidos (TRES o m&aacute;s personas) y motocicletas con dispositivos de peaje de FasTrak</strong> pagan $ 4.25 durante la semana (excepto en d&iacute;as feriados), de 5 am a 9 am y de 4 pm a 6 pm. Para recibir el descuento en el peaje, los veh&iacute;culos aptos deben tener un dispositivo v&aacute;lido de FasTrak y una cuenta que est&eacute; al corriente con las obligaciones. Los veh&iacute;culos con neum&aacute;ticos dobles NO califican como veh&iacute;culos para viajes compartidos.</p>
+			<p>Para recibir el descuento en el peaje durante estos horarios, es necesario transitar por un carril designado para viajes compartidos y tener un dispositivo de peaje v&aacute;lido de FasTrak. </p>
+			<p>La pol&iacute;tica del puente Golden Gate exige que los viajes compartidos sean de tres o m&aacute;s personas por dos razones clave: para disminuir la congesti&oacute;n del tr&aacute;fico y para estar dentro de los requisitos presupuestarios del GGBHTD (Distrito del Puente Golden Gate, Carreteras y Transporte). </p>
+			<h4>Veh&iacute;culos de baja emisi&oacute;n contaminante (CAV)</h4>
+			<p>Los veh&iacute;culos de baja emisi&oacute;n contaminante (CAV), as&iacute; registrados por el Departamento de Veh&iacute;culos Motorizados (DMV) y que tengan la etiqueta oficial <strong>BLANCA</strong> del DMV (que se muestra abajo), pueden tener acceso al peaje especial ($ 4.25) de FasTrak solo durante los horarios para viajes compartidos, incluso si hay menos de tres personas en el veh&iacute;culo. Esto significa que los veh&iacute;culos de uno o dos ocupantes, que muestren la etiqueta <strong>BLANCA</strong> del DMV, son califican para pagar la tarifa especial de peaje durante los horarios para viajes compartidos, siempre y cuando cumplan con los requisitos para el descuento para viajes compartidos que se menciona arriba. </p>
+			<p>Las etiquetas VERDES emitidas por el DMV en 2012 NO HACEN que el veh&iacute;culo califique para pagar la tarifa de peaje de $ 4.25 para viajes compartidos.</p>
+			<p>Para consultar informaci&oacute;n oficial acerca de veh&iacute;culos que califican y el registro con el DMV, llame al 800-242-4450.</p>
+			<h4>Etiqueta del DMV para veh&iacute;culos de baja emisi&oacute;n contaminante (CAV)</h4>
+			<img src="../images/cleanAirSticker.jpg" /><br /><br />
+			<h4>Informaci&oacute;n del puente Golden Gate</h4>
+			<p>Para m&aacute;s informaci&oacute;n acerca de los peajes del puente Golden Gate, viste el sitio web <a href="http://www.goldengate.org/tolls" target="_blank" class="linkext">http://www.goldengate.org/tolls</a>.</p>
+		  </div>
+		</div>
+	  </div>
+	  <div class="panel panel-default">
+		<div class="panel-heading">
+		  <h4 class="panel-title">
+			<a href="#Richmond">
+			  Puente Richmond-San Rafael
+			</a>
+		  </h4>
+		</div>
+		<div id="Richmond" class="panel-collapse collapse collapsediv">
+		  <div class="panel-body">
+			<h1><img src="../images/Richmond_Tom_Paiva.jpg" editarea="Richmondimg" editareadesc="Richmond Image" width="288px" height="192px" border="0" alt="Richmond-San Rafael Bridge" /></h1>
+			<h4>Peajes en el puente Richmond-San Rafael</h4>
+			<p>Los peajes se cobran cuando se va al oeste. Las tarifas de los peajes se basan en el n&uacute;mero total de ejes en el camino, combinados en un veh&iacute;culo, y son de la siguiente forma (en vigor desde el 1 de julio de 2011):</p>
+			<div class="tollRates table-responsive">
+				<table cellpadding="0" cellspacing="0">
+					<tbody><tr>
+						<th width="130">N&uacute;mero de ejes</th>
+						<th width="110">Peaje</th>
+						<th width="40" style="border-left: 1px solid #7f7f7f;">&nbsp;</th>
+						<th width="">FasTrak</th>
+					</tr>
+					<tr>
+						<td>2&nbsp;ejes</td>
+						<td>$5.00</td>
+						<td rowspan="6" style="border-left: 1px solid #7f7f7f;">&nbsp;</td>
+						<td rowspan="6">
+							El cobro para veh&iacute;culos que usen FasTrak ser&aacute; el mismo que la tarifa mostrada arriba, excepto para los veh&iacute;culos que viajen por el carril para viajes compartidos (carpool), como se describe abajo. Para conocer la ubicaci&oacute;n de los carriles exclusivos para FasTrak en este puente, haga clic <a class="Richmondpdf" href="../images/LaneDiagRichmondSR-final.pdf" target="_blank">aqu&iacute;</a>.</td>
+					</tr>
+					<tr>
+						<td>3&nbsp;ejes </td>
+						<td>$15.00</td>
+					</tr>
+					<tr>
+						<td>4&nbsp;ejes</td>
+						<td>$20.00</td>
+					</tr>
+					<tr>
+						<td>5&nbsp;ejes</td>
+						<td>$25.00</td>
+					</tr>
+					<tr>
+						<td>6&nbsp;ejes</td>
+						<td>$30.00</td>
+					</tr>
+					<tr>
+						<td>7&nbsp;ejes o m&aacute;s</td>
+						<td>$35.00</td>
+					</tr>
+				</tbody></table>
+				<div class="clear"></div>
+			</div>
+			<br><br>
+			<h4>Informaci&oacute;n del puente Richmond-San Rafael</h4>
+			<p>Para m&aacute;s informaci&oacute;n acerca del puente Richmond-San Rafael, visite el sitio web <br><a href="http://bata.mtc.ca.gov/bridges/richmond-sr.htm" target="_blank" class="linkext">http://bata.mtc.ca.gov/bridges/richmond-sr.htm</a>.</p>
+
+			<h4>Autobuses o transportes colectivos (vanpool)</h4>
+			<p>Un autob&uacute;s o un transporte colectivo (vanpool) pueden cruzar sin pagar peaje en todo momento, si van en el o los carriles designados, de acuerdo con los procedimientos operativos.</p>
+			<p>Para pasar por un carril atendido por personal, es necesario tener un boleto de autob&uacute;s de peaje gratuito o un dispositivo no lucrativo para peaje emitido por FasTrak; de otra forma, se cobrar&aacute; un peaje con base en el n&uacute;mero de ejes.</p> 
+			<h4>Viajes compartidos (carpool)</h4> 
+			<p>Cuando realicen viajes compartidos, a los siguientes tipos de veh&iacute;culos se les cobrar&aacute; un peaje especial de $ 2.50, en el carril designado para viajes compartidos durante los horarios determinados para este fin:</p> 
+			<ul class="bodyCopy">
+			<li>Cualquier veh&iacute;culo de 2 ejes, sin remolque, que lleve a tres o m&aacute;s personas</li>
+				<li>Cualquier veh&iacute;culo de emisiones inherentemente bajas (IELV) para un solo ocupante, con calcoman&iacute;as emitidas por el Departamento de Veh&iacute;culos Motorizados (DMV)</li>
+				<li>Cualquier veh&iacute;culo de 2 ejes, sin remolque, que lleve a dos pasajeros (y que est&eacute; designado por el fabricante para transportar a no m&aacute;s de dos personas)</li>
+				<li>Cualquier motocicleta</li>
+			</ul>
+			<h4>Importante:</h4>
+			<p>Cualquier veh&iacute;culo para viaje compartido debe usar los carriles para este fin (carpool) y portar un dispositivo de peaje de FasTrak para pagar.</p>
+			<p>Los horarios del carril para viajes compartidos son de lunes a viernes, de 5 am a 10 am y de 3 pm a 7 pm.</p>
+			<h4>Peatones y ciclistas</h4>
+			<p>Los peatones y ciclistas pueden cruzar el puente Antioch sin pagar peaje en los carriles designados, de acuerdo con los procedimientos operativos.</p>
+			<h4>Definiciones de veh&iacute;culos para asignaci&oacute;n de peaje en puentes</h4>
+			<p><strong>Autob&uacute;s:</strong> Un autob&uacute;s incluye cualquier veh&iacute;culo con las siguientes caracter&iacute;sticas:</p>
+			<ol class="bodyCopy">
+				<li>Ha sido dise&ntilde;ado, se usa o se mantiene para el transporte de 10 o m&aacute;s personas, incluyendo el conductor.</li>
+				<li>Atraviesa un puente propiedad del estado, en una ruta que comienza y termina dentro de un radio de 50 millas (80 kil&oacute;metros) del punto en el que se cobra el peaje de ese puente.</li>
+				<li>Funciona durante un horario regular para cualquier organismo municipal o p&uacute;blico; distrito de tr&aacute;nsito; distrito de servicios p&uacute;blicos o subdivisi&oacute;n pol&iacute;tica; para una empresa privada para el transporte no lucrativo de sus empleados, con fines laborales; o cualquier empresa de transporte que opere bajo un certificado de conveniencia y necesidad p&uacute;blica, emitido por la Comisi&oacute;n de Servicios P&uacute;blicos de California.</li>
+			</ol>
+			<p><strong>Transporte colectivo (vanpool): </strong> Un veh&iacute;culo para transporte colectivo (vanpool) es un veh&iacute;culo que funciona bajo los lineamientos de las leyes y regulaciones vigentes para viajes compartidos, y est&aacute; dise&ntilde;ado para llevar a m&aacute;s de 10 pero menos de 15 personas, incluyendo al conductor, y que se mantiene y se usa principalmente para el transporte no lucrativo de personas, con fines laborales, con el prop&oacute;sito de compartir un traslado.</p>
+			<p><strong>Motocicletas:</strong> Una motocicleta incluye cualquier veh&iacute;culo motorizado que tenga un asiento o montura para el uso del motociclista, con hasta cuatro ruedas en contacto con el camino (dos de las cuales son una parte funcional de un carrito lateral).</p>
+			<p><strong>Capacidad de asientos:</strong> Si se proporcionan asientos individuales, el n&uacute;mero de estos debe usarse para determinar la capacidad de asientos. Si no se usan asientos individuales, la capacidad se determinar&aacute; tomando como base 17 pulgadas (43 cm) de anchura de asiento por persona.</p>
+			<p><strong>Combinaciones de veh&iacute;culos: </strong> Las combinaciones de veh&iacute;culos incluyen cualquier combinaci&oacute;n de veh&iacute;culos motorizados y de arrastre. El peaje se basa en el n&uacute;mero total de ejes en el camino, en su combinaci&oacute;n total.</p> 
+			<p><strong>Remolque:</strong> El remolque incluye cualquier veh&iacute;culo dise&ntilde;ado para llevar personas o bienes, y ser arrastrado por un veh&iacute;culo motorizado; esta clasificaci&oacute;n incluye a los semirremolques. </p>
+		  </div>
+		</div>
+	  </div>
+	  <div class="panel panel-default">
+		<div class="panel-heading">
+		  <h4 class="panel-title">
+			<a href="#Oakland">
+			  Puente San Francisco-Bah&iacute;a de Oakland
+			</a>
+		  </h4>
+		</div>
+		<div id="Oakland" class="panel-collapse collapse collapsediv">
+		  <div class="panel-body">
+			<h1><img src="../images/BayBridge_Tom_Paiva.jpg" editarea="Oaklandimg" editareadesc="Oakland Image" width="288px" height="192px" border="0" alt="San Francisco-Oakland Bridge" /></h1>
+			<h4>Peajes en el puente San Francisco-Bah&iacute;a de Oakland</h4>
+			<p>Los peajes se cobran cuando se va al oeste. Las tarifas de los peajes se basan en el n&uacute;mero total de ejes en el camino, combinados en un veh&iacute;culo, y son de la siguiente forma (en vigor desde el 1 de julio de 2011): </p>
+			<div class="tollRates  table-responsive">
+				<table cellpadding="0" cellspacing="0">
+					<tbody><tr>
+						<th width="">N&uacute;mero de ejes</th>
+						<th width="">Tarifa de peaje, lunes a viernes<br>
+						(horarios para viajes compartidos*)</th>
+						<th width="">Tarifa de peaje, lunes a viernes<br>(fuera de horarios para viajes compartidos)</th>
+						<th width="">Tarifa de peaje, s&aacute;bado a domingo<br>(todo el tiempo)</th>
+					</tr>
+					<tr>
+						<td>2&nbsp;ejes</td>
+						<td>$6.00</td>
+						<td>$4.00</td>
+						<td>$5.00</td>
+					</tr>
+					<tr>
+						<td>3&nbsp;ejes </td>
+						<td>$15.00</td>
+						<td>$15.00</td>
+						<td>$15.00</td>
+					</tr>
+					<tr>
+						<td>4&nbsp;ejes</td>
+						<td>$20.00</td>
+						<td>$20.00</td>
+						<td>$20.00</td>
+					</tr>
+					<tr>
+						<td>5&nbsp;ejes</td>
+						<td>$25.00</td>
+						<td>$25.00</td>
+						<td>$25.00</td>
+					</tr>
+					<tr>
+						<td>6&nbsp;ejes</td>
+						<td>$30.00</td>
+						<td>$30.00</td>
+						<td>$30.00</td>
+					</tr>
+					<tr>
+						<td>7&nbsp;ejes o m&aacute;s</td>
+						<td>$35.00</td>
+						<td>$35.00</td>
+						<td>$35.00</td>
+					</tr>
+					<tr>
+						<td colspan="4" style="border-bottom: 1px solid #7f7f7f;">&nbsp;</td>
+					</tr>
+					<tr>
+						<td colspan="4">&nbsp;</td>
+					</tr>
+					<tr>
+						<td colspan="4">
+						<strong>FasTrak</strong><br>
+						El cobro para veh&iacute;culos que usen FasTrak ser&aacute; el mismo que la tarifa mostrada arriba, excepto para los veh&iacute;culos que viajen por el carril para viajes compartidos (carpool), como se describe abajo. Para conocer la ubicaci&oacute;n de carriles exclusivos para FasTrak en este puente, haga clic <a class="Oaklandpdf" href="../images/LaneDiagSF-Oak-final.pdf" target="_blank">aqu&iacute;</a></td>
+					</tr>
+				</tbody></table>
+				<div class="clear"></div>
+			</div>
+			<br><br>
+			<h4>Informaci&oacute;n del puente San Francisco-Bah&iacute;a de Oakland</h4>
+			<p>Para m&aacute;s informaci&oacute;n acerca del puente San Francisco-Bah&iacute;a de Oakland, visite el sitio web<br> <a href="http://bata.mtc.ca.gov/bridges/sf-oak-bay.htm" target="_blank" class="linkext">http://bata.mtc.ca.gov/bridges/sf-oak-bay.htm</a>.</p>
+
+			<h4>Autobuses o transportes colectivos (vanpool)</h4>
+			<p>Un autob&uacute;s o un transporte colectivo (vanpool) pueden cruzar sin pagar peaje en todo momento, si van en el o los carriles designados, de acuerdo con los procedimientos operativos.</p>
+			<p>Para pasar por un carril atendido por personal, es necesario tener un boleto de autob&uacute;s de peaje gratuito o un dispositivo no lucrativo para peaje emitido por FasTrak; de otra forma, se cobrar&aacute; un peaje con base en el n&uacute;mero de ejes.</p> 
+			<h4>Viajes compartidos (carpool)</h4> 
+			<p>Cuando realicen viajes compartidos, a los siguientes tipos de veh&iacute;culos se les cobrar&aacute; un peaje especial de $ 2.50, en el carril designado para viajes compartidos durante los horarios determinados para este fin:</p> 
+			<ul class="bodyCopy">
+			<li>Cualquier veh&iacute;culo de 2 ejes, sin remolque, que lleve a tres o m&aacute;s personas</li>
+				<li>Cualquier veh&iacute;culo de emisiones inherentemente bajas (IELV) para un solo ocupante, con calcoman&iacute;as emitidas por el Departamento de Veh&iacute;culos Motorizados (DMV)</li>
+				<li>Cualquier veh&iacute;culo de 2 ejes, sin remolque, que lleve a dos pasajeros (y que est&eacute; designado por el fabricante para transportar a no m&aacute;s de dos personas)</li>
+				<li>Cualquier motocicleta</li>
+			</ul>
+			<h4>Importante:</h4>
+			<p>Cualquier veh&iacute;culo para viaje compartido debe usar los carriles para este fin (carpool) y portar un dispositivo de peaje de FasTrak para pagar.</p>
+			<p>*Los horarios del carril para viajes compartidos son de lunes a viernes, de 5 am a 10 am y de 3 pm a 7 pm.</p>
+			<h4>Peatones y ciclistas</h4>
+			<p>Los peatones y ciclistas pueden cruzar el puente Antioch sin pagar peaje en los carriles designados, de acuerdo con los procedimientos operativos.</p>
+			<h4>Definiciones de veh&iacute;culos para asignaci&oacute;n de peaje en puentes</h4>
+			<p><strong>Autob&uacute;s:</strong> Un autob&uacute;s incluye cualquier veh&iacute;culo con las siguientes caracter&iacute;sticas:</p>
+			<ol class="bodyCopy">
+				<li>Ha sido dise&ntilde;ado, se usa o se mantiene para el transporte de 10 o m&aacute;s personas, incluyendo el conductor.</li>
+				<li>Atraviesa un puente propiedad del estado, en una ruta que comienza y termina dentro de un radio de 50 millas (80 kil&oacute;metros) del punto en el que se cobra el peaje de ese puente.</li>
+				<li>Funciona durante un horario regular para cualquier organismo municipal o p&uacute;blico; distrito de tr&aacute;nsito; distrito de servicios p&uacute;blicos o subdivisi&oacute;n pol&iacute;tica; para una empresa privada para el transporte no lucrativo de sus empleados, con fines laborales; o cualquier empresa de transporte que opere bajo un certificado de conveniencia y necesidad p&uacute;blica, emitido por la Comisi&oacute;n de Servicios P&uacute;blicos de California.</li>
+			</ol>
+			<p><strong>Transporte colectivo (vanpool): </strong> Un veh&iacute;culo para transporte colectivo (vanpool) es un veh&iacute;culo que funciona bajo los lineamientos de las leyes y regulaciones vigentes para viajes compartidos, y est&aacute; dise&ntilde;ado para llevar a m&aacute;s de 10 pero menos de 15 personas, incluyendo al conductor, y que se mantiene y se usa principalmente para el transporte no lucrativo de personas, con fines laborales, con el prop&oacute;sito de compartir un traslado.</p>
+			<p><strong>Motocicletas:</strong> Una motocicleta incluye cualquier veh&iacute;culo motorizado que tenga un asiento o montura para el uso del motociclista, con hasta cuatro ruedas en contacto con el camino (dos de las cuales son una parte funcional de un carrito lateral).</p>
+			<p><strong>Capacidad de asientos:</strong> Si se proporcionan asientos individuales, el n&uacute;mero de estos debe usarse para determinar la capacidad de asientos. Si no se usan asientos individuales, la capacidad se determinar&aacute; tomando como base 17 pulgadas (43 cm) de anchura de asiento por persona.</p>
+			<p><strong>Combinaciones de veh&iacute;culos:</strong> Las combinaciones de veh&iacute;culos incluyen cualquier combinaci&oacute;n de veh&iacute;culos motorizados y de arrastre. El peaje se basa en el n&uacute;mero total de ejes en el camino, en su combinaci&oacute;n total.</p> 
+			<p><strong>Remolque:</strong> El remolque incluye cualquier veh&iacute;culo dise&ntilde;ado para llevar personas o bienes, y ser arrastrado por un veh&iacute;culo motorizado; esta clasificaci&oacute;n incluye a los semirremolques.</p>
+		  </div>
+		</div>
+	  </div>
+	  <div class="panel panel-default">
+		<div class="panel-heading">
+		  <h4 class="panel-title">
+			<a href="#Mateo">
+			 Puente San Mateo-Hayward
+			</a>
+		  </h4>
+		</div>
+		<div id="Mateo" class="panel-collapse collapse collapsediv">
+		  <div class="panel-body">
+			<h1><img src="../images/SanMateo_Tom_Paiva.jpg" editarea="Mateoimg" editareadesc="San Mateo-Hayward Image" width="288px" height="192px" border="0" alt="San Mateo Hayward Bridge" /></h1>
+			<h4>Peajes en el puente San Mateo-Hayward</h4>
+			<p>Los peajes se cobran cuando se va al oeste. Las tarifas de los peajes se basan en el n&uacute;mero total de ejes en el camino, combinados en un veh&iacute;culo, y son de la siguiente forma (en vigor desde el 1 de julio de 2011): </p>
+			<div class="tollRates table-responsive">
+				<table cellpadding="0" cellspacing="0" class="">
+					<tbody><tr>
+						<th width="130">N&uacute;mero de ejes</th>
+						<th width="110">Peaje</th>
+						<th width="40" style="border-left: 1px solid #7f7f7f;">&nbsp;</th>
+						<th width="">FasTrak</th>
+					</tr>
+					<tr>
+						<td>2&nbsp;ejes</td>
+						<td>$5.00</td>
+						<td rowspan="6" style="border-left: 1px solid #7f7f7f;">&nbsp;</td>
+						<td rowspan="6">
+							El cobro para veh&iacute;culos que usen FasTrak ser&aacute; el mismo que la tarifa mostrada arriba, excepto para los veh&iacute;culos que viajen por el carril para viajes compartidos (carpool), como se describe abajo. Para conocer la ubicaci&oacute;n de los carriles exclusivos para FasTrak en este puente, haga clic  <a class="Mateopdf" href="../images/LaneDiagSanMat-Hayw-final.pdf" target="_blank">aqu&iacute;</a>.</td>
+					</tr>
+					<tr>
+						<td>3&nbsp;ejes </td>
+						<td>$15.00</td>
+					</tr>
+					<tr>
+						<td>4&nbsp;ejes</td>
+						<td>$20.00</td>
+					</tr>
+					<tr>
+						<td>5&nbsp;ejes</td>
+						<td>$25.00</td>
+					</tr>
+					<tr>
+						<td>6&nbsp;ejes</td>
+						<td>$30.00</td>
+					</tr>
+					<tr>
+						<td>7&nbsp;ejes o m&aacute;s</td>
+						<td>$35.00</td>
+					</tr>
+				</tbody></table>
+				<div class="clear"></div>
+			</div>
+			<br><br>
+			<h4>Informaci&oacute;n del puente San Mateo-Hayward</h4>
+			<p>Para m&aacute;s informaci&oacute;n acerca del puente San Mateo-Hayward, visite el sitio web<br> <a href="http://bata.mtc.ca.gov/bridges/sm-hayward.htm" target="_blank" class="linkext">http://bata.mtc.ca.gov/bridges/sm-hayward.htm</a>.</p>
+
+			<h4>Autobuses o transportes colectivos (vanpool)</h4>
+			<p>A Autobuses o transportes colectivos (vanpool) may cross toll-free at any time in designated lane(s), in accordance with operational procedures.</p>
+			<p>Para pasar por un carril atendido por personal, es necesario tener un boleto de autob&uacute;s de peaje gratuito o un dispositivo no lucrativo para peaje emitido por FasTrak; de otra forma, se cobrar&aacute; un peaje con base en el n&uacute;mero de ejes.</p> 
+			<h4>Viajes compartidos (carpool)</h4> 
+			<p>Cuando realicen viajes compartidos, a los siguientes tipos de veh&iacute;culos se les cobrar&aacute; un peaje especial de $ 2.50, en el carril designado para viajes compartidos durante los horarios determinados para este fin:</p> 
+			<ul class="bodyCopy">
+			<li>Cualquier veh&iacute;culo de 2 ejes, sin remolque, que lleve a tres o m&aacute;s personas</li>
+				<li>Cualquier veh&iacute;culo de emisiones inherentemente bajas (IELV) para un solo ocupante, con calcoman&iacute;as emitidas por el Departamento de Veh&iacute;culos Motorizados (DMV)</li>
+				<li>Cualquier veh&iacute;culo de 2 ejes, sin remolque, que lleve a dos pasajeros (y que est&eacute; designado por el fabricante para transportar a no m&aacute;s de dos personas)</li>
+				<li>Cualquier motocicleta</li>
+			</ul>
+			<h4>Importante:</h4>
+			<p>Cualquier veh&iacute;culo para viaje compartido debe usar los carriles para este fin (carpool) y portar un dispositivo de peaje de FasTrak para pagar.</p>
+			<p>Los horarios del carril para viajes compartidos son de lunes a viernes, de 5 am a 10 am y de 3 pm a 7 pm.</p>
+			<h4>Peatones y ciclistas</h4>
+			<p>Los peatones y ciclistas pueden cruzar el puente Antioch sin pagar peaje en los carriles designados, de acuerdo con los procedimientos operativos.</p>
+			<h4>Definiciones de veh&iacute;culos para asignaci&oacute;n de peaje en puentes</h4>
+			<p><strong>Autob&uacute;s:</strong> Un autob&uacute;s incluye cualquier veh&iacute;culo con las siguientes caracter&iacute;sticas:</p>
+			<ol class="bodyCopy">
+				<li>Ha sido dise&ntilde;ado, se usa o se mantiene para el transporte de 10 o m&aacute;s personas, incluyendo el conductor.</li>
+				<li>Atraviesa un puente propiedad del estado, en una ruta que comienza y termina dentro de un radio de 50 millas (80 kil&oacute;metros) del punto en el que se cobra el peaje de ese puente.</li>
+				<li>Funciona durante un horario regular para cualquier organismo municipal o p&uacute;blico; distrito de tr&aacute;nsito; distrito de servicios p&uacute;blicos o subdivisi&oacute;n pol&iacute;tica; para una empresa privada para el transporte no lucrativo de sus empleados, con fines laborales; o cualquier empresa de transporte que opere bajo un certificado de conveniencia y necesidad p&uacute;blica, emitido por la Comisi&oacute;n de Servicios P&uacute;blicos de California.</li>
+			</ol>
+			<p><strong>Transporte colectivo (vanpool): </strong> Un veh&iacute;culo para transporte colectivo (vanpool) es un veh&iacute;culo que funciona bajo los lineamientos de las leyes y regulaciones vigentes para viajes compartidos, y est&aacute; dise&ntilde;ado para llevar a m&aacute;s de 10 pero menos de 15 personas, incluyendo al conductor, y que se mantiene y se usa principalmente para el transporte no lucrativo de personas, con fines laborales, con el prop&oacute;sito de compartir un traslado.</p>
+			<p><strong>Motorcycle:</strong> Una motocicleta incluye cualquier veh&iacute;culo motorizado que tenga un asiento o montura para el uso del motociclista, con hasta cuatro ruedas en contacto con el camino (dos de las cuales son una parte funcional de un carrito lateral).</p>
+			<p><strong>Seating Capacity:</strong> Si se proporcionan asientos individuales, el n&uacute;mero de estos debe usarse para determinar la capacidad de asientos. Si no se usan asientos individuales, la capacidad se determinar&aacute; tomando como base 17 pulgadas (43 cm) de anchura de asiento por persona.</p>
+			<p><strong>Combinaciones de veh&iacute;culos:</strong> Las combinaciones de veh&iacute;culos incluyen cualquier combinaci&oacute;n de veh&iacute;culos motorizados y de arrastre. El peaje se basa en el n&uacute;mero total de ejes en el camino, en su combinaci&oacute;n total.</p> 
+			<p><strong>Remolque:</strong> El remolque incluye cualquier veh&iacute;culo dise&ntilde;ado para llevar personas o bienes, y ser arrastrado por un veh&iacute;culo motorizado; esta clasificaci&oacute;n incluye a los semirremolques.</p>
+		  </div>
+		</div>
+	  </div>
+	</div>
+    
+<hr class="show-screen" />
+
+    <div class="panel-group" id="accordion2">
+	  <div class="panel panel-default">
+		<div class="panel-heading">
+		  <h4 class="panel-title">
+			<a href="#I680">I-680 South Carriles expr&eacute;s</a>
+		  </h4>
+		</div>
+		<div id="I680" class="panel-collapse collapse collapsediv">
+		  <div class="panel-body">
+			<h1>I-680 Southbound Carriles expr&eacute;s</h1>
+			<h1><img src="../images/i-680-Express.jpg" editarea="I680" editareadesc="I-680 South Express Lane Image" border="0" alt="I-680 South Express Lane" /></h1>
+			<h4>D&Oacute;NDE</h4>
+			<p>El carril expr&eacute;s de la I-680 se localiza en una extensi&oacute;n de 14 millas o 22 kil&oacute;metros de la I-680 en direcci&oacute;n hacia el sur, desde la SR-84 hasta la SR-237; 11 millas o 18 kil&oacute;metros del proyecto se ubican en el condado de Alameda, a 3 millas o 5 kil&oacute;metros del condado de Santa Clara.</p>
+			<h4>PRECIOS</h4>
+			<p>Los costos de peaje var&iacute;a, dependiendo de los niveles de tr&aacute;fico en tiempo real en el carril expr&eacute;s, para garantizar as&iacute; que el tr&aacute;fico siga fluyendo. Este proceso se llama precio din&aacute;mico: durante los periodos pico, cuando hay m&aacute;s tr&aacute;fico en el carril expr&eacute;s, el costo del peaje es mayor.</p>
+            <p>El rango del peaje va de $ 0.30 to $ 7.50. </p>
+			<h4>HORARIO DE OPERACI&Oacute;N</h4>
+			<p>El carril expr&eacute;s opera de lunes  viernes, de 5 am a 8 pm. Durante la noche y en fines de semana, el carril est&aacute; abierto para todos los conductores, de forma gratuita.</p>
+			<p>Para m&aacute;s informaci&oacute;n: <a href="http://www.alamedactc.org/expresslanes" target="_blank" class="linkext">http://www.alamedactc.org/expresslanes</a></p>
+	  </div>
+		</div>
+	  </div>
+	  <div class="panel panel-default">
+		<div class="panel-heading">
+		  <h4 class="panel-title">
+			<a href="#SR237">SR-237 Carriles expr&eacute;s</a>
+		  </h4>
+		</div>
+		<div id="SR237" class="panel-collapse collapse collapsediv">
+		  <div class="panel-body">
+			<h1>SR-237 Carriles expr&eacute;s</h1>
+            <img src="../images/SR237-Express.jpg" editarea="sr237" editareadesc="SR-237 Express Lanes Image" border="0" alt="SR 237 Express Lanes" />
+			<h4>D&Oacute;NDE</h4>
+			<p>Los carriles expr&eacute;s en el corredor de la I-880 y la SR-237, en el condado de Santa Clara, se encuentran justo entre el sur de Dixon Landing Road en la I-880 y la North 1st. Street en la SR-237.</p>
+			<h4>PRECIOS</h4>
+			<p>Los costos de peaje var&iacute;a, dependiendo de los niveles de tr&aacute;fico en tiempo real en el carril expr&eacute;s, para garantizar as&iacute; que el tr&aacute;fico siga fluyendo. Este proceso se llama precio din&aacute;mico: durante los periodos pico, cuando hay m&aacute;s tr&aacute;fico en el carril expr&eacute;s, el costo del peaje es mayor.</p>
+            <p>El rango del peaje va de $ 0.30 to $ 4.75; el promedio es de $ 1.60.</p>
+			<h4>HORARIO DE OPERACI&Oacute;N</h4>
+			<p>Los carriles expr&eacute;s funcionan en las mismas horas que los de viajes compartidos (carpool), con la excepci&oacute;n de un horaro extendido en la SR-237 con direcci&oacute;n hacia el oeste.</p>
+            <p>Horarios del carril expr&eacute;s:</p>
+            <ul>
+            	<li>De lunes a viernes de 5 am a 10 am, con direcci&oacute;n hacia el este.</li>
+            	<li>De lunes a viernes de 5 am a 9 am, con direcci&oacute;n hacia el este.</li>
+            	<li>De lunes a viernes de 3 pm a 7 pm (en ambas direcciones).</li>
+            </ul>                
+            <p>A mediod&iacute;a, durante la noche y en fines de semana, el carril est&aacute; abierto para todos los conductores, de forma gratuita.</p>
+            <p>Importante: No obstante, a todas horas, los conductores deben obedecer las entradas y salidas establecidos y no cruzar las l&iacute;neas dobles continuas blancas. Como se ha se&ntilde;alado, las l&iacute;neas blancas dobles deben ser respetadas las 24 horas del d&iacute;a, los siete d&iacute;as de la semana, sin importar las horas de operaci&oacute;n de los carriles expr&eacute;s y para viajes compartidos (carpool).</p>
+			<p>Para m&aacute;s informaci&oacute;n: <a href="http://www.vta.org/projects-and-programs/highway/vta-express-lanes-sr-237-express-lanes-project" target="_blank" class="linkext">http://www.vta.org/projects-and-programs/highway/vta-express-lanes-sr-237-express-lanes-project</a></p>
+		  </div>
+		</div>
+	  </div>
+	  <div class="panel panel-default">
+		<div class="panel-heading">
+		  <h4 class="panel-title">
+			<a href="#I580">I-580 Carriles expr&eacute;s</a>
+		  </h4>
+		</div>
+		<div id="I580" class="panel-collapse collapse collapsediv">
+		  <div class="panel-body">
+			<h1>I-580 Carriles expr&eacute;s</h1>
+			<a href="#" data-featherlight="../images/i-580-large.jpg"><img src="../images/i-580-small.gif" editarea="i580" editareadesc="I-580 Express Lanes Image" border="0" alt="I-580 Express Lanes" /></a>
+			<h4>D&Oacute;NDE</h4>
+			<p>El proyecto de carriles expr&eacute;s de la I-580 se extiende por aproximadamente once millas (dieciocho kil&oacute;metros) desde Hacienda Drive en Pleasanton, hasta Greenville Road en Livermore, en direcci&oacute;n al este, y aproximadamente catorce millas (veintid&oacute;s kil&oacute;metros) desde Greenville Road hasta San Ramon Road/Foothill Road en Dublin, en direcci&oacute;n al oeste.</p>
+			<h4>PRECIOS</h4>
+			<p>Los costos de peaje var&iacute;a, dependiendo de los niveles de tr&aacute;fico en tiempo real en el carril expr&eacute;s, para garantizar as&iacute; que el tr&aacute;fico siga fluyendo. Este proceso se llama precio din&aacute;mico: durante los periodos pico, cuando hay m&aacute;s tr&aacute;fico en el carril expr&eacute;s, el costo del peaje es mayor.</p>
+            <p>En estos momentos, los precios del peaje no est&aacute;n disponibles.</p>
+			<h4>HORARIO DE OPERACI&Oacute;N</h4>
+			<p>Los carriles expr&eacute;s funcionar&aacute;n en los mismos horarios que los carriles para viajes compartidos (carpool).</p>
+			<p>Horarios del carril expr&eacute;s:</p>    
+			<ul>
+				<li>De lunes a viernes de 5 am a 9 am.</li>
+				<li>De lunes a viernes de 4 pm a 7 pm.</li>
+			</ul>
+            <p>A mediod&iacute;a, durante la noche y en fines de semana, el carril est&aacute; abierto para todos los conductores, de forma gratuita.</p>
+			<p>Para m&aacute;s informaci&oacute;n: <a href="http://www.AlamedaCTC.org/580Express" target="_blank" class="linkext">www.AlamedaCTC.org/580Express</a></p>
+            
+		  </div>
+		</div>
+	  </div>
+
+	  <div class="panel panel-default">
+		<div class="panel-heading">
+		  <h4 class="panel-title">
+			<a href="#I680x">I-680 Carriles expr&eacute;s</a>
+		  </h4>
+		</div>
+		<div id="I680x" class="panel-collapse collapse collapsediv">
+		  <div class="panel-body">
+			<h1>Carriles expr&eacute;s de la I-680</h1>
+			<h4>&iexcl;A PARTIR DEL VERANO DE 2016!</h4>
+			<p>Para m&aacute;s informaci&oacute;n, <a href="http://mtcexpresslanes.org/projects/express_lanes/projects/i680_contracosta_south.htm" target="_blank">haga clic aqu&iacute;</a>.</p>
+		  </div>
+		</div>
+	  </div>
+
+	  <div class="panel panel-default">
+		<div class="panel-heading">
+		  <h4 class="panel-title">
+			<a href="#socal">Carriles expr&eacute;s del sur de California</a>
+		  </h4>
+		</div>
+		<div id="socal" class="panel-collapse collapse collapsediv">
+		  <div class="panel-body">
+			<h1>Carriles expr&eacute;s del sur de California</h1>
+			<p>FasTrak puede usarse para pagar peajes en cualquier infraestructura que muestre el logotipo de FasTrak. En el sur de California, puede usar FasTrak en:</p>
+			<a href="#" data-featherlight="../images/socal-map.jpg"><img src="../images/socal-map-small.jpg" editarea="socalmap" editareadesc="Southern California Express Lanes Image" alt="Southern California Express Lanes" border="0"/></a>
+			<strong>Condado de Los &Aacute;ngeles</strong>
+            <ul>
+              <li><a href="https://www.metroexpresslanes.net/"  target="_blank" class="linkext">Carriles de Metro Express</a> I-10 and I-110</li>
+            </ul>
+			<strong>Condado de Orange</strong>
+            <ul>
+              <li><a href="https://www.thetollroads.com/"  target="_blank" class="linkext">Los caminos de peaje</a> State Routes 73, 133, 241 and 261</li>
+              <li><a href="http://www.91expresslanes.com/"  target="_blank" class="linkext">Carriles expr&eacute;s de la 91</a></sub></li>
+            </ul>
+			<strong>Condado de San Diego</strong>
+            <ul>
+              <li><a href="http://fastrak.511sd.com/san-diego-toll-roads/i-15-express-lanes"  target="_blank" class="linkext">Carriles expr&eacute;s de la I-15</a></li>
+              <li><a href="http://www.sbxthe125.com/"  target="_blank" class="linkext">Expressway del Sur de la Bah&iacute;a SR-125</a></li>
+            </ul>
+            <p>Si necesita ayuda para planear su viaje, por favor visite <a href="http://www.ie511.org/trip-planners/toll-roads" target="_blank" class="linkext">Trip Planner</a>
+		  </div>
+		</div>
+	  </div>
+	</div>
+
+	</div>
+	</br>
+	<!--#include file="../common/footer.html"-->
+	<!--#include file="../common/footerinclude.html"-->
+    
+	<script>
+	jQuery(document).ready(function($){	
+		$('.Antiochpdf, .Beniciapdf, .Carquinezpdf, .Dumbartonpdf, .GGBpdf, .Richmondpdf, .Oaklandpdf, .Mateopdf').magnificPopup({
+			disableOn: 700,
+			type: 'iframe',
+			mainClass: 'mfp-fade',
+			removalDelay: 160,
+			preloader: false,
+			fixedContentPos: false
+		});
+		
+	});
+	
+	$(function () { 
+		$('.collapseLink').on('click', 
+			function(){
+				var divid=this.href.split('#')[1];
+				$('.collapsediv').hide();
+				$('#'+divid).show(0,'linear');	
+				$('html, body').animate({
+					scrollTop: $('#'+divid).parent().offset().top
+				}, 1000);
+			}
+		);
+		$('.mapHighlight > p > a').on('mouseover', 
+			function(){
+				var refId = '.bridge_map_'+$(this).attr('ref');
+				
+				$("div[class*='bridge_map_']").each(function() {
+					$(this).css('color','black');
+					$(this).css('background','');
+				});
+							
+				$(refId).css('color','yellow');
+				$(refId).css('background','black');
+				
+				$('.image_icon_'+$(this).attr('ref')).attr('src','../images/mm_20_yellow.png');
+			}
+		);
+		$('.mapHighlight > p > a').on('mouseout', 
+			function(){
+				$("div[class*='bridge_map_']").each(function() {
+					$(this).css('color','black');
+					$(this).css('background','');
+				});
+				$('.image_icon_'+$(this).attr('ref')).attr('src','../images/mm_20_red.png');
+			}
+		);
+		$('.panel-heading').on('click', 
+			function(){
+				var toshow = $(this).next("div").css("display");
+				$('.collapsediv').hide();
+				if(toshow == 'none'){
+					$(this).next("div").show(0,'linear');
+					$('html, body').animate({
+						scrollTop: $(this).offset().top
+					}, 1000);
+				}
+			}
+		);
+    });
+	function openbridge(){
+		var match = location.search.match(new RegExp("[?&]bridge=([^&]+)(&|$)"));
+		var searchItem =  match && decodeURIComponent(match[1].replace(/\+/g, " "));
+		if("" != searchItem && "null" != searchItem){	
+			$("a[href='#"+searchItem+"']").parent().click();
+		}
+	}
+	
+	</script>
+
+</body></html>

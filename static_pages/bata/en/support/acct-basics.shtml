@@ -1,0 +1,281 @@
+<!doctype html>
+<html>
+<head style="display:none;">
+<title class="faq-title" style="">FasTrak Accounts</title>
+<meta charset="UTF-8">
+		<style style="color:white;">
+        .featherlight-content{width:65%;min-width:360px;}
+    </style>
+</head>
+
+<body>
+<div  editarea="img111">
+    <div class="container row custom-wrap modal-feather">
+		<div class="col-md-12">
+            <h3>Account Basics</h3>
+            <div class="custom-wrap3">
+                <div class="acclinks bach custom1">
+                    <p><a href="#rspnsbl" class="collapseLink FasTrak" ref="rspnsbl">What are my responsibilities as a FasTrak user?</a></p>
+                    <p><a href="#track" class="collapseLink FasTrak" ref="track">How can I track my FasTrak account activity?</a></p>
+                    <p><a href="#update" class="collapseLink FasTrak" ref="update">How can I update the information on my FasTrak account?</a></p>
+                    <p><a href="#prepaid" class="collapseLink FasTrak" ref="prepaid">How is the prepaid balance in my account replenished?</a></p>
+                    <p><a href="#replenish" class="collapseLink FasTrak" ref="replenish">How is the replenishment amount determined?</a></p>
+                    <p><a href="#threshold" class="collapseLink FasTrak" ref="threshold">When is my replenishment threshold and replenishment amount adjusted?</a></p>
+                    <p><a href="#negative" class="collapseLink FasTrak" ref="negative">What happens if my FasTrak account has a negative balance?</a></p>
+                    <p><a href="#license" class="collapseLink FasTrak" ref="license">Why is providing the Customer Service Center my license plate number(s) important?</a></p>
+                    <p><a href="#change-pymnt" class="collapseLink FasTrak" ref="change-pymnt">How do I change my primary payment method from Credit Card to cash or check?</a></p>
+                    <p><a href="#replenish-cash" class="collapseLink FasTrak" ref="replenish-cash">How can I replenish my account with cash?</a></p>
+                    <p><a href="#seasonal" class="collapseLink FasTrak" ref="seasonal">Will my FasTrak account remain active if I am an infrequent or seasonal user?</a></p>
+                    <p><a href="#anonymous" class="collapseLink FasTrak" ref="anonymous">Can I use FasTrak anonymously?</a></p>
+                    <p><a href="#close-acct" class="collapseLink FasTrak" ref="close-acct">How can I close my account?</a></p>
+                </div>
+            </div>
+		</div>
+    </div>
+
+	<div class="panel-group" id="accordion">
+	  <div class="panel panel-default">
+		<div class="panel-heading">
+		  <h4 class="panel-title">
+			<a href="#rspnsbl">What are my responsibilities as a FasTrak user?</a>
+		  </h4>
+		</div>
+		<div id="rspnsbl" class="panel-collapse collapse collapsediv">
+		  <div id="faq_acc_001" class="panel-body">
+			<p>Your responsibilities as a FasTrak user are:</p>
+            <ul>
+              <li>Maintain a minimum account balance as described in the <a href="../images/ApplicationandLicenseAgreement.pdf" target="_blank">License Agreement</a></li>
+              <li>Mount the toll tag as described in the <a href="../support/mounting.shtml" target="_blank">Mounting Instructions</a></li>
+              <li>Report a lost, stolen, or damaged toll tag</li>
+                <li>Keep your address, credit card information, and vehicle information (e.g., license plate number/s) on your FasTrak account updated</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+	  <div class="panel panel-default">
+		<div class="panel-heading">
+		  <h4 class="panel-title">
+			<a href="#track">How can I track my FasTrak account activity?</a>
+		  </h4>
+		</div>
+		<div id="track" class="panel-collapse collapse collapsediv">
+		  <div id="faq_acc_002" class="panel-body">
+			<p>The FasTrak system tracks your toll usage and account balance. A monthly or quarterly statement itemizing your toll payments and account balance will be sent to you through the mail or email. The frequency and delivery method of your statements is determined by you. You may also check your account balance by logging into your account online or by calling the Customer Service Center.</p>
+		  </div>
+        </div>
+      </div>
+      
+	  <div class="panel panel-default">
+		<div class="panel-heading">
+		  <h4 class="panel-title">
+			<a href="#update">How can I update the information on my FasTrak account?</a>
+		  </h4>
+		</div>
+		<div id="update" class="panel-collapse collapse collapsediv">
+		  <div id="faq_acc_003" class="panel-body">
+			<p>You can update your account information (e.g., mailing address, day or evening phone numbers, vehicle information, etc.) by one of several ways:</p>
+            <ul>
+                <li>Log into your account online. Under Account Settings, make any necessary edits and select Update to save the changes.</li>
+                <li>Download an <a href="../images/account_update.pdf" target="_blank">Account Update Form</a> and mail/fax it to the Customer Service Center.</li>
+                <li>Contact the Customer Service Center by phone. When contacting the Customer Service Center, please provide your FasTrak account number or toll tag serial number in your communications. (The serial number is located on the toll tag's barcode.)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+	  <div class="panel panel-default">
+		<div class="panel-heading">
+		  <h4 class="panel-title">
+			<a href="#prepaid">How is the prepaid balance in my account replenished?</a>
+		  </h4>
+		</div>
+		<div id="prepaid" class="panel-collapse collapse collapsediv">
+		  <div id="faq_acc_004" class="panel-body">
+			<p>Account replenishment is different depending on the type of replenishment method you chose at the time you opened your account.</p>
+            <p>For accounts that use a credit card as the primary payment method, automatic charges will be made to your credit card to replenish your FasTrak account whenever your prepaid toll balance falls below $15 or the minimum threshold.</p>
+            <p>For accounts that use cash or checks as the primary payment method, you are responsible for depositing prepaid tolls into your FasTrak account whenever the "Low Bal" or "Account Low" message appears on the Driver Feedback Display located at the toll booth. You must replenish your account whenever your prepaid toll balance falls below $30 or the minimum threshold.</p>
+		  </div>
+        </div>
+      </div>
+
+	  <div class="panel panel-default">
+		<div class="panel-heading">
+		  <h4 class="panel-title">
+			<a href="#replenish">How is the replenishment amount determined?</a>
+		  </h4>
+		</div>
+		<div id="replenish" class="panel-collapse collapse collapsediv">
+		  <div id="faq_acc_005" class="panel-body">
+			<p>For accounts that use a credit card as the primary payment method, the amount charged to your credit card (i.e., your replenishment amount) will be equal to one month's average usage (based on the previous 90 days of use) or $25, whichever amount is greater.</p>
+            <p>For accounts that use cash or checks as the primary payment method, the replenishment amount will be equal to one month's average usage (based on the previous 90 days of use) or $40, whichever amount is greater.</p>
+		  </div>
+        </div>
+      </div>
+      
+      <hr>
+
+	  <div class="panel panel-default">
+		<div class="panel-heading">
+		  <h4 class="panel-title">
+			<a href="#threshold">When is my replenishment threshold and replenishment amount adjusted?</a>
+		  </h4>
+		</div>
+		<div id="threshold" class="panel-collapse collapse collapsediv">
+		  <div id="faq_acc_006" class="panel-body">
+			<p>Your FasTrak account's replenishment threshold and replenishment amount will be reviewed 35 days from the date your account is opened and every 90 days thereafter. It will be adjusted, if necessary, to reflect current use patterns. You will be notified on your statement whenever your replenishment amount has been adjusted, either increased or decreased. Replenishment amounts can vary and timing of replenishment is not always consistent. For this reason we do not recommend the use of ATM check/debit cards.</p>
+          </div>
+        </div>
+      </div>
+
+	  <div class="panel panel-default">
+		<div class="panel-heading">
+		  <h4 class="panel-title">
+			<a href="#negative">What happens if my FasTrak account has a negative balance?</a>
+		  </h4>
+		</div>
+		<div id="negative" class="panel-collapse collapse collapsediv">
+		  <div id="faq_acc_007" class="panel-body">
+			<p>An account with a negative balance is considered "invalid". Any transaction recorded on a negative account is a violation of the requirement to pay the established toll. Violations could result in your being liable for costly penalties and fees as specified in the California Vehicle Code Section 40250. Negative accounts will be closed after 90 days and toll tag deposits will be forfeited. To bring your account to a positive balance, you can make an immediate payment online using a credit card. To do so, sign in to your account and select Increase My Balance. Choose how much you want to add and provide your credit card information. You can save the credit card to your account for future use or chose to use it just the one time.</p>
+          </div>
+        </div>
+      </div>
+
+	  <div class="panel panel-default">
+		<div class="panel-heading">
+		  <h4 class="panel-title">
+			<a href="#license">Why is providing the Customer Service Center my license plate number(s) important?</a>
+		  </h4>
+		</div>
+		<div id="license" class="panel-collapse collapse collapsediv">
+		  <div id="faq_acc_008" class="panel-body">
+			<p>Should your toll tag not read as you drive through the toll plaza, a photo of your license plate will be taken. The toll amount will then be deducted from your account by matching the license plate information in the photo with the license plate information on file with FasTrak. If there is no match, a violation notice or invoice (Golden Gate Bridge only) will be sent to the registered owner of the vehicle in the photo. As such, your vehicle information should be kept current with FasTrak in order to prevent violation notices and invoices (Golden Gate Bridge only) from being sent to you. You will be responsible for tolls charged to your account based on the identification of your license plate number, unless you notify us of changes to your license plate number.</p>
+          </div>
+        </div>
+      </div>
+
+	  <div class="panel panel-default">
+		<div class="panel-heading">
+		  <h4 class="panel-title">
+			<a href="#change-pymnt">How do I change my primary payment method from Credit Card to cash or check?</a>
+		  </h4>
+		</div>
+		<div id="change-pymnt" class="panel-collapse collapse collapsediv">
+		  <div id="faq_acc_009" class="panel-body">
+			<p>A refundable toll tag deposit is required for all accounts that use cash or checks as their primary payment method. Please contact the Customer Service Center for specific instructions on how to convert to a cash or check based account. You can also follow the steps below:</p>
+            <ul>
+              <li>Download an <a href="../images/account_update.pdf" target="_blank">Account Update Form</a></li>
+              <li>Complete and sign the Account Update Form</li>
+                <li>Send the following to the FasTrak Customer Service Center:
+                A check (made payable to: "BATA") for the refundable toll tag deposit which is equal to $20 for each toll tag on your account.</li>
+                <li>Completed and signed Account Update Form</li>
+			</ul>
+          </div>
+        </div>
+      </div>
+      
+	  <div class="panel panel-default">
+		<div class="panel-heading">
+		  <h4 class="panel-title">
+			<a href="#replenish-cash">How can I replenish my account with cash?</a>
+		  </h4>
+		</div>
+		<div id="replenish-cash" class="panel-collapse collapse collapsediv">
+		  <div id="faq_acc_010" class="panel-body">
+		    <p>A network of cash payment locations is available where you can conveniently replenish your FasTrak account with cash – no credit card is required. These cash payment services can be found at participating authorized merchants, including gas stations, convenience stores, or check cashing stores. Find <a href="../howitworks/cashLocationsMap.html" target="_blank">cash payment locations</a>.</p>
+            <sub>NOTE: Authorized merchants may collect a separate convenience fee for account replenishments.</sub>
+		  </div>
+        </div>
+      </div>
+      
+      <hr>
+
+	  <div class="panel panel-default">
+		<div class="panel-heading">
+		  <h4 class="panel-title">
+			<a href="#seasonal">Will my FasTrak account remain active if I am an infrequent or seasonal user?</a>
+		  </h4>
+		</div>
+		<div id="seasonal" class="panel-collapse collapse collapsediv">
+		  <div id="faq_acc_011" class="panel-body">
+			<p>Your account will remain active, providing you have some activity on your account during a period of 3 years. If there is no activity on your account for a period of 3 years or more, you will be notified by mail that your account will be automatically closed and instructions will be provided on how to return your toll tag(s) for proper credit. After 30 days, your account will be closed and any remaining balance will be refunded to you.</p>
+          </div>
+        </div>
+      </div>
+
+	  <div class="panel panel-default">
+		<div class="panel-heading">
+		  <h4 class="panel-title">
+			<a href="#anonymous">Can I use FasTrak anonymously?</a>
+		  </h4>
+		</div>
+		<div id="anonymous" class="panel-collapse collapse collapsediv">
+		  <div id="faq_acc_012" class="panel-body">
+			<p>Yes. FasTrak is dedicated to preserving and protecting customers' privacy. Customers who wish to take advantage of the speed and convenience of FasTrak may do so with complete anonymity.</p>
+            <p>In order to open an anonymous FasTrak account, you must visit the FasTrak Customer Service Center in person. You can open your account with cash, money order, or cashier's check. A Customer Service Representative will be able to open your account without requiring customer name, address or vehicle information. (If you try to open an account online, your name, address and vehicle information will be required.)</p>
+            <p>After you have opened your account, you are responsible for depositing prepaid tolls into your FasTrak account whenever the "Low Bal" or "Account Low" message appears on the Driver Feedback Display located at bridge toll booths.</p>
+            <p>You can replenish your account with cash, money order or cashier's check in person or by mail. Please do not send cash in the mail. Print your toll tag number or account number on the money order or cashier's check and the amount will be added to your prepaid balance.</p>
+            <p>All account management for anonymous accounts must be conducted in person at the FasTrak Customer Service Center, including checking your account balance, ordering additional toll tags or closing your account.</p>
+          </div>
+        </div>
+      </div>
+
+	  <div class="panel panel-default">
+		<div class="panel-heading">
+		  <h4 class="panel-title">
+			<a href="#close-acct">How can I close my account?</a>
+		  </h4>
+		</div>
+		<div id="close-acct" class="panel-collapse collapse collapsediv">
+		  <div id="faq_acc_013" class="panel-body">
+			<p>You can request the closure of your account by completing an <a href="../images/account_closure.pdf" target="_blank">Account Closure Form</a> and submitting it to the Customer Service Center or by logging into your account online, navigating to the Account Settings tab, and selecting Close Account. To be refunded the toll tag security deposit, you must return your toll tags within 10 business days of the request to close your account. If you are returning the toll tags by mail, we recommend using certified or registered mail to track the delivery of your toll tags.</p>
+		  </div>
+        </div>
+      </div>
+
+	</div> <!-- accordion -->
+</div>
+	<div id="conceal">
+	<script>	
+        $(function () { 
+            $('.collapseLink').on('click', 
+                function(){
+                    var divid=this.href.split('#')[1];
+                    $('.collapsediv').hide();
+                    $('#'+divid).show(0,'linear');	
+                    $('html, body').animate({
+                        scrollTop: $('#'+divid).parent().offset().top
+                    }, 1000);
+                }
+            );
+            
+            $('.panel-heading').on('click', 
+                function(){
+                    var toshow = $(this).next("div").css("display");
+                    $('.collapsediv').hide();
+                    if(toshow == 'none'){
+                        $(this).next("div").show(0,'linear');
+                        $('html, body').animate({
+                            scrollTop: $(this).offset().top
+                        }, 1000);
+                    }
+                }
+            );
+        });
+		
+		$(function(){
+			$('a').each(function(){
+			   var href=$(this).attr("href");
+						if(href != null && href != 'undefined'){
+						if(href.startsWith('#')){
+									var path = location.protocol+'//'+location.host+location.pathname+href;
+									$(this).attr("href", path);
+						}
+						}
+			}); 
+		})
+    </script>
+    </div>
+
+</body>
+</html>

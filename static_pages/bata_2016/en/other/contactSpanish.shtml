@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+
+<title>FasTrak</title>
+
+<!--#include file="../common/headerinclude.html"-->
+
+<!-- SET BROWSER WIDTH & LOCK SCALE -->
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+    <script src="../assets/js/html5shiv.js"></script>
+  <![endif]-->
+<script>
+	function boo(event) {
+		var x = event.screenX;
+		var y = event.screenY;
+
+		X = x + 1;
+		//alert(X)
+		document.getElementById("detailed").style.top = '12%';
+		document.getElementById("detailed").style.left = "10%";
+		document.getElementById("detailed").style.right = '10%';
+
+		bloop = "#" + "detailed";
+		$(bloop).fadeIn(900);
+
+	}
+</script>
+
+</head>
+
+<body onLoad="setWindowSizeP()">
+	<!--#include file="../common/html/pageheader.shtml"-->
+	<div id="detailed" style="max-width: 100%;">
+<a href="#detailed" onClick="closer('detailed')" class="searchButton" style="margin-bottom: 15px; float: right;">X</a>
+		<div style="clear: both">
+
+
+	<table cellpadding="3" cellspacing="2" width="100%" style="max-width: 700px; margin-left: auto; margin-right: auto;">
+
+				<tr>
+			<td colspan="3"><div class="orangeTitleCallout">Calendario de d&iacute;as festivos de 2018 del Centro de Servicio al Cliente de FasTrak</div></td>
+				</tr>
+				<tr>
+		<td width="30%">1 de enero</td><td width="30%">Lunes</td><td width="40%" align="right">D&iacute;a De A&ntilde;o Nuevo</td>
+				</tr>
+				<tr>
+		<td width="30%">15 de enero</td><td width="30%">Lunes</td><td width="40%" align="right">Martin Luther King Jr. Day</td>
+				</tr>
+				<tr>
+		<td width="30%">19 de febrero</td><td width="30%">Lunes</td><td width="40%" align="right">Presidents' Day</td>
+				</tr>
+				<tr>
+		<td width="30%">28 de mayo</td><td width="30%">Lunes</td><td width="40%" align="right">Memorial Day</td>
+				</tr>
+				<tr>
+		<td width="30%">4 de julio</td><td width="30%">Mi&eacute;rcoles</td><td width="40%" align="right">Independence Day</td>
+				</tr>
+				<tr>
+		<td width="30%">3 de septiembre</td><td width="30%">Lunes</td><td width="40%" align="right">Labor Day</td>
+				</tr>
+				<tr>
+		<td width="30%">12 de noviembre</td><td width="30%">Lunes</td><td width="40%" align="right">Veterans Day</td>
+				</tr>
+				<tr>
+		<td width="30%">22-24 de noviembre</td><td width="30%">Jueves-s&aacute;bado</td><td width="40%" align="right">Fin de semana de Thanksgiving</td>
+				</tr>
+				<tr>
+		<td width="30%">25 de diciembre</td><td width="30%">Martes</td><td width="40%" align="right">Navidad</td>
+				</tr>
+				<tr>
+		<td width="30%">1 de enero</td><td width="30%">Martes</td><td width="40%" align="right">D&iacute;a De A&ntilde;o Nuevo (2019)</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+
+<div class="contentTopper"><ol class="breadcrumb">
+	  <li><a href="../home/index.shtml"><img src="../images/breadcrumb/Home_icon.png"></a></li>	  
+			<li class="active">COMUN&Iacute;QUESE CON NOSOTROS</li>
+		</ol>
+	</div>
+	<div class="contentEnvelope" editarea="contactSpanish"
+		editareadesc="contact Spanish">
+		<!-- content -->
+		<div class="contentTitle">
+	<div style="display: inline-block; float: left; width: 240px; padding: 0 0 0 0;">&nbsp;</div>
+	<div style="display: inline-block; padding: 0 0 0 0;">COMUN&Iacute;QUESE CON NOSOTROS</div>
+		</div>
+		<div class="menuCol">
+			<div class="menuBox">
+		<div class="navBox" id="benefit"><div id="benefitOrangeBox">&nbsp;</div><a href="benefitsSpanish.shtml" class="leftNav" onMouseover="langMouse('benefit','benefitOrangeBox')" onMouseOut="langMouseOut('benefit','benefitOrangeBox')">VENTAJAS</a></div>
+		<div class="navBox" id="getting"><div id="gettingOrangeBox">&nbsp;</div><a href="startedSpanish.shtml" class="leftNav" onMouseover="langMouse('getting','gettingOrangeBox')" onMouseOut="langMouseOut('getting','gettingOrangeBox')">C&Oacute;MO EMPEZAR</a></div>
+		<div class="navBox" id="get"><div id="getOrangeBox">&nbsp;</div><a href="tollTagSpanish.shtml" class="leftNav" onMouseover="langMouse('get','getOrangeBox')" onMouseOut="langMouseOut('get','getOrangeBox')">DISPOSITIVO ELECTR&Oacute;NICO de PEAJE DE FASTRAK</a></div>
+		<div class="navBox" id="use"><div id="useOrangeBox">&nbsp;</div><a href="usingSpanish.shtml" class="leftNav" onMouseover="langMouse('use','useOrangeBox')" onMouseOut="langMouseOut('use','useOrangeBox')">USO de FASTRAK</a></div>
+		<div class="navBox" id="where"><div id="whereOrangeBox">&nbsp;</div><a href="whereSpanish.shtml" class="leftNav" onMouseover="langMouse('where','whereOrangeBox')" onMouseOut="langMouseOut('where','whereOrangeBox')">D&Oacute;NDE USAR FASTRAK</a></div>
+		<div class="navBox" id="GG"><div id="GGOrangeBox">&nbsp;</div><a href="ggGateSpanish.shtml" class="leftNav" onMouseover="langMouse('GG','GGOrangeBox')" onMouseOut="langMouseOut('GG','GGOrangeBox')">PEAJE en el GOLDEN GATE</a></div>
+		<div class="navBox" id="invoice"><div id="invoiceOrangeBox">&nbsp;</div><a href="invoiceSpanish.shtml" class="leftNav" onMouseover="langMouse('invoice','invoiceOrangeBox')" onMouseOut="langMouseOut('invoice','invoiceOrangeBox')">FACTURA o INFRACCI&Oacute;N</a></div>
+		<div class="navBox" id="discount"><div id="discountOrangeBox">&nbsp;</div><a href="discountsSpanish.shtml" class="leftNav" onMouseover="langMouse('discount','discountOrangeBox')" onMouseOut="langMouseOut('discount','discountOrangeBox')">DESCUENTOS y RECORRIDOS SIN PEAJE</a></div>
+		<div class="navBoxActive" id="contact"><div id="contactOrangeBox" style="visibility: visible;">&nbsp;</div>COMUN&Iacute;QUESE CON NOSOTROS</div>
+				</div>
+			</div>
+		<div id="contentCol">
+			<div class="colFullCopy">
+				<div class="indento">
+		<div class="orangeTitleCallout">Llame al 1-877-229-8655 para comunicarse con nosotros en espa&ntilde;ol</div>
+		 Oprima el 2 para espa&ntilde;ol, cuando escuche las indicaciones, oprima el 5, luego oprima el 3 y luego oprima el 0. Despu&eacute;s, oprima de nuevo el 0 para hablar con un representante de servicio al cliente. 
+		 <br><br>
+		 Una persona est&aacute; a sus &oacute;rdenes para atenderlo durante el siguiente horario<br>
+		Lunes a viernes, de 8:30 am a 5:30 pm <br>
+		S&aacute;bado, de 9:00 am a 1:00 pm 
+		<br><br>
+		Si tiene alg&uacute;n problema con el sistema telef&oacute;nico automatizado, le rogamos que sea paciente y espere hasta que el mensaje le pida que oprima su opci&oacute;n siguiente antes de hacerlo. 
+		<br>
+		<div class="orangeTitleCallout">Sistema telef&oacute;nico automatizado</div>
+		Este sistema en ingl&eacute;s y espa&ntilde;ol est&aacute; a sus &oacute;rdenes a toda hora, todos los d&iacute;as. Puede obtener informaci&oacute;n general sobre los servicios de FasTrak y su cuenta. Marque 1-877-229-8655. Oprima el 2 para servicio en espa&ntilde;ol y siga las indicaciones.
+		<br>
+		<img src="../images/mapples.png" style="float: right; padding: 10px 0 0 20px; max-width: 272px;" width="100%"><div class="orangeTitleCallout">Visite nuestro Centro de Servicio al Cliente</div>
+		375 Beale Street <br>San Francisco, CA 94105
+		<br><br>
+		Horario: 
+		<br>
+		Lunes a viernes, de 8:30 am a 5:30 pm<br>
+		S&aacute;bado, de 9:00 am a 1:00 pm
+		<br><br>
+		Por razones de seguridad, es necesario presentar una identificaci&oacute;n emitida por el gobierno en el mostrador de atenci&oacute;n al p&uacute;blico. Algunas de las formas de identificaci&oacute;n aceptables incluyen una licencia de conducir, identificaci&oacute;n emitida por las fuerzas militares, pasaporte e identificaci&oacute;n emitida por un consulado.
+		<br>
+		<div class="orangeTitleCallout">Cerrado en d&iacute;as festivos <br><a href="#detailed" onclick="boo(event)" name="detailed" class="inLineLinkk">Vea la lista aqu&iacute;.</a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end content -->
+	</div>
+	<div class="footerTopperRelated">
+		<div class="footerToppler">Keep moving with FasTrak</div>
+	</div>
+	<script src="../common/js/footer.js"></script>
+
+</body>
+</html>

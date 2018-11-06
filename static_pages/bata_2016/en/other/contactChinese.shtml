@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+
+<title>FasTrak</title>
+
+<!-- INCLUDE MODERNIZR USING CDN -->
+<script src="../common/js/modernizr.min.js" type="text/javascript"
+	charset="utf-8"></script>
+
+<!--#include file="../common/headerinclude.html"-->
+
+<!-- SET BROWSER WIDTH & LOCK SCALE -->
+<meta name="viewport"
+	content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+    <script src="../assets/js/html5shiv.js"></script>
+  <![endif]-->
+<script>
+	function boo(event) {
+		var x = event.screenX;
+		var y = event.screenY;
+
+		X = x + 1;
+		//alert(X)
+		document.getElementById("detailed").style.top = '12%';
+		document.getElementById("detailed").style.left = "10%";
+		document.getElementById("detailed").style.right = '10%';
+
+		bloop = "#" + "detailed";
+		$(bloop).fadeIn(900);
+
+	}
+</script>
+
+</head>
+
+<body onLoad="setWindowSizeP()">
+	<!--#include file="../common/html/pageheader.shtml"-->
+	<div id="detailed" style="max-width: 100%;">
+		<a href="#detailed" onClick="closer('detailed')" class="searchButton"
+			style="margin-bottom: 15px; float: right;">X</a>
+		<div style="clear: both">
+
+
+			<table cellpadding="3" cellspacing="2" width="100%"
+				style="max-width: 700px; margin-left: auto; margin-right: auto;">
+
+				<tr>
+					<td colspan="3"><div class="orangeTitleCallout">2018 年
+							FasTrak 客戶服務中心節假日日程安排</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="30%">1 月 1 日</td>
+					<td width="30%">星期一</td>
+					<td width="40%" align="right">新年元旦</td>
+				</tr>
+				<tr>
+					<td width="30%">1 月 15 日</td>
+					<td width="30%">星期一</td>
+					<td width="40%" align="right">馬丁•路德•金紀念日</td>
+				</tr>
+				<tr>
+					<td width="30%">2 月 19 日</td>
+					<td width="30%">星期一</td>
+					<td width="40%" align="right">總統節</td>
+				</tr>
+				<tr>
+					<td width="30%">5 月 28 日</td>
+					<td width="30%">星期一</td>
+					<td width="40%" align="right">陣亡將士紀念日</td>
+				</tr>
+				<tr>
+					<td width="30%">7 月 4 日</td>
+					<td width="30%">星期三</td>
+					<td width="40%" align="right">獨立紀念日</td>
+				</tr>
+				<tr>
+					<td width="30%">9 月 3 日</td>
+					<td width="30%">星期一</td>
+					<td width="40%" align="right">勞動節</td>
+				</tr>
+				<tr>
+					<td width="30%">11 月 12 日</td>
+					<td width="30%">星期一</td>
+					<td width="40%" align="right">退伍軍人節</td>
+				</tr>
+				<tr>
+					<td width="30%">11 月 22-24 日</td>
+					<td width="30%">星期四至星期六</td>
+					<td width="40%" align="right">感恩節週末</td>
+				</tr>
+				<tr>
+					<td width="30%">12 月 25 日</td>
+					<td width="30%">星期二</td>
+					<td width="40%" align="right">聖誕</td>
+				</tr>
+				<tr>
+					<td width="30%">1 月 1 日</td>
+					<td width="30%">星期二</td>
+					<td width="40%" align="right">新年元旦(2019 年)</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<div class="contentTopper">
+		<ol class="breadcrumb">
+			<li><a href="../home/index.shtml"><img
+					src="../images/breadcrumb/Home_icon.png"> </a>
+			</li>
+			<li class="active">與我們聯絡</li>
+		</ol>
+	</div>
+	<div class="contentEnvelope" editarea="contactChinese"
+		editareadesc="contact chinese">
+		<!-- content -->
+		<div class="contentTitle">
+			<div
+				style="display: inline-block; float: left; width: 240px; padding: 0 0 0 0;">&nbsp;</div>
+			<div style="display: inline-block; padding: 0 0 0 0;">與我們聯絡</div>
+		</div>
+		<div class="menuCol">
+			<div class="menuBox">
+				<div class="navBox" id="benefit">
+					<div id="benefitOrangeBox">&nbsp;</div>
+					<a href="benefitsChinese.shtml" class="leftNav"
+						onMouseover="langMouse('benefit','benefitOrangeBox')"
+						onMouseOut="langMouseOut('benefit','benefitOrangeBox')">益處</a>
+				</div>
+				<div class="navBox" id="getting">
+					<div id="gettingOrangeBox">&nbsp;</div>
+					<a href="startedChinese.shtml" class="leftNav"
+						onMouseover="langMouse('getting','gettingOrangeBox')"
+						onMouseOut="langMouseOut('getting','gettingOrangeBox')">入門指南</a>
+				</div>
+				<div class="navBox" id="get">
+					<div id="getOrangeBoxAlt">&nbsp;</div>
+					<a href="tollTagChinese.shtml" class="leftNav"
+						onMouseover="langMouse('get','getOrangeBoxAlt')"
+						onMouseOut="langMouseOut('get','getOrangeBoxAlt')">FasTrak
+						通行費標籤</a>
+				</div>
+				<div class="navBox" id="use">
+					<div id="useOrangeBox">&nbsp;</div>
+					<a href="usingChinese.shtml" class="leftNav"
+						onMouseover="langMouse('use','useOrangeBox')"
+						onMouseOut="langMouseOut('use','useOrangeBox')">使用 FasTrak</a>
+				</div>
+				<div class="navBox" id="where">
+					<div id="whereOrangeBox">&nbsp;</div>
+					<a href="whereChinese.shtml" class="leftNav"
+						onMouseover="langMouse('where','whereOrangeBox')"
+						onMouseOut="langMouseOut('where','whereOrangeBox')">在哪裡使用
+						FasTrak</a>
+				</div>
+				<div class="navBox" id="GG">
+					<div id="GGOrangeBox">&nbsp;</div>
+					<a href="ggGateChinese.shtml" class="leftNav"
+						onMouseover="langMouse('GG','GGOrangeBox')"
+						onMouseOut="langMouseOut('GG','GGOrangeBox')">金門大橋通行費</a>
+				</div>
+				<div class="navBox" id="invoice">
+					<div id="invoiceOrangeBox">&nbsp;</div>
+					<a href="invoiceChinese.shtml" class="leftNav"
+						onMouseover="langMouse('invoice','invoiceOrangeBox')"
+						onMouseOut="langMouseOut('invoice','invoiceOrangeBox')">賬單或違規通知</a>
+				</div>
+				<div class="navBox" id="discount">
+					<div id="discountOrangeBoxAlt">&nbsp;</div>
+					<a href="discountsChinese.shtml" class="leftNav"
+						onMouseover="langMouse('discount','discountOrangeBoxAlt')"
+						onMouseOut="langMouseOut('discount','discountOrangeBoxAlt')">減價優惠和免費通行</a>
+				</div>
+				<div class="navBoxActive" id="contact">
+					<div id="contactOrangeBoxAlt" style="visibility: visible;">&nbsp;</div>
+					與我們聯絡
+				</div>
+			</div>
+		</div>
+		<div id="contentCol">
+			<div class="colFullCopy">
+				<div class="indento">
+					<div class="orangeTitleCallout">請撥打電話號碼
+						1-877-229-8655，用中文或廣東話與我們通話。</div>
+					按 2 使用英語，聽到提示後按 5，然後按 3，再按 0。然後再按 0。當
+					接線員回答時，用英語說出「Mandarin」（中文）或「Cantonese」 （廣東話），等候接通口譯員，與客戶服務代表交談。 <br>
+					<br> 有人在以下時段可幫助您：<br> 星期一至星期五上午 8 時 30 分至下午 5 時 30 分 <br>
+					星期六上午 9 時至下午 1 時 <br> <br>
+					如果您在使用自動電話系統時遇到問題，請耐心等候訊息提示，然後再按下一個選項。 <br>
+					<div class="orangeTitleCallout">自動電話系統</div>
+					該系統全天候提供英語和西班牙語服務。您可以獲得有關 FasTrak 服務和您的賬戶的一般資訊。請撥打電話號碼
+					1-877-229-8655。 <br> <img src="../images/mapples.png"
+						style="float: right; padding: 10px 0 0 20px; max-width: 272px;"
+						width="100%">
+					<div class="orangeTitleCallout">請光臨我們的客戶服務中心</div>
+					375 Beale Street <br>San Francisco, CA 94105 <br> <br>
+					營業時間: <br> 星期一至星期五上午 8 時 30 分至下午 5 時 30 分 <br> 星期六上午 9
+					時至下午 1 時 <br> <br>
+					出於安全原因，在前臺要求出示政府頒發的身份證。可接受的身份證形式包括駕照、軍隊頒發的身份證、護照和領事館頒發的身份證。 <br>
+					<div class="orangeTitleCallout">
+						公共假日關閉 <br> <a href="#detailed" onclick="boo(event)"
+							name="detailed" class="inLineLinkk">請查閱此處的假日表。</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end content -->
+	</div>
+	<div class="footerTopperRelated">
+		<div class="footerToppler">Keep moving with FasTrak</div>
+	</div>
+	<script src="../common/js/footer.js"></script>
+
+</body>
+</html>

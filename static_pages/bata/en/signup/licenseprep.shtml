@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+	<!--#include file="../common/headerinclude.html"-->
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+	<!--#include file="../common/topnavigationnh.html"-->
+	<div class="container"><ol class="breadcrumb">
+	  <li><a href="../home/index.shtml"><img src="../images/breadcrumb/Home_icon.png"></a></li>
+	  <li><a href="../ggb/crossing.shtml">GGB</a></li>
+	  <li class="active">Open a License Plate Account</li>
+	</ol></div>
+	
+	<div class="container clstatic" editarea="img111">
+	
+
+	<h1 class="page-header-noborder">
+		Open a License Plate Account
+	</h1>
+	<p>You will need the following information for the enrollment process. For security reasons, you will have 15 minutes to complete the sign up process before your session times out.</p>
+	<h1 class="page-subheader-noborder">What you'll need</h1>
+	<div class="table-responsive">
+	  <table class="withborder">
+		<tbody>
+		<tr>
+		<td class="row1"><h5>Valid Email Address</h5><div class="boxedshadowtable"></div></td>
+		<td class="row1"><h5>Credit Card</h5><div class="boxedshadowtable"></div></td>
+		<td class="row1"><h5>License Plate Information</h5><div class="boxedshadowtable"></div></td>
+		</tr>
+		<tr>
+		<td class="row1">A valid e-mail address is required in order to enroll in a License Plate account.</td>
+		<td class="row1">A valid credit card is required to register online. If you want to open an account using cash or a check, you'll need to contact Customer Service for assistance</td>
+		<td class="row1">You must have your license plate number and state for each vehicle you would like to register.</td>
+		</tr>
+		</tbody>
+		<tfoot><tr><td class="row1"></td><td class="row1"></td><td class="row1"></td></tr></tfoot>
+	  </table>
+	</div>
+	<p>
+	<div class="btn-group">
+      <button sourceindex="55" type="button" class="btn btn-cancel" onclick="document.location='../ggb/crossing.shtml'">Cancel</button>
+    </div><!-- /btn-group -->
+    <div class="btn-group">
+      <button sourceindex="57" type="button" class="btn btn-submit" onclick="document.location=vsignupURL">Accept and Begin Enrollment</button>
+    </div>
+
+	</div>
+	<!--#include file="../common/footer.html"-->
+	<!--#include file="../common/footerinclude.html"-->
+    </body>
+</html>

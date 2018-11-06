@@ -1,0 +1,120 @@
+
+	<script src="http://www.mapquestapi.com/sdk/js/v7.1.s/mqa.toolkit.js?key=Fmjtd%7Cluu22duyll%2C85%3Do5-h6za5"></script>
+	<script type='text/javascript' src='../common/jquery-1.9.1.min.js'></script>
+	<link rel="stylesheet" href="../common/map.css"/>	
+	<script type="text/javascript">
+		// An example of using the MQA.EventUtil to hook into the window load event and execute the defined
+		// function passed in as the last parameter. You could alternatively create a plain function here and
+		// have it executed whenever you like (e.g. <body onload="yourfunction">).
+	$(document).ready(function() {
+		MQA.EventUtil.observe(window, 'load', function() {
+
+			// create an object for options
+			var options = {
+				elt: document.getElementById('map1'),           	// ID of map element on page
+				zoom: 9,                                      	// initial zoom level of the map
+				latLng: { lat: 37.819924, lng: -122.004758 },  	// center of map in latitude/longitude
+				mtype: 'map',                                  	// map type (map, sat, hyb); defaults to map
+				bestFitMargin: 0,                              	// margin offset from map viewport when applying a bestfit on shapes
+				zoomOnDoubleClick: true,						// enable map to be zoomed in when double-clicking on map
+				minimized: true                        
+			};
+			// construct an instance of MQA.TileMap with the options object
+			window.map = new MQA.TileMap(options);
+			
+			// download the modules
+			MQA.withModule('htmlpoi','largezoom', 'mousewheel','shapes', function() {	 
+				// add the Large Zoom control
+				map.addControl(
+					new MQA.LargeZoom(),
+					new MQA.MapCornerPlacement(MQA.MapCorner.TOP_LEFT, new MQA.Size(5,5))
+				);
+				// enable zooming with your mouse
+				map.enableMouseWheelZoom();
+				drawGGBmarker();
+			});
+			
+		});
+	});
+		function drawGGBmarker() {
+			var id,name,img,latval,lngval,html,offx,offy,type,lineval;
+			
+			jQuery.ajax({
+				type: "GET",
+				url: "../common/locations_bridge.xml",
+				dataType: "xml",
+				success: function(xml){
+					var index=0;
+					$(xml).find('location').each(function(){
+						name = $(this).find('name').text();
+						type = $(this).find('type').text();
+						$.each(this.attributes, function(i, attrib){
+							if(attrib.name=='id') id=attrib.value;
+							if(attrib.name=='icon') img=attrib.value;
+							if(attrib.name=='lat') latval=attrib.value;
+							if(attrib.name=='lng') lngval=attrib.value;
+							if(attrib.name=='offx') offx=attrib.value;
+							if(attrib.name=='offy') offy=attrib.value;
+						});
+
+						if(type == 'line'){
+							lineval = $(this).find('line').text();
+							
+							var line = new MQA.LineOverlay();
+							if(id == 'I580'){
+								map.addShape(getPoiWithLatLang(37.700876,-121.915894,id,img,name,true));
+								line.setShapePoints([37.700876,-121.915894,37.70074,-121.893235,37.70074,-121.877614,37.700604,-121.854611,37.700061,-	121.82251,37.700061,-121.794014,37.699314, -121.788435,37.699585, -121.778737,37.701351, -121.769467]);
+								map.addShape(getPoiWithLatLang(37.701351,-121.769467,id,img,name,true));
+							}else if(id == 'I680'){
+								map.addShape(getPoiWithLatLang(37.575679,-121.880188,id,img,name,true));
+								line.setShapePoints([37.575679, -121.880188,37.573366, -121.885939,37.569217, -121.893664,37.565203, -121.900959,37.562005, -121.904736,37.560032, -121.909113,37.558875, -121.912547,37.552071, -121.917696,37.548158, -121.919799,37.545402, -121.919928,37.541727, -121.922846,37.538664, -121.926966,37.534581, -121.934777,37.530905, -121.941686,37.527672, -121.946021,37.525596, -121.946836,37.523486, -121.946321,37.520422, -121.943574,37.515521, -121.940227,37.509734, -121.936880,37.506091, -121.934691,37.500848, -121.929412,37.494345, -121.921988,37.489884, -121.918211,37.483516, -121.914006,37.476365, -121.911560,37.472959, -121.910744]);
+								map.addShape(getPoiWithLatLang(37.472959,-121.910744,id,img,name,true));
+							}else if(id == 'SR237'){
+								map.addShape(getPoiWithLatLang(37.420830,-121.936365,id,img,name,true));
+								line.setShapePoints([37.420830, -121.936365,37.422159, -121.929627,37.423045, -121.922803,37.423625, -121.921258,37.425363, -121.916280,37.426692, -121.911903,37.427544, -121.910058,37.429111, -121.909585,37.430441, -121.908341,37.431395, -121.906667,37.431804, -121.902419]);
+								map.addShape(getPoiWithLatLang(37.431804,-121.902419,id,img,name,true));
+							}
+							else if(id == 'I680cc'){
+								map.addShape(getPoiWithLatLang(37.765753,-121.969367,id,img,name,true));
+								line.setShapePoints([37.723673, -121.940291, 37.728493, -121.944411, 37.739761, -121.952394, 37.748211, -121.957779, 37.755948, -121.962800, 37.765753, -121.969367, 37.770790, -121.971984, 37.775031, -121.973958, 37.779474, -121.976276, 37.784325, -121.978808, 37.788089, -121.980954, 37.792023, -121.982627, 37.795381, -121.984559, 37.798128, -121.986447, 37.800467, -121.988249, 37.806130, -121.990610, 37.813318, -121.993270, 37.816878, -121.993185, 37.820387, -121.992970, 37.822183, -121.993185, 37.823573, -121.993657, 37.825404, -121.995030, 37.827098, -121.996875, 37.830522, -122.002497, 37.835335, -122.009964, 37.839843, -122.017260, 37.846909, -122.026873]);
+								map.addShape(getPoiWithLatLang(37.846909,-122.026873,id,img,name,true));
+							}
+							line.setColor('red');
+							map.addShape(line);
+							
+							map.addShape(getPoiWithLatLang(latval,lngval,id,img,name,true));
+						}else{
+							map.addShape(map.addShape(getPoiWithLatLang(latval,lngval,id,img,name,false)));
+
+
+
+						}
+						
+						var poiH = new MQA.HtmlPoi({ lat: latval, lng: lngval });
+						poiH.setHtml(name, parseInt(offx), parseInt(offy), 'bridge_map bridge_map_'+id);
+						
+						map.addShape(poiH);
+					});
+				},
+				error: function() {
+					alert("An error occurred while loading MAP.");
+				}
+			});
+		}
+		
+		function getPoiWithLatLang(latv,langv,id,img,name,isline){
+			var poi = new MQA.Poi({ lat: latv, lng: langv });
+			var style = '';
+			if(isline)
+				style='image_line';
+			poi.setShadowOffset({ x: 5, y: -25 });
+			poi.setIcon(new MQA.Icon(img, 22, 32,style+' image_icon_'+id));
+			poi.setRolloverContent("<B style='white-space: nowrap;'>"+name+"</B>");
+			return poi;
+		}
+
+ 
+	</script>
+	<DIV id="mapOuter">
+		<DIV id="map1"></DIV>
+	</DIV>

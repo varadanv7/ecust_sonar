@@ -1,0 +1,25 @@
+<ion-view view-title="News & Events-es" ng-controller="NewsAndMediaCtrl">
+    
+    <ion-content>
+        
+        <p style="display:none">{{page.title="Noticias y Eventos"}}</p>
+        <p class="noalert-message" ng-hide="newsAlertList.length">No hay noticias o eventos actualmente disponibles</p>
+
+        <div class="news-cont-block"  ng-repeat="newsAlert in newsAlertList" ng-click="goToNewsAlertDetail(newsAlert)">
+            <div class="news-alert-li news-alert-right-arrow">
+                <div class="news-content-inner-block" ng-bind-html="newsAlert.message"></div>
+            </div>
+        </div>   
+        
+<!--
+        <ion-list>
+			<ion-item class="news-cont-block"  collection-repeat="newsAlert in newsAlertList" ng-click="goToNewsAlertDetail(newsAlert)" collection-item-height="60">
+				<div class="news-alert-li news-alert-right-arrow">
+					<div ng-bind-html="newsAlert.message"></div>
+				</div>
+			</ion-item>
+		</ion-list>   
+-->
+
+    </ion-content>
+</ion-view>

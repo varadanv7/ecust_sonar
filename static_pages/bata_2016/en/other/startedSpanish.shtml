@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>FasTrak</title>
+
+  <!--#include file="../common/headerinclude.html"-->
+  
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+    <script src="../assets/js/html5shiv.js"></script>
+  <![endif]-->
+  
+</head>
+
+<body onLoad="setWindowSizeP()">
+ <!--#include file="../common/html/pageheader.shtml"-->
+<div class="contentTopper"><ol class="breadcrumb">
+	  <li><a href="../home/index.shtml"><img src="../images/breadcrumb/Home_icon.png"></a></li>	  
+	  <li class="active">C&Oacute;MO EMPEZAR A USAR FASTRAK</li>
+	</ol>
+</div>
+<div class="contentEnvelope" editarea="startedSpanish" editareadesc="started Spanish">
+<!-- content -->
+<div class="contentTitle">
+	<div style="display: inline-block; float: left; width: 240px;">&nbsp;</div>
+	<div style="display: inline-block;">C&Oacute;MO EMPEZAR A USAR FASTRAK
+</div>
+</div>
+<div class="menuCol">
+	<div class="menuBox">
+		<div class="navBox" id="benefit"><div id="benefitOrangeBox">&nbsp;</div><a href="benefitsSpanish.shtml" class="leftNav" onMouseover="langMouse('benefit','benefitOrangeBox')" onMouseOut="langMouseOut('benefit','benefitOrangeBox')">VENTAJAS</a></div>
+		<div class="navBoxActive" id="getting"><div id="gettingOrangeBox" style="visibility: visible;">&nbsp;</div>C&Oacute;MO EMPEZAR</div>
+		<div class="navBox" id="get"><div id="getOrangeBox">&nbsp;</div><a href="tollTagSpanish.shtml" class="leftNav" onMouseover="langMouse('get','getOrangeBox')" onMouseOut="langMouseOut('get','getOrangeBox')">DISPOSITIVO ELECTR&Oacute;NICO de PEAJE DE FASTRAK</a></div>
+		<div class="navBox" id="use"><div id="useOrangeBox">&nbsp;</div><a href="usingSpanish.shtml" class="leftNav" onMouseover="langMouse('use','useOrangeBox')" onMouseOut="langMouseOut('use','useOrangeBox')">USO de FASTRAK</a></div>
+		<div class="navBox" id="where"><div id="whereOrangeBox">&nbsp;</div><a href="whereSpanish.shtml" class="leftNav" onMouseover="langMouse('where','whereOrangeBox')" onMouseOut="langMouseOut('where','whereOrangeBox')">D&Oacute;NDE USAR FASTRAK</a></div>
+		<div class="navBox" id="GG"><div id="GGOrangeBox">&nbsp;</div><a href="ggGateSpanish.shtml" class="leftNav" onMouseover="langMouse('GG','GGOrangeBox')" onMouseOut="langMouseOut('GG','GGOrangeBox')">PEAJE en el GOLDEN GATE</a></div>
+		<div class="navBox" id="invoice"><div id="invoiceOrangeBox">&nbsp;</div><a href="invoiceSpanish.shtml" class="leftNav" onMouseover="langMouse('invoice','invoiceOrangeBox')" onMouseOut="langMouseOut('invoice','invoiceOrangeBox')">FACTURA o INFRACCI&Oacute;N</a></div>
+		<div class="navBox" id="discount"><div id="discountOrangeBox">&nbsp;</div><a href="discountsSpanish.shtml" class="leftNav" onMouseover="langMouse('discount','discountOrangeBox')" onMouseOut="langMouseOut('discount','discountOrangeBox')">DESCUENTOS y RECORRIDOS SIN PEAJE</a></div>
+		<div class="navBox" id="contact"><div id="contactOrangeBox">&nbsp;</div><a href="contactSpanish.shtml" class="leftNav" onMouseover="langMouse('contact','contactOrangeBox')" onMouseOut="langMouseOut('contact','contactOrangeBox')">COMUN&Iacute;QUESE CON NOSOTROS</a></div>
+	</div>
+</div>
+<div id="contentCol">
+		<div class="colFullCopy">
+		<img src="../images/started_1.jpg" width="100%" style="max-width: 742px">
+		<br><br>
+			<div class="indento">Empezar a usar FasTrak es muy f&aacute;cil. Abra una cuenta de FasTrak, deposite dinero en su cuenta para pagar los peajes y obtenga un dispositivo electr&oacute;nico de peaje de FasTrak. No se aplica un cargo de servicio por usar FasTrak.</div>
+		<div class="greenArticleTop">Elija c&oacute;mo desea empezar</div>
+		</div>
+		<div class="colLeft">
+			<div class="indento">
+			<div class="orangeTitleCallout">Opci&oacute;n 1: Necesita tanto un dispositivo electr&oacute;nico de peaje como una cuenta</div>
+			Siga estos pasos para empezar a usar FasTrak:
+			<br><br>
+			<b>Abra una cuenta</b><br>
+			<li class="spanishList" style="margin-bottom: 15px;">Llene una solicitud, ya sea por Internet en el sitio web de FasTrak en ingl&eacute;s, o por tel&eacute;fono, correo o en persona en espa&ntilde;ol.</li>
+			<br><br>
+			<b>Deposite dinero en su cuenta</b></br>
+			<li class="spanishList" style="margin-bottom: 15px;">Haga un dep&oacute;sito inicial para pagar peajes con su cuenta y como dep&oacute;sito de seguridad de su dispositivo electr&oacute;nico de peaje, en caso de que se requiera.</li>
+			<br><br>
+			<b>Obtenga un dispositivo electr&oacute;nico de peaje</b><br>
+			<li class="spanishList" style="margin-bottom: 15px;">Puede solicitar que los dispositivos electr&oacute;nicos de peaje le sean enviados por correo en cuanto abra una cuenta. Si abre una cuenta en persona en nuestro Centro de Servicio al Cliente, puede llevarse uno o m&aacute;s dispositivos electr&oacute;nicos de peaje de inmediato.</li>
+	 		<br><br>
+	 		<b>Instale su dispositivo electr&oacute;nico de peaje y empiece a usar FasTrak.</b>
+	 		</div>
+	 		</div>
+	 	<div  class="colRight">
+	 	<div class="orangeTitleCallout">Opci&oacute;n 2: Usted ya tiene un dispositivo electr&oacute;nico de peaje, pero necesita abrir una cuenta</div>
+	 	Si usted ya tiene un dispositivo electr&oacute;nico de peaje adquirido en una tienda, siga los pasos siguientes:
+	 	<br><br>
+	 	<b>Abra una cuenta</b><br>
+	 	<li class="spanishList">Use el n&uacute;mero del dispositivo electr&oacute;nico de peaje y la clave de validaci&oacute;n ubicada en el dispositivo a fin de vincularlo con su nueva cuenta.</li>
+		<br><br>
+		<li class="spanishList">Llene una solicitud, ya sea por Internet en el sitio web de FasTrak en ingl&eacute;s, o por tel&eacute;fono, o en persona en espa&ntilde;ol.</li>
+		<br><br>
+		<li class="spanishList">El precio promocional del dispositivo electr&oacute;nico de peaje cubre el dep&oacute;sito de seguridad del dispositivo y $10 en peajes. Dependiendo de la forma de pago que usted elija, podr&iacute;a tener que efectuar un dep&oacute;sito inicial de fondos en su cuenta.</li>
+	 	<br><br>
+	 		<div class="instale"><b>Instale su dispositivo electr&oacute;nico de peaje y empiece a usar FasTrak.</b></div>
+	 	</div>
+	 	<div class="colFull">
+	 		<div class="indento">
+	 		
+			Consulte <a href="#prepare" class="inLineLinkk">Prep&aacute;rese para llenar la solicitud de la cuenta</a> m&aacute;s adelante.
+			</div>
+	 	</div>
+	 	<div class="colLeft">
+	 		<div class="tipsBlock">
+			Si desea recoger un dispositivo electr&oacute;nico de peaje a fin de empezar a usarlo de inmediato, vaya a Costco, Safeway o Walgreens. Antes de hacerlo llame a la tienda para cerciorarse de que tenga el dispositivo electr&oacute;nico de peaje que usted desea. Posteriormente, registre el dispositivo electr&oacute;nico de peaje y abra una cuenta. 
+			</div>
+			<div class="tipsBox">SUGERENCIA</div>
+	 	</div>
+	 	<div class="colRight" style="vertical-align: bottom; padding-bottom: 13px;">
+	 	<a href="https://www.bayareafastrak.org/en/howitworks/retailmap.html" class="oliveButton" style="margin-top: 10px; margin-bottom: 0; width: 220px;" target="_blank">Encuentre una tienda minorista</a>
+	 	</div>
+	 	<div class="colFull">
+	 	<a href="#top" class="backToTop" style="float: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Regresar al Inicio</a><br><a name="prepare"></a>
+	 	<div class="greenArticleTop">Prep&aacute;rese para llenar la solicitud de la cuenta</div>
+	 		<div class="indento">
+	 		A fin de estar preparado para el proceso de solicitud de la cuenta, deber&aacute; contar con la siguiente informaci&oacute;n:
+	 		<br>
+	 		
+	 		<ul>
+			<li class="lister">Su informaci&oacute;n de contacto</li>
+			
+			<li class="lister">La marca, modelo, a&ntilde;o y n&uacute;mero de placa o matr&iacute;cula de su veh&iacute;culo</li>
+			
+			<li class="lister">Si a&uacute;n no tiene un dispositivo electr&oacute;nico de peaje, el tipo y n&uacute;mero de dispositivos electr&oacute;nicos de peaje que usted necesita. Obtenga informaci&oacute;n adicional en <a href="tollTagSpanish.shtml" class="inLineLinkk">Dispositivos electr&oacute;nicos de peaje de FasTrak</a></li>
+			
+			<li class="lister">La forma de pago que usted elija</li>
+			</ul>
+			<div class="orangeTitleCallout" style="clear: both; padding-top: 7px;">Con tarjeta de cr&eacute;dito para pagos autom&aacute;ticos</div>
+			Deposite $25 como saldo m&iacute;nimo para abrir su cuenta. A medida que paga peajes con su cuenta, le cargaremos a su tarjeta de cr&eacute;dito la cantidad necesaria para conservar un saldo m&iacute;nimo en su cuenta. No hay dep&oacute;sito de seguridad para hasta 3 dispositivos electr&oacute;nicos de peaje, pero cada dispositivo adicional requiere un dep&oacute;sito de seguridad de $20. Designar una tarjeta de cr&eacute;dito en su cuenta es la forma m&aacute;s pr&aacute;ctica de conservar el saldo m&iacute;nimo de su cuenta.
+			<div class="orangeTitleCallout">En efectivo, con cheque o tarjeta de cr&eacute;dito para pagos individuales</div>
+			Deposite $50 como saldo m&iacute;nimo para abrir su cuenta. Tambi&eacute;n pague un dep&oacute;sito de seguridad de $20 por cada dispositivo electr&oacute;nico de peaje. A medida que paga peajes con su cuenta, tendr&aacute; que acordarse de depositar fondos en su cuenta cuando su saldo sea bajo. Esta forma de pago toma m&aacute;s tiempo que el pago autom&aacute;tico con una tarjeta de cr&eacute;dito designada en su cuenta.
+			<br><br>
+			Obtenga informaci&oacute;n adicional sobre el <a href="#maintain" class="inLineLinkk">Mantenimiento de un saldo m&iacute;nimo en su cuenta</a>
+			</div>
+		<div class="greenArticleTop">Abra su cuenta</div>
+			<div class="indento">
+			Elija un m&eacute;todo; ya sea:
+			<div class="orangeTitleCallout">En ingl&eacute;s</div>
+			Visite Internet para inscribirse a FasTrak en <a href="https://www.bayareafastrak.org/en/signup/signUp.shtml" class="inLineLinkk" target="_blank">Sign Up For FasTrak</a>.
+			
+			<div style="padding: 15px 0 0 0;">O bien,</div>
+			
+			<div class="orangeTitleCallout">En espa&ntilde;ol</div>
+			Ll&aacute;menos por tel&eacute;fono o visite nuestro Centro de Servicio al Cliente. <a href="contactSpanish.shtml" class="inLineLinkk">Vea c&oacute;mo en Comun&iacute;quese con nosotros</a>.
+			<div style="padding: 15px 0 10px 0;">O bien,</div>
+			<a name="maintain"></a>
+			Haga su solicitud por correo, acuda a <a href="../images/FTApplicationSp.pdf" class="inLineLinkk" target="_blank">Descargar una solicitud</a>.
+			<br>
+			Sin embargo, si ya tiene un dispositivo electr&oacute;nico de peaje, use alguno de los otros m&eacute;todos para abrir su cuenta, no lo haga por correo.
+			</div>
+		<a href="#top" class="backToTop" style="float: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Regresar al Inicio</a><br>
+		<div class="greenArticleTop">Mantenimiento de un saldo m&iacute;nimo en su cuenta</div>
+			<div class="indento">
+			FasTrak calcula el saldo m&iacute;nimo de su cuenta de acuerdo con la cantidad promedio de peajes que usted paga cada mes. Cuando el saldo de su cuenta baja demasiado, usted debe depositar m&aacute;s fondos para poder seguir utilizando FasTrak. Hay dos formas de pago.
+			<br>
+			</div>
+		<div class="colLeft" style="max-width: 350px;">
+			<div class="indento">
+			<div class="orangeTitleCallout" style="padding-bottom: 20px;">Pago autom&aacute;tico con tarjeta de cr&eacute;dito</div>
+			Designar una tarjeta de cr&eacute;dito para efectuar los pagos de su cuenta es la forma m&aacute;s pr&aacute;ctica de mantener el saldo de su cuenta. FasTrak le enviar&aacute; estados de cuenta que indican dichas transacciones.
+			</div>
+		</div>
+		<div class="colRight">
+			<div class="orangeTitleCallout">Pagos individuales en efectivo, con cheque o con tarjeta de cr&eacute;dito</div>
+			Usted debe depositar fondos en su cuenta cada vez que su saldo sea demasiado bajo. Podr&aacute; ver un mensaje exhibido cuando pase por la caseta de pago de peaje. Tambi&eacute;n le enviaremos por correo un aviso porque debe a&ntilde;adir fondos a su cuenta para poder seguir usando FasTrak. Si su cuenta no tiene fondos suficientes y usted trata de usar FasTrak para pagar el peaje, FasTrak no pagar&aacute; el peaje y usted podr&iacute;a recibir un aviso de infracci&oacute;n de peaje.
+			<br><br>
+			La forma de pago individual toma m&aacute;s tiempo que el pago autom&aacute;tico con tarjeta de cr&eacute;dito.
+			<br><br>
+			Cuando desee hacerlo, puede cambiar su forma de pago en Internet a trav&eacute;s de Account Settings (Configuraci&oacute;n de su cuenta) o llamando al Centro de Servicio al Cliente.
+		</div>
+		<div class="colFull">
+			<div class="tipsBlock">
+				<div class="tipsBlockTitle">Formas de efectuar pagos individuales</div>
+			Si usted no decide hacer pagos autom&aacute;ticos con una tarjeta de cr&eacute;dito asignada a su cuenta, hay muchas otras opciones para efectuar pagos individuales. Puede pagar en efectivo, con cheque o con tarjeta de cr&eacute;dito. Puede pagar por Internet, por tel&eacute;fono, enviando un cheque por correo, en kioscos que aceptan efectivo y tarjetas de cr&eacute;dito, o en persona en el Centro de Servicio al Cliente de San Francisco. Visite el sitio web en ingl&eacute;s para ver todas las opciones.
+			</div>
+				<div class="tipsBox">SUGERENCIA</div>
+
+		</div>
+		<a href="https://www.bayareafastrak.org/en/howitworks/waysToPay.shtml " class="oliveButton" style="margin-top: 10px; margin-bottom: 0;" target="_blank">Opciones de pago individual</a>
+	 	<div class="greenArticleTop" style="max-width: 722px;">Reembolso completo</div>
+	 		<div class="indento">
+	 		Si llegara a cerrar su cuenta de FasTrak, despu&eacute;s de devolvernos su dispositivo o dispositivos electr&oacute;nicos de peaje de FasTrak, recibir&aacute; el reembolso completo de cualquier cantidad restante en su cuenta. No se aplica un cargo de servicio por usar FasTrak.
+	 		</div>
+	 		<br>
+	 		<a href="#top" class="backToTop" style="float: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Regresar al Inicio</a>
+	 </div>
+</div>
+<!-- end content -->
+</div>
+<div class="footerTopperRelated">
+	<div class="footerToppler">Keep moving with FasTrak</div>
+</div>
+<script src="../common/js/footer.js"></script>
+
+  </body>
+</html>

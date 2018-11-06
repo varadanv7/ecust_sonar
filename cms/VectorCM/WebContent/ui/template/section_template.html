@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:fn="http://java.sun.com/jsp/jstl/functions">
+<body>
+	<ui:composition>
+		<div id="sections">
+			<p:layout style="height: 400px;">
+				<p:layoutUnit position="center"
+					style="height: 400px;overflow:auto;">
+					<p:dataTable var="comp1" style="border:0;" id="sectionContent"
+						value="#{currcomp.childComponents}" rowStyleClass="row-nocolor">
+						<p:column rendered="#{!comp1.deleted}">
+							<!-- <h:selectBooleanCheckbox id="toDelete" rendered="#{currcomp.activeSize > 1}" value="#{comp1.deleted}" /> -->
+							<h:selectOneMenu id="order" rendered="#{currcomp.activeSize > 1}" value="#{comp1.orderNo}">
+								 <f:selectItems value="#{currcomp.orderNumbers}"/>
+							</h:selectOneMenu>
+							<p:dataTable var="childcomp" style="border-bottom: 3px dashed;height: 365px;" id="divContent"
+								value="#{comp1.childComponents}" rowStyleClass="row-nocolor">
+								<p:column style="text-align:right;" width="10%">
+									<h:outputText value="#{childcomp.description}" 
+										rendered="#{childcomp.rendertype != 'image' || childcomp.newEntry}"
+										style="width:8%"></h:outputText>
+									<h:graphicImage value="#{childcomp.oldval}" 
+										rendered="#{childcomp.rendertype == 'image' &amp;&amp; (!childcomp.newEntry)}" width="80"
+										height="80"></h:graphicImage>
+								</p:column>
+								<p:column>
+									<ui:fragment rendered="#{childcomp.rendertype == 'textarea'}">
+										<ui:include src="/ui/template/textarea_template.xhtml">
+											<ui:param name="currcomp" value="#{childcomp}"></ui:param>
+										</ui:include>
+									</ui:fragment>
+									<ui:fragment rendered="#{childcomp.rendertype == 'image'}">
+										<ui:include src="/ui/template/image_template.xhtml">
+											<ui:param name="currcomp" value="#{childcomp}"></ui:param>
+										</ui:include>
+									</ui:fragment>
+								</p:column>
+								<hr/>
+							</p:dataTable>
+						</p:column>
+					</p:dataTable>
+				</p:layoutUnit>
+				<p:layoutUnit id="btncontent" position="east" style="border:none;">
+					<p:commandButton id="addDivbtn" value="#{messages.addDivbtn}"
+						actionListener="#{currcomp.addDivToSection}" update="sectionContent,removeDivbtn" /><br/> <br/>
+					<p:commandButton id="removeDivbtn" value="#{messages.removeDivbtn}"
+						disabled="#{currcomp.activeSize == 1}"
+						actionListener="#{currcomp.removeDivFromSection}" oncomplete="navArrow();" update="sectionContent,removeDivbtn"/><br/> <br/>
+					<p:commandButton id="removesectionbtn" value="#{messages.removesectionbtn}"
+						actionListener="#{currcomp.removeSection}" oncomplete="navArrow();" update="@form" />
+				</p:layoutUnit>
+			</p:layout>
+		</div>
+	</ui:composition>
+</body>
+</html>

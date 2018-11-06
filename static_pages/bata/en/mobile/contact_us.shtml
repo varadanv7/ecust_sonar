@@ -1,0 +1,125 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+<title>FasTrak&reg; - Keeping the Bay Area Moving</title>
+<!--#include file="header-meta.html" -->
+<style>
+.sub-header{
+border-top:1px solid;
+border-bottom:1px solid;
+border-color:#ADADAD;
+padding:0.7em;
+color: #0098A3;
+background-color: rgba(173, 173, 173, 0.22);
+font-weight: normal;
+width:100%;
+}
+</style>
+</head>
+<body>
+<!--#include file="header.html" -->
+<!--Content start-->
+<div id="title_nav">Contact Us</div>
+<div align="center" class="panel-body bach" editarea="immdinfo1" >
+			<div class="ctu bach">
+				<div class="weekendheader" editareadesc="Information Header"></div>
+				<div editareadesc="Information body" class=""></div>
+				<div id="contact-wrap">
+					<div class="row" align="center">
+						<div class="col-xs-12 col-sm-12">
+							<h2>Automated Phone System</h2>
+                            <p><strong>Available 24 hours/day, 7 days/week</strong></p>
+                            <p>For general information and account access.</p>
+                            
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="trngl">
+								<polyline points="0,2  150,2  75,20" style="stroke:rgba(0,153,163,1.00); fill:rgba(0,153,163,0.8);"/>
+                            </svg>
+                            
+							<h2><a href="tel:1-877-229-8655">1-877-BAY-TOLL</a></h2>
+							<h4><a href="tel:1-877-229-8655">(1-877-229-8655)</a></h4>
+
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="trngl">
+								<polyline points="0,18  150,18  75,0" style="stroke:rgba(0,153,163,1.00); fill:rgba(0,153,163,0.8);"/>
+                            </svg>
+
+                            <h2>Customer Service Center</h2>
+						</div>
+					</div>
+					<div class="row ft-info" align="center">
+						<div class="col-md-6 cell-wrap">
+							<table width="80%"><tr>
+									<td width="20%"><img src="../images/location-01.png"></img></td>
+									<td><p><strong>In-Person Service and Call Center</strong><br>
+                                62 First Street<br>
+                                San Francisco<br>
+                                CA 94105</p></td>
+							</tr></table>
+						</div>
+						<div class="col-md-6 cell-wrap">
+							<table width="80%"><tr>
+									<td width="20%"><img src="../images/clock-01.png"></img></td>
+									<td><p><strong>Hours of Operation</strong><br>
+                                Monday - Friday<br>
+                                8:30am - 5:30pm<br>
+                                Saturday<br>
+                                9:00am - 1:00pm</p></td>
+							</tr></table>
+                        </div>
+					</div>
+					<div class="row" align="center">
+						<div class="col-md-6 cell-wrap">
+							<table width="80%"><tr>
+									<td width="20%"><img src="../images/globe-01.png"></img></td>
+									<td><p><strong>International</strong><br>
+                                <a href="tel:1-415-486-8655">1-415-486-TOLL</a><br>
+                                <a style="color:#5a5a5a;" href="tel:1-415-486-8655">(1-415-486-8655)</a><br>
+                            	<strong>FAX: 1-415-974-6356</strong></p></td>
+							</tr></table>
+                        </div>
+                       <div class="col-md-6">
+							<a class="btn btn-default btn-ct btngf" href="../routers/contactUs.html"><h4>Email Us</h4></a>
+						</div>
+					</div>
+
+				<a name="mailing"></a>
+				<div class="row">
+					<div class="col-md-5 ct-mail">
+						<h4 class="active">Mailing Addresses</h4>  
+						<p><strong>For New Accounts and General Inquiries</strong></p>
+						<div editareadesc="Account Inquiries">
+						<p> Bay Area FasTrak Customer Service Center<br>
+						P.O. Box 26926<br>
+						San Francisco, CA 94126</p>
+						</div>			
+						<p><strong>To Make a Payment</strong></p>
+						<div editareadesc="Violation Payment">
+						<p>FasTrak Violation Processing Department<br>
+						P.O. Box 26925<br>
+						San Francisco, CA 94126</p>
+						</div>
+						<div editareadesc="Invoice Payment">
+						<p>Invoice Processing Department<br>
+						P.O. Box 26879<br>
+						San Francisco, CA 94126</p>
+						</div>
+						<div editareadesc="LP Payment and OTP">
+						<p>License Plate Account and One-Time Payment Processing Department<br>
+						P.O. Box 26898<br>
+						San Francisco, CA 94126</p>
+						</div>
+					</div>
+					<div class="col-md-7 ct-map" align="center">
+						<a href="#" data-featherlight="../images/cscMoved_lg_rev.jpg"><img src="../images/cscMoved_rev.jpg"></a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+</div>
+<!--content end-->
+<!--#include file="footer.html"-->
+</body>
+<script>
+setheader();
+</script>
+</html>

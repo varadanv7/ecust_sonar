@@ -1,0 +1,73 @@
+<style>
+	.weekend-inner a{
+		color: yellow;
+		text-decoration:underline;
+	}
+	.weekend-inner span{
+		border-radius: 2px;
+		opacity: 2;
+		color: yellow;
+		background-color: rgba(255, 255, 255, 0.4);
+		margin-bottom: 5px;
+		font-size: 15px;
+	}
+	</style>
+
+	<!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="item active imgLiquidFill imgLiquid">
+          <img class="respimg" editarea="HomeImage1" src="../images/Homepage_Desktop.png" alt="Home Carousel Image" />
+		  <div class="container">
+            <div class="carousel-caption crsltop">
+			  <div class="feedback-outer weekend" align="center">
+				<div class="feedback-inner weekend-inner"><span editarea="feedback1" editareadesc="Information Box"></span></div>
+			  </div>
+              <h1>Siempre en movimiento con FasTrak</h1>
+			  <div id="horizontalTab">
+					<ul class="hidden-xs">
+						<li><a href="#mapotp" onclick="document.location='../howitworks/makeapayment.shtml'" class="r-tab-start"><img src="../images/mkpay_sc.png" class="tabimg" /></a></li>
+						<li><a href="#ctggb" onclick="document.location='../ggb/crossing.shtml'"><img src="../images/ctgg_sc.png" class="tabimg" /></a></li>
+						<li><a href="#signup" onclick="document.location='../signup/signup.shtml'" class="r-tab-end"><img src="../images/signup_sc.png" class="tabimg" /></a></li>
+					</ul>
+					<div id="mapotp">
+						<form role="form" name="inquiryForm" method="post" action="/vector/violations/bataViolationInquiry.do?btnLookupViolation=clicked&amp;formid=frmViolationInquiry&from=Home&locale=es_US">
+						  <div class="form-group has-feedback right-inner-addon" id="invViolNum">
+							<span><img src="../images/Help_Button.png" title=" Una factura comienza con la letra &quot;I&quot;. Una infracci&oacute;n comienza con la letra &quot;T&quot;. Ambos son seguidos por hasta 12 d&iacute;gitos." class="righttip" /></span>
+							<input type="text" id="tt_invViolNum" class="form-control" placeholder="Factura o  Infracción #" size="30" name="violinv" onblur="tabOutCarous('violinv',this.value, valViolURL, this,this.form)" />
+						  </div>
+						  <div class="row">
+							  <div class="form-group has-feedback col-md-6" id="licensePlate">
+							  <input type="text" id="tt_licensePlate" class="form-control" placeholder="Número de placa" size="30" name="licensePlate" onblur="tabOutCarous('licensePlate',this.value, valViolURL, this,this.form)" />
+							  </div>
+							  <div class="form-group has-feedback col-md-3" id="licenseState">
+								<select id="tt_licenseState" name="licenseState" class="form-control" onblur="tabOutCarous('licenseState',this.value, valViolURL, this,this.form)">
+								<option value="AK">AK</option><option value="AL">AL</option><option value="AR">AR</option><option value="AZ">AZ</option><option value="CA" selected="">CA</option><option value="CO">CO</option><option value="CT">CT</option><option value="DC">DC</option><option value="DE">DE</option><option value="FL">FL</option><option value="GA">GA</option><option value="HI">HI</option><option value="IA">IA</option><option value="ID">ID</option><option value="IL">IL</option><option value="IN">IN</option><option value="KS">KS</option><option value="KY">KY</option><option value="LA">LA</option><option value="MA">MA</option><option value="MD">MD</option><option value="ME">ME</option><option value="MI">MI</option><option value="MN">MN</option><option value="MO">MO</option><option value="MS">MS</option><option value="MT">MT</option><option value="NC">NC</option><option value="ND">ND</option><option value="NE">NE</option><option value="NH">NH</option><option value="NJ">NJ</option><option value="NM">NM</option><option value="NV">NV</option><option value="NY">NY</option><option value="OH">OH</option><option value="OK">OK</option><option value="OR">OR</option><option value="PA">PA</option><option value="RI">RI</option><option value="SC">SC</option><option value="SD">SD</option><option value="TN">TN</option><option value="TX">TX</option><option value="UT">UT</option><option value="VA">VA</option><option value="VT">VT</option><option value="WA">WA</option><option value="WI">WI</option><option value="WV">WV</option><option value="WY">WY</option>
+								</select>
+							  </div>
+
+							  <div class="col-xs-3">
+								<button type="submit" class="btnbt btnbt-default">BUSCAR</button>
+							  </div>
+						  </div>
+						 
+						</form>
+					</div>
+					<div id="signup" class="tabsmessage">
+						¡Abra una cuenta para pagar sus peajes de forma cómoda y ahorrar tiempo! Active su <a href="../routers/tagreg.html">dispositivo de peaje comprado en una tienda</a> para comenzar, ¡o <a href="../signup/fastrakprep.shtml">pida un dispositivo hoy mismo!</a>
+						<form action="../signup/signup.shtml"><button class="btnbt btnbt-default" name="btnLogin" type="submit">¡SUSCRÍBASE AHORA</button></form>
+					</div>
+					<div id="ctggb" class="tabsmessage">
+						Encuentre información sobre <a href="../ggb/crossing.shtml#waystopay">cómo pagar su peaje</a> en el puente Golden Gate, <a href="../ggb/crossing.shtml#visitorinfo">información para viajeros</a> y opciones de pago <a href="../ggb/crossing.shtml#rental">para vehículos alquilados</a>. Recuerde que en este puente no hay personal para recibir el pago de peajes.
+						 <div class="text-left"><a class="btnbt btnbt-default btn-block" href="../ggb/onetimepayment.shtml">PAGAR UN PEAJE DEL PUENTE GOLDEN GATE</a></div>
+					</div>
+				</div>
+            </div>
+          </div>
+        </div>
+      </div>
+		  
+      <!--<a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>-->
+    </div><!-- /.carousel -->

@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:c="http://java.sun.com/jsp/jstl/core"
+	xmlns:p="http://primefaces.org/ui">
+	
+	
+<h:head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<script src="/ui/jscript/jquery-1.10.1.js"></script>
+<style>
+.row-nocolor {
+	background-color: none !important;
+	background: none repeat scroll 0px 0px #FFF !important;
+	border-color: #FFF;
+}
+#sections table thead{
+	display: none;
+}
+#imageContent table tr {
+	border: 0 !important;
+}
+.ui-layout-unit-header-title {
+	font-size: 25px;
+	text-align: center;
+}
+.infomessage {
+	font-style: oblique;
+	font-size: 0.7em;
+	font-weight: bold;
+	color: rgba(207, 135, 135, 1);
+}
+.height500{
+	height: 500px;
+}
+#messagepanel{
+	text-align: center;
+}
+
+.infoStyle{
+	color: green;
+	list-style-image: url("../../ui/images/success.png");
+	list-style-type: none;	
+}
+
+.errorStyle{
+	color: red;
+	list-style-image: url("../../ui/images/error.png");
+	list-style-type: none;	
+}
+.editContent{
+	background-image: url("../../ui/images/error.png");
+}
+#editor{
+	height:300px;
+	width:900px;
+}
+
+div[id = "editor"] * textarea[style ~= "inline;"] + iframe { 
+    display: none !important;
+}
+
+div[id = "editor"] * textarea[style ~= "inline-block;"] + iframe { 
+    display: none !important;
+}
+
+</style>
+<script>
+window.onbeforeunload = confirmExit;
+var isunload=true;
+var timer;
+function confirmExit(){
+	if(isunload==true){
+		document.getElementById('deletePreviewAll').click();
+		updateTimeout();
+	}
+	isunload=true;
+}
+
+$(document).ready(function() {
+	refreshImagePanels();
+	
+	navArrow();
+	//var htmlcont = $("#loadbtn")[0].outerHTML;
+	//$("#loadbtn").each(function(){ alert(this.outerHTML); $(this).css('display','none')});
+	//$("div[id='filespanel'] div").append(htmlcont);
+});
+
+function navArrow(){	
+	if (navigator.userAgent.match(/msie 8/i) 
+			|| navigator.userAgent.match(/msie 9/i)){	
+		$("#files").attr('ondblclick','');
+    }else{
+    	$("#loadbtn").css('display','none');
+    }
+}
+
+function refreshImagePanels(){
+
+	$("input[name$='imagemode']").each(function(index){
+		if('checked' == $(this).attr('checked')){
+			toggleImageMode($(this).attr('name'),$(this).attr('value'));
+		}
+	});
+	return;
+}
+
+function imageUploadMode(elem){	
+	toggleImageMode($(elem).attr('name'),$(elem).attr('value'));
+	return;
+}
+
+function toggleImageMode(idvar,valvar){
+	if(valvar=='new'){
+		$("[id='"+idvar+"existing']").hide();
+	}else{
+		$("[id='"+idvar+"new']").hide();
+	}	
+	
+	$("[id='"+idvar+valvar+"']").show();
+}
+
+function setunload(){
+	isunload=false;
+}
+var timeout = "#{sessionScope['timeout']}";  
+timer = setTimeout('openTimeoutcheck()',timeout);
+
+function openTimeoutcheck(){
+	PF('dlgtimeoutcheck').show();
+	clearTimeout(timer);
+	timer = setTimeout('openTimeout()',120000);
+}
+function openTimeout(){
+	PF('dlgtimeoutcheck').hide();
+	PF('dlgtimeout').show();
+}
+
+function updateTimeout(){
+	clearTimeout(timer);
+	timer = setTimeout('openTimeoutcheck()',timeout);
+}
+
+function openPreview(){
+	//window.open(document.getElementById('dlgpreview').value,'_blank');
+	var windowObjectReference = window.open(
+			document.getElementById('dlgpreview').value,
+	    	"Preview",
+	    	"resizable,scrollbars,status");
+	
+	window.setTimeout("document.getElementById('deletePreview').click()", 2500);
+}
+
+function openImage(imgurl){
+	window.open(imgurl,"Image","scrollbars,status");
+}
+
+function gotoLastPage(){
+	$(".ui-icon-seek-end").click();
+	window.setTimeout('$("#xmleditables tbody td").last().click()', 1000);
+}
+function gotoFirstPage(){
+	$(".ui-icon-seek-first").click();
+}
+
+</script>
+	<title>Content Manager</title>
+</h:head>
+<h:body>
+	<h:form prependId="false" id="form1" enctype="multipart/form-data">
+		<h:messages errorClass="errorStyle" infoClass="infoStyle" id="messagepanel"></h:messages>
+		<p:layout style="height:550px;" id="filecontent">
+			
+			<p:layoutUnit position="west" size="250" id="filespanel" header="#{messages.fileslist}"
+				style="height:500px;">
+				<p:commandLink id="loadbtn" style="float:right"
+							action="#{cmpagebean.loadEditableContents}" update="@form">
+					<h:graphicImage value="../../ui/images/arrow1.png" width="40" height="30" alt="#{messages.uploadImage}"></h:graphicImage>
+				</p:commandLink>
+				<p:fileUpload fileUploadListener="#{cmpagebean.uploadListener}" allowTypes="/(\.|\/)(#{cmpagebean.fileAllowedTypes})$/" 
+					multiple="false" sizeLimit="#{cmpagebean.imageFileSize}" fileLimit="#{currcomp.filelimit}"
+					invalidSizeMessage="#{messages.fileAllowedTypesMsg1}#{cmpagebean.fileAllowedTypesMsg}#{messages.fileAllowedTypesMsg2}"
+					invalidFileMessage="#{messages.fileAllowedTypesMsg1}#{cmpagebean.fileAllowedTypesMsg}#{messages.fileAllowedTypesMsg2}" 
+				/>
+	             <p:commandButton value="Browse Files" oncomplete="PF('loadServerFiles').show();return false;" >
+	            </p:commandButton>	
+				<br></br><hr></hr>
+				<h:selectOneListbox id="files" size="23"
+					value="#{cmpagebean.currPage}" style="border:0;width:100%;height:50%">
+					<f:selectItems value="#{cmpagebean.editablePages}"></f:selectItems>
+					<f:converter converterId="editableFileConverter" for="files"></f:converter>
+					<p:ajax event="dblclick" listener="#{cmpagebean.loadEditableContentsAjax}" 
+						onstart="PF('loader').show();" update="@form"
+						oncomplete="refreshImagePanels();setunload();navArrow();"></p:ajax>
+				</h:selectOneListbox>
+			</p:layoutUnit>
+
+			<p:layoutUnit position="center" style="border:0;" rendered="#{!cmpagebean.currPage.mappage}">
+			<p:layout>
+			<p:layoutUnit position="center" size="500"
+				style="height:500px;border:0;">
+				<p:layout>
+					<p:layoutUnit position="north" size="60" style="border:0;" rendered="#{cmpagebean.previewAvailable}">
+						<p:commandButton id="approvebtn" onclick="PF('dlgapprove').show();" value="#{messages.approvebtn}"
+							rendered="#{userbean.roles.contains('publisher')}"
+							style="float: right;" type="button"/>
+						<p:commandButton id="previewbtn" value="#{messages.previewbtn}"
+							action="#{cmpagebean.loadPreview}" update="dlgpreview"
+		    				oncomplete="openPreview();"
+							style="float: right;"/>
+						<p:commandButton id="cancelbtn" onclick="PF('dlgcancel').show();"
+							value="#{messages.cancelbtn}" style="float: right;" type="button"/>
+					</p:layoutUnit>
+					<p:layoutUnit position="center" rendered="#{not empty cmpagebean.editableComps}"
+						header="#{messages.pagetitle} - #{cmpagebean.currPage.fileName}">
+						<div id="editablesDiv">
+						<p:dataTable id="editables" var="comp" style="border:0;" 
+							value="#{cmpagebean.editableComps}" rowIndexVar="rowIndex"
+							rowStyleClass="row-nocolor">
+							<p:column headerText="#{messages.tableHeaderComponent}" style="text-align:right;" width="15%">
+								<h:outputText value="#{comp.description}" style="width:10%"></h:outputText><br/>
+								<h:graphicImage value="#{comp.oldval}" onclick="openImage('#{request.contextPath}#{comp.oldval}')"
+									rendered="#{comp.rendertype == 'image'}" width="100"
+									height="100"></h:graphicImage>
+							</p:column>
+							<p:column headerText="#{messages.tableHeaderNewVal}">
+								<ui:fragment rendered="#{comp.rendertype == 'textarea'}">
+									<ui:include src="/ui/template/textarea_template.xhtml">
+										<ui:param name="currcomp" value="#{comp}"></ui:param>
+										<ui:param name="rowIndexNo" value="#{rowIndex}"></ui:param>
+									</ui:include>
+								</ui:fragment>
+								<ui:fragment rendered="#{comp.rendertype == 'image'}">
+									<ui:include src="/ui/template/image_template.xhtml">
+										<ui:param name="currcomp" value="#{comp}"></ui:param>
+									</ui:include>
+								</ui:fragment> 
+								<ui:fragment id="sectionFragment" rendered="#{!comp.deleted  &amp;&amp;  comp.rendertype == 'section'}">
+									<ui:include src="/ui/template/section_template.html">
+										<ui:param name="currcomp" value="#{comp}"></ui:param>
+									</ui:include>
+								</ui:fragment>
+							</p:column>
+						</p:dataTable>
+						</div>
+					</p:layoutUnit>
+					<p:layoutUnit position="center" size="500" header="#{messages.filedisplay}"
+						rendered="#{empty cmpagebean.editableComps}">
+					</p:layoutUnit>
+					<p:layoutUnit position="south" size="60" style="border:0" rendered="#{userbean.roles.contains('editor')}">
+						<p:commandButton id="savebtn" action="#{cmpagebean.saveEditedContents}" value="#{messages.savebtn}"
+							rendered="#{!cmpagebean.currPage.directory}"
+							style="float:right;"></p:commandButton>
+						<p:commandButton id="addfaqbtn" value="#{messages.addfaqbtn}" actionListener="#{cmpagebean.addNewFaqGetPages}"
+							oncomplete="PF('faqPrompt').show();" rendered="#{cmpagebean.currPage.faqpage}"
+							style="float:right;right: 2em;" update="subforfaqs"></p:commandButton>
+						<p:commandButton id="addsectionbtn" value="#{messages.addsectionbtn}" actionListener="#{cmpagebean.addNewSectionGetPages}"
+							oncomplete="PF('sectionPrompt').show();navArrow();" rendered="#{cmpagebean.currPage.addEnabled}"
+							style="float:right;right: 2em;" update="@form"></p:commandButton>
+					</p:layoutUnit>
+				</p:layout>
+			</p:layoutUnit>
+			</p:layout>
+			</p:layoutUnit>
+			<p:layoutUnit position="center" 
+				style="border:0" rendered="#{cmpagebean.currPage.mappage}">
+				<div id="upddatediv">
+				<table style="width: 100%"><tr><td width="70%">
+				<p:dataTable id="xmleditables" var="xmlelmnt" style="border:0;" paginator="true" rows="12" 
+					value="#{cmpagebean.currPage.mapLocations.locnElemnts}" rowKey="#{xmlelmnt.id}" 
+					selection="#{cmpagebean.selectedLocation}" selectionMode="single" >
+					<p:ajax event="rowSelect" update="@form" oncomplete="navArrow();"/>
+					<p:column headerText="Location">
+						<h:outputText value="#{xmlelmnt.name}" style="width:10%" ></h:outputText>
+					</p:column>
+				</p:dataTable>
+				</td><td>
+				<h:panelGrid width="100%" id="displayloc" columns="2" cellpadding="4" rendered="#{null != cmpagebean.selectedLocation}">  
+	  			
+		            <h:outputText value="Name:" />  
+		            <p:inputText id="in_loc_name" value="#{cmpagebean.selectedLocation.name}" />  
+		  
+		            <h:outputText value="Latitude:" /> 
+		            <p:inputText id="in_loc_lat" value="#{cmpagebean.selectedLocation.lat}" />
+		  
+		            <h:outputText value="Longitude:" />  
+		            <p:inputText id="in_loc_long" value="#{cmpagebean.selectedLocation.longitude}" />
+		  
+		            <h:outputText value="Icon:" />  
+		            <p:selectOneMenu id="in_loc_icon" value="#{cmpagebean.selectedLocation.icon}">
+		            	<f:selectItem itemLabel="Tnb Kiosk" itemValue="Tnb Kiosk"></f:selectItem>
+		            	<f:selectItem itemLabel="SGS Location" itemValue="SGS Location"></f:selectItem>
+						<f:selectItem itemLabel="Safeway" itemValue="Safeway"></f:selectItem>
+						<f:selectItem itemLabel="Walgreens" itemValue="Walgreens"></f:selectItem>
+						<f:selectItem itemLabel="Costco" itemValue="Costco"></f:selectItem>
+		            </p:selectOneMenu>
+		            
+		            <h:outputText value="Street:" />  
+		            <p:inputText id="in_loc_street" value="#{cmpagebean.selectedLocation.street}" />
+		            
+		            <h:outputText value="City:" />  
+		            <p:inputText id="in_loc_city" value="#{cmpagebean.selectedLocation.city}" />
+		            
+		            <h:outputText value="State:" />  
+		            <p:inputText id="in_loc_state" value="#{cmpagebean.selectedLocation.state}" />
+		            
+		            <h:outputText value="Zip:" />  
+		            <p:inputText id="in_loc_zip" value="#{cmpagebean.selectedLocation.zip}" />
+		            
+		            <h:outputText value="Phone:" />  
+		            <p:inputText id="in_loc_phone" value="#{cmpagebean.selectedLocation.phone}" />
+		            
+		            <h:outputText value="Notes:" />  
+		            <p:inputText id="in_loc_notes" value="#{cmpagebean.selectedLocation.notes}" />
+		            
+		            <p:commandButton id="in_loc_delete" onstart="PF('loader').show();" value="Delete" update="@form" style="float:right;" action="#{cmpagebean.deleteLocation}" oncomplete="gotoFirstPage();navArrow();"></p:commandButton>
+		            <p:commandButton id="in_loc_edit" onstart="PF('loader').show();" value="Apply Changes" update="@form" style="float:right;" action="#{cmpagebean.updateLocation}" oncomplete="navArrow();"></p:commandButton>
+
+		        </h:panelGrid> 
+		        <h:panelGrid width="100%" id="displaylocNull" columns="1" rendered="#{null == cmpagebean.selectedLocation}">
+		        	<div align="center">Please Select a location to <br/><br/><br/> VIEW / EDIT / DELETE</div>
+		        </h:panelGrid> 
+		        <p/><p/>
+		        <p/><p/>
+		        </td></tr></table>
+		        <p:commandButton action="#{cmpagebean.saveXMLChanges}" value="SAVE ALL" update="@form"
+					style="float:right;" onstart="PF('loader').show();" oncomplete="gotoFirstPage();navArrow();"></p:commandButton>
+		        <p:commandButton value="Add New Location" action="#{cmpagebean.addLocation}" update="@form"
+					style="float:right;" onstart="PF('loader').show();" oncomplete="gotoLastPage();navArrow();"></p:commandButton>
+		        <p:commandButton value="Referred Pages" actionListener="#{cmpagebean.loadReferredpages}" 
+	        		rendered="#{cmpagebean.previewAvailable}" style="float:left;"
+					oncomplete="PF('mapRefPrompt').show();navArrow();" update="refForMap"></p:commandButton>
+		        <p:commandButton value="Delete Preview" action="#{cmpagebean.cancelPreview}" update="@form" 
+	        		rendered="#{cmpagebean.previewAvailable}" style="float:left;"></p:commandButton>
+		        <p:commandButton id="approvexmlbtn" onclick="PF('dlgapprove').show();" value="#{messages.approvebtn}"
+					rendered="#{userbean.roles.contains('publisher') &amp;&amp; cmpagebean.previewAvailable}"
+					style="float:left;"></p:commandButton>
+		        </div>
+			</p:layoutUnit>
+			
+			<p:commandButton id="deletePreview" oncomplete="updateTimeout();"
+		    	actionListener="#{cmpagebean.clearPreviewOnClose}"
+		    	style="visibility:hidden;display:none;">
+		    </p:commandButton>
+		    <p:commandButton id="deletePreviewAll"
+		    	actionListener="#{cmpagebean.clearAllPreviewOnClose}"
+		    	style="visibility:hidden;display:none;">
+			</p:commandButton>
+			<p:commandButton id="refreshall" onstart="setunload();"
+		    	action="#{cmpagebean.timeoutextend}" style="visibility:hidden;display:none;">
+			</p:commandButton>
+			<h:inputText id="dlgpreview" value="#{cmpagebean.previewUrl}" style="display:none;"></h:inputText>
+		</p:layout>
+		
+		
+		<p:dialog id="cnfrmForCancel" header="#{messages.confirmationMsgHeader}" widgetVar="dlgcancel" modal="true" height="100" closable="false">  
+		    <h:outputText value="#{messages.confMsgDelete}" /> <br/><br/>
+		    <p:commandButton value="#{messages.yesbtn}" 
+		    	action="#{cmpagebean.cancelPreview}"
+		    	oncomplete="PF('dlgcancel').hide();navArrow();"
+				style="float: right;">
+			</p:commandButton>
+			<p:commandButton onclick="PF('dlgcancel').hide();"
+				value="#{messages.nobtn}" style="float: right;" type="button"></p:commandButton>
+		</p:dialog>
+		
+		<p:dialog id="editDialogPanel" header="#{messages.confirmationMsgHeader}" rendered="#{null != cmpagebean.selectedComponent}" widgetVar="editDialPnl" modal="true">  
+		    <div onshow="this.children[0].init();"><p:editor id="editor" lazy="true" widgetVar="primeEditor" value="#{cmpagebean.selectedComponent.newval}"/>
+		    <h:outputText value="#{messages.dsMessage}" class="infomessage"
+				rendered="#{cmpagebean.selectedComponent.type.tagName == 'ds'}"/>
+			<h:outputText value="#{messages.faqMessage}" class="infomessage"
+				rendered="#{cmpagebean.selectedComponent.type.tagName == 'faqs'}"/>
+		    </div>
+		    <p:commandButton value="#{messages.yesbtn}" 
+		    	actionListener="#{cmpagebean.saveEditorContentToComponent}"
+		    	oncomplete="PF('editDialPnl').hide();navArrow();" update="@form"
+				style="float: right;">
+			</p:commandButton>
+			<p:commandButton onclick="PF('editDialPnl').hide();"
+				value="#{messages.nobtn}" style="float: right;" type="button"></p:commandButton>
+		</p:dialog>
+		
+		<p:dialog id="cnfrmSubPageForFAQ" header="#{messages.faqPageSpecific}" widgetVar="faqPrompt" style="height:10em;" modal="true" width="20em" closable="true">  
+		    <h:outputText value="#{messages.faqPageSelectMessage}" /> <br/><br/>
+		    <h:selectOneMenu id="subforfaqs" style="width:100%;"
+					value="#{cmpagebean.subpageForFAQ}">
+					<f:selectItems value="#{cmpagebean.subPagesForFAQ}"></f:selectItems>
+			</h:selectOneMenu><br/><br/>
+		    <p:commandButton value="#{messages.selectbtn}" 
+		    	actionListener="#{cmpagebean.addNewFaq}" style="float: right;"
+		    	oncomplete="PF('faqPrompt').hide();navArrow();" update="editables">
+			</p:commandButton>
+			<p:commandButton onclick="PF('faqPrompt').hide();"
+				value="#{messages.cancelbtn}" type="button" style="float: right;"></p:commandButton>
+		</p:dialog>
+		
+		<p:dialog id="SubPageForSection" header="#{messages.secPageSpecific}" widgetVar="sectionPrompt" style="height:10em;" modal="true" width="20em" closable="true">  
+		    <h:outputText value="#{messages.sectionPageSelectMessage}" /> <br/><br/>
+		    <h:selectOneMenu id="subforsections" style="width:100%;"
+					value="#{cmpagebean.subpageForSection}">
+					<f:selectItems value="#{cmpagebean.subPagesForSection}"></f:selectItems>
+			</h:selectOneMenu><br/><br/>
+		    <p:commandButton value="#{messages.selectbtn}" 
+		    	actionListener="#{cmpagebean.addNewSectionComponent}" style="float: right;"
+		    	oncomplete="PF('sectionPrompt').hide();navArrow();" update="@form">
+			</p:commandButton>
+			<p:commandButton onclick="PF('sectionPrompt').hide();"
+				value="#{messages.cancelbtn}" type="button" style="float: right;"></p:commandButton>
+		</p:dialog>
+		
+		<p:dialog id="cnfrmRefPageForMap" header="#{messages.faqPageSpecific}" widgetVar="mapRefPrompt" style="height:10em;" modal="true" width="20em" closable="true">  
+		    <h:outputText value="#{messages.faqPageSelectMessage}" /> <br/><br/>
+		    <h:selectOneMenu id="refForMap" style="width:100%;"
+					value="#{cmpagebean.selectedMapRefPage}">
+					<f:selectItems value="#{cmpagebean.refPagesForMap}"></f:selectItems>
+					<f:converter converterId="editablePageConverter" for="refForMap"></f:converter>
+			</h:selectOneMenu><br/><br/>
+		    <p:commandButton value="Preview" type="submit"
+		    	actionListener="#{cmpagebean.loadPreviewXML}" style="float: right;"
+		    	oncomplete="PF('mapRefPrompt').hide();openPreview();navArrow();" update="@form">
+			</p:commandButton>
+			<p:commandButton onclick="PF('mapRefPrompt').hide();"
+				value="#{messages.cancelbtn}" type="button" style="float: right;"></p:commandButton>
+		</p:dialog>
+		
+		<p:dialog id="cnfrmForApprove" header="#{messages.confirmationMsgHeader}" widgetVar="dlgapprove" modal="true" height="100" closable="false">  
+		    <h:outputText value="#{messages.confMsgApprove}" /> <br/><br/>
+		    <p:commandButton value="#{messages.yesbtn}" 
+		    	action="#{cmpagebean.approvePreview}" update="form1"
+		    	oncomplete="PF('dlgapprove').hide();navArrow();"
+				style="float: right;">
+			</p:commandButton>
+			<p:commandButton onclick="PF('dlgapprove').hide();"
+				value="#{messages.nobtn}" style="float: right;" type="button"></p:commandButton>
+		</p:dialog>
+		
+		<p:dialog id="cnfrmForTimeoutcheck" header="#{messages.confirmationMsgHeader}" widgetVar="dlgtimeoutcheck" modal="true" height="100" closable="false">  
+		    <h:outputText value="#{messages.confMsgTimeoutcheck}" /> <br/><br/>
+		    <p:commandButton value="#{messages.yesbtn}" 
+		    	action="#{cmpagebean.timeoutextend}"
+		    	oncomplete="PF('dlgtimeoutcheck').hide();navArrow();"
+				style="float: right;">
+			</p:commandButton>
+		    <p:commandButton value="#{messages.nobtn}" 
+		    	action="#{cmpagebean.timeoutLogout}"
+		    	oncomplete="PF('dlgtimeoutcheck').hide();"
+				style="float: right;">
+			</p:commandButton>
+		</p:dialog>
+		
+		<p:dialog id="cnfrmForTimeout" header="#{messages.confirmationMsgHeader}" widgetVar="dlgtimeout" modal="true" height="100" closable="false">  
+		    <h:outputText value="#{messages.confMsgTimeout}" /> <br/><br/>
+		    <a href="./login.xhtml"><h:graphicImage value="/ui/images/okbtn.png" alt="OK"></h:graphicImage></a>
+		</p:dialog>
+		
+		<p:dialog id="loader" widgetVar="loader" closable="false" draggable="false" modal="true" showHeader="false" resizable="false">  
+		    <h:graphicImage value="/ui/images/uploading.gif"></h:graphicImage>
+		</p:dialog>
+<!-- paginatorTemplate="{CurrentPageReport}  {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {RowsPerPageDropdown}" -->
+		<p:dialog id="uploadServerImage" header="Select an Image" widgetVar="uploadServerImg" modal="true" closable="true" width="35em">  
+			<div><p:commandButton value="#{messages.yesbtn}" 
+		    	actionListener="#{cmpagebean.updateComponentWithImage}" update="form1,uploadServerImage"
+		    	onstart="PF('loader').show();"
+		    	oncomplete="PF('loader').hide();PF('uploadServerImg').hide();navArrow();"
+				style="float: right;">
+			</p:commandButton></div>
+			<br/><br/>
+			<p:dataTable var="imageItem" value="#{cmpagebean.imageFiles}" style="max-height: 40em;max-width: 35em;overflow-y:scroll;" rows="10"
+					selection="#{cmpagebean.selectedImage}" rowKey="#{imageItem.id}"
+		     		paginator="true" paginatorTemplate="{CurrentPageReport}  {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink}">
+				<p:column selectionMode="single" style="width:16px;text-align:center"/>
+		        <p:column headerText="Image">
+		            <h:graphicImage value="#{imageItem.fileRef}" onclick="openImage('#{request.contextPath}#{imageItem.fileRef}')"
+		            	alt="" style="max-height: 80px;max-width: 80px;"></h:graphicImage>
+		        </p:column>
+		 
+		        <p:column headerText="Name">
+		            <h:outputText value="#{imageItem.imageName}" />
+		        </p:column>
+		 
+		        <p:column headerText="Size">
+		            <h:outputText value="#{imageItem.imageSize}" />
+		        </p:column>
+		       
+		    </p:dataTable>
+		</p:dialog>
+		
+		<p:dialog id="loadServerFiles" widgetVar="loadServerFiles" modal="true" closable="true" width="35em">  
+			<p:dataTable var="fileItem" value="#{cmpagebean.files}" style="max-height: 40em;max-width: 35em;overflow-y:scroll;" rows="10"
+					selection="#{cmpagebean.selectedImage}" rowKey="#{imageItem.id}"
+		     		paginator="true" paginatorTemplate="{CurrentPageReport}  {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink}">
+				
+		        <p:column headerText="File">
+		            <h:graphicImage value="#{fileItem.fileRef}" onclick="openImage('#{request.contextPath}#{fileItem.fileRef}')"
+		            	alt="" style="max-height: 80px;max-width: 80px;"></h:graphicImage>
+		        </p:column>
+		 
+		        <p:column headerText="Name">
+		            <h:outputText value="#{fileItem.imageName}" />
+		        </p:column>
+		 
+		        <p:column headerText="Size">
+		            <h:outputText value="#{fileItem.imageSize}" />
+		        </p:column>
+		       
+		    </p:dataTable>
+		</p:dialog>
+		
+	</h:form>
+</h:body>
+</html>

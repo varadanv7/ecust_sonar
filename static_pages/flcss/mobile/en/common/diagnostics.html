@@ -1,0 +1,195 @@
+
+<!-- jquery might already be included of course... -->
+<!-- <script type="text/javascript" src="../common/js/jquery-2.1.4.min.js"></script> -->
+
+<style>
+	.diagnostic {
+		font-family: Arial, Helvetica, sans;
+	}
+	.diagnostic caption {
+		font-size: 12pt;
+		font-weight: bold;
+		padding: 10px 0;
+		background-color: #666;
+		color: white;
+	}
+	.diagnostic table {
+		border-collapse: collapse;
+		background-color: white;
+		margin: 0;
+	}
+	.diagnostic th {
+		border: 1px solid black;
+		font-size: 8pt;
+		margin: 0;
+		padding: 4px;
+		text-align: left;
+	}
+	.diagnostic td {
+		border: 1px solid black;
+		font-size: 8pt;
+		margin: 0;
+		padding: 4px;
+		text-align: left;
+	}
+	.alert {
+		color: red;
+		font-weight: bold;
+	}
+	.ignore {
+		color: grey;
+	}
+		
+</style>
+
+<script type="text/javascript">
+	$(function() {
+	  
+        var link = getParameterByName('link');
+		
+       
+		if("true"!= link){
+		
+		var div;
+
+	// IMAGES ON PAGE
+	// List all IMG tags on the page, the ALT attribute, the parent tag, and the href of the parent if an A
+		div="<div class='diagnostic'><p><table summary='Image Summary'><caption>IMG</caption><tr><tr><th>Image#</th><th>SRC</th><th>ALT</th><th>TITLE</th><th>Parent</th><th>Parent TITLE</th><th>Parent HREF</th></tr>";
+		$("img").each(function(idx) {
+			parentNode = $(this).parent()[0];
+			parentHref = "";
+			parentTitle = "";
+			if (parentNode.nodeName == "A") {
+				parentHref = $(parentNode).attr('href');
+				parentTitle = $(parentNode).attr('title');
+			}
+			if (parentTitle === undefined) { parentTitle = "<span class='ignore'>"+parentTitle+"</span>"; }
+			alt = $(this).attr('alt');
+			if (alt === undefined) { alt = "<span class='alert'>"+alt+"</span>"; 
+			/* $(this).attr('alt','');
+			 alt = $(this).attr('alt');  */
+			 }
+			title = $(this).attr('title');
+			if (title === undefined) { title = "<span class='ignore'>"+title+"</span>"; }
+			src = $(this).attr('src');
+			// following results in links being listed in next section "links on page" ?!
+			//if (src !== undefined) {
+			//	src = "<a href='"+this.src+"' target='_page2'>"+src+"</a>";
+			//}
+			div = div + "<tr><td>"+(idx+1)+"</td><td>"+src+"</td><td>"+alt+"</td><td>"+title+"</td><td>"+parentNode.nodeName+"</td><td>"+parentTitle+"</td><td>"+parentHref+"</td></tr>";
+		});
+		div = div + "</table></div>";
+		$("body").append(div);
+
+	// INPUTS (OF TYPE IMAGE) ON PAGE
+	// List all INPUT tags on the page with attributes: TITLE, TABINDEX, TYPE, ALT, SRC, NAME, ID, VALUE
+		div="<div class='diagnostic'><p><table summary='Input Summary'><caption>INPUT</caption><tr><tr><th>Input#</th><th>TYPE</th><th>TITLE</th><th>TABINDEX</th><th>ALT</th><th>SRC</th><th>NAME</th><th>ID</th><th>VALUE</th></tr>";
+		$("input").each(function(idx) {
+			id = $(this).attr('id');
+			if (id === undefined) { id = "<span class='ignore'>"+id+"</span>"; }
+			tabindex = $(this).attr('tabindex');
+			if (tabindex == 0) { tabindex = "<span class='ignore'>"+tabindex+"</span>"; }
+			graphic = $(this).attr('type') == 'image';
+			alt = $(this).attr('alt');
+			title = $(this).attr('title');
+			if (alt === undefined) {
+				if (graphic) { 
+					if (title === undefined) { alt = "<span class='alert'>"+alt+"</span>"; } 
+					else { alt = "<span class='ignore'>"+alt+"</span>"; }
+					/* $(this).attr('alt','');
+					 alt = $(this).attr('alt'); */ } 
+				else { alt = "<span class='ignore'>"+alt+"</span>"; }	
+				
+			}
+			if (title === undefined) { title = "<span class='ignore'>"+title+"</span>"; }
+			src = $(this).attr('src');
+
+			div = div + "<tr><td>"+(idx+1)+"</td><td>"+$(this).attr('type')+"</td><td>"+title+"</td><td>"+tabindex+"</td><td>"+alt+"</td><td>"+$(this).attr('src')+"</td><td>"+$(this).attr('name')+"</td><td>"+id+"</td><td>"+$(this).attr('value')+"</td></tr>";
+		});
+		div = div + "</table></div>";
+		$("body").append(div);
+
+	// AREAS ON PAGE
+	// List all AREA tags on the page, the ALT attribute, the HREF attribute, the TABINDEX
+		div="<div class='diagnostic'><p><table summary='Area Summary'><caption>AREA</caption><tr><tr><th>Area#</th><th>ALT</th><th>TITLE</th><th>HREF</th><th>TABINDEX</th></tr>";
+		$("area").each(function(idx) {
+			alt = $(this).attr('alt');
+			if (alt === undefined) { alt = "<span class='alert'>"+alt+"</span>"; /* $(this).attr('alt','');
+			 alt = $(this).attr('alt'); */ }
+			tabindex = $(this).attr('tabindex');
+			if (tabindex == 0) { tabindex = "<span class='ignore'>"+tabindex+"</span>"; }
+			title = $(this).attr('title');
+			if (title === undefined) { title = "<span class='ignore'>"+title+"</span>"; }
+
+			div = div + "<tr><td>"+(idx+1)+"</td><td>"+alt+"</td><td>"+title+"</td><td>"+$(this).attr('href')+"</td><td>"+tabindex+"</td></tr>";
+		});
+		div = div + "</table></div>";
+		$("body").append(div);
+
+	// LINKS ON PAGE
+	// List all A tags on the page, the link name, the HREF attribute, the TITLE attribute, the TABINDEX attribute, the TARGET attribute
+		div="<div class='diagnostic'><p><table summary='Anchor Summary'><caption>ANCHOR</caption><tr><tr><th>Link#</th><th>Link Text</th><th>TITLE</th><th>HREF</th><th>NAME</th><th>TABINDEX</th><th>TARGET</th><th>Child</th><th>Child SRC</th></tr>";
+		$("a").each(function(idx) {
+			childNode = $(this).children()[0];
+			childSrc = "";
+			childNodeName = "";
+			if (childNode !== undefined && childNode.nodeName == "IMG") {
+				childNodeName = childNode.nodeName;
+				childSrc = "<a href='"+childNode.src+"' target='_page2'>"+$(childNode).attr('src')+"</a>";
+			}
+			name = $(this).attr('name');
+			if (name === undefined || name == "undefined") { name = "<span class='ignore'>"+name+"</span>"; }
+			tabindex = $(this).attr('tabindex');
+			if (tabindex == 0) { tabindex = "<span class='ignore'>"+tabindex+"</span>"; }
+			target = $(this).attr('target');
+			if (target === undefined) { target = "<span class='ignore'>"+target+"</span>"; }
+			title = $(this).attr('title');
+			if (title === undefined) { title = "<span class='alert'>"+title+"</span>"; }
+			if($(this).attr('href') == '#' && $(this).text().length <= 0)
+				{;}
+			else
+			div = div + "<tr><td>"+(idx+1)+"</td><td>"+$(this).text()+"</td><td>"+title+"</td><td>"+$(this).attr('href')+"</td><td>"+name+"</td><td>"+tabindex+"</td><td>"+target+"</td><td>"+childNodeName+"</td><td>"+childSrc+"</td></tr>";
+		});
+		div = div + "</table></div>";
+		$("body").append(div);
+
+	// TABLES ON PAGE
+	// List all TABLE tags on the page, the SUMMARY attribute, the ALT attribute
+		div="<div class='diagnostic'><p><table summary='Table Summary'><caption>TABLE</caption><tr><tr><th>Table#</th><th>SUMMARY</th><th>ALT</th><th>CAPTION</th><th>Headers</th></tr>";
+		$("table").each(function(idx) {
+			childNode = $(this).children()[0];
+			var myCaptionText = $(this).find('caption').text();
+			var rowHeader =  $(this).find('th');
+			
+			childNodeName = "";
+		 	if (childNode !== undefined && childNode.nodeName == "CAPTION") {
+		 		
+				childNodeName = childNode.nodeName;
+				childNodeName = "<span class='ignore'>"+myCaptionText+"</span>"; 
+				
+			}
+			else
+				{
+				childNodeName = "<span class='alert'>"+"undefined"+"</span>"; 
+				} 
+			summary = $(this).attr('summary');
+			if(rowHeader!== undefined) {
+				rowHeader = "<span class='ignore'>"+rowHeader.text();+"</span>"; 
+			}
+			else
+				rowHeader = "<span class='alert'>"+rowHeader+"</span>";	
+			if (summary !== undefined && summary.search(/layout/i)) { summary = "<span class='ignore'>"+summary+"</span>"; } 
+			else { summary = "<span class='alert'>"+summary+"</span>";	}
+			alt = $(this).attr('alt');
+			if (alt === undefined || alt == "undefined") { alt = "<span class='ignore'>"+alt+"</span>"; }
+			 if(myCaptionText != 'IMG' && myCaptionText != 'INPUT' && myCaptionText != 'AREA' && myCaptionText != 'ANCHOR') 
+			div = div + "<tr><td>"+(idx+1)+"</td><td>"+summary+"</td><td>"+alt+"</td><td>"+childNodeName+"</td><td>"+rowHeader+"</td></tr>";
+		});
+		div = div + "</table></div>";
+		$("body").append(div);
+		}
+
+	});
+</script>
+
+

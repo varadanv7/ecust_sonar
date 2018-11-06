@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+	<!--#include file="../common/headerinclude.html"-->
+	<!-- FAQ Search -->
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+	<!--#include file="../common/topnavigationnh.html"-->
+	<div class="container"><ol class="breadcrumb">
+	  <li><a href="../home/index.shtml"><img src="../images/breadcrumb/Home_icon.png"></a></li>
+	  <li><a href="../support/faq_goLive.shtml">SUPPORT</a></li>
+	  <li>Preguntas frecuentes sobre la actualizaci&oacute;n del sistema de FasTrak</li>
+	</ol></div>
+	<div class="container clstatic">
+		<h1 class="page-header-noborder">
+			Preguntas frecuentes sobre la actualizaci&oacute;n del sistema de FasTrak
+		</h1>
+		<div class="row row-offcanvas row-offcanvas-left">
+			<!--#include file="supportlm.html"-->
+			<div class="col-xs-12 col-sm-9">
+				<div class="row container">
+					<p class="pull-left visible-xs">
+						<button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Menu</button>
+					</p>
+				</div>
+				<!--#include file="search.html"-->				
+				<dl class='faq p-sieve'>
+					<div class="bach searchlink" id="searchlink"><a href="#" onclick="searchGoogle();">Search Website</a></div>
+					<h1 class="faqhide-head page-header-noborder">
+						FAQ Result
+					</h1>
+					<div class="faqhide">
+						<!--#include file="../support/goLiveContent/faq_goLive_payment_content.html"-->
+						<!--#include file="../support/goLiveContent/faq_goLive_ftAcc_content.html"-->
+						<!--#include file="../support/goLiveContent/faq_goLive_ggbcrossing_content.html"-->
+					</div>
+				</dl>
+				<div class='noresults'>
+				</div>
+				<div class="faqnohide">
+					<h1 class="page-header-noborder faqheader">
+						Preguntas sobre los pagos  Leer m&aacute;s
+					</h1>
+					<dl class='faq'>
+						<!--#include file="../support/goLiveContent/faq_goLive_payment_content.html"-->
+					</dl>
+					<h1 class="page-header-noborder faqheader">
+						Titulares de cuentas de FasTrak  Leer m&aacute;s
+					</h1>
+					<dl class='faq'>
+						<!--#include file="../support/goLiveContent/faq_goLive_ftAcc_content.html"-->
+					</dl>
+					<h1 class="page-header-noborder faqheader">
+						Cruce del Puente Golden Gate  Leer m&aacute;s
+					</h1>
+					<dl class='faq'>
+						<!--#include file="../support/goLiveContent/faq_goLive_ggbcrossing_content.html"-->
+					</dl>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--#include file="../common/footer.html"-->
+	<!--#include file="../common/footerinclude.html"-->
+	<!--#include file="faq_includes.html"-->
+    </body>
+</html>

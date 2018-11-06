@@ -1,0 +1,6 @@
+Instruction:  ,Please provide the vehicle details in the respective columns,,,,,,,,
+Date should be formatted as MM/DD/YYYY hh:mm am,,,,,,,,,
+,,,,,,,,,
+Plate Number,State,Year,Make,Model,Color,Start Date/Time,End Date/Time,Is a Rental Vehicle,Is a Trailer Plate
+ABC123,FL,2011,Toyota,Camry,White,,,,
+BCD234,FL,2012,Acura,1.5,Brown,5/16/2015 10:30,5/16/2015 10:30,N,N

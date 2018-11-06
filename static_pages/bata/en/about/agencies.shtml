@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>FasTrak</title>
+ <!--#include file="../common/headerinclude.html"-->
+ <!--#include file="../common/html/pageheader.shtml"-->
+ 
+  
+</head>
+
+<body onLoad="setWindowSizeP()">
+<div class="contentEnvelope">
+<!-- content -->
+	<div class="contentTitle">AGENCIES AND PARTNERS</div>
+		<img src="../images/agenciesTop.jpg" width="100%" style="margin-top: 15px; margin-bottom: 15px;">
+		<div class="orangeTitleCallout">Click the logo to visit a partner agency website.</div>
+	<div class="agencyRow">
+		<div class="agencyUnit">
+			<div class="agencyLogo"><a href="http://bata.mtc.ca.gov/" target="_blank"><img src="../images/agenciesLogo_1.jpg" border="0"></a></div>
+		BATA is responsible for rogramming, administering and allocating toll revenue generated on the seven state-owned Bay Area toll bridges - Antioch, Benicia-Martinez, Carquinez, Dumbarton, Richmond-San Rafael, San  Francisco-Oakland, and San Mateo-Hayward.
+		</div>
+		
+		<div class="agencyUnit">
+			<div class="agencyLogo"><a href="http://www.mtc.ca.gov/" target="_blank"><img src="../images/agenciesLogo_2.jpg" border="0"></a></div>
+		MTC is the transportation planning, coordinating and financing agency for the nine-county San Francisco Bay Area. The MTC and BATA have formed a joint powers authority called the Bay Area Infrastructure and Financing Authority (BAIFA) to develop and operate their express lanes.
+		</div>
+		
+		<div class="agencyUnit">
+			<div class="agencyLogo"><a href="http://www.dot.ca.gov/" target="_blank"><img src="../images/agenciesLogo_3.jpg" border="0"></a></div>
+		Caltrans owns, operates, and maintains the seven state-owned bridges in the Bay Area.
+		</div>
+	</div>
+	
+	<div class="agencyRow">
+		<div class="agencyUnit">
+			<div class="agencyLogo"><a href="http://www.goldengate.org/" target="_blank"><img src="../images/agenciesLogo_4.jpg" border="0"></a></div>
+		GGBHTD was formed in 1928 as the entity to build, maintain and operate the Golden Gate Bridge. Tolls on the Golden Gate are collected southbound only (into San Francisco). In July 2000, FasTrak was fully implemented.
+		</div>
+		
+		<div class="agencyUnit">
+			<div class="agencyLogo"><a href="http://www.vta.org/" target="_blank"><img src="../images/agenciesLogo_5.jpg" border="0"></a></div>
+		VTA is an independent special district that provides bus, light rail, and paratransit services in Santa Clara County. VTA handles the funding, construction, operation and maintenance of the express lanes along the SR-237 and I-880 corridor.
+		</div>
+		
+		<div class="agencyUnit">
+			<div class="agencyLogo"><a href="http://www.alamedactc.org/" target="_blank"><img src="../images/agenciesLogo_6.jpg" border="0"></a></div>
+		The Alameda CTC is responsible for the funding, design, operation and maintenance of the I-680 and I-580 express lanes.
+		</div>
+	</div>
+	
+	<!--<div class="agencyRow">
+		<div class="agencyUnit">
+			<div class="agencyLogo"><a href="http://bids.mtc.ca.gov/procurements/141" target="_blank"><img src="../images/agenciesLogo_7.jpg" border="0"></a></div>
+		The Metropolitan Transportation Commission (MTC) and Bay Area Toll Authority (BATA) have formed a Joint Powers Authority (JPA) to develop and operate their express lanes.
+		</div>
+		
+		<div class="agencyUnit">
+			<div class="agencyLogo"><a href="#" target="_blank"><img src="../images/agenciesLogo_8.jpg" border="0"></a></div>
+		The California Toll Operators Committee (CTOC) is a collaborative organization composed of California's toll facility operators/owners. CTOC is the primary resource for interoperability and coordination among tolling facilities, and education and advocacy regarding tolling in California.
+		</div>
+		
+		
+	</div>-->
+<!-- end content -->
+<!--#include file="../common/html/footerpage.shtml"-->
+
+  </body>
+</html>

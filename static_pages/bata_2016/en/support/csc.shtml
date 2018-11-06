@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta http-equiv="refresh" content="0; url=contactUs.shtml" />
+  <!-- <meta charset="utf-8">
+
+  <title>FasTrak</title>
+
+ #include file="../common/headerinclude.html"
+ #include file="../common/html/pageheader.shtml"
+  
+  <script>
+  function boo(event){
+   var x = event.screenX;
+    var y = event.screenY;
+    
+	X = x + 1;
+	//alert(X)
+    document.getElementById("detailed").style.top = '12%';
+    document.getElementById("detailed").style.left = "10%";
+    document.getElementById("detailed").style.right = '10%';
+    
+    bloop = "#" + "detailed";
+	$(bloop).fadeIn(900);
+
+  }
+  </script> -->
+  
+</head>
+
+<!-- <body onLoad="setWindowSizeP()">
+
+<div class="container"><ol class="breadcrumb">
+	  <li><a href="../home/index.shtml"><img src="../images/breadcrumb/Home_icon.png"></a></li>
+	  <li>Support</li>
+	  <li class="active">Contact US</li>
+</div>
+
+<div id="detailed" style="max-width: 100%;">
+<a href="#detailed" onClick="closer('detailed')" class="searchButton" style="margin-bottom: 15px; float: right;">X</a>
+	<div style="clear: both">
+	
+	
+	<table cellpadding="3" cellspacing="2" width="100%" style="max-width: 700px; margin-left: auto; margin-right: auto;">
+		
+		<tr>
+			<td colspan="3"><div class="orangeTitleCallout">2016 FasTrak Customer Service Center Holiday Schedule</div></td>
+		</tr>
+		<tr>
+		<td width="30%">December 31 - January 2</td><td width="30%">2pm Thursday - Saturday</td><td width="40%" align="right">New Year's Weekend</td>
+		</tr>
+		<tr>
+		<td width="30%">January 18</td><td width="30%">Monday</td><td width="40%" align="right">Martin Luther King Jr. Day</td>
+		</tr>
+		<tr>
+		<td width="30%">February 15</td><td width="30%">Monday</td><td width="40%" align="right">President's Day</td>
+		</tr>
+		<tr>
+		<td width="30%">May 30</td><td width="30%">Monday</td><td width="40%" align="right">Memorial Day</td>
+		</tr>
+		<tr>
+		<td width="30%">July 4</td><td width="30%">Monday</td><td width="40%" align="right">Independence Day</td>
+		</tr>
+		<tr>
+		<td width="30%">September 5</td><td width="30%">Monday</td><td width="40%" align="right">Labor Day</td>
+		</tr>
+		<tr>
+		<td width="30%">November 11-12</td><td width="30%">Friday-Saturday</td><td width="40%" align="right">Veterans Day Weekend</td>
+		</tr>
+		<tr>
+		<td width="30%">November 24-26</td><td width="30%">Thursday-Saturday</td><td width="40%" align="right">Thanksgiving Weekend</td>
+		</tr>
+		<tr>
+		<td width="30%">December 24-26</td><td width="30%">Saturday-Monday</td><td width="40%" align="right">Christmas Weekend</td>
+		</tr>
+		<tr>
+		<td width="30%">December 31</td><td width="30%">Saturday</td><td width="40%" align="right">New Year's Eve</td>
+		</tr>
+	</table>
+	</div>
+</div>
+
+<div class="contentEnvelope">
+content
+	<div class="contentTitle"><div style="float: right;"><a href="#" onMouseOver="opacitieer('chatty')" onMouseOut="disopacitieer('chatty')"><img src="../images/chatToAsk.png" border="0" style="max-width: 230px;" id="chatty"></a></div>HOW TO CONTACT US & HOURS</div>
+	
+	<div style="clear: both;"></div>
+	<div class="left2Col">
+		<div class="greenArticleTop">By Phone</div>
+		<div class="twoColCopyBlock">
+		Call 1-877-BAY-TOLL or 1-877-229-8655<br>
+		From outside the USA call +1-415-486-8655
+		<br><br>
+		Our Automated Phone System is available all days, all hours to access your account.
+		<br><br>
+		To speak to a person, call our Customer Service Center during the hours of operation.
+		</div>
+		<div class="greenArticleTop">By Email</div>
+		<a href="../routers/contactUs.html" class="beigeButton" style="margin: 15px 0px 15px 0px;">Email FasTrak</a>
+		<div class="greenArticleTop">By Fax</div>
+		<div class="twoColCopyBlock">
+		1-415-974-6356
+		</div>
+	</div>
+	<div class="right2Col" style="width: 550px;">
+		<div class="greenArticleTop">Visit our Service Center</div>
+		<div class="twoColCopyBlock" style="max-width: 800px;">
+		 
+		Walk-in Service Center<br>
+		62 First Street<br>
+		San Francisco, CA 94105
+		<br>
+		<div><img src="../images/contactMap.jpg" style="width: 100%; max-width: 336px;"><br></div>
+		<br><br>
+		Service Center Hours of Operation<br>
+		Mon - Fri &nbsp;8:30 am to 5:30 pm<br>
+		Sat &nbsp;9:00 am to 1:00 pm<br>
+		We are closed on these <a href="#detailed" onclick="boo(event)" name="detailed" class="inLineLinkk">Holidays</a>.
+		</div>
+	</div>
+	<div class="greenArticleTop">By Mail</div>
+		<div class="twoColCopyBlock">
+			<div class="mailBlock">
+			<b>For General Inquiries</b>
+			<br><br>
+			Bay Area FasTrak<br> 
+			P.O. Box 26926<br>
+			San Francisco, CA 94126<br>
+			</div>
+			<div class="mailBlock">
+			<b>For New and Existing Accounts</b>
+			<br><br>
+			<span style="color: #F6961D">FasTrak</span><br>
+			FasTrak Accounts<br>
+			P.O. Box 26926<br>
+			San Francisco, CA 94126
+			<br><br>
+			<span style="color: #F6961D">License Plate and One Time Payment Accounts</span><br>
+			FasTrak <br>
+			Golden Gate Bridge Accounts<br>
+			P.O. Box 26898<br>
+			San Francisco, CA 94126
+			</div>
+			<div class="mailBlock">
+			<b>To Respond to an Invoice or Violation Notice</b>
+			<br><br>
+			<span style="color: #F6961D">FasTrak Invoices</span><br>
+			P.O. Box 26879<br>
+			San Francisco, CA 94126
+			<br><br>
+			<span style="color: #F6961D">FasTrak Violations</span><br>
+			P.O. Box 26925<br>
+			San Francisco, CA 94126
+			<a name="maily">&nbsp;</a>
+			</div>
+		</div>
+end content
+</div>
+
+#include file="../common/html/footerpage.shtml"
+
+  </body> -->
+</html>

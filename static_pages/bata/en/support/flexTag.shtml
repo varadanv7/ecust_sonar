@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>FasTrak</title>
+ <!--#include file="../common/headerinclude.html"-->
+ <!--#include file="../common/html/pageheader.shtml"-->
+ </head>
+
+
+  <script>
+  function boo(event){
+   var x = event.screenX;
+    var y = event.screenY;
+	X = x - 200;
+    //document.getElementById("mappo").style.top = x +'px';
+    //document.getElementById("mappo").style.left = '10%';
+    //document.getElementById("mappo").style.right = '10%';
+    
+    if( /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+   
+    document.getElementById("mappo").style.top = '1500px';
+    document.getElementById("mappo").style.left = '10%';
+    document.getElementById("mappo").style.right = '10%';
+    } else {
+    document.getElementById("mappo").style.top = x +'px';
+    document.getElementById("mappo").style.left = '10%';
+    document.getElementById("mappo").style.right = '10%';
+    }
+    bloop = "#" + "mappo";
+	$(bloop).fadeIn(900);
+
+  }
+  
+  function booHoo(event){
+   var x = event.screenX;
+    var y = event.screenY;
+    var coords = "X coords: " + x + ", Y coords: " + y;
+	X = x + 300;
+    document.getElementById("detailed").style.top = X +'px';
+    document.getElementById("detailed").style.left = '40px';
+    
+    bloop = "#" + "detailed";
+	$(bloop).fadeIn(900);
+
+  }
+  
+   function booTwo(event){
+   var x = event.screenX;
+    var y = event.screenY;
+
+    document.getElementById("customer").style.top = x + 'px';
+    //document.getElementById("customer").style.left = '40px';
+    
+    bloop = "#" + "customer";
+	$(bloop).fadeIn(900);
+
+  }
+  </script>
+</head>
+
+<body onLoad="setWindowSizeP()">
+   <div class="container"><ol class="breadcrumb">
+	  <li><a href="../home/index.shtml"><img src="../images/breadcrumb/Home_icon.png"></a></li>
+	  <li>Guide</li>
+	  <li><a href="../guide/carpool.shtml">Using Carpool Lanes</a></li>
+	  <li class="active">Carpools in I-580 Express Lanes</li>
+	</div>
+
+<div id="mappo">
+<a href="#mappo2" onClick="closer('mappo')" class="searchButton" style="float: right">X</a><br><br>
+<img src="../images/expressLaneMap3.jpg" width="100%">
+</div>
+<div id="detailed">
+<a href="#detailed" onClick="closer('detailed')" class="searchButton" style="margin-bottom: 15px; float: right;">X</a>
+<table width="550" cellpadding="5" cellspacing="0" border="1">
+	<tr>
+		<td bgcolor="#c4bc92">Express Lanes </td>
+		<td bgcolor="#c4bc92">Hours</td>
+		<td bgcolor="#c4bc92">Days</td>
+	</tr>
+	<tr>
+		<td>I-680 Southbound  </td>
+		<td>5am to 8pm </td>
+		<td rowspan="5">Monday through Friday </td>
+	</tr>
+	<tr>
+		<td>SR-237 - Westbound </td>
+		<td>5 - 10 am and 3 - 7 pm </td>
+	</tr>
+	<tr>
+		<td>SR-237 - Eastbound</td>
+		<td>5 - 9 am and 3 - 7 pm</td>
+	</tr>
+	<tr>
+		<td>I-580 - Westbound </td>
+		<td>5am - 8 pm</td>
+	</tr>
+	<tr>
+		<td>I-580 - Eastbound </td>
+		<td>5am - 8 pm</td>
+	</tr>
+</table>
+<br>
+</div>
+<div id="customer" style="max-width: 600px; margin-left: 20%; margin-right: 20%;">
+<a href="#customer" onClick="closer('customer')" class="searchButton" style="margin-bottom: 15px; float: right;">X</a>
+<br><br>
+Call 1-877-229-8655<br>
+From outside USA: +1-415-486-8655
+<br><br>
+Customer Service Representatives available:<br>
+Monday - Friday 8:30am - 5:30pm<br>
+Saturday 9:00am - 1:00 pm<br>
+Or use our Automated Phone System
+<br>
+</div>
+<div class="contentEnvelope">
+<!-- content -->
+	<div class="contentTitle">CARPOOLS IN I-580 EXPRESS LANES</div>
+		<img src="../images/flexTagTop.jpg" width="100%" style="margin-top: 15px;">
+		<div style="float: right; font-size: 11px">Photo by Noah Berger</div>
+		<div class="threeQuarterCol" style="clear: both;">
+			<div class="twoColCopyBlock">
+			The new I-580 Express Lanes through Dublin, Pleasanton and Livermore, require the new FasTrak Flex toll tag for toll-free travel by a carpool, motorcycle, or eligible Clean Air Vehicle (CAV). The new FasTrak Flex toll tag can also be used at all other FasTrak facilities and for parking at garages displaying the FasTrak logo. 
+			</div>
+		</div>
+	
+	<div class="greenArticleTop">Ways to Get a FasTrak Flex Toll Tag</div>
+	<div class="fourColumn">
+			<div class="orangeTitleCallout">Open FasTrak Account</div>
+			<div style="padding: 0px 5px 10px 5px;">
+			You can order a FasTrak Flex toll tag to be sent to you by mail. Be ready with an email address, credit card and vehicle information: license plate #, make, model, and state of registration. If you want to pay by cash or check, call our <a href="#customer" onclick="booTwo(event)" name="customer" class="inLineLinkk">Customer Service Center</a>.
+			<br><Br>
+			<a href="../signup/signUp.shtml" class="greenButton">Sign Up</a>
+			</div>
+		</div>
+		<div class="fourColumn">
+			<div class="orangeTitleCallout">Order By Mail</div>
+			<div style="padding: 0px 5px 10px 5px;">
+			Log into your existing FasTrak account, go to "Vehicles and Tags" and order a FasTrak Flex toll tag. You should receive it in about one week or less.
+			<br><Br>
+			<a href="#" class="oliveButton" onClick="showPopper('signIn')">My Account</a>
+			</div>
+		</div>
+		<div class="fourColumn">
+			<div class="orangeTitleCallout">Pick Up At Store</div>
+			<div style="padding: 0px 5px 10px 5px;">
+			Find a retail store which carries FasTrak Flex toll tags by clicking the button below, and then clicking the FasTrak Flex button lower-left beneath the map. After you pick up a FasTrak Flex toll tag, register it to an existing FasTrak account or open a new account.
+			<br><Br>
+			<a href="../howitworks/retailmap.html" target="_blank" class="oliveButton">Find A Retail Store</a>
+			</div>
+		</div>
+		<div class="fourColumn">
+			&nbsp;
+		</div>
+	<div class="left2Col">
+	<div class="greenArticleTop">How to Use a FasTrak Flex Toll Tag</div>
+		<div class="twoColCopyBlock">
+		Before you start your trip, set the switch position on your FasTrak Flex toll tag as shown below. Position (2) and (3+) signals that you are a carpool, motorcycle, or eligible CAV for toll-free travel.
+		<img src="../images/flexTagDiagram.jpg" width="100%" style="margin-top: 15px;">
+		</div>
+	</div>
+	<div class="right2Col">
+	<div class="greenArticleTop">Locations and Times</div>
+		<div class="twoColCopyBlock">
+		The westbound express lane goes from Greenville Road to San Ramon Road. The eastbound express lane goes from Hacienda Road to Greenville Road. 
+		<a href="#mappo2" onclick="boo(event)" name="mappo2"><img src="../images/flexMap_A.jpg" width="100%" style="margin-top: 15px;" border="0"></a>
+		<div class="orangeTitleCallout">When Available</div>
+		I-580 Express Lanes are available Monday through Friday from 5am to 8pm. At other times, these lanes are open to regular traffic.
+		</div>
+	</div>
+<!-- end content -->
+</div>
+<div class="footerTopperRelated">
+	<div class="relatedLinks">Related Links</div>
+	<div class="footerBlockRelated">
+	<a href="../guide/expressLane.shtml" class="footerLink">Express Lanes</a>
+	<br>
+	<a href="../guide/doINeedFlex.shtml" class="footerLink">FasTrak Flex Toll Tag</a>
+	<br>
+	<a href="../guide/carpool.shtml" class="footerLink">Using Carpool Lanes</a>
+	</div>
+</div>
+<!--#include file="../common/html/footerpage.shtml"-->
+
+  </body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+<title>FasTrak&reg; - Keeping the Bay Area Moving</title>
+<!--#include file="header-meta.html" -->
+<script>
+function popitup(url) {
+	newwindow=window.open(url,'name','height=400px,width=400px');
+	if (window.focus) {newwindow.focus()}
+	return false;
+}
+</script>
+<style>
+.sub-header{
+text-align:left;
+border-radius:0;
+border:0px;
+border-top:1px solid;
+border-bottom:1px solid;
+border-color:#ADADAD;
+margin-top:0;
+width: 100%;
+padding-left:1em;
+color: #0098A3;
+cursor: pointer;
+background-color: rgba(173, 173, 173, 0.22);
+}
+</style>
+</head>
+<body>
+<div>
+<!--#include file="header.html" -->
+<!--Content start-->
+<div editarea="img111">
+<div id="title_nav">How It Works</div>
+<dl style="margin: 0;">
+	<!--<dt class="btn sub-header">Introduction</dt>
+	<dd class="panel-body">
+		<p>As your vehicle enters the toll lane, the toll tag that is mounted on your vehicle's windshield is read by the antennae. As your vehicle passes through, your FasTrak account is charged the proper amount. Feedback is provided to you on an electronic display. If your vehicle does not have a toll tag, the system classifies you as a violator and cameras take photos of your vehicle and your license plate for processing.</p>
+		<div class="ctggbimgmobile">
+		<div class="inner imgLiquidFill imgLiquid">
+			<img class="respimg" src="../images/howItWorks.png" border='0' alt="How It Works"/>
+		</div>
+		</div>
+		<p>If you would like to know how FasTrak works on the I-680 Express Lane, click <a href="http://www.680expresslane.org/Lanes_at_a_Glance.asp" target="_blank">here</a>.</p>
+	</dd>-->
+	<dt class="btn sub-header">Open an Account</dt>
+	<dd class="panel-body">
+		<div class="ctggbimgmobile">
+		<div class="inner imgLiquidFill imgLiquid">
+			<img class="respimg" src="../images/ONLINE_600x400.png" border='0' alt="Online"/>
+		</div>
+		</div>
+		<br><br>
+		<div>Open a FasTrak account by either ordering a toll tag online or registering a toll tag you purchased at a participating location.</div><br>
+		<p><p><p><br/>
+		<div class="row">
+			<div class="col-md-3 col-xs-3">
+			</div>
+			<div class="col-md-3 col-xs-3">
+				I already have a Toll Tag
+			</div>
+			<div class="col-md-3 col-xs-3">
+				Send me a Toll Tag
+			</div>
+			<div class="col-md-3 col-xs-3">
+			</div>
+		</div>
+		<p>
+		<div class="row">
+			<div class="col-md-3 col-xs-3">
+			</div>
+			<div class="col-md-3 col-xs-3">
+				<button type="button" class="btnbt btnbt-default" onclick="document.location='../routers/tagreg.html'">REGISTER IT NOW</button>
+			</div>
+			<div class="col-md-3 col-xs-3">
+				<button type="button" class="btnbt btnbt-default" onclick="document.location='../signup/fastrakprep.shtml'">ORDER ONLINE NOW</button>
+			</div>
+			<div class="col-md-3 col-xs-3">
+			</div>
+		</div>
+		<!--<div align="center"><button type="button" class="btnbt btnbt-default" onclick="document.location='../signup/signup.shtml'">Sign up on the Full Site</button></div>-->
+	</dd>
+	<!--<dt class="btn sub-header">Get a Tag</dt>
+	<dd class="panel-body">
+		<div class="ctggbimgmobile">
+		<div class="inner imgLiquidFill imgLiquid">
+			<img class="respimg" src="../images/WhereToBuy_600x400.png" border='0' alt="Get a Tag"/>
+		</div>
+		</div>
+		Get your FasTrak toll tag at a participating Costco, Safeway or Walgreens near you!<p>
+		<div align="center"><button type="button" class="btnbt btnbt-default" onclick="return popitup('../howitworks/retailmap.html');">Locate a Retail Store</button></div>
+	</dd>-->
+	<dt class="btn sub-header">Mount It</dt>
+	<dd class="panel-body">
+		<div class="ctggbimgmobile">
+		<div class="inner imgLiquidFill imgLiquid">
+			<img class="respimg" src="../images/Mounting_600x400.png" border='0' alt="Mount It"/>
+		</div>
+		</div><br/>
+		<p>Mount the tag to the inside of your vehicle's windshield. Proper placement is key to ensuring your tag is recognized in the FasTrak lane.
+		</p>
+		<div align="center"><a class="bach" href="../mobile/mounting.shtml">Mounting Instructions</a></div>
+	</dd>
+	<dt class="btn sub-header">Use It</dt>
+	<dd class="panel-body">
+		<div class="ctggbimgmobile">
+		<div class="inner imgLiquidFill imgLiquid">
+			<img class="respimg" src="../images/WhereToUseIt_600x400.png" border='0' alt="Use It"/>
+		</div>
+		</div><br/><br/>
+		<p>You can use your toll tag anywhere you see the FasTrak logo. You can use your tag on all eight Bay Area bridges without having to stop at the toll plaza, take advantage of the express lanes in Northern and Southern California and skip the line to the parking pay booth at the San Francisco International Airport. </p>
+		<div align="center"><button type="button" class="btnbt btnbt-default" onclick="document.location='../mobile/whereToUse.shtml'">Where to Use FasTrak</button></div>
+	</dd>
+</dl>
+<!--content end-->
+<!--#include file="footer.html"-->
+<!--#include file="../common/footerinclude.html"-->
+</div>
+</div>
+</body>
+<script>
+$(document).ready(function() {
+  $('dd').hide();
+  $('dt').click(function() {
+	$(this).next('dd').slideToggle('fast');
+  });
+});
+setheader();
+</script>
+</html>

@@ -1,0 +1,67 @@
+<style type="text/css">
+.gsc-results .gs-snippet b { background-color:#ffff00; padding:0 3px; color:#000; }
+.gsc-search-box{display:none;}
+</style>
+<script src="https://www.google.com/jsapi"></script>
+	<script type="text/javascript">
+	google.load('search', '1');
+	function onLoad() {
+		var match = location.search.match(new RegExp("[?&]searchFld=([^&]+)(&|$)"));
+		var searchItem =  match && decodeURIComponent(match[1].replace(/\+/g, " "));
+		
+	if(null != searchItem && "" != searchItem && "null" != searchItem){
+			$('#search').val(searchItem);
+	}else{
+			searchItem = $('#search').val();
+		}
+		if(null != searchItem && "" != searchItem && "null" != searchItem){
+			$('#searchFaq').click();
+		}
+		
+		var options = {};
+		options[google.search.Search.RESTRICT_EXTENDED_ARGS] =  {'as_sitesearch' : 'www.bayareafastrak.org'};
+		var customSearchControl = new google.search.CustomSearchControl('010341606070375814005:k0b_k-g-6ba', options);
+
+		customSearchControl.draw('cse');
+		customSearchControl.setNoResultsString("Ning&#250;n resultado corresponde el texto de b&#250;squeda que ha introducido ... pruebe otra palabra.");
+	}
+	google.setOnLoadCallback(onLoad, true);
+	
+	function searchGoogle(){
+		$('#cse').attr('style','max-height: 500px;overflow-y: auto;');
+		if('' == $('#gsc-i-id1').val()){
+			$('#gsc-i-id1').val('zzzzz');
+		}
+	$('#gsc-i-id2').val($('#gsc-i-id1').val());
+		$(".faqhide").hide();
+		$(".faqhide-head").hide();
+		$(".faqnohide").hide();
+		$(".noresults").hide();
+		$("#searchlink").hide();
+		
+		$('.gsc-search-button').click();
+		$(".site-head").show();
+		
+	}
+	
+	$(document).keypress(function(event){
+		if (event.keyCode == 10 || event.keyCode == 13) 
+        event.preventDefault();
+	});
+	
+</script>	
+<div class="form-inline searchInput">
+
+	<table width="100%">
+		<tr>
+		<td width="5%"></td>
+		<td width="70%"><input type="search" name="search" id="search" class="form-control input-lg" placeholder="Buscar los preguntas frecuentes"></input></td>
+		<td width="20%">
+			<button type="submit" id="searchFaq" class="btn btn-default btn-lg linkext">Buscar</button>
+		</td>
+		<td width="5%"></td>
+		</tr>
+	</table>
+	<h1 class="site-head page-header-noborder"><br/>Sitio web Resultado</h1>
+	<div id="cse"></div>
+  </div>

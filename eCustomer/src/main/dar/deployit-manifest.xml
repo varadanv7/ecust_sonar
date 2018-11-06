@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<udm.DeploymentPackage version="${noSnapshot(project.version)}" application="eCustomer">
+  <application />
+  <orchestrator />
+  <deployables>
+    <was.Ear name="/eCustomer">
+      <fileUri>http://138.69.14.78:8085/artifactory/FLCSS_CI/master/eCustomer/${noSnapshot(project.version)}/eCustomer_${noSnapshot(project.version)}.ear</fileUri>
+      <tags>
+        <value>eCustomer</value>
+      </tags>
+      <scanPlaceholders>false</scanPlaceholders>
+      <sharedLibraryNames />
+      <additionalInstallFlags />
+      <roleMappings />
+      <roleUserMappings />
+      <webServerNames />
+      <runAsRoleMappings />
+      <sessionManagers />
+      <webModules />
+      <ejbModules />
+    </was.Ear>
+    <file.Folder name="/eCustomer_static_pages_${noSnapshot(project.version)}">
+      <tags>
+        <value>eCustomer_static_pages</value>
+      </tags>
+      <fileUri>http://138.69.14.78:8085/artifactory/FLCSS_CI/master/eCustomer/${noSnapshot(project.version)}/eCustomer_static_pages_${noSnapshot(project.version)}.zip</fileUri>  
+      <scanPlaceholders>false</scanPlaceholders>
+	  <delimiters>{{ }}</delimiters>
+      <textFileNamesRegex>.+\\.(cfg | conf | config | ini | properties | props | txt | asp | aspx | htm | html | jsf | jsp | xht | xhtml | sql | xml | xsd | xsl | xslt | bat | cmd | sh | wsf | ps1 | vm | ftl )</textFileNamesRegex>
+      <targetPath>{{ targetPatheCustomerstaticpages }}</targetPath>
+      <targetPathShared>{{ targetPathSharedeCustomerstaticpages }}</targetPathShared>
+    </file.Folder>
+  </deployables>
+  <applicationDependencies />
+  <dependencyResolution>LATEST</dependencyResolution>
+  <undeployDependencies>false</undeployDependencies>
+</udm.DeploymentPackage>

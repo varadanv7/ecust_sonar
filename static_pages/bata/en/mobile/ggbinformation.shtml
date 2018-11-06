@@ -1,0 +1,117 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+<title>FasTrak&reg; - Keeping the Bay Area Moving</title>
+<!--#include file="header-meta.html" -->
+<!--#include file="../common/headerinclude.html"-->
+<style>
+.sub-header{
+border-top:1px solid;
+border-bottom:1px solid;
+border-color:#ADADAD;
+padding:0.7em;
+color: #0098A3;
+background-color: rgba(173, 173, 173, 0.22);
+font-weight: normal;
+width:100%;
+}
+</style>
+</head>
+<body>
+<!--#include file="header.html" -->
+<!--Content start-->
+<div editarea="img111">
+<div id="title_nav">Crossing the GG Bridge</div>
+<dl style="margin: 0;">
+	<dt class="sub-header">Just Drive on Through. No More Toll Booths.</dt>
+	<dd class="panel-body">
+		<div class="ctggbimg">
+		<div class="outer imgLiquidFill imgLiquid">
+			<img class="respimg" src="../images/GGbridge_1200x484_72dpi.png" border='0' alt="GGB Bridge">
+			<div class="inner">
+				<h1>Just Drive on Through.</h1>
+				<h1>No More Toll Booths.</h1>
+			</div>
+		</div>
+		</div>
+		<p><br>
+			All Electronic Tolling makes it easy to cross the Golden Gate - no more stopping, no fumbling for cash. A veriety of payment options gives you freedom of choice and helps speed your travel.
+		</p>
+	</dd>
+	<dt class="sub-header">Visiting the area or infrequent user? Choose your way to pay.</dt>
+	<dd class="panel-body">
+		<p>
+			<b>One-Time Online Payment</b>
+			<br>
+			You can make a one-time payment online using your credit card before you cross the bridge or up to 48 hours after you cross. You can use your computer or mobile device with an internet connection.
+		</p>
+		<button type="button" class="btn btngf btnbt-default" onclick="document.location='../routers/otpHome.html'">Make a one-time payment</button><br><br>
+		<p>
+			<b>Cash Locations</b>
+			<br>
+			You can pay any of the toll payment methods using cash at a Cash Payment Location or at a Customer Service Center in San Francisco.			
+		</p>
+		<button type="button" class="btn btngf btnbt-default" onclick="return popitup('../howitworks/cashLocationsMap.html');">FIND A CASH PAYMENT LOCATION</button><br><br>
+		<p>
+			<b>Get FasTrak</b>
+			<br>
+			Open a FasTrak account to conveniently pay tolls and save time! And, FasTrak users receive discounted tolls on the Golden Gate Bridge!
+		</p>
+		<button type="button" class="btn btngf btnbt-default" onclick="document.location='../signup/fastrakprep.shtml'">SIGN UP</button><br><br>
+		<p>
+			<b>Invoices</b>
+			<br>
+			After 48 hours without payment an invoice was mailed to the registered owner of the vehicle for the amount of the toll with no added fees.
+		</p>
+		<button type="button" class="btn btngf btnbt-default" onclick="document.location='../routers/invoice.html'">PAY AN INVOICE</button><br><br>
+		<p>
+			<b>Open a License Plate Account</b>
+			<br>
+			License Plate Accounts are specialized just for Golden Gate Bridge. No toll tags are needed for this account type, an image of your vehicle's license plate is matched to your account. Your tolls are automatically charged to the credit card on file or deducted from your pre-paid account balance.
+		</p>
+		<button type="button" class="btn btngf btnbt-default" onclick="document.location='../signup/licenseprep.shtml'">SIGN UP</button><br><br>
+		
+	</dd>
+	<dt class="sub-header">In a Rental Car?</dt>
+	<dd class="panel-body">
+		<div><img src="../images/RentalCar_400x289_72dpi.jpg" border='0' alt="In a Rental Car?"></div>
+		Most rental companies allow you to opt-out a tolling program. If you choose to do so, you must pay before crossing the bridge online or at a cash payment location.
+	</dd>
+	<dt class="sub-header">New resident or driver?</dt>
+	<dd class="panel-body">
+		<a href="../signup/signup.shtml">Open for an account on our Full Site</a> to make paying easy.
+	</dd>
+	<dt class="sub-header">Getting to the Golden Gate Bridge</dt>
+	<dd class="panel-body">
+		<div style="width:500px;height:500px;">
+			<div id="ggbmap">
+				<!--#include file="../ggb/ggbmap.html" -->
+			</div>
+		</div><br>
+		<p>
+			<b>From San Francisco</b>
+			<br>
+			<p>Take Pacific Coast Highway Route 1 or US Highway 101 north across the Golden Gate Bridge. Toll is collected southbound only.</p>
+		</p>
+		<p>
+			<b>From Marin County</b>
+			<br>
+			<p>Take US Highway 101 south across the Golden Gate Bridge. Have exact change ready to pay the appropriate toll, collected southbound only.</p>
+		</p>
+		<p>
+			<b>From the East Bay</b>
+			<br>
+			<p>Take US Highway 580 west to US Highway 101 south across the Golden Gate Bridge. Have exact change ready to pay the appropriate toll, collected southbound only.</p>
+		</p>
+		<h5 class="bach"><p><br>For more visitor information, visit the official page of the <a href="http://www.goldengatebridge.org/" target="_blank">Golden Gate Bridge</a>.</h5>
+	</dd>
+</dl>
+</div>
+<!--content end-->
+<!--#include file="footer.html"-->
+<!--#include file="../common/footerinclude.html"-->
+</body>
+<script>
+setheader();
+</script>
+</html>

@@ -1,0 +1,236 @@
+<!doctype html>
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><html lang="en" class="no-js"> <![endif]-->
+<html lang="en">
+<head>
+  <title>SunPass</title>
+  <!--#include file="../includes/headerinclude.html"-->
+  
+  <style>
+    #google-map,
+    body,
+    html {
+      padding: 0;
+      height: 400px;
+    }
+  </style>
+<script type="text/javascript">
+$(document).ready(function () {
+
+var param = getParameterByName("sy");
+	
+
+if(param=='changename'){
+scrollToContent1();
+}
+})
+var useragent = navigator.userAgent.toLowerCase();
+function scrollToContent1(){
+	if(useragent.indexOf("rv") != -1 || useragent.indexOf("msie") != -1)
+		window.scrollTo(0,$("#sunPassPlusParking").offset().top-180);
+	else {
+		window.scrollTo({
+			top: $("#sunPassPlusParking").offset().top-180,
+			behavior: "smooth"
+		});
+	}
+//$('html,body').animate({ scrollTop: $("#sunPassPlusParking").offset().top-180}, 800); 
+}
+function scrollToContent2(){
+	if(useragent.indexOf("rv") != -1 || useragent.indexOf("msie") != -1)
+		window.scrollTo(0,$("#expressLanes").offset().top-180);
+	else {
+		window.scrollTo({
+			top: $("#expressLanes").offset().top-180,
+			behavior: "smooth"
+		});
+	}
+//$('html,body').animate({ scrollTop: $("#expressLanes").offset().top-180}, 800); 
+}
+
+</script>
+</head>
+<body>
+<a href="#maincontent" class="skip">Skip to content</a>
+  <div id="container">
+    <!--#include file="../includes/topnavigator.html"-->
+	    <!-- Start Page Banner -->
+    <div class="page-banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Where to Use SunPass</h2>
+            <p></p>
+          </div>
+          <div class="col-md-6">
+            <ul class="breadcrumbs">
+              <li><a href="../home/index.shtml">Home</a></li>
+              <li>What is SunPass?</li>
+              <li>Where to Use SunPass</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+	
+<div id="content">
+<div class="container bach" id="maincontent">
+<div class="page-content">
+<div class="row whereToUseSunPass">
+<div class="col-md-12">
+ <a href="javascript:scrollToContent1();" class="btn">SunPass Plus Parking</a>
+ <a href="javascript:scrollToContent2();" class="btn">Florida Express Lanes</a>
+ </div>
+</div>
+<br> <br>
+<div class="row">
+<div class="col-md-12">
+<p>
+As a SunPass customer, you always pay the lowest toll amount on all toll roads and most bridges in Florida. SunPass transponders also work in Georgia
+and North Carolina with more states coming soon.
+</p>
+
+<img src="../common/images/FL Toll Road Map with Agencies.png" style=" position: relative;right:37px;" alt="Publix" />
+</div>
+</div>
+<br>
+<br>
+<div id="sunPassPlusParking">
+<div class="row whereTouseSunPassSubHeader">
+<div class="col-md-12">
+<span class="boxHeadingText1"><hr style="padding-bottom:7px;"> SUNPASS PLUS PARKING</span>
+<br><br> 
+<p>
+As a SunPass customer, you can enjoy the ease and convenience of using your transponder to pay for parking at most of Florida’s major airports as well as
+the Hard Rock Stadium in Miami. The SunPass Plus Parking program is continuing to grow, so check back for additional locations.
+</p>
+</div>
+
+</div>
+
+
+
+<br>
+<div class="row">
+<div class="col-md-3">
+
+<img src="../common/images/SunPass-Plus_logo.jpg" alt="Publix" />
+
+</div>
+<div class="col-md-9">
+<div style="background-color:#e5eaec; text-align:left; vertical-align: middle; padding:20px 47px;"> 
+<div class="row">
+<div class="col-md-4">
+<a id="externallinkpop86" href="http://www.pbia.org/parking/" target="_blank">
+<img src="../common/images/palm beach aiport logo.png" alt="Publix" />
+</a>
+</div>
+<div class="col-md-4">
+<a id="externallinkpop85" href="http://www.tampaairport.com/sunpass-plus-tampa-international-airport" target="_blank">
+<img src="../common/images/640px-Tampa_Intl_Airport_Logo.png" alt="Publix" />
+</a>
+</div>
+<div class="col-md-4">
+<a id="externallinkpop84" href="https://www.orlandoairports.net/parking-transportation/parking/" target="_blank">
+<img src="../common/images/800px-Orlando_International_Airport_Logo.png" alt="Publix" />
+</a>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<a id="externallinkpop83" href="http://www.miami-airport.com/library/sunpass-plus-brochure.pdf" target="_blank">
+<img src="../common/images/Miami_International_Airport_Logo.png" alt="Publix" />
+</a>
+</div>
+<div class="col-md-4">
+<a id="externallinkpop82" href="http://www.broward.org/Airport/Parking/Pages/SunPassPlus.aspx" target="_blank">
+<img src="../common/images/ft lauderdale-hollywood logo_airport.png" style="padding-top: 40px;"alt="Publix" />
+</a>
+</div>
+<div class="col-md-4">
+<a id="externallinkpop81" href="http://hardrockstadium.com/parking-transportation/" target="_blank">
+<img src="../common/images/Hard_Rock_Stadium_logo.png" alt="Publix" />
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<br>
+<div class="row">
+<div class="col-md-12">
+<span class="boxHeadingText"> How the SunPass Plus Parking Program Works</span>
+</div>
+</div>
+<br>
+<div class="row">
+<div class="col-md-9">
+<p>
+Make sure you are signed up for Easy Pay automatic replenishment using your credit card or debit card and you'll automatically
+enjoy SunPass Plus Parking privileges. To opt-in to Easy Pay, <a class="hrefLinksColor" href="../routers/login.html">access your account</a> and select the Manage Payment Method. Then
+look for the SunPass Plus logo when entering and exiting parking facilities.
+</p>
+</div>
+<div class="col-md-3" style="padding-left:0px;padding-right:0px;">
+<img src="../common/images/EasyPayLogo.png" alt="Publix" />
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-12">
+<p>
+If we have your email address, a parking receipt will be sent immediately. The parking charge will also appear on your account activity statement.</p>
+<p>If you wish to opt-in or opt-out of the SunPass Plus Parking privilege, please log in to your SunPass account and select the transponder you wish to
+change.</p>
+<p>Parking charges less than $10.00 will be deducted from your SunPass prepaid toll balance. Charges greater than $10.00 will be charged directly to your
+credit card on file.
+</p>
+</div>
+</div>
+<br>
+
+
+<div id="expressLanes">
+<div class="row whereTouseSunPassSubHeader">
+<div class="col-md-12">
+<span class="boxHeadingText1" style="padding-left:5px"> <hr style="padding-bottom:7px;">FLORIDA EXPRESS LANES</span>
+</div>
+<br> <br>
+</div>
+<div class="row">
+<div class="col-md-8">
+<p>
+
+Express lanes are optional travel lanes, located on an interstate or toll road, that customers can choose to use
+when they want a more predictable travel time. Customers in the express lanes pay a dynamically priced toll
+that increases as traffic begins to build in the express lanes and decreases as traffic reduces. Express lanes
+are designed with a limited number of entrance and exit points to serve longer, more regional trips. Customers
+must have an active and properly mounted SunPass or other interoperable transponder, as no cash or TOLL-BY-PLATE is accepted in the express lanes.&nbsp;<a class="hrefLinksColor" href="http://floridaexpresslanes.com/" id="externallinkpop5" target="_blank">Click here to learn more about Florida Express Lanes</a>.
+</p>
+<p>
+School buses, public transit, over-the-road buses or vanpools may be eligible for toll exemptions when traveling on Florida Express Lanes. Go to 
+<a class="hrefLinksColor" href="http://floridaexpresslanes.com/bus-registration/" id="externallinkpop55" target="_blank">www.FloridaExpressLanes.com/bus-registration/</a>
+ for details of the Express Lanes Bus Exemption program.
+</p>
+</div>
+<div class="col-md-1">
+</div> 
+<div class="col-md-3" style="padding-left:0px;padding-right:0px;">
+<img src="../common/images/Flying e_Express Lanes Logo_vt.png" alt="Publix" />
+</div>
+</div>
+</div>
+<br>
+
+<br>
+</div>
+</div>
+    <!-- End content -->
+
+	<!--#include file="../includes/footer.html"-->
+<span id="topnavitem" class="invisible">hsw</span>
+</div>
+<!--#include file="../includes/footer_include.html"-->
+</body>
+</html>

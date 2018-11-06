@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+	"http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+<!--#include file="/en/common/head.html"-->
+<script language="javascript" src="../common/eztoggle.js" type="text/javascript"></script> 
+<style>
+.map a	{
+		color: #000000;
+		text-decoration: none;
+        font-family: Verdana, Arial, Sans-Serif;
+        text-align: left;
+}
+.map0 a:visited, .map0 a:link	{
+        color: #cc00cc;
+		text-decoration: none;
+        font-weight: bold;
+        font-size: 11pt;
+}
+li	{
+        color: #cc00cc;
+        font-family: Verdana, Arial, Sans-Serif;
+        font-weight: normal;
+        font-size: 10pt;
+		padding: 3 0;
+}
+li a:visited, li a:link	{
+		text-decoration: none;
+}
+</style>
+
+</head>
+
+<body>
+<div class="container1">
+
+<!--#include file="/en/common/topbannermenu.html"--> 
+
+
+<script type='text/javascript' language='JavaScript'>
+$("#top_help").attr("class", "active");
+$("#site").attr("class", "active");
+</script>
+
+<!--content start-->
+<div class="content1">
+	
+	<div class="contentPlain">
+	<h3>Site Map</h3>
+<h6>
+
+<div class='map'>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td width='20%' valign='middle' class='content pad15'><br>
+<span class='map0'><a href='../home/index.shtml'>HOME PAGE</a></span><br><p>
+<span class='map0'><a href='../home/index.shtml'>Pay Violation</a></span><br><p>
+<span class='map0'><a href='../home/index.shtml'>FAQ's</a></span><br><p>
+<span class='map0'><a href='../home/index.shtml'>Contact Us</a></span><br><p>
+<span class='map0'><a href='../home/index.shtml'>Privacy Policy</a></span><br><p>
+		</td>
+	</tr></table></div>
+
+
+</h6>
+	</div>
+</div>
+<!--content end-->
+
+<!--#include file="/en/common/footer.html"-->
+</body>
+</html>

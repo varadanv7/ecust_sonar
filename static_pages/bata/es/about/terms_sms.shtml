@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+	<!--#include file="../common/headerinclude.html"-->
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+	<!--#include file="../common/topnavigationnh.html"-->
+	<div class="container"><ol class="breadcrumb">
+	  <li><a href="../home/index.shtml"><img src="../images/breadcrumb/Home_icon.png"></a></li>
+	  <li class="active">Mobile Terms & Conditions</li>
+	</ol></div>
+	<div class="container clstatic bach" editarea="img111">
+		<h1 class="page-header-noborder">
+			FasTrak Mobile Alerts Terms and Conditions
+		</h1>
+		<div class="container row">
+			<div class="col-md-12">
+				The Mobile Alerts program provides text alerts for FasTrak customers to notify them of changes to their account. Customers of FasTrak may opt in to receive Mobile Alerts. Use of the Mobile Alerts Service ("Service") constitutes your agreement to these Terms and Conditions. FasTrak may amend these Terms, and modify or cancel the Service and any of its features without notice.
+				<p><p>
+				By agreeing to these Terms and Conditions, you agree to FasTrak sending text messages through your wireless provider. FasTrak does not charge for the Service, but you are responsible for all charges and fees associated with text messaging as imposed by your wireless service provider.
+				<p>
+				You agree to indemnify, defend, and hold harmless FasTrak for any third party claims, liability, damages and  costs arising from use of the Service and/or from your providing FasTrak with a phone number that is not your own. You agree that FasTrak is not liable for failed, delayed, or misdirected delivery of any information sent through the Service; any errors in such information; any action you may or may not take in reliance on the information or Service. 
+			</div>
+		</div>
+		<div class="container row">
+			<div class="col-md-12">
+				<h5 class="page-header-noborder">
+					Messages
+				</h5>
+				If you have a FasTrak account and opt in to receive Mobile Alerts, you will receive notifications on your mobile phone of changes to your account, including account replenishment, credit card expiration and low balance notifications. The message frequency will vary based on your account activity during a given month.
+			</div>
+		</div>
+		<div class="container row">
+			<div class="col-md-12">
+				<h5 class="page-header-noborder">
+					How to Opt In
+				</h5>
+				To opt in or subscribe to Mobile Alerts, you must have a FasTrak account. Account holders need to login at <a href="../routers/my_account.html">www.bayareafastrak.org</a>, select Account Profile, click "Edit" in the Account Holder section, confirm that a valid mobile phone number has been provided, read the Terms and Conditions, then select Mobile Alerts-"I agree to the Terms and Conditions and want to Opt-in", and click Save.
+			</div>
+		</div>
+		<div class="container row">
+			<div class="col-md-12">
+				<h5 class="page-header-noborder">
+					How to Opt Out
+				</h5>
+				You may opt out of this Service at any time by texting  <strong>STOP</strong>, <strong>END</strong>, <strong>QUIT</strong>, <strong>CANCEL</strong>, or <strong>UNSUBSCRIBE</strong> to <b>TOLLS (86557)</b> or by updating your Account Profile online to "I decline Mobile Alerts."
+			</div>
+		</div>
+		<div class="container row">
+			<div class="col-md-12">
+				<h5 class="page-header-noborder">
+					How to Get Help or Support
+				</h5>
+				To get help, text <strong>HELP </strong> to TOLLS (86557) or for customer service call 511 and say "FasTrak". If you live outside of Los Angeles, Orange or Ventura counties, call (877) 224-6511 and say "FasTrak."
+			</div>
+		</div>
+		<div class="container row">
+			<div class="col-md-12">
+				<h5 class="page-header-noborder">
+					Complimentary Service
+				</h5>
+				Although FasTrak Mobile Alerts are complimentary, Message and Data Rates May Apply, depending on your wireless carrier plan.
+			</div>
+		</div>
+		<div class="container row">
+			<div class="col-md-12">
+				<h5 class="page-header-noborder">
+					Supported Carriers
+				</h5>
+				AT&T, T-Mobile<sup>&reg;</sup>, Verizon Wireless, Sprint, Nextel, Boost, Alltel, U.S. Cellular, Cellular One, MetroPCS, ACS/Alaska, Bluegrass Cellular, Cellular One of East Central Illinois, Centennial Wireless, Cox Communications, EKN/Appalachian Wireless, GCI, Illinois Valley Cellular, Immix/Keystone Wireless, Inland Cellular, Nex-Tech Wireless, Rural Cellular Corporation, Thumb Cellular, United Wireless, West Central (WCC), Cellcom, C Spire Wireless, Cricket, Cincinnati Bell and Virgin Mobile.
+			</div>
+		</div>
+		<div class="container row">
+			<div class="col-md-12">
+				<h5 class="page-header-noborder">
+					Privacy Policy
+				</h5>
+				We respect your right to privacy.  You can <a href='../support/privacy.shtml'>view our Privacy Policy here</a>.
+			</div>
+		</div>	
+	</div>
+	<!--#include file="../common/footer.html"-->
+	<!--#include file="../common/footerinclude.html"-->
+    </body>
+</html>

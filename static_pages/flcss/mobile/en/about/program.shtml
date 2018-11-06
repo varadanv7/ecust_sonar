@@ -1,0 +1,79 @@
+<!doctype html>
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><html lang="en" class="no-js"> <![endif]-->
+<html lang="en">
+<head>
+  <title>SunPass</title>
+  <!--#include file="../includes/headerinclude.html"-->
+  
+  <style>
+    #google-map,
+    body,
+    html {
+      padding: 0;
+      height: 400px;
+    }
+  </style>
+</head>
+<body>
+<a href="#maincontent" class="skip">Skip to content</a>
+  <div id="container">
+    <!--#include file="../includes/topnavigator.html"-->
+	    <!-- Start Page Banner -->
+    <div class="page-banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Program Explanation</h2>
+            <p></p>
+          </div>
+          <div class="col-md-6">
+            <ul class="breadcrumbs">
+              <li><a href="../home/index.shtml">Home</a></li>
+              <li>What is SunPass?</li>
+              <li>Program Explanation</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+	
+    <div id="content">
+		<div class="container bach">
+		<!-- <h4 class="classic-title"><span>SunPass Installation</span></h4> -->
+		<div class="page-content">
+		<div class="row">
+			<div class="col-md-5 mb-sm-30">
+			<p>SunPass is Florida’s Prepaid Toll Program. Many toll roads in Florida are converting to all-electronic, no cash tolling. Driving Florida’s toll roads with a SunPass transponder means no hassle no matter what toll road you drive.</p>
+				<h3>The Benefits of Being a SunPass Customer</h3>
+				<div class="spacer-15"></div>
+				<p>
+				<ul class="bullet">
+				<li>Customers will always pay the lowest toll amount</li>
+				<li>Works on all Florida toll roads (including Florida Express Lanes) and most bridges </li>
+				<li>Also <a href="./whereToUseSunPass.shtml">works in Georgia and North Carolina</a> with more states coming soon</li>
+				<li><a href="./whereToUseSunPass.shtml?sy=changename">Pay for parking</a> at most major airports in Florida and the Hard Rock Stadium in Miami, with more coming soon</li>
+				<li>Access and manage your account on the free mobile applications for iOS and Android<br><br><a href=" https://itunes.apple.com/us/app/sunpass/id492680525?mt=8" id="externallinkpop11" target="_blank"><img src="../common/images/Download-App-Store.png" alt="SunPass Gantry" /></a>&nbsp;&nbsp;<a href="http://play.google.com/store/apps/details?id=com.Sunpass.Sunpass_Android" id="externallinkpop22" target="_blank"><img src="../common/images/Get-It-Google-Play.png" alt="SunPass Gantry" /></a></li>
+				</ul></p>
+				<div class="spacer-15"></div>
+			</div>
+			<div class="col-md-6 offset-md-1">
+				<img src="../common/images/full/SunPassGantryAtDusk.jpg" alt="SunPass Gantry" />
+			</div>
+
+		</div>
+		
+		
+		
+		</div>
+		
+		</div>
+    </div>
+    <!-- End content -->
+
+	<!--#include file="../includes/footer.html"-->
+<span id="topnavitem" class="invisible">hsw</span>
+</div>
+<!--#include file="../includes/footer_include.html"-->
+</body>
+</html>

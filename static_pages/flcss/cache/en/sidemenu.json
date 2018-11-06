@@ -1,0 +1,181 @@
+{
+	"menuItems": [{
+		"hasSubMenuItems": 0,
+		"menuLink": "LOGIN",
+		"menuName": "Home",
+		"isRemotePage": 0,
+		"active":"true",
+		"menuID": "1"
+                  }, {
+				"hasSubMenuItems": 0,
+				"menuLink": "PAYDOCUMENTS",
+				"menuName": "Pay Documents",
+				"isRemotePage": 0,
+				"active":"false",
+				"menuID": "20",
+				"subMenuItems": [{
+					"hasSubMenuItems": 0,
+					"menuLink": "https://mobileapp.sunpass.com/vector/invoices/invoiceDetail.do",
+					"isRemotePage": 1,
+					"active":"false",
+					"menuID": "1",
+					"menuName": "Overview"
+					                       }, {
+					"hasSubMenuItems": 0,
+					"menuLink": "https://mobileapp.sunpass.com/vector/invoices/invoiceTransactionSearch.do",
+					"isRemotePage": 1,
+					"active":"false",
+					"menuID": "2",
+					"menuName": "Transactions"
+					                       }, {
+					"hasSubMenuItems": 0,
+					"menuLink": "https://mobileapp.sunpass.com/vector/invoices/invoiceHistory.do",
+					"isRemotePage": 1,
+					"active":"false",
+					"menuID": "3",
+					"menuName": "History"
+					                       }, {
+					"hasSubMenuItems": 0,
+					"menuLink": "https://mobileapp.sunpass.com/vector/invoices/disputeInvoiceEntry.do",
+					"isRemotePage": 1,
+					"active":"false",
+					"menuID": "4",
+					"menuName": "Resolve/File Dispute"
+					                       }]
+		                  }, {
+		"hasSubMenuItems": 1,
+		"menuLink": "",
+		"menuName": "What is SunPass?",
+		"isRemotePage": 1,
+		"menuID": "9",
+		"subMenuItems": [{
+			"hasSubMenuItems": 0,
+			"menuLink": "https://mobileapp.sunpass.com/en/about/program.shtml?link=true",
+			"isRemotePage": 1,
+			"menuID": "1",
+			"menuName": "Program Explanation"
+                                   }, {
+			"hasSubMenuItems": 0,
+			"menuLink": "https://mobileapp.sunpass.com/en/about/sunPassTransponders.shtml?link=true",
+			"isRemotePage": 1,
+			"menuID": "2",
+			"menuName": "Sunpass Transponders"
+			                       }, {
+			"hasSubMenuItems": 0,
+			"menuLink": "https://mobileapp.sunpass.com/en/about/whereToPurchaseSunPass.shtml?link=true",
+			"isRemotePage": 1,
+			"menuID": "3",
+			"menuName": "Where to purchase SunPass"
+                                   }, {
+			"hasSubMenuItems": 0,
+			"menuLink": "https://mobileapp.sunpass.com/en/about/whereToUseSunPass.shtml?link=true",
+			"isRemotePage": 1,
+			"menuID": "4",
+			"menuName": "Where to use SunPass"
+                                   }]
+                  }, {
+		"hasSubMenuItems": 1,
+		"menuLink": "",
+		"isRemotePage": 1,
+		"menuName": "Traveler Information",
+		"menuID": "10",
+		"subMenuItems": [{
+			"hasSubMenuItems": 0,
+			"menuLink": "https://mobileapp.sunpass.com/en/tolls/tollsSunPass.shtml?link=true",
+			"isRemotePage": 1,
+			"menuID": "1",
+			"menuName": "Toll"
+                                   }, {
+			"hasSubMenuItems": 0,
+			"menuLink": "https://mobileapp.sunpass.com/en/tolls/rentalVehicles.shtml?link=true",
+			"isRemotePage": 1,
+			"menuID": "2",
+			"menuName": "Rental Vehicles"
+                                   }, {
+			"hasSubMenuItems": 0,
+			"menuLink": "https://mobileapp.sunpass.com/en/support/contactus.shtml?link=true",
+			"isRemotePage": 1,
+			"menuID": "3",
+			"menuName": "Express Lanes"
+                                   }]
+                  }, {
+		"hasSubMenuItems": 1,
+		"menuLink": "",
+		"isRemotePage": 1,
+		"menuName": "Unpaid Tolls",
+		"menuID": "11",
+		"subMenuItems": [{
+			"hasSubMenuItems": 0,
+			"menuLink": "PAYDOCUMENTS?false",
+			"isRemotePage": 0,
+			"menuID": "1",
+			"menuName": "Toll Enforcement Invoice"
+                                   }, {
+			"hasSubMenuItems": 0,
+			"menuLink": "https://mobileapp.sunpass.com/en/unpaid/collection.shtml?link=true",
+			"isRemotePage": 1,
+			"menuID": "2",
+			"menuName": "Pay Collection Notice"
+                                   }, {
+			"hasSubMenuItems": 0,
+			"menuLink": "RELEASE_REGISTRATION",
+			"isRemotePage": 0,
+			"menuID": "3",
+			"menuName": "Vehicle Registration Stop"
+                                   }, {
+			"hasSubMenuItems": 0,
+			"menuLink": "PAYDOCUMENTS?false",
+			"isRemotePage": 0,
+			"menuID": "4",
+			"menuName": "File a Dispute"
+                                   }]
+                  }, {
+		"hasSubMenuItems": 0,
+		"menuLink": "SETTINGS",
+		"menuName": "Settings",
+		"isRemotePage": 0,
+		"menuID": "12"
+                  },{
+		"hasSubMenuItems": 0,
+		"menuLink": "CONTACT_US",
+		"menuName": "Contact us",
+		"isRemotePage": 0,
+		"menuID": "12"
+                  },{
+		"hasSubMenuItems": 0,
+		"menuLink": "https://mobileapp.sunpass.com/en/support/privacy.shtml?link=true",
+		"menuName": "Privacy & Security",
+		"isRemotePage": 1,
+		"menuID": "13"
+                  }, {
+		"hasSubMenuItems": 0,
+		"menuLink": "FAQS",
+		"menuName": "FAQs",
+		"isRemotePage": 0,
+		"menuID": "14"
+                  }, {
+		"hasSubMenuItems": 0,
+		"menuLink": "https://mobileapp.sunpass.com/en/support/usermanual.shtml?link=true",
+		"menuName": "Terms of Use",
+		"isRemotePage": 1,
+		"menuID": "15"
+                  }, {
+		"hasSubMenuItems": 0,
+		"menuLink": "HELP",
+		"menuName": "Help",
+		"isRemotePage": 0,
+		"menuID": "16"
+                  }, {
+		"hasSubMenuItems": 0,
+		"menuLink": "https://mobileapp.sunpass.com/vector/account/home/feedbackRequest.do",
+		"menuName": "Feedback",
+		"isRemotePage": 1,
+		"menuID": "17"
+                  }, {
+		"hasSubMenuItems": 0,
+		"menuLink": "NEWS_AND_MEDIA",
+		"menuName": "News and Events",
+		"isRemotePage": 0,
+		"menuID": "19"
+                  }]
+}

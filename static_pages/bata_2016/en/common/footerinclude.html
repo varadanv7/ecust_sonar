@@ -1,0 +1,25 @@
+		<script src="../common/js/vendor/jquery-1.10.1.min.js"></script>
+        <script src="../common/js/vendor/bootstrap.min.js"></script>
+		<script src="../common/js/vendor/jquery.placeholder.js"></script>
+        <script src="../common/js/plugins.js"></script>
+        <script src="../common/js/main.js"></script>
+		<script src="../common/js/spin.min.js"></script>
+		<!-- end footer_txdot -->
+		
+		
+		
+		<script type="text/javascript">
+		jQuery(document).ready(function($){
+			documentready();
+			var path = window.location.protocol+'//'+window.location.host+(window.location.pathname).replace('/en/','/es/');
+			$('#lang_es').attr('href', path);
+		});
+		var valSignInURL = window.location.protocol+'//'+window.location.host+"/vector/account/home/accountLogin.do?from=Home&locale=en_US";
+		var valInvURL = window.location.protocol+'//'+window.location.host+"/vector/invoices/invoiceInquiry.do?from=Home&locale=en_US";
+		var valViolURL = window.location.protocol+'//'+window.location.host+"/vector/violations/bataViolationInquiry.do?from=Home&locale=en_US";
+		var violaction = window.location.protocol+'//'+window.location.host+"/vector/violations/bataViolationInquiry.do?btnLookupViolation=clicked&formid=frmViolationInquiry&from=Home&locale=en_US";
+		var invaction = window.location.protocol+'//'+window.location.host+"/vector/invoices/invoiceInquiry.do?btnSearch=clicked&formid=frmInvoiceInquiry&from=Home&locale=en_US";
+		var tagregURL = window.location.protocol+'//'+window.location.host+"/vector/account/transponders/registerTollTag.do?from=Home&locale=en_US";
+		var psignupURL = window.location.protocol+'//'+window.location.host+"/vector/account/signup/FTAccountHolder.do?from=Home&locale=en_US&cs=t";
+		var vsignupURL = window.location.protocol+'//'+window.location.host+"/vector/videotolls/signup/CreateVideoAccountSignUp.do?from=Home&locale=en_US&cs=t";
+		</script>

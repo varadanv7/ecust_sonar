@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+
+<title>FasTrak</title>
+
+<!-- INCLUDE MODERNIZR USING CDN -->
+<script
+	src="../common/js/modernizr.min.js"
+	type="text/javascript" charset="utf-8"></script>
+
+<!--#include file="../common/headerinclude.html"-->
+
+<!-- SET BROWSER WIDTH & LOCK SCALE -->
+<meta name="viewport"
+	content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+    <script src="../assets/js/html5shiv.js"></script>
+  <![endif]-->
+
+</head>
+
+<body onLoad="setWindowSizeP()">
+	<!--#include file="../common/html/pageheader.shtml"-->
+	<div class="contentTopper">
+		<ol class="breadcrumb">
+			<li><a href="../home/index.shtml"><img
+					src="../images/breadcrumb/Home_icon.png">
+			</a>
+			</li>
+			<li class="active">金門大橋通行費</li>
+		</ol>
+	</div>
+	<div class="contentEnvelope" editarea="ggGateChinese" editareadesc="ggGate Chinese">
+		<!-- content -->
+		<div class="contentTitle">
+			<div
+				style="display: inline-block; float: left; width: 240px; padding: 0 0 0 0;">&nbsp;</div>
+			<div style="display: inline-block; padding: 0 0 0 0;">金門大橋通行費</div>
+		</div>
+		<div class="menuCol">
+			<div class="menuBox">
+				<div class="navBox" id="benefit">
+					<div id="benefitOrangeBox">&nbsp;</div>
+					<a href="benefitsChinese.shtml" class="leftNav"
+						onMouseover="langMouse('benefit','benefitOrangeBox')"
+						onMouseOut="langMouseOut('benefit','benefitOrangeBox')">益處</a>
+				</div>
+				<div class="navBox" id="getting">
+					<div id="gettingOrangeBox">&nbsp;</div>
+					<a href="startedChinese.shtml" class="leftNav"
+						onMouseover="langMouse('getting','gettingOrangeBox')"
+						onMouseOut="langMouseOut('getting','gettingOrangeBox')">入門指南</a>
+				</div>
+				<div class="navBox" id="get">
+					<div id="getOrangeBoxAlt">&nbsp;</div>
+					<a href="tollTagChinese.shtml" class="leftNav"
+						onMouseover="langMouse('get','getOrangeBoxAlt')"
+						onMouseOut="langMouseOut('get','getOrangeBoxAlt')">FasTrak
+						通行費標籤</a>
+				</div>
+				<div class="navBox" id="use">
+					<div id="useOrangeBox">&nbsp;</div>
+					<a href="usingChinese.shtml" class="leftNav"
+						onMouseover="langMouse('use','useOrangeBox')"
+						onMouseOut="langMouseOut('use','useOrangeBox')">使用 FasTrak</a>
+				</div>
+				<div class="navBox" id="where">
+					<div id="whereOrangeBox">&nbsp;</div>
+					<a href="whereChinese.shtml" class="leftNav"
+						onMouseover="langMouse('where','whereOrangeBox')"
+						onMouseOut="langMouseOut('where','whereOrangeBox')">在哪裡使用
+						FasTrak</a>
+				</div>
+				<div class="navBoxActive" id="GG">
+					<div id="GGOrangeBox" style="visibility: visible;">&nbsp;</div>
+					<a href="#" class="leftNav"
+						onMouseover="langMouse('GG','GGOrangeBox')"
+						onMouseOut="langMouseOut('GG','GGOrangeBox')">金門大橋通行費</a>
+				</div>
+				<div class="navBox" id="invoice">
+					<div id="invoiceOrangeBox">&nbsp;</div>
+					<a href="invoiceChinese.shtml" class="leftNav"
+						onMouseover="langMouse('invoice','invoiceOrangeBox')"
+						onMouseOut="langMouseOut('invoice','invoiceOrangeBox')">賬單或違規通知</a>
+				</div>
+				<div class="navBox" id="discount">
+					<div id="discountOrangeBoxAlt">&nbsp;</div>
+					<a href="discountsChinese.shtml" class="leftNav"
+						onMouseover="langMouse('discount','discountOrangeBoxAlt')"
+						onMouseOut="langMouseOut('discount','discountOrangeBoxAlt')">減價優惠和免費通行</a>
+				</div>
+				<div class="navBox" id="contact">
+					<div id="contactOrangeBoxAlt">&nbsp;</div>
+					<a href="contactChinese.shtml" class="leftNav"
+						onMouseover="langMouse('contact','contactOrangeBoxAlt')"
+						onMouseOut="langMouseOut('contact','contactOrangeBoxAlt')">與我們聯絡</a>
+				</div>
+			</div>
+		</div>
+		<div id="contentCol">
+			<div class="colFullCopy">
+				<img src="../images/ggGate_1.jpg" width="100%"
+					style="max-width: 742px">
+				<div class="indento">
+					<br> 當開車往南進入三藩市時，該大橋收取通行費。您必須用 FasTrak 通行費標籤以電
+					子方式支付通行費，或者使用您的車牌照號碼用另一種方法支付通行費。 <br>
+					<br> 這座橋樑上沒有可停下支付通行費的地點。橋樑上或遊客中心沒有人可收取您的通 行費。您必須使用以下一種方法支付通行費。
+				</div>
+				<div class="greenArticleTop">A. 用 FasTrak 付費</div>
+				<div class="indento">
+					使用 FasTrak，您將自動享用減價費率。在通勤時段使用 FasTrak 並在合夥搭車車道行車，可享用更高的折扣。 <br>
+					<br> 您可以使用 FasTrak 通行費標籤和賬戶為任何一輛車輛臨時支付通行費，包括租車。 <br>
+					<br> <a href="#ggLink1" class="inLineLinkk">使用您的 FasTrak
+						賬戶支付通行費。</a>
+					<div class="orangeTitleCallout">通行費率</div>
+					<img src="../images/ggGate_2Chin.png" width="100%"
+						style="max-width: 464px"> <br>
+					<br> 對於帶拖車的車輛、多軸車輛和車牌照賬戶，請查閱全面<a
+						href="../images/multi-axle-vehicle-toll-chart-2017.pdf"
+						class="inLineLinkk" target="_blank">金門大橋通行費。</a>
+				</div>
+				<div class="greenArticleTop">B. 不用 FasTrak 付費</div>
+				<div class="indento">
+					<br> 如果您沒有 FasTrak，您選擇通過該橋樑，不會有罰款。FasTrak 會將通行費
+					賬單寄給車輛註冊擁有人。擁有人可在 21 天內支付該賬單費用。 <br>
+					<br>
+					如果您不是車輛的註冊擁有人，或者您希望立即支付通行費，請使用「一次性付款」方法。這是一個短期賬戶。您可以為在金門大橋上一次過橋或多次過橋付費。您為某一車輛在不超過
+					30 天的固定時段支付通行費。您必須在通過橋樑往南進入三藩市 48 小時之前或以內設置該付款方法。詳情請查閱<a
+						href="#ggLink2" class="inLineLinkk">如何在網上一次性付款。</a>
+					<div style="max-width: 468px; padding-top: 5px;">
+						<div class="tipsBlock">
+							<div class="tipsBlockTitle">現在支付通行費，避免以後收到賬單</div>
+							如果您不使用 FasTrak 賬戶支付金門大橋通行費，FasTrak 會將專門的通行費賬單寄
+							給車輛註冊擁有人。如果您希望避免車輛擁有人收到該賬單，您可以使用一次性付款方法支付通行費。 <br>
+							<br> <a href="#ggLink3" class="inLineLinkk">請查閱如何一次性付款</a>
+						</div>
+						<div class="tipsBox">提示</div>
+					</div>
+				</div>
+				<br>
+				<a name="ggLink1"></a> <a href="#top" class="backToTopChinese"
+					style="float: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;返回最上方</a>
+				<br>
+				<div class="greenArticleTop">租車用戶</div>
+				<div class="indento">
+					您可以用三種方法支付金門大橋通行費。
+					<div class="orangeTitleCallout">1. 事先安排由租車公司支付通行費</div>
+					大多數租車公司有通行費付款計劃。他們通常會在您使用的通行 費之外收取便利費。請查看您的租車協議中的條款和條件。如果
+					您希望自己支付通行費，在您簽署租車合約時選擇退出此項服務。
+					<div class="orangeTitleCallout">2. 使用「一次性付款」方法自己支付通行費</div>
+					「一次性付款」是一個短期賬戶，使用車牌照號碼和您選擇的一系列 日期。您必須在通過金門大橋 48
+					小時之前或以內設置一次性付款。請選擇符合您的租車合約開始和終止日期的時間，應涵蓋您將產生的所有通行費。 <br>
+					<br> 您可以按照以下方法設置一次性付款： <br>
+					<ul>
+						<li class="lister">透過<a
+							href="https://www.bayareafastrak.org/en/howitworks/oneTime.shtml"
+							class="inLineLinkk" target="_blank">英語網站</a>在網上付款</li>
+						<li class="lister">在<a
+							href="https://www.bayareafastrak.org/en/howitworks/cashLocationsMap.html"
+							class="inLineLinkk" target="_blank">現金付款地點</a>付款</li>
+						<li class="lister"><a href="contactChinese.shtml"
+							class="inLineLinkk">打電話</a>付款</li>
+					</ul>
+					請在<a href="#ggLink3" class="inLineLinkk">此處</a>瞭解有關如何在網上一次性付款的進一步詳情：<br>
+					<div class="orangeTitleCallout">3. 使用您的 FasTrak 賬戶支付通行費</div>
+					您可以用以下兩種方法臨時在您的 FasTrak 賬戶中增加任何車輛（包括租車），支付所有的通行費。 <br>
+					<ul>
+						<li class="lister">在網上進入您的賬戶，並增加車輛。使開始和終止日期與
+							您的租車期限相符。將通行費標籤掛在您的租車內。</li>
+						<li class="lister">或打電話給我們，我們會幫助您設置。</li>
+					</ul>
+					<div style="max-width: 468px;">
+						<div class="tipsBlock">
+							<div class="tipsBlockTitle">對於很多租車用戶，一次性付款是最佳選擇</div>
+							如果您選擇用一次性付款方法付費，在您通過大橋往南進入三藩市 48 小時之前或
+							以內支付通行費。否則租車公司將支付通行費，並可能向您收取附加服務費。
+						</div>
+						<div class="tipsBox">提示</div>
+					</div>
+					<br>
+					<br> 請在此處瞭解有關<a href="http://goldengate.org/tolls/chinese.php"
+						class="inLineLinkk" target="_blank">金門大橋通行費</a>的進一步詳情。
+				</div>
+				<br> <a href="#top" class="backToTopChinese"
+					style="float: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;返回最上方</a>
+				<br>
+				<a name="ggLink3"></a><a name="ggLink2"></a>
+				<div class="greenArticleTop">如何在網上一次性付款</div>
+				<div class="indento">
+					「一次性付款」是一個短期賬戶，為某一特定車輛在固定時段內支付通過金
+					門大橋的一次或多次通行費。該賬戶使用車牌照號碼和您選擇的一系列日期。 <br>
+					<br> 您必須在通過該大橋往南進入三藩市 48 小時之前或以內設置該付款方法。
+					<div class="orangeTitleCallout">已經通過金門大橋</div>
+					如果您通過該大橋往南進入三藩市，您必須支付通行費。請遵守以下步驟： <br>
+					<br>
+					<ol>
+						<li class="lister">在英語網站中，進入網頁<a
+							href="https://www.bayareafastrak.org/en/howitworks/oneTime.shtml"
+							class="inLineLinkk" target="_blank">一次性支付金門大橋通行費 </a>
+						</li>
+						<li class="lister">選擇「Pay Recent and Future
+							Toll」（支付近期和以後的通行費）<br>
+						<img src="../images/payRecent.png" style="margin: 10px 0 10px 0;">
+						</li>
+						<li class="lister">填寫要求的車輛和信用卡資訊。</li>
+						<li class="lister">選擇一個過去的開始日期，該日期應當在您在收費方向通過金門大橋的日期和時間之前。請注意：終止日期必須是今天或以後的日期。您可以用該短期賬戶支付今後
+							30 天內的過橋通行費。</li>
+						<li class="lister">增加一個電子郵件地址，接收您設置一次性付款的確認郵件。
+							當您產生通行費時，費用會在您的信用卡對賬單中顯示。</li>
+					</ol>
+					<div class="orangeTitleCallout">計劃在 30 天內通過金門大橋</div>
+					您必須在通過該大橋往南進入三藩市時支付通行費。您可以事先安排 支付通行費。如需這樣做，請遵守以下步驟：<br>
+					<br>
+					<ol>
+						<li class="lister">在英語網站中，進入網頁 <a
+							href="https://www.bayareafastrak.org/en/howitworks/oneTime.shtml"
+							class="inLineLinkk" target="_blank">One Time Payment For
+								Golden Gate Bridge Tolls</a>（一次性支付金門大橋通行費）</li>
+						<li class="lister">選擇「Set up To Pay Future Toll」（設置支付未來通行費）<br>
+						<img src="../images/futureToll.png" style="margin: 10px 0 10px 0;">
+						</li>
+						<li class="lister">填寫要求的車輛和信用卡資訊。</li>
+						<li class="lister">填寫日期。<i>請注意： 「當前日期」（Current
+								Date）必須是今天。「終止日期」（End Date）可以是今後 30 天內的任何日期。</i>
+						</li>
+						<li class="lister">增加一個電子郵件地址，接收您設置一次性付款的確認郵件。
+							當您產生通行費時，費用會在您的信用卡對賬單中顯示。</li>
+					</ol>
+				</div>
+				<br> <a href="#top" class="backToTopChinese"
+					style="float: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;返回最上方</a>
+			</div>
+		</div>
+	</div>
+	<!-- end content -->
+	</div>
+	<div class="footerTopperRelated">
+		<div class="footerToppler">Keep moving with FasTrak</div>
+	</div>
+	<script src="../common/js/footer.js"></script>
+
+</body>
+</html>

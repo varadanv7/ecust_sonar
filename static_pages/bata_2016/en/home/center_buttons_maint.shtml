@@ -1,0 +1,63 @@
+<div class="homeCenter" padding="50px 0px">
+	<div class="boxContainer col-md-12" style="margin-left: 0px;">
+		<div class="carousel-caption crsltop" style="position: relative;">
+			<div class="panelc" style="width: 120%; height: 80%;">
+
+				<div class="panel-body panel-carous" style="text-align: left;">
+					<div class="rowhome wach">
+						<div class="mobilediv">
+							<div>
+								<div class="col-md-2">
+									<img alt="alert" src="../images/WebUpdate.png">
+								</div>
+								<div class="col-md-10">
+									<p class="maintheader" editarea="homemaintmess1"
+										editareadesc="Maintenance Message Header">System
+										Maintenance</p>
+								</div>
+							</div>
+							<div>
+								<div class="col-md-12">
+									<p class="maintcontent" editarea="homemaintmess2"
+										editareadesc="Maintenance Message"
+										style="margin-bottom: 0px; font-size: 13px;">
+										Account and payment access will be unavailable on the website,
+										through the telephone system, and at cash payment network
+										locations due to planned system maintenance. Email inquiries
+										via the FasTrak website will also be disabled during this time
+										period. <a href="../about/news.shtml">click here for more
+											information</a> <br /> <br />We apologize for the
+										inconvenience. <br /> <br /> <br />
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="desktopdiv">
+							<div class="col-md-2">
+								<img alt="alert" src="../images/WebUpdate.png">
+							</div>
+							<div class="col-md-10">
+								<p class="maintheader" editarea="homemaintmess1"
+									editareadesc="Maintenance Message Header">System
+									Maintenance</p>
+								<p class="maintcontent" editarea="homemaintmess2"
+									editareadesc="Maintenance Message" style="margin-bottom: 0px;">
+									Account and payment access will be unavailable on the website,
+									through the telephone system, and at cash payment network
+									locations due to planned system maintenance. Email inquiries
+									via the FasTrak website will also be disabled during this time
+									period. <a href="../about/news.shtml">click here for more
+										information</a> <br /> <br />We apologize for the inconvenience.
+									<br /> <br /> <br />
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+</div>
+</div>

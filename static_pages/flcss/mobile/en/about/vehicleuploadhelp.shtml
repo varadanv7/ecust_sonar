@@ -1,0 +1,1525 @@
+<!doctype html>
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><html lang="en" class="no-js"> <![endif]-->
+<html lang="en">
+<head>
+  <title>SunPass</title>
+  <!--#include file="../includes/headerinclude.html"-->
+
+  <style>
+    #google-map,
+    body,
+    html {
+      padding: 0;
+      height: 400px;
+    }	
+	
+	.b{
+	padding-left:20px;
+	padding-top:7px;
+	padding-bottom:7px;
+	background:#009999;
+	cursor: pointer;
+	color: white;
+	}
+	
+	.c{
+	background:#CCFFE5;
+	<!-- cursor: pointer; -->
+	}
+	
+	table, td, th {    
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+}
+
+th, td {
+    padding: 10px;
+}
+  </style>
+  <script>
+  
+  function hide()
+  {
+  $('#AK').hide();
+  $('#AL').hide();
+  $('#AP').hide();
+  $('#AR').hide();
+  $('#AS').hide();
+  $('#AZ').hide();
+  $('#CA').hide();
+  $('#CO').hide();
+  $('#CT').hide();
+  $('#DC').hide();
+  $('#DE').hide();
+  $('#FL').hide();
+  $('#FM').hide();
+  $('#GA').hide();
+  $('#GU').hide();
+  $('#HI').hide();
+  $('#IA').hide();
+  $('#ID').hide();
+  $('#IL').hide();
+  $('#IN').hide();
+  $('#KS').hide();
+  $('#KY').hide();
+  $('#LA').hide();
+  $('#MA').hide();
+  $('#MD').hide();
+  $('#ME').hide();
+  $('#MH').hide();
+  $('#MI').hide();
+  $('#MN').hide();
+  $('#MO').hide();
+  $('#MP').hide();
+  $('#MS').hide();
+  $('#MT').hide();
+  $('#NC').hide();
+  $('#ND').hide();
+  $('#NE').hide();
+  $('#NH').hide();
+  $('#NJ').hide();
+  $('#NM').hide();
+  $('#NV').hide();
+  $('#NY').hide();
+  $('#OH').hide();
+  $('#OK').hide();
+  $('#OR').hide();
+  $('#PA').hide();
+  $('#PR').hide();
+  $('#PW').hide();
+  $('#RI').hide();
+  $('#SC').hide();
+  $('#SD').hide();
+  $('#TN').hide();
+  $('#TX').hide();
+  $('#GS').hide();
+  $('#UT').hide();
+  $('#VA').hide();
+  $('#VI').hide();
+  $('#VT').hide();
+  $('#WA').hide();
+  $('#WI').hide();
+  $('#WV').hide();
+  $('#WY').hide();
+  $('#AA').hide();
+  $('#AE').hide();
+  
+  }
+   function remove()
+  {
+  $('#AK').removeClass('collapse in');
+  $('#AL').removeClass('collapse in'); 
+  $('#AP').removeClass('collapse in'); 
+  $('#AR').removeClass('collapse in');
+  $('#AS').removeClass('collapse in');
+  $('#AZ').removeClass('collapse in');
+  $('#CA').removeClass('collapse in');
+  $('#CO').removeClass('collapse in');
+  $('#CT').removeClass('collapse in');
+  $('#DC').removeClass('collapse in');
+  $('#DE').removeClass('collapse in');
+  $('#FL').removeClass('collapse in');
+  $('#FM').removeClass('collapse in');
+  $('#GA').removeClass('collapse in');
+  $('#GU').removeClass('collapse in');
+  $('#HI').removeClass('collapse in');
+  $('#IA').removeClass('collapse in');
+  $('#ID').removeClass('collapse in');
+  $('#IL').removeClass('collapse in');
+  $('#IN').removeClass('collapse in');
+  $('#KS').removeClass('collapse in');
+  $('#KY').removeClass('collapse in');
+  $('#LA').removeClass('collapse in');
+  $('#MA').removeClass('collapse in');
+  $('#MD').removeClass('collapse in');
+  $('#ME').removeClass('collapse in');
+  $('#MH').removeClass('collapse in');
+  $('#MI').removeClass('collapse in');
+  $('#MN').removeClass('collapse in');
+  $('#MO').removeClass('collapse in');
+  $('#MP').removeClass('collapse in');
+  $('#MS').removeClass('collapse in');
+  $('#MT').removeClass('collapse in');
+  $('#NC').removeClass('collapse in');
+  $('#ND').removeClass('collapse in');
+  $('#NE').removeClass('collapse in');
+  $('#NH').removeClass('collapse in');
+  $('#NJ').removeClass('collapse in');
+  $('#NM').removeClass('collapse in');
+  $('#NV').removeClass('collapse in');
+  $('#NY').removeClass('collapse in');
+  $('#OH').removeClass('collapse in');
+  $('#OK').removeClass('collapse in');
+  $('#OR').removeClass('collapse in');
+  $('#PA').removeClass('collapse in');
+  $('#PR').removeClass('collapse in');
+  $('#PW').removeClass('collapse in');
+  $('#RI').removeClass('collapse in');
+  $('#SC').removeClass('collapse in');
+  $('#SD').removeClass('collapse in');
+  $('#TN').removeClass('collapse in');
+  $('#TX').removeClass('collapse in');
+  $('#GS').removeClass('collapse in');
+  $('#UT').removeClass('collapse in');
+  $('#VA').removeClass('collapse in');
+  $('#VI').removeClass('collapse in');
+  $('#VT').removeClass('collapse in');
+  $('#WA').removeClass('collapse in');
+  $('#WI').removeClass('collapse in');
+  $('#WV').removeClass('collapse in');
+  $('#WY').removeClass('collapse in');
+  $('#AA').removeClass('collapse in');
+  $('#AE').removeClass('collapse in');
+ 
+  
+  
+  }
+    
+  $(document).ready(function(){
+    hide();
+   $('a').click(function(){
+   hide();
+ //alert(document.getElementById("AK").className);
+   if(this.name=="AK" && ((document.getElementById("AK").className)!="collapse in" ))
+   {
+  
+   $('#AK').show();
+    remove(); 
+   }
+   else if(this.name=="AL" && ((document.getElementById("AL").className)!="collapse in" ))
+   {
+   $('#AL').show();
+    remove();
+   
+   }
+   else if(this.name=="AP" && ((document.getElementById("AP").className)!="collapse in" ) )
+   {
+   $('#AP').show();
+    remove();
+   }
+    else if(this.name=="AR" && ((document.getElementById("AR").className)!="collapse in" ) )
+   {
+   $('#AR').show();
+    remove();
+   }
+    else if(this.name=="AS" && ((document.getElementById("AS").className)!="collapse in" ) )
+   {
+   $('#AS').show();
+    remove();
+   }
+    else if(this.name=="AZ" && ((document.getElementById("AZ").className)!="collapse in" ) )
+   {
+   $('#AZ').show();
+    remove();
+   }
+    else if(this.name=="CA" && ((document.getElementById("CA").className)!="collapse in" ) )
+   {
+   $('#CA').show();
+    remove();
+   }
+    else if(this.name=="CO" && ((document.getElementById("CO").className)!="collapse in" ) )
+   {
+   $('#CO').show();
+    remove();
+   }
+    else if(this.name=="CT" && ((document.getElementById("CT").className)!="collapse in" ) )
+   {
+   $('#CT').show();
+    remove();
+   }
+    else if(this.name=="DC" && ((document.getElementById("DC").className)!="collapse in" ) )
+   {
+   $('#DC').show();
+    remove();
+   }
+    else if(this.name=="DE" && ((document.getElementById("DE").className)!="collapse in" ) )
+   {
+   $('#DE').show();
+    remove();
+   }
+    else if(this.name=="FL" && ((document.getElementById("FL").className)!="collapse in" ) )
+   {
+   $('#FL').show();
+    remove();
+   }
+    else if(this.name=="FM" && ((document.getElementById("FM").className)!="collapse in" ) )
+   {
+   $('#FM').show();
+    remove();
+   }
+    else if(this.name=="GA" && ((document.getElementById("GA").className)!="collapse in" ) )
+   {
+   $('#GA').show();
+    remove();
+   }
+    else if(this.name=="GU" && ((document.getElementById("GU").className)!="collapse in" ) )
+   {
+   $('#GU').show();
+    remove();
+   }
+    else if(this.name=="HI" && ((document.getElementById("HI").className)!="collapse in" ) )
+   {
+   $('#HI').show();
+    remove();
+   }
+    else if(this.name=="IA" && ((document.getElementById("IA").className)!="collapse in" ) )
+   {
+   $('#IA').show();
+    remove();
+   }
+    else if(this.name=="ID" && ((document.getElementById("ID").className)!="collapse in" ) )
+   {
+   $('#ID').show();
+    remove();
+   }
+    else if(this.name=="IL" && ((document.getElementById("IL").className)!="collapse in" ) )
+   {
+   $('#IL').show();
+    remove();
+   }
+    else if(this.name=="IN" && ((document.getElementById("IN").className)!="collapse in" ) )
+   {
+   $('#IN').show();
+    remove();
+   }
+    else if(this.name=="KS" && ((document.getElementById("KS").className)!="collapse in" ) )
+   {
+   $('#KS').show();
+    remove();
+   }
+    else if(this.name=="KY" && ((document.getElementById("KY").className)!="collapse in" ) )
+   {
+   $('#KY').show();
+    remove();
+   }
+    else if(this.name=="LA" && ((document.getElementById("LA").className)!="collapse in" ) )
+   {
+   $('#LA').show();
+    remove();
+   }
+    else if(this.name=="MA" && ((document.getElementById("MA").className)!="collapse in" ) )
+   {
+   $('#MA').show();
+    remove();
+   }
+    else if(this.name=="MD" && ((document.getElementById("MD").className)!="collapse in" ) )
+   {
+   $('#MD').show();
+    remove();
+   }
+    else if(this.name=="ME" && ((document.getElementById("ME").className)!="collapse in" ) )
+   {
+   $('#ME').show();
+    remove();
+   }
+    else if(this.name=="MH" && ((document.getElementById("MH").className)!="collapse in" ) )
+   {
+   $('#MH').show();
+    remove();
+   }
+    else if(this.name=="MI" && ((document.getElementById("MI").className)!="collapse in" ) )
+   {
+   $('#MI').show();
+    remove();
+   }
+    else if(this.name=="MN" && ((document.getElementById("MN").className)!="collapse in" ) )
+   {
+   $('#MN').show();
+    remove();
+   }
+    else if(this.name=="MO" && ((document.getElementById("MO").className)!="collapse in" ) )
+   {
+   $('#MO').show();
+    remove();
+   }
+    else if(this.name=="MP" && ((document.getElementById("MP").className)!="collapse in" ) )
+   {
+   $('#MP').show();
+    remove();
+   }
+    else if(this.name=="MS" && ((document.getElementById("MS").className)!="collapse in" ) )
+   {
+   $('#MS').show();
+    remove();
+   }
+    else if(this.name=="MT" && ((document.getElementById("MT").className)!="collapse in" ) )
+   {
+   $('#MT').show();
+    remove();
+   }
+    else if(this.name=="NC" && ((document.getElementById("NC").className)!="collapse in" ) )
+   {
+   $('#NC').show();
+    remove();
+   }
+    else if(this.name=="ND" && ((document.getElementById("ND").className)!="collapse in" ) )
+   {
+   $('#ND').show();
+    remove();
+   }
+    else if(this.name=="NE" && ((document.getElementById("NE").className)!="collapse in" ) )
+   {
+   $('#NE').show();
+    remove();
+   }
+    else if(this.name=="NH" && ((document.getElementById("NH").className)!="collapse in" ) )
+   {
+   $('#NH').show();
+    remove();
+   }
+    else if(this.name=="NJ" && ((document.getElementById("NJ").className)!="collapse in" ) )
+   {
+   $('#NJ').show();
+    remove();
+   }
+    else if(this.name=="NM" && ((document.getElementById("NM").className)!="collapse in" ) )
+   {
+   $('#NM').show();
+    remove();
+   }
+   
+    else if(this.name=="NV" && ((document.getElementById("NV").className)!="collapse in" ) )
+   {
+   $('#NV').show();
+    remove();
+   }
+    else if(this.name=="NY" && ((document.getElementById("NY").className)!="collapse in" ) )
+   {
+   $('#NY').show();
+    remove();
+   }
+    else if(this.name=="OH" && ((document.getElementById("OH").className)!="collapse in" ) )
+   {
+   $('#OH').show();
+    remove();
+   }
+    else if(this.name=="OK" && ((document.getElementById("OK").className)!="collapse in" ) )
+   {
+   $('#OK').show();
+    remove();
+   }
+    else if(this.name=="OR" && ((document.getElementById("OR").className)!="collapse in" ) )
+   {
+   $('#OR').show();
+    remove();
+   }
+    else if(this.name=="PA" && ((document.getElementById("PA").className)!="collapse in" ) )
+   {
+   $('#PA').show();
+    remove();
+   }
+    else if(this.name=="PR" && ((document.getElementById("PR").className)!="collapse in" ) )
+   {
+   $('#PR').show();
+    remove();
+   }
+    else if(this.name=="PW" && ((document.getElementById("PW").className)!="collapse in" ) )
+   {
+   $('#PW').show();
+    remove();
+   }
+    else if(this.name=="RI" && ((document.getElementById("RI").className)!="collapse in" ) )
+   {
+   $('#RI').show();
+    remove();
+   }
+    else if(this.name=="SC" && ((document.getElementById("SC").className)!="collapse in" ) )
+   {
+   $('#SC').show();
+    remove();
+   }
+    else if(this.name=="SD" && ((document.getElementById("SD").className)!="collapse in" ) )
+   {
+   $('#SD').show();
+    remove();
+   }
+    else if(this.name=="TN" && ((document.getElementById("TN").className)!="collapse in" ) )
+   {
+   $('#TN').show();
+    remove();
+   }
+    else if(this.name=="TX" && ((document.getElementById("TX").className)!="collapse in" ) )
+   {
+   $('#TX').show();
+    remove();
+   }
+    else if(this.name=="GS" && ((document.getElementById("GS").className)!="collapse in" ) )
+   {
+   $('#GS').show();
+    remove();
+   }
+    else if(this.name=="UT" && ((document.getElementById("UT").className)!="collapse in" ) )
+   {
+   $('#UT').show();
+    remove();
+   }
+    else if(this.name=="VA" && ((document.getElementById("VA").className)!="collapse in" ) )
+   {
+   $('#VA').show();
+    remove();
+   }
+    else if(this.name=="VI" && ((document.getElementById("VI").className)!="collapse in" ) )
+   {
+   $('#VI').show();
+    remove();
+   }
+    else if(this.name=="VT" && ((document.getElementById("VT").className)!="collapse in" ) )
+   {
+   $('#VT').show();
+    remove();
+   }
+    else if(this.name=="WA" && ((document.getElementById("WA").className)!="collapse in" ) )
+   {
+   $('#WA').show();
+    remove();
+   }
+    else if(this.name=="WI" && ((document.getElementById("WI").className)!="collapse in" ) )
+   {
+   $('#WI').show();
+    remove();
+   }
+    else if(this.name=="WV" && ((document.getElementById("WV").className)!="collapse in" ) )
+   {
+   $('#WV').show();
+    remove();
+   }
+    else if(this.name=="WY" && ((document.getElementById("WY").className)!="collapse in" ) )
+   {
+   $('#WY').show();
+    remove();
+   }
+    else if(this.name=="AA" && ((document.getElementById("AA").className)!="collapse in" ) )
+   {
+   $('#AA').show();
+    remove();
+   }
+    else if(this.name=="AE" && ((document.getElementById("AE").className)!="collapse in" ) )
+   {
+   $('#AE').show();
+    remove();
+   }
+   
+});
+});
+  </script>
+</head>
+<body>
+
+  <div id="container">
+    <!--#include file="../includes/topnavigator.html"-->
+	    <!-- Start Page Banner -->
+    <div class="page-banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Vehicle Bulk Upload Help screen</h2>
+            <p></p>
+          </div>
+          <div class="col-md-6">
+            <ul class="breadcrumbs">
+              <li><a href="../home/index.shtml">Home</a></li>
+              <li>Vehicle Bulk Upload Help screen</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+	
+    <div id="content">
+		<div class="container bach">
+		<h4 class="classic-title"><span>Vehicle Bulk Upload</span></h4>
+		<div class="page-content">
+<p valign="top"> Download the vehicle upload template from here.
+<a href="../other/SampleVehicle.xlsx" target="new"> EXCEL  </a> |
+					  <a href="../other/SampleVehicle.csv" target="new">CSV </a></p>		
+<div class="row">
+
+			<div class="col-md-12 col-sm-12">
+           		<p>
+                   Enter the license plate details as provided in the example and additional details on each column are detailed below
+                </p>
+				  <img class="logo-light" src="../common/images/vehicleuploadhelp.jpg" alt="SunPass Logo" />
+                <p>
+                   <br><b>Plate Number:</b> Enter the vehicle license plate number without any special character and without the state
+                </p>
+				
+                <p>
+                  <b> Country:</b> Enter the vehicle license plate issued country 
+                </p>
+				<p>
+                  <b>State:</b> Enter the vehicle license plate issue state (2 character abbreviation) 
+                </p>
+				<p>
+                  <b>Plate Type:</b> Enter the plate type from the details list from the list of states below 
+                </p>
+              
+                <a  href="#!" name="AK" data-toggle="collapse" data-target="#AK">AK</a> 
+				<a  href="#!" name="AL" data-toggle="collapse" data-target="#AL">AL</a>
+				<a  href="#!" name="AP" data-toggle="collapse" data-target="#AP">AP</a>
+				<a  href="#!" name="AR" data-toggle="collapse" data-target="#AR">AR</a>
+				<a  href="#!" name="AS" data-toggle="collapse" data-target="#AS">AS</a>
+				<a  href="#!" name="AZ" data-toggle="collapse" data-target="#AZ">AZ</a>
+				<a  href="#!" name="CA" data-toggle="collapse" data-target="#CA">CA</a>
+				<a  href="#!" name="CO" data-toggle="collapse" data-target="#CO">CO</a>
+				<a  href="#!" name="CT" data-toggle="collapse" data-target="#CT">CT</a>
+				<a  href="#!" name="DC" data-toggle="collapse" data-target="#DC">DC</a>
+				<a  href="#!" name="DE" data-toggle="collapse" data-target="#DE">DE</a>
+				<a  href="#!" name="FL" data-toggle="collapse" data-target="#FL">FL</a>
+				<a  href="#!" name="FM" data-toggle="collapse" data-target="#FM">FM</a>
+				<a  href="#!" name="GA" data-toggle="collapse" data-target="#GA">GA</a>
+				<a  href="#!" name="GU" data-toggle="collapse" data-target="#GU">GU</a>
+				<a  href="#!" name="HI" data-toggle="collapse" data-target="#HI">HI</a>
+				<a  href="#!" name="IA" data-toggle="collapse" data-target="#IA">IA</a>
+				<a  href="#!" name="ID" data-toggle="collapse" data-target="#ID">ID</a>
+				<a  href="#!" name="IL" data-toggle="collapse" data-target="#IL">IL</a>
+				<a  href="#!" name="IN" data-toggle="collapse" data-target="#IN">IN</a>
+				<a  href="#!" name="KS" data-toggle="collapse" data-target="#KS">KS</a>
+				<a  href="#!" name="KY" data-toggle="collapse" data-target="#KY">KY</a>
+				<a  href="#!" name="LA" data-toggle="collapse" data-target="#LA">LA</a>
+				<a  href="#!" name="MA" data-toggle="collapse" data-target="#MA">MA</a>
+				<a  href="#!" name="MD" data-toggle="collapse" data-target="#MD">MD</a>
+				<a  href="#!" name="ME" data-toggle="collapse" data-target="#ME">ME</a>
+                
+				<a  href="#!" name="MH" data-toggle="collapse" data-target="#MH">MH</a> 
+				<a  href="#!" name="MI" data-toggle="collapse" data-target="#MI">MI</a>
+				<a  href="#!" name="MN" data-toggle="collapse" data-target="#MN">MN</a>
+				<a  href="#!" name="MO" data-toggle="collapse" data-target="#MO">MO</a>
+				<a  href="#!" name="MP" data-toggle="collapse" data-target="#MP">MP</a>
+				<a  href="#!" name="MS" data-toggle="collapse" data-target="#MS">MS</a>
+				<a  href="#!" name="MT" data-toggle="collapse" data-target="#MT">MT</a>
+				<a  href="#!" name="NC" data-toggle="collapse" data-target="#NC">NC</a>
+				<a  href="#!" name="ND" data-toggle="collapse" data-target="#ND">ND</a>
+				<a  href="#!" name="NE" data-toggle="collapse" data-target="#NE">NE</a>
+				<a  href="#!" name="NH" data-toggle="collapse" data-target="#NH">NH</a>
+				<a  href="#!" name="NJ" data-toggle="collapse" data-target="#NJ">NJ</a>
+				<a  href="#!" name="NM" data-toggle="collapse" data-target="#NM">NM</a>
+				<a  href="#!" name="NV" data-toggle="collapse" data-target="#NV">NV</a>
+				<a  href="#!" name="NY" data-toggle="collapse" data-target="#NY">NY</a>
+				<a  href="#!" name="OH" data-toggle="collapse" data-target="#OH">OH</a>
+				<a  href="#!" name="OK" data-toggle="collapse" data-target="#OK">OK</a>
+				<a  href="#!" name="OR" data-toggle="collapse" data-target="#OR">OR</a>
+				<a  href="#!" name="PA" data-toggle="collapse" data-target="#PA">PA</a>
+				<a  href="#!" name="PR" data-toggle="collapse" data-target="#PR">PR</a>
+				<a  href="#!" name="PW" data-toggle="collapse" data-target="#PW">PW</a>
+				<a  href="#!" name="RI" data-toggle="collapse" data-target="#RI">RI</a>
+				<a  href="#!" name="SC" data-toggle="collapse" data-target="#SC">SC</a>
+				<a  href="#!" name="SD" data-toggle="collapse" data-target="#SD">SD</a>
+				<a  href="#!" name="TN" data-toggle="collapse" data-target="#TN">TN</a>
+				
+				<a  href="#!" name="TX" data-toggle="collapse" data-target="#TX">TX</a> 
+				<a  href="#!" name="GS" data-toggle="collapse" data-target="#GS">GS</a>
+				<a  href="#!" name="UT" data-toggle="collapse" data-target="#UT">UT</a>
+				<a  href="#!" name="VA" data-toggle="collapse" data-target="#VA">VA</a>
+				<a  href="#!" name="VI" data-toggle="collapse" data-target="#VI">VI</a>
+				<a  href="#!" name="VT" data-toggle="collapse" data-target="#VT">VT</a>
+				<a  href="#!" name="WA" data-toggle="collapse" data-target="#WA">WA</a>
+				<a  href="#!" name="WI" data-toggle="collapse" data-target="#WI">WI</a>
+				<a  href="#!" name="WV" data-toggle="collapse" data-target="#WV">WV</a>
+				<a  href="#!" name="WY" data-toggle="collapse" data-target="#WY">WY</a>
+				<a  href="#!" name="AA" data-toggle="collapse" data-target="#AA">AA</a>
+				<a  href="#!" name="AE" data-toggle="collapse" data-target="#AE">AE</a>
+                   
+				   
+				   
+				    <div id="AK"><br>
+				    <div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/AK.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>	
+						<table>
+					 	<tr>
+    					<td>STANDARD</td>
+    					</tr>
+    					</table>
+				    </div> 
+				    <div id="AL"><br> 
+				    <div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/AL.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>	
+						<table>
+					 	<tr>
+    					<td>STANDARD</td>
+    					</tr>
+    					</table>
+				    </div>
+                    <div id="AP"><br> Plate Type: STANDARD </div>
+                    <div id="AR"><br>
+                    <div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/AR.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>	
+						<table>
+					 	<tr>
+    					<td>STANDARD</td>
+    					</tr>
+    					</table>
+                    
+                    </div>
+					<div id="AS"><br> 
+						<div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/AS.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>	
+						<table>
+					 	<tr>
+    					<td>STANDARD</td>
+    					</tr>
+    					</table>
+                    
+					</div>
+					<div id="AZ"><br>
+						<div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/AZ.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>	
+						<table>
+					 	<tr>
+    					<td>STANDARD</td>
+    					</tr>
+    					</table>
+                    
+					
+					</div>
+					<div id="CA"><br> 
+						<div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/CA.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>	
+						<table>
+					 	<tr>
+    					<td>STANDARD</td>
+    					</tr>
+    					</table>
+					
+					</div>
+					<div id="CO"><br>
+						<div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/CO.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>	
+						<table>
+					 	<tr>
+    					<td>STANDARD</td>
+    					</tr>
+    					</table>
+					
+					 </div>
+					<div id="CT"> <br>
+					<div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/CT.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>	
+						<table>
+					 	<tr>
+    					<td>STANDARD</td>
+    					</tr>
+    					</table>
+				   </div>
+					<div id="DC"><br> 
+					<div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/DC.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>	
+						<table>
+					 	<tr>
+    					<td>STANDARD</td>
+    					</tr>
+    					</table>
+					
+					</div>
+					<div id="DE"><br> 
+					<div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/DE.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>	
+						<table>
+					 	<tr>
+    					<td>STANDARD</td>
+    					</tr>
+    					</table>
+					 </div>
+					<div id="FL"><br>
+					<div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/FL.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>	
+						<table>
+					 	<tr>
+    					<td>STANDARD</td>
+    					</tr>
+    					</table>
+					
+					</div>
+					<div id="FM"><br> Plate Type: STANDARD </div>
+					<div id="GA"><br> 
+						<div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/GA.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>	
+						<table>
+					 	<tr>
+    					<td>STANDARD</td>
+    					</tr>
+    					</table>
+					</div>
+					<div id="GU"><br> Plate Type: STANDARD </div>
+					<div id="HI"><br> 
+					<div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/HI.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>	
+						<table>
+					 	<tr>
+    					<td>STANDARD</td>
+    					</tr>
+    					</table> 
+					</div>
+					<div id="IA"><br>
+					<div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/IA.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>	
+						<table>
+					 	<tr>
+    					<td>STANDARD</td>
+    					</tr>
+    					</table>
+					</div>
+					<div id="ID"><br>
+						<div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/ID.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>	
+						<table>
+					 	<tr>
+    					<td>STANDARD</td>
+    					</tr>
+    					</table>
+					 </div>
+					<div id="IL"><br>
+					<div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/IL.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>	
+					<table>
+					 <tr>
+    					<td>Ambulance Plate </td>
+    					<td>B TRUCK</td>
+    					<td>America United Plate </td>
+   					 	<td>Antique Vehicle Plate </td>
+  					</tr>
+  					<tr>
+    					<td>Apportioned Plate</td>
+    					<td>Apportioned Trailer Plate</td>
+    					<td>Dealer Plate</td>
+    					<td>Dealer Plate</td>
+ 					 </tr>
+  					<tr>
+    					<td>Youth Golf Plate</td>
+						<td>Disabled Vanity Plate</td>
+						<td>Disabled / Handicapped Plate</td>
+   						 <td>Environmental Plate</td>
+  					</tr>
+  					<tr>
+    					<td>Firefighters Memorial Plate</td>
+   						<td>Heavy Truck (8,000 lb Weight Class) Plate</td>
+						<td>House of Representatives Plate</td>
+   						<td>Livery Plate</td>
+  						</tr>
+  						<tr>
+    					<td>Livery Plate</td>
+						<td>Master Mason Plate</td>
+						<td>Medical Carrier Plate</td>
+						<td>Motorcycle Plate</td>
+  						</tr>
+  						<tr>
+    					<td>Motorcycle Plate</td>
+						<td>Obama Plate</td>
+						<td>Passenger Vehicle Plate</td>
+						<td>Pearl Harbor Survivor Plate</td>
+  						</tr>
+ 						 <tr>
+   							<td>Police Memorial Plate</td>
+							<td>Prevent Violence Plate</td>
+							<td>Purple Heart Plate</td>
+							<td>Recreational Vehicle (RV) Plate</td>
+  						</tr>
+  						<tr>
+						<td>Remember 9/11 Plate</td>
+						<td>Retired US Armed Forces Plate</td>
+						<td>Rotary Plate</td>
+						<td>Route 66 Plate</td>
+  						</tr>
+  						<tr>
+    					<td>Saluting Agriculture Plate</td>
+						<td>Semi-Trailer Plate</td>
+						<td>Sheet Metal Workers Plate</td>
+						<td>Silver Star Plate</td>
+  						</tr>
+  						<tr>
+						<td>Support Our Troops Plate</td>
+						<td>Taxi Plate</td>
+						<td>Taxi Plate</td>
+						<td>Truck (12,000 lb Weight Class) Plate</td>
+  						</tr>
+  						<tr>
+    					<td>Truck (16,000 lb Weight Class) Plate</td>
+						<td>Vietnam Veteran Plate</td>
+  						</tr>
+						</table>
+					</div>
+					
+					<div id="IN"><br>
+					<div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/IN.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>	
+                      <table>
+ 						<tr>
+						   <td>Agricultural Eduction passenger Plate</td>
+						 <td>Ambulance Plate</td>
+						 <td>Apportioned Plate</td>
+						<td>Atlas Van Lines Trailer Plate</td>
+						  </tr>
+						  <tr>
+						<td>Be A Nurse passenger Plate</td>
+						<td>Because We Care / Shriners passenger Plate</td>
+						<td>Blue Torch Passenger Plate</td>
+						<td>Boy Scouts passenger Plate</td>
+						  </tr>
+						  <tr>
+						<td>Breast Cancer Awareness passenger Plate</td>
+						 <td>Bus Plate</td>
+						 <td>Celebrate the Arts passenger Plate</td>
+						<td>Choose Lifepassenger  Plate</td>
+						  </tr>
+						  <tr>
+						<td>Con-Way Apportioned Plate</td>
+						 <td>DARE passenger Plate</td>
+						<td>Education passenger Plate</td>
+						<td>End Violence passenger Plate</td>
+						  </tr>
+						  <tr>
+						 <td>Environment passenger Plate</td>
+						<td>FedEx Apportioned Plate</td>
+						<td>Food Banks passenger Plate</td>
+						<td>Freemason passenger Plate</td>
+						  </tr>
+						  <tr>
+						   <td>Habitat For Humanity passenger Plate</td>
+						<td>Handicapped Plate</td>
+						<td>Hoosie Safety passenger Plate</td>
+						<td>In God We Trust passenger Plate</td>
+						  </tr>
+						  <tr>
+						 <td>Indiana Ivy Tech passenger Plate</td>
+						<td>Indiana State Governor Plate</td>
+						<td>Land of Indians passenger Plate</td>
+						<td>Lewis & Clark Bicentennial passenger Plate</td>
+						  </tr>
+						  
+						   <tr>
+						    <td>Lincoln Boyhood Home passenger Plate</td>
+							<td>Motorcycle Plate</td>
+							<td>National Guard Plate</td>
+							<td>Notre Dame University passenger Plate</td>
+							</tr>
+						    <tr>
+						    <td>Professional Firefighters Plate</td>
+						 	<td>Purdue University passenger Plate</td>
+							<td>Purple Heart Plate</td>
+							 <td>Remembering Our Heroes State Police Plate</td>
+						  </tr>
+						    <tr>
+						    <td>Semi Plate</td>
+						 	<td>Semi-Trailer Plate</td>
+						 	<td>Shriners passenger Plate</td>
+							<td>State Police Memorial Plate</td>
+						  </tr>
+						    <tr>
+						    <td>State Senator Plate</td>
+							`<td>Support Our Troops passenger Plate</td>
+							<td>Trailer (7,000 lb Weight Class) Plate</td>
+							<td>Transport Plate</td>
+						  </tr>
+						    <td>Truck (9,000 LB Weight Class) Plate</td>
+							<td>University of Indianapolis</td>
+							<td>UPS Apportioned Plate</td>
+							<td>Used Car Dealer Plate</td>
+						  </tr>
+						  <tr>
+						  <td>Penske Apportioned Plate</td>
+						  </tr>
+						
+						</table>	
+					</div>
+					<div id="KS"><br> 
+						<div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/KS.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>	
+						<table>
+					 	<tr>
+    					<td>STANDARD</td>
+    					</tr>
+    					</table>
+					 </div>
+					<div id="KY"><br> 
+						<div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/KY.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>	
+						<table>
+					 	<tr>
+    					<td>STANDARD</td>
+    					</tr>
+    					</table>
+					 </div>
+					<div id="LA"><br> 
+						<div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/LA.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>	
+						<table>
+					 	<tr>
+    					<td>STANDARD</td>
+    					</tr>
+    					</table>
+					 </div>
+					<div id="MA"><br>
+					<div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/MA.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>	 
+					  <table >
+                       <tr>
+						   <td>Amateur Radio Operator Plate</td>
+							<td>Antique Vehicle Plate</td>
+							<td>Apportioned Plate</td>
+						   <td>Apportioned Plate</td>
+						  </tr>
+						  <tr>
+						   <td>Boston Celtics passenger Plate</td>
+						   <td>Boston Red Sox / Jimmy Fund passenger Plate</td>
+							<td>Bus (Pupils) Plate</td>
+							<td>Bus Plate</td>
+						  </tr>
+						  <tr>
+						   <td>Camper Plate</td>
+						  <td>Cap Cod & Islands passenger Plate</td>
+						  <td>Commercial Plate</td>
+						 <td>Dealer Plate</td>
+						  </tr>
+						  <tr>
+						   
+						    <td>Fenway Park passenger Plate</td>
+							<td>Firefighters Memorial passenger Plate</td>
+							<td>Handicapped Plate</td>
+							<td>Invest In Children passenger Plate</td>
+						  </tr>
+						  <tr>
+						    
+						    <td>Historical Motorcycle Plate</td>
+						  <td>Motorcycle Plate</td>
+						  <td>Municipal Transit Authority Plate</td>
+						  <td>New Photographer passenger Plate</td>
+						  </tr>
+						  
+						  <tr>
+						   <td>Official Municipal Plate</td>
+							<td>Official State Police Plate</td>
+							<td>Passenger Vehicle Plate</td>
+							<td>Preserve The Trust passenger Plate</td>
+						  </tr>
+						  <tr>
+						   <td>Repair Plate</td>
+							<td>Taxi Plate</td>
+						   <td>Trailer Plate</td>
+							<td>Trailer Plate</td>
+						    </tr>
+						   <tr>
+						    <td>United We Stand passenger Plate</td>
+							<td>Veteran Motorcycle Plate </td>
+							<td>Veteran Plate</td>
+						  </tr>
+                    </table>
+					</div>
+					<div id="MD"><br> 
+						<div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/MD.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>	
+						<table>
+					 	<tr>
+    					<td>STANDARD</td>
+    					</tr>
+    					</table>
+					 </div>
+					<div id="ME"><br>
+					<div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/ME.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>
+					<table>
+					  <tr>
+					    <td>Antique Auto Plate</td>
+					    <td>Antique Motorcycle Plate</td>
+					    <td>Breast Cancer Awareness passenger Plate</td>
+					    <td>Bus Plate</td>
+					  </tr>
+					  <tr>
+					    <td>Commercial Plate</td>
+					    <td>Disabled / Handicapped Plate</td>
+					    <td>Disabled Veteran Plate</td>
+					    <td>Equipment Plate</td>
+					  </tr>
+					  <tr>
+					    <td>Hire Plate</td>
+					 	<td>Lobster Plate</td>
+					 	<td>Long Term Trailer Plate</td>
+					 	 <td>Motorcycle Plate</td>
+					  </tr>
+					  <tr>
+					 
+					    <td>Motorhome Plate</td>
+					  	<td>Municipal Plate</td>
+						<td>Passenger Plate</td>
+					 	<td>Semi-Permanent Trailer Plate</td>
+					  </tr>
+					  <tr>
+					    <td>State Vehicle Plate</td>
+					 	<td>Street Rod Plate</td>
+						<td>Support Local Agriculture Plate</td>
+						<td>Support Our Troops Plate</td>
+					  </tr>
+					  <tr>
+						<td>Trailer Plate</td>
+						<td>Trailer Platee</td>
+						<td>U.S. Senate Plate</td>
+						 <td>University Of Maine Plate</td>
+					  </tr>
+					  <tr>
+					   <td>University Of Maine System Plate</td>
+					 	<td>Used Car Dealer</td>
+						<td>Vanity Trailer Plate</td>
+						<td>Veteran Plate</td>
+					  </tr>
+					</table>
+					</div>
+					<div id="MH"><br> Plate Type: STANDARD </div>
+					<div id="MI"><br> 
+						<div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/MI.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>	
+						<table>
+					 	<tr>
+    					<td>STANDARD</td>
+    					</tr>
+    					</table>
+					</div>
+					<div id="MN"><br> 
+						<div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/MN.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>	
+						<table>
+					 	<tr>
+    					<td>STANDARD</td>
+    					</tr>
+    					</table>
+					</div>
+					<div id="MO"><br> 
+						<div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/MO.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>	
+						<table>
+					 	<tr>
+    					<td>STANDARD</td>
+    					</tr>
+    					</table>
+					 </div>
+                    <div id="MP"><br> 
+                    	<div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/MP.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>	
+						<table>
+					 	<tr>
+    					<td>STANDARD</td>
+    					</tr>
+    					</table>
+                    </div>
+					<div id="MS"><br> 
+						<div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/MS.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>	
+						<table>
+					 	<tr>
+    					<td>STANDARD</td>
+    					</tr>
+    					</table>
+					</div>
+					<div id="MT"><br> Plate Type: STANDARD </div>
+					<div id="NC"><br> 
+						<div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/NC.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>	
+						<table>
+					 	<tr>
+    					<td>STANDARD</td>
+    					</tr>
+    					</table>
+					 </div>
+					<div id="ND"><br> 
+						<div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/ND.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>	
+						<table>
+					 	<tr>
+    					<td>STANDARD</td>
+    					</tr>
+    					</table>
+					 </div>
+					<div id="NE"><br> Plate Type: STANDARD </div>
+					<div id="NH"><br>
+					 <table >
+                       <tr>
+                    
+                    <td>Apportioned Power Vehicle </td>
+					<td>Automobile Dealer</td>
+					<td>Commercial</td>
+					<td>Disabled Veteran Plate</td>
+                          </tr>
+                       <tr>
+                      
+                      <td>Handicap </td>
+					  <td>Initial Apportioned Vehicle</td>
+					  <td>Initial Commercial</td>
+                      <td>Initial Disabled Veteran</td>
+                      </tr>
+					  <tr>
+                      <td>Initial Handicap </td>
+                      <td>Initial Motorcycle</td>
+					  <td>Initial Passenger</td>
+                      <td>Initial Regular Veteran</td>
+                      </tr>
+					  <tr>
+                      <td>Initial Veteran Motorcycle </td>
+                      <td>Moose Conservation Passenger</td>
+					  <td>Motorcycle</td>
+                      <td>New & Used Dealer</td>
+                      </tr>
+					   <tr>
+                      <td>Passenger</td>
+                      <td>Regular Veteran Plate</td>
+					  <td>Veteran Motorcycle</td>
+                     
+                      </tr>
+					   
+					  
+					  
+					 
+                    </table>
+					</div>
+					<div id="NJ"><br>
+						<div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/NJ.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>	
+						<table>
+					 	<tr>
+    					<td>STANDARD</td>
+    					</tr>
+    					</table>
+					 </div>
+					<div id="NM"><br> 
+						<div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/NM.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>	
+						<table>
+					 	<tr>
+    					<td>STANDARD</td>
+    					</tr>
+    					</table>
+					</div>
+					<div id="NV"><br> 
+						<div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/NV.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>	
+						<table>
+					 	<tr>
+    					<td>STANDARD</td>
+    					</tr>
+    					</table>
+					</div>
+					<div id="NY"><br> 
+						<div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/NY.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>	
+						<table>
+					 	<tr>
+    					<td>STANDARD</td>
+    					</tr>
+    					</table>
+					 </div>
+                    <div id="OH"><br>
+                    <div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/OH.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>
+					 <table>
+						  <tr>  
+						    <td>Passenger Vehicle Plate</td>
+						    <td>Driving Under The Influence (DUI) Passenger Plate</td>
+						   <td>Historical Vehicle Plate</td>
+						    <td>Combat Veteran Plate</td>
+						  </tr>
+						  <tr>
+						    <td>Dog Friendly Plate</td>
+						    <td>Motorcycle Plate</td>
+						    <td>Choose Life Plate</td>
+						    <td>Distributor Plate</td>
+						  </tr>
+						  <tr>
+						    <td>Sheriff Motorcycle Plate</td>
+						   <td>Apportioned Plate</td>
+						    <td>Truck Plate</td>
+						     <td>Disabled / Handicapped Motorcycle Plate</td>
+						  </tr>
+						  <tr>
+						    <td>Share The Road Plate</td>
+						    <td>Historical Motorcycle Plate</td>
+						    <td>Vietnam Veteran Plate</td>
+						     <td>One Nation Under God Plate</td>
+						  </tr>
+						  <tr>
+						    <td>Erie Great Lake Plate</td>
+						    <td>Ohio State Patrol Motorcycle Plate</td>
+						    <td>Amateur Radio Plate</td>
+						   <td>Gold Star Family Plate</td>
+						  </tr>
+						  <tr>
+						    <td>Motorcycle Plate</td>
+						    <td>Church Bus Plate</td>
+						   <td>Persian Gulf Veteran Plate</td>
+						    <td>Trailer Plate</td>
+						  </tr>
+						  <tr>
+						    <td>Dealer Plate</td>
+						  </tr>
+						</table>
+					</div>
+					<div id="OK"><br> 
+						<div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/OK.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>	
+						<table>
+					 	<tr>
+    					<td>STANDARD</td>
+    					</tr>
+    					</table>
+					 </div>
+					<div id="OR"><br> 
+						<div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/OR.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>	
+						<table>
+					 	<tr>
+    					<td>STANDARD</td>
+    					</tr>
+    					</table>
+					 </div>
+					<div id="PA"><br>
+						<div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/PA.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>	
+						<table>
+					 	<tr>
+    					<td>STANDARD</td>
+    					</tr>
+    					</table>
+					 </div>
+					<div id="PR"><br> Plate Type: STANDARD </div>
+					<div id="PW"><br> Plate Type: STANDARD </div>
+					<div id="RI"><br> 
+					<div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/RI.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>	
+						<table>
+					 	<tr>
+    					<td>STANDARD</td>
+    					</tr>
+    					</table>
+					</div>
+					<div id="SC"><br> 
+						<div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/SC.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>	
+						<table>
+					 	<tr>
+    					<td>STANDARD</td>
+    					</tr>
+    					</table>
+					 </div>
+					<div id="SD"><br> 
+						<div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/SD.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>	
+						<table>
+					 	<tr>
+    					<td>STANDARD</td>
+    					</tr>
+    					</table>
+					 </div>
+					<div id="TN"><br> 
+						<div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/TN.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>	
+						<table>
+					 	<tr>
+    					<td>STANDARD</td>
+    					</tr>
+    					</table>
+					
+					 </div>
+					<div id="TX"><br>
+						<div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/TX.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>	
+						<table>
+					 	<tr>
+    					<td>STANDARD</td>
+    					</tr>
+    					</table>
+					
+					 </div>
+					<div id="GS"><br> plate-type GS </div>
+					<div id="UT"><br> 
+						<div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/UT.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>	
+						<table>
+					 	<tr>
+    					<td>STANDARD</td>
+    					</tr>
+    					</table>
+					
+					 </div>
+					<div id="VA"><br> 
+						<div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/VA.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>	
+						<table>
+					 	<tr>
+    					<td>STANDARD</td>
+    					</tr>
+    					</table>
+					
+					</div>
+					<div id="VI"><br> Plate Type: STANDARD </div>
+					<div id="VT"><br> 
+						<div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/VT.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>	
+						<table>
+					 	<tr>
+    					<td>STANDARD</td>
+    					</tr>
+    					</table>
+					
+					</div>
+					<div id="WA"><br> 
+						<div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/WA.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>	
+						<table>
+					 	<tr>
+    					<td>STANDARD</td>
+    					</tr>
+    					</table>
+					
+					 </div>
+					<div id="WI"><br>
+					<div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/WI.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>	
+						<table>
+					 	<tr>
+    					<td>STANDARD</td>
+    					</tr>
+    					</table>
+					
+					</div>
+					<div id="WV"><br>
+						<div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/WV.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>	
+						<table>
+					 	<tr>
+    					<td>STANDARD</td>
+    					</tr>
+    					</table>
+					
+					</div>
+					<div id="WY"><br> 
+						<div class="input-group"><div><span class="input-group-addon itl-tooltip tool_tip_images"title="click here">
+								<a class=" lightboxyt linkext" href="../plate_types/WY.shtml">Click here to view plate images <i class="fa fa-question-circle fa-large"></i></a></span></div>
+								</div>	
+						<table>
+					 	<tr>
+    					<td>STANDARD</td>
+    					</tr>
+    					</table>
+					
+					</div>
+					 
+					<div id="AA"><br> Plate Type: STANDARD </div>
+					<div id="AE"><br> Plate Type: STANDARD </div>
+
+
+  
+                
+                 
+                  
+				  
+                
+                  
+				   
+				
+				 
+		   
+				  
+				
+                
+				
+			
+				  <p>
+                   <br><b>Make:</b> Enter the vehicle make
+                  </p>
+				  <p>
+                   <b>Model:</b> Enter the vehicle model
+                  </p>
+				  <p>
+                   <b>Year:</b> Enter the 4 digit vehicle year
+                  </p>
+				   <p>
+                   <b>Color:</b> Enter the vehicle color
+                  </p>
+				   <p>
+                   <b>Effective Start Date/Time:</b> Enter the effective start date and time on the account and can be back dated up to 45  days. Enter in the format of mm/dd/yyyy  hh:mm am/pm
+                  </p>
+				    <p>
+                   <b>Effective End Date/Time: </b> Enter the effective end date and time and in the format of mm/dd/yyyy hh:mm am/pm
+                  </p>
+				  <p>
+                   <b>Is Rental Vehicle: </b> If the vehicle is rented, enter Y or N
+                  </p>
+				  <p>
+                   <b>Is Trailer Plate: </b> If the license plate is for a trailer, enter Y or N
+                  </p>
+				   <p>
+                   <b>Delete: </b> If the action is the delete the vehicle from the account enter Y or N for all other purpose.
+                  </p>
+				 
+
+				
+		        
+				 
+
+                
+			</div>	
+				
+			</div>
+		</div>
+		</div>
+		
+		</div>
+    </div>
+    <!-- End content -->
+
+	<!--#include file="../includes/footer.html"-->
+<span id="topnavitem" class="invisible">hsw</span>
+</div>
+<!--#include file="../includes/footer_include.html"-->
+</body>
+</html>

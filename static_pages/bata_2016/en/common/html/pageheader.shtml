@@ -1,0 +1,5 @@
+
+<div class="row12" id="swart" style="background: url(../images/headerBG.jpg); width: 100%; height: 100%; background-size: 100%; background-repeat: no-repeat;">
+<a href="../home/index.shtml"><div style=" margin-top: 20px; margin-left: 10%; width: 132px; height: 21px; float: left; background: url(../images/fastrakLogo.png); background-repeat: no-repeat;"></div></a>
+<script src="../common/js/nav.js"></script>
+</div>

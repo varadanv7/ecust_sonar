@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+
+<title>FasTrak</title>
+
+<!--#include file="../common/headerinclude.html"-->
+
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+    <script src="../assets/js/html5shiv.js"></script>
+  <![endif]-->
+
+</head>
+
+<body onLoad="setWindowSizeP()">
+	<!--#include file="../common/html/pageheader.shtml"-->
+	<!--div class="contentTopper"><ol class="breadcrumb">
+	  <li><a href="../home/index.shtml"><img src="../images/breadcrumb/Home_icon.png"></a></li>	  
+	  <li class="active">D&oacute;nde usar FasTrak</li>
+	</ol>
+</div-->
+	<div class="contentTopper">
+		<ol class="breadcrumb">
+			<li><a href="../home/index.shtml"><img
+					src="../images/breadcrumb/Home_icon.png" border="0"> </a>
+			</li>
+			<li class="active">D&oacute;nde usar FasTrak</li>
+		</ol>
+	</div>
+	<div class="contentEnvelope" editarea="whereSpanish" editareadesc="where Spanish">
+		<!-- content -->
+		<div class="contentTitle">
+			<div style="display: inline-block; float: left; width: 240px;">&nbsp;</div>
+			<div style="display: inline-block;">D&oacute;nde usar FasTrak</div>
+		</div>
+		<div class="menuCol">
+			<div class="menuBox">
+				<div class="navBox" id="benefit">
+					<div id="benefitOrangeBox">&nbsp;</div>
+					<a href="benefitsSpanish.shtml" class="leftNav"
+						onMouseover="langMouse('benefit','benefitOrangeBox')"
+						onMouseOut="langMouseOut('benefit','benefitOrangeBox')">VENTAJAS</a>
+				</div>
+				<div class="navBox" id="getting">
+					<div id="gettingOrangeBox">&nbsp;</div>
+					<a href="startedSpanish.shtml" class="leftNav"
+						onMouseover="langMouse('getting','gettingOrangeBox')"
+						onMouseOut="langMouseOut('getting','gettingOrangeBox')">C&Oacute;MO
+						EMPEZAR</a>
+				</div>
+				<div class="navBox" id="get">
+					<div id="getOrangeBox">&nbsp;</div>
+					<a href="tollTagSpanish.shtml" class="leftNav"
+						onMouseover="langMouse('get','getOrangeBox')"
+						onMouseOut="langMouseOut('get','getOrangeBox')">DISPOSITIVO
+						ELECTR&Oacute;NICO de PEAJE DE FASTRAK</a>
+				</div>
+				<div class="navBox" id="use">
+					<div id="useOrangeBox">&nbsp;</div>
+					<a href="usingSpanish.shtml" class="leftNav"
+						onMouseover="langMouse('use','useOrangeBox')"
+						onMouseOut="langMouseOut('use','useOrangeBox')">USO de FASTRAK</a>
+				</div>
+				<div class="navBoxActive" id="where">
+					<div id="whereOrangeBox" style="visibility: visible;">&nbsp;</div>
+					D&Oacute;NDE USAR FASTRAK
+				</div>
+				<div class="navBox" id="GG">
+					<div id="GGOrangeBox">&nbsp;</div>
+					<a href="ggGateSpanish.shtml" class="leftNav"
+						onMouseover="langMouse('GG','GGOrangeBox')"
+						onMouseOut="langMouseOut('GG','GGOrangeBox')">PEAJE en el
+						GOLDEN GATE</a>
+				</div>
+				<div class="navBox" id="invoice">
+					<div id="invoiceOrangeBox">&nbsp;</div>
+					<a href="invoiceSpanish.shtml" class="leftNav"
+						onMouseover="langMouse('invoice','invoiceOrangeBox')"
+						onMouseOut="langMouseOut('invoice','invoiceOrangeBox')">FACTURA
+						o INFRACCI&Oacute;N</a>
+				</div>
+				<div class="navBox" id="discount">
+					<div id="discountOrangeBox">&nbsp;</div>
+					<a href="discountsSpanish.shtml" class="leftNav"
+						onMouseover="langMouse('discount','discountOrangeBox')"
+						onMouseOut="langMouseOut('discount','discountOrangeBox')">DESCUENTOS
+						y RECORRIDOS SIN PEAJE</a>
+				</div>
+				<div class="navBox" id="contact">
+					<div id="contactOrangeBox">&nbsp;</div>
+					<a href="contactSpanish.shtml" class="leftNav"
+						onMouseover="langMouse('contact','contactOrangeBox')"
+						onMouseOut="langMouseOut('contact','contactOrangeBox')">COMUN&Iacute;QUESE
+						CON NOSOTROS</a>
+				</div>
+			</div>
+		</div>
+		<div id="contentCol">
+			<div class="colLeft">
+				<div class="indento">
+					<div class="greenArticleTop">Lugares con FasTrak en el
+						&Aacute;rea de la Bah&iacute;a</div>
+					<div class="indento">
+						<div class="orangeTitleCallout">Puentes de peaje del
+							&Aacute;rea de la Bah&iacute;a</div>
+						<div style="line-height: 22px;">
+							Antioch Bridge <br> Benicia-Martinez Bridge <br>
+							Carquinez Bridge <br> Dumbarton Bridge <br> Golden Gate
+							Bridge <br> Richmond-San Rafael Bridge<br> San
+							Francisco-Oakland Bay Bridge <br> San Mateo-Hayward Bridge<br>
+							<div class="orangeTitleCallout">Carriles r&aacute;pidos de
+								peaje del &Aacute;rea de la Bah&iacute;a</div>
+							I-680 Express Lanes de Sunol <br> SR-237 Express Lanes <br>
+							I-580 Express Lanes <br>
+							<div style="line-height: 18px; margin-bottom: -20px">I-680
+								Contra Costa Express Lanes</div>
+							<br>
+							<div class="orangeTitleCallout">Estacionamiento</div>
+							Aeropuerto Internacional de San Francisco (SFO)
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="colRight">
+				<img src="../images/where_1Span.png" width="350"
+					style="max-width: 350px; margin: 15px 0 0 0;">
+				<div class="greenArticleTop">Lugares con FasTrak en el sur de
+					California</div>
+				<div class="indento">
+					<div class="orangeTitleCallout">Condado de Los Angeles</div>
+					<a href="https://www.metroexpresslanes.net/en/home/index.shtml"
+						class="inLineLinkk" target="_blank">Metro Express Lanes I-10 y
+						I-110</a><br>
+					<div class="orangeTitleCallout">Condado de Orange</div>
+					<div style="line-height: 22px;">
+						<a href="https://www.thetollroads.com/" class="inLineLinkk"
+							target="_blank">The Toll Roads State Routes 73, 133, 241 y
+							261</a><br> <a href="http://www.91expresslanes.com/"
+							class="inLineLinkk" target="_blank">The 91 Express Lanes</a>
+					</div>
+					<div class="orangeTitleCallout">Condado de San Diego</div>
+					<div style="line-height: 22px;">
+						<a href="http://511sd.com/fastrak511sd/FasTrakHome"
+							class="inLineLinkk" target="_blank">I-15 Express Lanes</a><br>
+						<a href="http://www.sbxthe125.com/" class="inLineLinkk"
+							target="_blank">SR 125 South Bay Expressway</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end content -->
+	</div>
+	<div class="footerTopperRelated">
+		<div class="footerToppler">Keep moving with FasTrak</div>
+	</div>
+	<script src="../common/js/footer.js"></script>
+
+</body>
+</html>

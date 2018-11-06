@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+	<!--#include file="../common/headerinclude.html"-->
+	<script language="javascript" type="text/javascript">
+		function popitup(url) {
+			newwindow=window.open(url,'name','height=625px,width=520px');
+			if (window.focus) {newwindow.focus()}
+			return false;
+		}
+	</script>
+	<style>
+	.btn{
+		white-space: normal;
+	}
+	</style>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+	<!--#include file="../common/topnavigationnh.html"-->
+	<div class="container"><ol class="breadcrumb">
+	  <li><a href="../home/index.shtml"><img src="../images/breadcrumb/Home_icon.png"></a></li>
+	  <li class="active">CROSSING THE GOLDEN GATE BRIDGE</li>
+	</ol></div>
+	<div class="container clstatic" editarea="img111" editarea="crossing" editareadesc="crossing">
+	
+
+	<h1 class="page-header-noborder">
+		CROSSING THE GOLDEN GATE BRIDGE
+	</h1>
+	<div class="ctggbimg col-md-12">
+	<div class="outer imgLiquidFill imgLiquid">
+		<img class="respimg" src="../images/GGbridge_1200x484_72dpi.png" width="100%">
+		<div class="inner">
+			<h2>Just Drive on Through.<br>
+			No More Toll Booths.</h2>
+		</div>
+	</div>
+	</div>
+	<p>
+	<h1 class="page-header-noborder">All Electronic Tolling makes it easy to cross the Golden Gate - No more stopping, no fumbling for cash. A variety of payment options gives you freedom of choice and helps speed your travel.</h1>
+	<a name="waystopay"></a>
+	<h1 class="page-header-noborder">
+		How to pay a Golden Gate Bridge Toll
+	</h1>
+	
+	<div class="table-responsive">
+	  <table class="withborder">
+		<tbody>
+		<tr>
+		<td class="row1"><h5>One-Time Online Payment</h5><div style="width:12em;"></div></td>
+		<td class="row1"><h5>Get FasTrak</h5><div style="width:12em;"></div></td>
+		<td class="row1"><h5>Invoices</h5><div style="width:12em;"></div></td>
+		<td class="row1"><h5>Open a License Plate Account</h5><div style="width:12em;"></div></td>
+		</tr>
+		<tr>
+		<td class="row1"><div class="boxedshadowtable"></div></td>
+		<td class="row1"><div class="boxedshadowtable"></div></td>
+		<td class="row1"><div class="boxedshadowtable"></div></td>
+		<td class="row1"><div class="boxedshadowtable"></div></td>
+		</tr>
+		<tr>
+		<td class="row1">You can make a One-Time payment online using your credit card before or within 48 hours of your toll crossing.</td>
+		<td class="row1">Open a FasTrak account to conveniently pay tolls and save time! And, FasTrak users receive discounted tolls on the Golden Gate Bridge!</td>
+		<td class="row1">An Invoice will be mailed to the vehicles's registered owner for the toll amount within a few days of your toll crossing.</td>
+		<td class="row1">License Plate Accounts are specialized just for Golden Gate Bridge. No toll tags are needed for this account type, an image of your vehicle's license plate is matched to your account. Your tolls are automatically charged to the credit card on file or deducted from your pre-paid account balance.</td>
+		</tr>
+		<tr>
+		<td class="row3"><a class="btn btn-lg btn-default btn-block btngf fontcopy" href="../ggb/onetimepayment.shtml">MAKE A ONE-TIME PAYMENT</a>
+		</td>
+		<td class="row3" rowspan="2"><a class="btn btn-lg btn-default btn-block btngf fontcopy" href="../signup/fastrakprep.shtml">SIGN UP</a></td>
+		<td class="row3"><a class="btn btn-lg btn-default btn-block btngf fontcopy" href="../routers/invoice.html">PAY AN INVOICE</a></td>
+		<td class="row3"><a class="btn btn-lg btn-default btn-block btngf fontcopy" href="../signup/licenseprep.shtml">SIGN UP</a></td>
+		</tr>
+		<tr>
+		<td class="row1">You can pay any of the toll payment methods using cash at a Cash Payment Location or at a Customer Service Center in San Francisco.</td>
+		<td class="row3"></td>
+		<td class="row3"></td>
+		<td class="row3"></td>
+		</tr>
+		<tr>
+		<td class="row3">
+		<a class="btn btn-lg btn-default btn-block btngf fontcopy" onclick="return popitup('../howitworks/cashLocationsMap.html');">FIND A CASH PAYMENT LOCATION</a>
+		</td>
+		<td class="row3"></td>
+		<td class="row3"></td>
+		<td class="row3"></td>
+		</tr>
+		</tbody>
+		<tfoot><tr><td class="row1"></td><td class="row1"></td><td class="row1"></td><td class="row1"></td></tr></tfoot>
+	  </table>
+	</div>
+	<p>
+	<div class="container row">
+		<div class="col-md-8">
+			<a name="rental"></a>
+			<h1 class="page-header-noborder">
+				In a Rental Vehicle?
+			</h1>
+			Most rental companies provide a toll payment program. If you have opted out of a rental car agency's program, you must make a payment before or within 48 hours of your toll crossing.
+			<p></td>
+		</div>
+		<div class="col-md-4 col-xs-6 imgLiquidFill imgLiquid">
+			<img class="respimg" src="../images/RentalCar_400x289_72dpi.jpg" width="100%">
+		</div>
+	</div>
+	<h1 class="page-header-noborder">
+		New resident or driver?
+	</h1>
+	<h5 class="bach">Get your FasTrak today! Click <a href="../signup/signup.shtml">here</a> to start.</h5>
+	<a name="visitorinfo"></a>
+	<h1 class="page-header-noborder">
+		Getting to the Golden Gate Bridge
+	</h1>
+	<div class="container row">
+		<div class="col-md-6 imgLiquidFill imgLiquid">
+			<h4>From San Francisco</h4>
+			Take Pacific Coast Highway Route 1 or US Highway 101 north across the Golden Gate Bridge. Toll is collected in the southbound direction only.
+			<h4>From Marin County</h4>
+			Take US Highway 101 south across the Golden Gate Bridge. Toll is collected in the southbound direction only.
+			<h4>From the East Bay</h4>
+			Take US Highway 580 west to US Highway 101 south across the Golden Gate Bridge. Toll is collected in the southbound direction only.
+			<h5 class="bach"><p><br>For more visitor information, visit the official page of the <a href="http://www.goldengatebridge.org/" target="_blank">Golden Gate Bridge</a>.</h5>
+		</div>
+		<div class="col-md-6">
+			<div id="ggbmap">
+				<!--#include file="../ggb/ggbmap.html"-->
+			</div>
+		</div>
+	</div>
+	</div>
+	<!--#include file="../common/footer.html"-->
+	<!--#include file="../common/footerinclude.html"-->
+    </body>
+</html>

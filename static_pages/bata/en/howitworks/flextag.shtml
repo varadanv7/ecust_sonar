@@ -1,0 +1,177 @@
+<!DOCTYPE html><!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]--><!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]--><!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]--><!--[if gt IE 8]><!--><html class="no-js"><!--<![endif]--><head>
+	<!--#include file="../common/headerinclude.html"-->
+    <style>
+	.panel-collapse h4{
+		color: #169499;
+		font-weight: 700;
+		margin-bottom: 10px;
+		font-size: 18px;
+	}
+	.mapHighlight a:focus,h4 a:focus{
+		outline	:0;
+	}
+	.mapHighlight a{
+		padding-left :20px;
+	}
+	</style></head>
+	
+    <body onload="openbridge()">
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.
+        <![endif]-->
+	<!--#include file="../common/topnavigationnh.html"-->
+	<div class="container">
+		<ol class="breadcrumb">
+		  <li><a href="../home/index.shtml"><img src="../images/breadcrumb/Home_icon.png" /></a></li>
+		  <li>GETTING STARTED</li>
+		  <li class="active">I-580 Express Lanes</li>
+		</ol>
+	</div>
+	<div class="container full-bleed flx" editarea="img111">
+	
+        <figure id="flex-desc">
+            <figcaption><h1>I-580 Express Lane Carpool Information</h1></figcaption>
+            <p class="flex-info">New I-580 Tri-Valley Express Lanes require FasTrak Flex Tag</p>
+            <p class="flex-info">for toll-free travel by Carpools and other eligible vehicles.</p>
+            <a style="display:none;" href="#how-to-use"><p class="flex-info custom-info">How To Use</p></a>
+        </figure>
+
+      <div class="container row custom-wrap bg2">
+		<div class="col-md-6 custom2 flex-body bach">
+			<h3>FasTrak Flex Tags Required for Toll-Free Travel</h3>
+			<p>Carpools, vanpools, motorcycles, and eligible clean air vehicles will need a FasTrak Flex toll tag to travel toll-free in the I-580 Express Lanes when they open early next year.</p>
+            <a href="#" data-featherlight="../support/flex-express.shtml"><p>Learn More about Express Lanes.</p></a>
+		</div>
+        <div class="col-md-6 bach custom2 flex-body">
+			<h3>Order a FasTrak Flex tag</h3>
+            <p><a href="../signup/fastrakprep.shtml">Open a FasTrak Account</a></p>
+            <p><a href="../routers/my_account.html">Sign In to an Existing Account</a></p>
+            <p><a href="../howitworks/wheretobuy.shtml">Find A Retail Store</a></p>
+            <p><a href="../howitworks/wheretobuy.shtml">Order By Mail</a></p>
+            <aside style="display:none;">NOTE: This special tag is required for Carpools and other HOVs to travel toll-free in the new I-580 Express Lanes in the Tri-Valley Area. This tag also functions as a regular FasTrak tag in all locations.</aside>
+        </div>
+	  </div>
+        
+	  <div class="container row custom-wrap">
+        <h3 class="flex-heading">What You Need To Know</h3>
+		<div class="col-md-6 custom2 flex-body grey-pad">
+            <figure id="i580-info">
+            	<figcaption><h3>I-580 Express Lanes Opening Early 2016</h3></figcaption>
+                <a href="#" data-featherlight="../images/i-580-large.jpg"><img src="../images/i-580-small.gif" width="432"></a>
+                <sub>(Click to enlarge)</sub>
+            </figure>
+            <p>The <a href="http://www.alamedactc.org/app_pages/view/11406" target="_blank" class="linkext">I-580 Express Lanes</a> are designated lanes in the Tri-Valley corridor - through Dublin, Pleasanton and Livermore. They are toll-free for carpools, vanpools, motorcycles, and eligible clean-air vehicles with the new FasTrak Flex tag displayed and set to Position (2) or (3+).</p>
+            <p>Solo drivers can use the Express Lane by paying a toll with a standard FasTrak tag or with the new FasTrak Flex tag set to Position (1).</p>
+		</div>
+        <div class="col-md-6 custom2 flex-body">
+			<h3>When Do the Express Lanes Operate?</h3>
+            <p>The I-580 Express Lanes operate from 5 am to 8pm, Mondays through Friday. Outside of these hours, the lanes are open to all vehicles at no charge.</p>
+            <h3>How Much Do the Express Lanes Cost to Use?</h3>
+            <p>Express lane tolls change depending on traffic conditions, increasing as traffic congestion increases and decreasing as traffic congestion decreases. The rate is displayed on overhead signs at the entrance to the Express Lanes.<br>
+            </p>
+            <p>The Express Lanes are free-of-charge to carpools, motorcycles, and eligible clear air vehicles with a FasTrak Flex toll tag. </p>
+            <aside id="flex-note">Express Lanes improve the I-580 commute by spreading traffic flow more evenly across all lanes. Drivers have the choice to pay. Everyone benefits.</aside>
+        </div>
+      </div>
+      
+      <div class="container row custom-wrap bg2">
+		<div id="how-to-use" class="col-md-6 custom2">
+        	<h3>How To Use FasTrak Flex tags</h3>
+            <p>Before you start your trip, set your FasTrak Flex tag to Position (1), (2), or (3+) to declare your toll status.</p>
+            <h4>Solo Drivers:</h4>
+            <p class="indent">Use Position (1) to pay your toll.</p>
+            <h4>Carpoolers and other HOV-eligible vehicles:</h4>
+            <p>On the I-580 Express Lanes you travel free with FasTrak Flex.</p>
+            <p class="indent">Use the (2) position if there are 2 people in the vehicle.</p>
+            <p class="indent">Use the (3+) position if there are 3 or more people in the vehicle.</p>
+            <p class="indent">Motorcycles and eligible clean air vehicles also use the (3+) position.</p>
+            <sub>Note: To receive carpool discounts at toll bridges, you must use a designated carpool lane and have a valid FasTrak toll tag.</sub>
+            <hr>
+			<p>For more information on Bay Area Express Lanes, visit <a href="http://www.bayareaexpresslanes.org" target="_blank">www.bayareaexpresslanes.org</a>.
+            <p>Want to start or join a carpool? Visit <a href="http://511.org" target="_blank" class="linkext">511.org</a> or call 511.</p>
+		</div>
+		<div class="col-md-6 custom2">
+			<img id="flex-how" src="../images/FasTrak_Flex_toll_tag_web.jpg" />
+            <p id="flex-disclaim">FasTrak Flex tags can be used at any toll facility displaying the FasTrak logo in California.</p>
+		</div>
+      </div>
+
+	</div>
+	<hr>
+
+	
+	<!--#include file="../common/footer.html"-->
+	<!--#include file="../common/footerinclude.html"-->
+    
+	<script>
+	jQuery(document).ready(function($){	
+		$('.Antiochpdf, .Beniciapdf, .Carquinezpdf, .Dumbartonpdf, .GGBpdf, .Richmondpdf, .Oaklandpdf, .Mateopdf').magnificPopup({
+			disableOn: 700,
+			type: 'iframe',
+			mainClass: 'mfp-fade',
+			removalDelay: 160,
+			preloader: false,
+			fixedContentPos: false
+		});
+		
+	});
+	
+	$(function () { 
+		$('.collapseLink').on('click', 
+			function(){
+				var divid=this.href.split('#')[1];
+				$('.collapsediv').hide();
+				$('#'+divid).show(0,'linear');	
+				$('html, body').animate({
+					scrollTop: $('#'+divid).parent().offset().top
+				}, 1000);
+			}
+		);
+		$('.mapHighlight > p > a').on('mouseover', 
+			function(){
+				var refId = '.bridge_map_'+$(this).attr('ref');
+				
+				$("div[class*='bridge_map_']").each(function() {
+					$(this).css('color','black');
+					$(this).css('background','');
+				});
+							
+				$(refId).css('color','yellow');
+				$(refId).css('background','black');
+				
+				$('.image_icon_'+$(this).attr('ref')).attr('src','../images/mm_20_yellow.png');
+			}
+		);
+		$('.mapHighlight > p > a').on('mouseout', 
+			function(){
+				$("div[class*='bridge_map_']").each(function() {
+					$(this).css('color','black');
+					$(this).css('background','');
+				});
+				$('.image_icon_'+$(this).attr('ref')).attr('src','../images/mm_20_red.png');
+			}
+		);
+		$('.panel-heading').on('click', 
+			function(){
+				var toshow = $(this).next("div").css("display");
+				$('.collapsediv').hide();
+				if(toshow == 'none'){
+					$(this).next("div").show(0,'linear');
+					$('html, body').animate({
+						scrollTop: $(this).offset().top
+					}, 1000);
+				}
+			}
+		);
+    });
+	function openbridge(){
+		var match = location.search.match(new RegExp("[?&]bridge=([^&]+)(&|$)"));
+		var searchItem =  match && decodeURIComponent(match[1].replace(/\+/g, " "));
+		if("" != searchItem && "null" != searchItem){	
+			$("a[href='#"+searchItem+"']").parent().click();
+		}
+	}
+	
+	</script>
+
+</body></html>

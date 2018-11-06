@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+	<!--#include file="../common/headerinclude.html"-->
+	<!-- FAQ Search -->
+	<style type="text/css">
+	.gsc-results .gs-snippet b { background-color:#ffff00; padding:0 3px; color:#000; }
+	</style>
+	<script src="https://www.google.com/jsapi"></script>
+		<script type="text/javascript">
+		google.load('search', '1');
+		function onLoad() {
+		var options = {};
+		options[google.search.Search.RESTRICT_EXTENDED_ARGS] =  {'as_sitesearch' : 'www.bayareafastrak.org/en/faq/'};
+			var customSearchControl = new google.search.CustomSearchControl('010341606070375814005:jt5q1evfeji', options);
+
+			customSearchControl.draw('cse');
+			customSearchControl.setNoResultsString("No results match the search string you entered... try another keyword.");
+		}
+		google.setOnLoadCallback(onLoad, true);
+	</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+	<!--#include file="../common/topnavigationnh.html"-->
+	<div class="container"><ol class="breadcrumb">
+	  <li><a href="../home/index.shtml"><img src="../images/breadcrumb/Home_icon.png"></a></li>
+	  <li>AYUDA</li>
+	  <li class="active">INSTRUCCIONES DE COLOCACI&#211;N</li>
+	</ol></div>
+	<div class="container clstatic" editarea="img111">
+		<h1 class="page-header-noborder">
+			INSTRUCCIONES DE COLOCACI&#211;N
+		</h1>
+		<div class="row row-offcanvas row-offcanvas-left">
+			<!--#include file="supportlm.html"-->
+			<div class="col-xs-12 col-sm-9">
+				<div class="row container">
+				<p class="pull-left visible-xs">
+					<button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Menu</button>
+				</p>
+				</div>
+				<p>
+				<ul id="tabs" class="nav nav-tabs" data-tabs="tabs">
+				<li class="active"><a href="#car" data-toggle="tab">En el autom&#243;vil</a></li>
+				<li><a href="#exterior" data-toggle="tab">Dispositivo exterior de peaje</a></li>
+				<li><a href="#motor" data-toggle="tab">Motocicleta</a></li>
+				</ul>
+				<div id="my-tab-content" class="tab-content">
+				<div class="tab-pane active" id="car">
+				<div class="col-md-12 imgLiquidFill imgLiquid">
+					<img editarea="img1" editareadesc="In Car" width="100%"  class="respimg" src="../images/vehicleMounting.png">
+				</div>
+				<h4>Instrucciones de colocaci&#243;n en el veh&#237;culo</h4>
+				<p>El dispositivo de peaje de FasTrak debe estar colocado correctamente antes de usarse.</p>
+				<p style="font-style:italic;" class="bach">Importante: Antes de instalar, por favor consulte esta <a href="../images/Vehicles_with_Metal_Oxide_Windshields.pdf">informaci&#243;n importante sobre parabrisas especiales.</a></p>
+				<p> Si el dispositivo de peaje no est&#225; bien colocado, es posible que no funcione y puede estar en posici&#243;n indebida.*<br>
+					Paso 1. Limpie con alcohol isoprop&#237;lico el &#225;rea en donde se colocar&#225; el dispositivo, en la parte interior del parabrisas, y espere a que se seque.<br>
+					Paso 2. Retire la cinta de pl&#225;stico de la parte trasera de las tiras de velcro en el dispositivo de peaje.<br>
+					Paso 3. Coloque el dispositivo de peaje como se muestra abajo, considerando su tipo de espejo.<br>
+					Paso 4. Presione el dispositivo firmemente contra el parabrisas.
+				</div>
+				<div class="tab-pane" id="exterior">
+				<h4>Instrucciones de colocaci&#243;n para dispositivos exteriores y para veh&#237;culos comerciales</h4>
+				<p>Su dispositivo exterior est&#225; dise&#241;ado para colocarse en la parte delantera de su veh&#237;culo, sobre una superficie plana. Se fija con tornillo, en el &#225;rea del parachoques delantero, donde normalmente se colocar&#237;a la placa.<p>Coloque el dispositivo de peaje de tal forma que los agujeros correspondan a la parte superior de la placa en el parachoques delantero del veh&#237;culo.<p>Importante: Si el &#225;rea de la placa en su veh&#237;culo est&#225; parcialmente obstruida por un parachoques sobresaliente, por favor llame al centro de servicio al cliente de FasTrak para buscar otra forma de colocaci&#243;n. 
+				<h4>Diagrama para colocar un dispositivo de peaje exterior</h4>
+				<div class="col-md-12 imgLiquidFill imgLiquid">
+					<img editarea="img2" editareadesc="Exterior Tag" width="100%"  class="respimg" src="../images/commercialTruckMounting.png">
+				</div>
+				<h4>Instrucciones de colocaci&#243;n segura</h4>
+				<p>Su dispositivo de peaje est&#225; equipado con tornillos de seguridad, con una llave Allen &#250;nica. Por lo tanto, aseg&#250;rese de conservar la llave en un lugar seguro, para el posterior ajuste o retiro del dispositivo.<p>
+Paso 1: Retire los dos tornillos superiores de la placa.<br>
+Paso 2: Coloque el dispositivo de peaje de tal forma que los agujeros de este correspondan con los agujeros en la parte superior de la placa, en el parachoques delantero del veh&#237;culo.<br>
+Paso 3: Use la llave Allen especial para apretar los tornillos de seguridad que se le proporcionaron, para de esta forma asegurar el dispositivo de peaje.<br>
+				<h4>Diagrama para colocaci&#243;n segura (los agujeros indican la parte superior del dispositivo, para montaje vertical))</h4>
+				<div class="col-md-12 imgLiquidFill imgLiquid">
+					<img editarea="img3" editareadesc="Mounting Diagram" width="100%"  class="respimg" src="../images/commercialTruckMounting2.png">
+				</div>
+				</div>
+				<div class="tab-pane" id="motor">
+				<img src="../images/motorcycleMounting.png">
+				<h4>Instrucciones de colocaci&#243;n para motocicletas</h4>
+				<p>El dispositivo de peaje de FasTrak debe estar colocado correctamente antes de usarse.</p>
+				<p>Si el dispositivo de peaje no est&#225; bien colocado, es posible que no funcione y puede estar en posici&#243;n indebida.*<br>
+Paso 1. Limpie con alcohol isoprop&#237;lico el &#225;rea en donde se colocar&#225; el dispositivo, en la parte interior del parabrisas, y espere a que se seque.<br>
+Paso 2. Retire la cinta de pl&#225;stico de la parte trasera de las tiras de velcro en el dispositivo de peaje.<br>
+Paso 3. Coloque el dispositivo de peaje como se muestra abajo, considerando su tipo de espejo.<br>
+Paso 4. Presione el dispositivo firmemente contra el parabrisas. 
+				</div>
+				</div>
+				<h6>
+				<p>La enmienda a la SEC.77, secci&#243;n 26708 del C&#243;digo de Veh&#237;culos, permite:
+				<p>
+				Un dispositivo electr&#243;nico de comunicaci&#243;n, fijo en la secci&#243;n superior central del interior de un parabrisas, no mayor a un recuadro de 5 pulgadas (13 cent&#237;metros), siempre y cuando el aparato otorgue cualquiera de las siguientes funciones: 
+				<p>(A) Proporcionar capacidad a las instalaciones del Departamento de la Patrulla de Caminos de California de comunicarse con un veh&#237;culo equipado con tal aparato.  
+				<br>(B) Proporcionar capacidad para realizar cobro electr&#243;nico de peajes y manejo del tr&#225;fico en caminos o instalaciones, ya sean de tipo p&#250;blico o privado. 
+				<p>
+				La SEC. 77, secci&#243;n 26708 del C&#243;digo de Veh&#237;culos se ha corregido y ahora indica: 
+				<p>
+				Se&#241;ales, calcoman&#237;as y otros materiales, que se muestren en un recuadro de 7 pulgadas (18 cm) en el parabrisas, en la esquina inferior m&#225;s alejada del conductor; se&#241;ales, calcoman&#237;as u otros materiales que se muestren en un recuadro de 7 pulgadas (18 cent&#237;metros) en la ventana trasera, en la esquina inferior m&#225;s alejada del conductor; o se&#241;ales, calcoman&#237;as u otros materiales que se muestren en un recuadro de 5 pulgadas (13 cent&#237;metros) en el parabrisas, en la esquina inferior m&#225;s cercana al conductor.</h6>
+			</div>
+		</div>
+	</div>
+	<!--#include file="../common/footer.html"-->
+	<!--#include file="../common/footerinclude.html"-->
+	<script type='text/javascript'>
+	$(document).ready(function() {
+	  $('#support_mount').attr('class', 'active');
+	  $('dd').hide();
+	  $('dt').click(function() {
+		$(this).next('dd').slideToggle('fast');
+	  });
+	  $('h6.showall').click(function() {
+		$('dd').show('fast');
+	  });
+	  $('h6.hideall').click(function() {
+		$('dd').hide('fast');
+	  });
+	});
+	</script>
+    </body>
+</html>

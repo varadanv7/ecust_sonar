@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:c="http://java.sun.com/jsp/jstl/core"
+	xmlns:p="http://primefaces.org/ui">
+<body>
+	<ui:composition>
+		<div style="vertical-align: middle">
+			<p:panelGrid columns="2">
+		        <p:selectOneRadio id="imagemode" onchange="imageUploadMode(this);" value="#{currcomp.imageMode}">
+		            <f:selectItem itemLabel="Select Existing" itemValue="existing" />
+		            <f:selectItem itemLabel="Add New Image" itemValue="new" />
+		            <p:ajax event="change" listener="#{currcomp.updateImageUploadMode}"/>
+		        </p:selectOneRadio>
+		    </p:panelGrid>
+		    <p:panelGrid columns="2"  id="imagemodeexisting">
+	            <p:commandButton value="Browse Images" actionListener="#{currcomp.updateSelectedForImage}" oncomplete="PF('uploadServerImg').show();return false;" >
+	            </p:commandButton>
+	            <h:graphicImage value="#{currcomp.existingImgRef.fileRef}" alt="#{messages.uploadImage}" width="80" height="80"
+	            	rendered="#{currcomp.dataChanged}"></h:graphicImage>
+            </p:panelGrid>
+			<p:panelGrid columns="2" id="imagemodenew" style="display:none;">
+				<p:fileUpload value="#{currcomp.imageFile}" fileLimit="#{currcomp.filelimit}" multiple="false" 
+							sizeLimit="#{cmpagebean.imageFileSize}" invalidSizeMessage="#{messages.imageFileSizeMsg1}#{cmpagebean.imageFileSizeMsg}#{messages.imageFileSizeMsg2}"
+							allowTypes="/(\.|\/)(#{cmpagebean.imageAllowedTypes})$/"
+							onstart="PF('loader').show();" oncomplete="refreshImagePanels();PF('loader').hide();"
+							invalidFileMessage="#{messages.imageAllowedTypesMsg1}#{cmpagebean.imageAllowedTypesMsg}#{messages.imageAllowedTypesMsg1}"
+	                        mode="advanced" fileUploadListener="#{currcomp.uploadListener}" update="@form">
+	            </p:fileUpload>
+	            <h:graphicImage value="#{currcomp.localprevImage}" alt="#{messages.uploadImage}" width="80" height="80"
+	            	rendered="#{currcomp.dataChanged}"></h:graphicImage>
+            </p:panelGrid>
+		</div>
+ 	</ui:composition>
+</body>
+</html>

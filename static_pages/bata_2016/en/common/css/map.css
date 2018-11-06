@@ -1,0 +1,157 @@
+@charset "UTF-8";
+.bridge_map{
+	padding: 2px 5px;
+	white-space: nowrap;
+	font-family: "Verdana";
+	font-size: 11px;
+	opacity: 0.9;
+	margin: 0px;
+	color: black;
+}
+
+.image_line{
+	opacity:0;
+	padding: 10px;
+}
+
+.grey {
+    color: #999;
+}
+
+.small {
+    font-size: 10px;
+}
+
+input.address {
+    width: 125px;
+}
+
+#map{
+	height: 600px;
+	width: 1000px;
+}
+@media screen and (max-width: 1100px) {
+	#map{
+		height: 500px;
+		width: 750px;
+	}
+}
+@media screen and (max-width: 767px) {
+	#map{
+		height: 600px;
+		width: 950px;
+	}
+}
+@media screen and (max-width: 500px) {
+	#map{
+		height: 600px;
+		width: 1200px;
+	}
+}
+
+#map1{
+	height: 500px;
+	width: 513px;
+}
+@media (min-width: 768px) {
+	#map1{
+		height: 500px;
+		width: 655px;
+	}
+}
+@media (min-width: 992px) {
+	#map1{
+		height: 500px;
+		width: 510px;
+	}
+}
+@media (min-width: 1200px) {
+	#map1{
+		height: 500px;
+		width: 513px;
+	}
+}
+
+#ggbmap{
+	overflow:hidden;
+}
+
+.colorbox{
+width: 20px;
+height: 20px;
+float: left;
+margin: 0px 5px;
+}
+
+.colorboxred{
+background-color: #d9534f;
+}
+
+.colorboxgreen{
+background-color: #66CD00;
+}
+
+.colorboxyellow{
+background-color: #ffff00;
+}
+
+.colorboxorange{
+background-color: #ff8000;
+}
+
+.colorboxblue{
+background-color: #0058b2;
+}
+
+.btngfMap{
+	color:#0098a3;
+}
+
+.btngfMap{
+	color: #FFF;
+background-color: #C9302C;
+border-color: #AC2925;
+}
+
+.btn-lgMap {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+
+.btn-blockMap {
+  display: block;
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.btnMap {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.428571429;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+       -o-user-select: none;
+          user-select: none;
+}
+
+
+.btn-defaultMap {
+  text-decoration: none;
+  color: #fff;
+  background-color: #4D4D4D;
+  border-color: #e0e0e0;
+  border-color: #ccc;
+}

@@ -1,0 +1,250 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+
+<title>FasTrak</title>
+
+<!--#include file="../common/headerinclude.html"-->
+<!--#include file="../common/html/pageheader.shtml"-->
+
+<script>
+	function dropShower(arg, arg1) {
+		var chudd = document.getElementById('ploot').value
+		var gibbery = "#" + arg;
+
+		document.getElementById('subClaim').style.display = 'none'
+
+		if (chudd == 'X') {
+			$(gibbery).fadeIn("slow");
+			document.getElementById(arg1).src = '../images/orangeArrowD.png';
+			document.getElementById('ploot').value = 'Y'
+		} else if (chudd == 'Y') {
+			$(gibbery).fadeOut("slow");
+			document.getElementById(arg1).src = '../images/orangeArrowL.png';
+			document.getElementById('ploot').value = 'X'
+		}
+	}
+
+	function closeby() {
+		document.getElementById('subClaim').style.display = 'none';
+		document.getElementById('orangeArrowX').src = '../images/orangeArrowL.png';
+	}
+</script>
+</head>
+
+<body onLoad="setWindowSizeP()">
+	<input type="hidden" id="ploot" value="X">
+	<div class="container">
+		<ol class="breadcrumb">
+			<li><a href="../home/index.shtml"><img
+					src="../images/breadcrumb/Home_icon.png"> </a></li>
+			<li>Support</li>
+			<li>Unclaimed Property</li>
+			<li class="active">FAQ_CH</li>
+		</ol>
+	</div>
+	<div class="contentEnvelope" editarea="eschFAQch" editareadesc="esch FAQch">
+		<!-- content -->
+		<div class="contentTitle">
+			<div
+				style="display: inline-block; float: left; width: 240px; padding: 0 0 0 0;">&nbsp;</div>
+			<div style="display: inline-block; padding: 0 0 0 0;">常見問題</div>
+		</div>
+		<div class="menuCol">
+			<div class="menuBox">
+				<div class="navBox" id="overview">
+					<div class="arrowSpace">&nbsp;</div>
+					<a href="eschOverview.shtml" class="leftNav">OVERVIEW</a>
+				</div>
+				<div class="navBox" id="filing">
+					<div class="arrowSpace">&nbsp;</div>
+					<a href="eschFiling.shtml" class="leftNav">FILING A CLAIM</a>
+				</div>
+				<div class="navBox" id="claim">
+					<div id="claimOrangeArrow" class="arrowSpace">
+						<img src="../images/orangeArrowL.png" id="orangeArrowX">
+					</div>
+					<a href="#" onClick="dropShower('subClaim','orangeArrowX')"
+						class="leftNav">CLAIM FORM</a>
+				</div>
+				<div id="subClaim">
+					<div class="subby">
+						<a href="../images/EscheatmentClaimFormi123016-2b.pdf"
+							class="subbyLink" target="_blank">ENGLISH</a>
+					</div>
+					<div class="subby">
+						<a href="../images/EscheatmentClaimFormSpanishi020917.pdf"
+							class="subbyLink" target="_blank">ESPA&Ntilde;OL</a>
+					</div>
+					<div class="subby">
+						<a href="../images/EscheatmentClaimFormChinesei020917.pdf"
+							class="subbyLink" target="_blank">中文</a>
+					</div>
+				</div>
+				<div class="navBox" id="required">
+					<div class="arrowSpace">&nbsp;</div>
+					<a href="eschRequired.shtml" class="leftNav">REQUIRED
+						DOCUMENTATION</a>
+				</div>
+				<div class="navBox" id="faq">
+					<div id="faqOrangeArrow" class="arrowSpace">
+						<img src="../images/orangeArrowD.png" id="orangeArrowY">
+					</div>
+					<a href="eschFAQen.shtml" class="leftNav">FAQs</a>
+				</div>
+				<div id="subFaq">
+					<div class="subby">
+						<a href="eschFAQsp.shtml" class="subbyLink">PREGUNTAS
+							FRECUENTES</a>
+					</div>
+					<div class="subbyActive">常見問題</div>
+				</div>
+			</div>
+		</div>
+		<div id="contentCol">
+			<div class="colFullCopy">
+				<div class="indentoFaqo">
+
+					<div class="faqLink" data-toggle="collapse" data-target="#faq1">
+						<img src="../images/orangeArrowSmL.png"
+							style="margin-right: 5px; float: left;">我收到了郵件中的通知，或者我在未認領財產名單中找到了我的名字。我如何在財產被灣區通行費管理署充公之前認領財產？
+					</div>
+					<div id="faq1" class="collapse"
+						style="padding-left: 20px; max-width: 600px;">
+						要在財產被灣區通行費管理署充公之前認領財產，您必須在 2018  年 4 月 30 日前向 FasTrak
+						客戶服務中心發送填妥的認領表和所有要求提交的文件。</div>
+
+					<div class="faqLink" data-toggle="collapse" data-target="#faq2">
+						<img src="../images/orangeArrowSmL.png"
+							style="margin-right: 5px; float: left;">提出認領申請有無時間限制？
+					</div>
+					<div id="faq2" class="collapse"
+						style="padding-left: 20px; max-width: 600px;">有，認領申請表最遲必須在
+						2018  年 4 月 30 日及之前提交。2018  年 4 月 30 日之後收到的申請表必須包括逾期認領的書面理由。灣區通行費管理署將全權決定是否接受遲交的認領申請。</div>
+
+					<div class="faqLink" data-toggle="collapse" data-target="#faq3">
+						<img src="../images/orangeArrowSmL.png"
+							style="margin-right: 5px; float: left;">何處有認領申請表？
+					</div>
+					<div id="faq3" class="collapse"
+						style="padding-left: 20px; max-width: 600px;">
+						有<a href="../images/EscheatmentClaimFormi123016-2b.pdf"
+							class="inLineLinkk" target="_blank">英文</a>或<a
+							href="../images/EscheatmentClaimFormChinesei020917.pdf"
+							class="inLineLinkk" target="_blank">中文</a>的認領表可供下載列印。請務必遵循所有填表說明，並附上所有要求提交的文件。您還可以致電
+						1-877-229-8655，請求給您郵寄或傳真一份認領表。
+					</div>
+
+					<div class="faqLink" data-toggle="collapse" data-target="#faq4">
+						<img src="../images/orangeArrowSmL.png"
+							style="margin-right: 5px; float: left;">我如何提出認領申請？
+					</div>
+					<div id="faq4" class="collapse"
+						style="padding-left: 20px; max-width: 600px;">
+						<div style="margin: 0 0 0 20px;">
+							按照認領表上的說明填寫。確保填妥表格、簽名、並將表格發送到 FasTrak
+							客戶服務中心，附上要求提交的文件。填妥的表格可親自遞交、郵寄、傳真或在網上發送。
+
+							<div class="orangeTitleCallout">親自遞交</div>
+							FasTrak Customer Service Center<br> 375 Beale Street<br>
+							San Francisco，CA 94015<br> <br> <a
+								href="../other/contactChinese.shtml" class="inLineLinkk">
+								點按此處 </a>（鏈結到「聯絡我們和營業時間」頁面），了解交通路線和營業時間。
+
+							<div class="orangeTitleCallout">郵寄</div>
+							FasTrak Customer Service Center<br> Escheatment Claims<br>
+							PO Box 26926<br> San Francisco，CA 94126
+
+							<div class="orangeTitleCallout">傳真</div>
+							1-415-974-6356
+
+							<div class="orangeTitleCallout">網上發送</div>
+							1. 進入<a href="../routers/contactUs.html" class="inLineLinkk">「發電郵至
+								FasTrak」</a><br> 2. 點按「網路」（Web），當下拉方框顯示時，選擇<b>「未認領的財產」</b>（Unclaimed
+							Property）<br> 3. 填寫您的詳細資訊，然後簽名，上傳認領表和要求提交的文件。<br> 4. 點按<b>「提交」</b><br>
+						</div>
+					</div>
+
+					<div class="faqLink" data-toggle="collapse" data-target="#faq5">
+						<img src="../images/orangeArrowSmL.png"
+							style="margin-right: 5px; float: left;">我如何為已去世的擁有人提出認領申請？
+					</div>
+					<div id="faq5" class="collapse"
+						style="padding-left: 20px; max-width: 600px;">
+						如果您是繼承人、受託人或個人代表/執行人/管理人，您可以對已故擁有人的財產提出認領申請。請參閱關於已故擁有人財產認領的說明，了解您需要提交哪些能夠證明所有權的文件（鏈結）。
+					</div>
+
+					<div class="faqLink" data-toggle="collapse" data-target="#faq6">
+						<img src="../images/orangeArrowSmL.png"
+							style="margin-right: 5px; float: left;">是否可以與另一位認領人共同提出認領申請？
+					</div>
+					<div id="faq6" class="collapse"
+						style="padding-left: 20px; max-width: 600px;">
+						可以，但每一位擁有人都必須簽署認領表，並提交證明所有權的必要文件。</div>
+
+					<div class="faqLink" data-toggle="collapse" data-target="#faq7">
+						<img src="../images/orangeArrowSmL.png"
+							style="margin-right: 5px; float: left;">如果曾經更改姓名，需要什麼證明文件？
+					</div>
+					<div id="faq7" class="collapse"
+						style="padding-left: 20px; max-width: 600px;">
+						您需要提供文件證明您是未認領財產帳戶的擁有人。例如，結婚證書或法院文件都可以用作證明文件。</div>
+
+					<div class="faqLink" data-toggle="collapse" data-target="#faq8">
+						<img src="../images/orangeArrowSmL.png"
+							style="margin-right: 5px; float: left;">我仍然有灣區通行費管理署簽發的原始支票，但銀行不予兌現，因為距離支票簽發日期已經一年多。如何取回我的錢？
+					</div>
+					<div id="faq8" class="collapse"
+						style="padding-left: 20px; max-width: 600px;">
+						您必須填寫認領表，提供身份證明，並附上未兌現支票的原件或複印件。一旦我們審定擁有權有效，我們將向您發送一張新支票。請務必留存這些文件的複印件。
+					</div>
+
+					<div class="faqLink" data-toggle="collapse" data-target="#faq9">
+						<img src="../images/orangeArrowSmL.png"
+							style="margin-right: 5px; float: left;">你們可以把我的錢用電子轉賬方式存入我目前的銀行帳戶嗎？
+					</div>
+					<div id="faq9" class="collapse"
+						style="padding-left: 20px; max-width: 600px;">
+						不可以。灣區通行費管理署不能將資金轉入您當前的銀行帳戶。如果認領申請獲得批准，支票將郵寄到認領表上提供的地址。</div>
+
+					<div class="faqLink" data-toggle="collapse" data-target="#faq10">
+						<img src="../images/orangeArrowSmL.png"
+							style="margin-right: 5px; float: left;">是否有辦法以電子方式提交認領申請表，而不是郵寄？
+					</div>
+					<div id="faq10" class="collapse"
+						style="padding-left: 20px; max-width: 600px;">
+						是，您可以從網上或用傳真（415-974-6356）發送已經簽名的申請表以及任何要求提交的文件複印件。 <br> <br>
+						如要從網上提交認領表：
+						<div style="margin: 15px 0 0 20px;">
+							1. 進入<a href="../routers/contactUs.html" class="inLineLinkk">「發電郵至
+								FasTrak」</a><br> 2. 點按「網路」（Web），當下拉方框顯示時，選擇<b>「未認領的財產」</b>（Unclaimed
+							Property）<br> 3. 填寫您的詳細資訊，然後簽名，上傳認領表和要求提供的文件。<br> 4. 點按<b>「提交」</b>
+						</div>
+					</div>
+
+					<div class="faqLink" data-toggle="collapse" data-target="#faq11">
+						<img src="../images/orangeArrowSmL.png"
+							style="margin-right: 5px; float: left;">我已經提交了認領申請表，為什麼還沒有收到支票？
+					</div>
+					<div id="faq11" class="collapse"
+						style="padding-left: 20px; max-width: 600px;">
+						從收到申請表到作出處理決定和寄出退款支票最多可能需要 60 天。 <br>
+						<br> 如果您難以確認您的認領申請是否得到批准或生活中遇到重大困難，您可以致電 FasTrak 客戶服務中心，免費電話
+						1-877-229-8655；或進入「發電郵至 FasTrak」<a href="../routers/contactUs.html"
+							class="inLineLinkk">(Email FasTrak)</a>，點選「網路」（Web），出現下拉式選單時選擇「未認領財產」<b>（Unclaimed
+							Property）</b>。您需要提供 FasTrak 未認領財產名單上顯示的姓名，並簡要說明查詢目的。<br> <br>
+					</div>
+					<br> <br>
+				</div>
+			</div>
+		</div>
+		<!-- end content -->
+	</div>
+	<div class="footerTopperRelated">
+		<div class="footerToppler">Keep moving with FasTrak</div>
+	</div>
+	<script src="../common/js/footer.js"></script>
+</body>
+</html>

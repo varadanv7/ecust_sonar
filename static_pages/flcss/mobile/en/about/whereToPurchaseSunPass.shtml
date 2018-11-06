@@ -1,0 +1,1448 @@
+<!doctype html>
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><html lang="en" class="no-js"> <![endif]-->
+<html lang="en">
+<head>
+  <title>SunPass</title>
+  <!--#include file="../includes/headerinclude.html"-->
+  
+  <style>
+    #google-map,
+    body,
+    html {
+      padding: 0;
+      height: 400px;
+    }
+	
+	.b{
+	padding-left:10px;
+	padding-top:7px;
+	padding-bottom:7px;
+	background:#00838e;
+	cursor: pointer;
+	color: white;
+	}
+	
+	.c th{
+	background:#7fc1c6;
+	<!-- cursor: pointer; -->
+	}
+	
+	
+table tr:last-child td {
+   border-bottom: 0;
+}
+
+  </style>
+  <script>
+  $(function() {
+   if ($(window).width() <= 600) {  
+   $(".purchaseTranMob").show();
+   $(".purchaseTranDesk").hide();   
+   }else{   
+   $(".purchaseTranDesk").show();
+   $(".purchaseTranMob").hide();
+   }
+   });
+  </script>
+</head>
+<body>
+<a href="#maincontent" class="skip">Skip to content</a>
+  <div id="container">
+    <!--#include file="../includes/topnavigator.html"-->
+	    <!-- Start Page Banner -->
+    <div class="page-banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Where to Purchase SunPass</h2>
+            <p></p>
+          </div>
+          <div class="col-md-6">
+            <ul class="breadcrumbs">
+              <li><a href="../home/index.shtml">Home</a></li>
+              <li>What is SunPass?</li>
+              <li>Where to Purchase SunPass</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+	
+    <div id="content">
+		<div class="container bach" id="maincontent">
+		<!-- <h4 class="classic-title"><span>SunPass Installation</span></h4> -->
+		<div class="page-content">
+		<div class="row">			
+		<p>Purchasing a SunPass is easy as there are over 3,100 retail locations throughout Florida. </p>
+<div style="background-color:#e5eaec; text-align:left; vertical-align: middle; padding:20px 47px;">  
+
+				
+				<div class="row">
+				<div class="col-md-4">
+<a id="externallinkpop5" href="http://store.publix.com/publix/cgi/region?country=US&region=FL&design=default&lang=en&mapid=US" target="_blank">				
+<img src="../common/images/Publix Eng preferred.png" style="border:0" alt="Publix" />
+</a>
+				</div>
+				<div class="col-md-4">
+<a id="externallinkpop5" href="https://www.walgreens.com/storelistings/storesbycity.jsp?state=FL" target="_blank">
+				<img src="../common/images/Wag_Logotype_Red.png" alt="CVS" style="border:0"  />
+</a>
+				</div>
+				<div class="col-md-4">
+				<a id="externallinkpop5" href="https://www.cvs.com/store-locator/cvs-pharmacy-locations/Florida" target="_blank">
+								<img src="../common/images/CVS_Pharmacy_logo_red.png" alt="AAA Auto Club South" style="border:0" />
+							</a>
+				</div>
+				
+				
+				
+				
+				</div>
+				<div class="row"><p></div>
+				<div class="row"><p></div>
+				<div class="row">
+				<div class="col-md-3">
+				<a id="externallinkpop7" href="https://www.amscot.com/locations.aspx" target="_blank">
+							<img style="border:0" src="../common/images/Amscot Logo.png" alt="Sedano's sells both Mini and Portable transponders.">
+							</a>
+				</div>
+				<div class="col-md-3">
+<a id="externallinkpop5" href="https://autoclubsouth.aaa.com/branches/search.aspx?State=FL" target="_blank">
+				<img src="../common/images/AAA_Auto-Club-South.PNG" style="border:0" alt="Walgreens sells both Mini and Portable transponders.">
+</a>
+				</div>
+				<div class="col-md-3">
+				<a id="externallinkpop8" href="http://www.navarro.com/store-locator.htm" target="_blank">
+							<img src="../common/images/Navarro logo.png" style="border:0" alt="Amscot sells Mini transponders.">
+							</a>
+							 
+				</div>
+                <div class="col-md-3">
+				<a id="externallinkpop6" href="https://sedanos.com/#locations" target="_blank">
+							<img src="../common/images/Sedano's.png" style="border:0" alt="Navarro">
+							</a>
+				</div>
+				</div>
+				
+
+
+</div>
+		</div>
+<br>
+<div class="row">
+<a href="../signup/transponderclassify.shtml">
+<img src="../common/images/Purchase-transponder-online.png" alt="Windshield locations for installation." style="margin: auto;display: block;">
+</a>
+</div>	
+<div class="row" style="text-align: center;">
+<p>Download and print an application: <a target="_blank" href="../other/SunPass_Private_Account_Application.pdf">Private</a> or <a target="_blank" href="../other/SunPass_Fleet_Account_Application.pdf">Fleet</a></p>
+</div>	
+<br>
+<div class="row">
+<p> SunPass can also be purchased at all Turnpike service plazas, Turnpike gas stations, SunPass Service Centers, select Florida Welcome Centers, Visitor
+Centers, Rest Areas, and select County Tax Collector’s Offices.</p>
+
+</div>
+<div class="row purchaseTranDesk">
+<div class="table-responsive">
+<table class="table table-no-outer" summary="this table displays the county, location and hours of SunPass Sales Locations.">
+
+								<CAPTION class="salesLocations">
+									TURNPIKE SALES LOCATIONS<br>			
+								</CAPTION>
+
+
+								<tr>
+									<tH  class="salesLocationsColumns">County</tH>
+									<tH  class="salesLocationsColumns">Transponders Available</tH>
+									<tH  class="salesLocationsColumns">Location</tH>
+									<tH  class="salesLocationsColumns">Hours</tH>
+								</tr>
+								<tr valign="middle">
+									<td class="turnpikeCountyColum">BROWARD</td>
+									<td class="turnpikeTranspondersColumn"><ul><li>Mini</li> <li>Portable</li></ul></td>
+									<td class="turnpikeTranspondersColumn"><p >Florida's Turnpike <br>
+									  Pompano Beach Service Plaza Gift Shop <br>
+									  Mile Marker 65 </p></td>
+									<td class="turnpikeTranspondersColumn"><p >Daily<BR>8:00 am - 9:00 pm </p></td>
+								</tr>
+								
+								
+								<tr valign="middle" style="background-color: #E9E9E9;">
+									<td class="turnpikeCountyColum">CITRUS</td>
+									<td class="turnpikeTranspondersColumn"><ul><li>Mini</li> <li>Portable</li></ul></td>
+									<td class="turnpikeTranspondersColumn"><p >Citrus County Tax Collector <br/>
+										
+										<a class="hrefLinksColor" href="http://www2.citrustc.us/" id="externallinkpop51" target="_blank">Tax Collector's offices in Inverness and Crystal River</a> 
+										</p>
+									</td>
+									<td class="turnpikeTranspondersColumn"><p >Daily<br/>8:00 am - 5:00 pm <br><br>
+
+							Major Holidays<BR>Closed </p></td>
+								
+								</tr>
+							  <tr valign="middle">
+							   <td rowspan="2" class="turnpikeCountyColum">ESCAMBIA </td>
+							   <td class="turnpikeTranspondersColumn"><ul><li>Mini</li> <li>Portable</li></ul></td>
+							   <td class="turnpikeTranspondersColumn"><p> <a class="hrefLinksColor" href="http://www.visitflorida.com/en-us/listing.a0t40000007qw7MAAQ.html" id="externallinkpop52" target="_blank">Escambia County Welcome Center Interstate I-10</a><br>
+						Mile Marker 4 <br>
+						4.0 mi. E of FL/AL state line <br>
+						Pensacola, FL 32614 </p>
+					
+					</td>
+						<td class="turnpikeTranspondersColumn"><p >Available in vending machines 24 hours </p></td>
+
+							 </tr>
+							  <tr valign="middle">
+							   <td class="turnpikeTranspondersColumn"><ul><li>Mini</li> </ul></td>
+							   <td class="turnpikeTranspondersColumn"><p>
+							   <a class="hrefLinksColor" href="https://sria-fla.com/" id="externallinkpop53" target="_blank">Santa Rosa Island Authority</a><br>
+						1 Via De Luna Drive<br>
+						Pensacola Beach, FL 32561<br>
+						</p></td>
+					
+						<td class="turnpikeTranspondersColumn"><p >Mon - Fri</br>8:30 am - 5:00 pm<br></br>Sat/Sun<BR>Closed <br><br>Major Holidays<BR>Closed</p></td>
+
+							 </tr> 
+				 
+							 <tr valign="middle" style="background-color: #E9E9E9;">
+							   <td class="turnpikeCountyColum">HAMILTON </td>
+							   <td class="turnpikeTranspondersColumn"><ul><li>Mini</li> <li>Portable</li></ul></td>
+							   <td class="turnpikeTranspondersColumn"><p > <a class="hrefLinksColor" href="http://www.visitflorida.com/en-us/listing.a0t40000007qvaUAAQ.html" id="externallinkpop54" target="_blank">Hamilton County Welcome Center Interstate I-75</a><br>
+						Mile Marker 470 <br>
+						1.7 mi. S of FL/GA state line<br>
+						Jennings, FL 32053 </p>
+					
+					</td>
+						<td style="background-color: #E9E9E9;"><p >Available in vending machines 24 hours </p></td>
+
+							 </tr>
+
+<tr valign="middle">
+							   <td class="turnpikeCountyColum">HARDEE </td>
+							   <td class="turnpikeTranspondersColumn"><ul><li>Mini</li> <li>Portable</li></ul></td>
+							   <td class="turnpikeTranspondersColumn"><p > 
+<a class="hrefLinksColor" href="http://www.hardeecountytaxcollector.com" id="externallinkpop54" target="_blank">Hardee County Tax Collector's Office</a><br>
+
+Tax Collector's office in Wauchula, FL 33873
+<br> </p>
+					
+					</td>
+						<td><p>Mon - Fri<BR>8:15 am - 4:45 pm <br>
+						<br>
+						Sat/Sun<BR>Closed <br><br>Major Holidays<BR>Closed</p></td>
+
+							 </tr>
+
+
+							 <tr valign="middle" style="background-color: #E9E9E9;">
+									<td class="turnpikeCountyColum">HIGHLANDS</td>
+									<td class="turnpikeTranspondersColumn"><ul><li>Mini</li> <li>Portable</li></ul></td>
+<td class="turnpikeTranspondersColumn"><p ><a class="hrefLinksColor" href="http://www.hctaxcollector.com/" id="externallinkpop55" target="_blank">Highlands County Tax Collector </a><br>
+									 
+										Tax Collector’s Offices in Sebring, Avon Park, Indiantown, and Lake Placid
+										</p>
+									</td>
+									<td class="turnpikeTranspondersColumn"><p >Mon - Fri<BR>8:00 am - 5:00 pm <br><br>
+
+						Wednesdays<BR>8:30 am – 5:00 pm</br><BR>Sat/Sun<BR>Closed<br></p></td>
+							 </tr> 
+ <tr valign="middle">
+							   <td rowspan="2" class="turnpikeCountyColum">HILLSBOROUGH </td>
+							<td class="turnpikeTranspondersColumn"><ul><li>Mini</li> <li>Portable</li></ul></td>
+							   <td class="turnpikeTranspondersColumn"><p >
+SunPass Customer Service Center – Tampa <br>
+10137 E. Adamo Drive,  <br>
+						Suite 800A,<br>
+ Tampa, FL 33619-2670 </p></td>
+							   <td class="turnpikeTranspondersColumn"><p >Mon - Fri<BR>8:00 am - 6:00 pm </br><BR>Sat/Sun<BR>Closed<br></p></td>
+							 </tr>              
+							 <tr valign="middle">
+							  
+							  
+
+							 </tr> 
+ 
+							 
+							 <tr valign="middle" style="background-color: #E9E9E9;">
+							   <td class="turnpikeCountyColum">INDIAN RIVER</td>
+							   <td class="turnpikeTranspondersColumn"><ul><li>Mini</li> <li>Portable</li></ul></td>
+							   <td class="turnpikeTranspondersColumn"><p ><a class="hrefLinksColor" href="http://www.irctax.com/" id="externallinkpop56" target="_blank">Indian River County Tax Collector’s Office</a></br>
+							   Tax Collector’s Main Office, West Vero Office, and <br>
+Sebastian Office
+							   
+								
+								
+								</p>
+					
+					</td>
+						<td class="turnpikeTranspondersColumn"><p >Mon - Fri</br>8:00 am - 5:00 pm<br></br>Sat/Sun<BR>Closed <br><br>Major Holidays<BR>Closed</p></td>
+
+							 </tr>
+
+
+<tr valign="middle" style="background-color:">
+							   <td class="turnpikeCountyColum">JACKSON</td>
+							   <td class="turnpikeTranspondersColumn"><ul><li>Mini</li> <li>Portable</li></ul></td>
+							   <td class="turnpikeTranspondersColumn"><p >
+<a class="hrefLinksColor" href="http://jacksoncountygov.com/" id="externallinkpop56" target="_blank">Jackson County Welcome Center </a><br>
+							   5865 HWY US 231 <br>
+Mile Marker 0<br>
+			3 miles North of Campbellton, FL<br>	
+Campbellton, FL 32426<br>			   
+								
+								
+								</p>
+					
+					</td>
+						<td class="turnpikeTranspondersColumn"><p >Available in vending machines 24 hours</br></br>Available in the Welcome Center Vending Machine Daily 8:00 am - 5:00 pm<BR></p></td>
+
+							 </tr>
+							 
+										 
+								<tr valign="middle" style="background-color: #E9E9E9;">
+									<td class="turnpikeCountyColum">MARTIN</td>
+									<td class="turnpikeTranspondersColumn"><ul><li>Mini</li> <li>Portable</li></ul></td>
+<td class="turnpikeTranspondersColumn"><p ><a class="hrefLinksColor"href="http://taxcol.martin.fl.us/ws/CUofficelocations.aspx" id="externallinkpop57" target="_blank">Martin County Tax Collector's Office</a> <br>
+										
+										Tax Collector’s Offices in Stuart, Hobe Sound, <br>
+Indiantown and Palm City.
+										</p>
+									</td>
+									<td class="turnpikeTranspondersColumn"><p>Mon - Fri<BR>8:00 am - 4:30 pm <br><br>
+
+						Sat/Sun<BR>Closed <br><br>Major Holidays<BR>Closed</p></td>
+							 </tr>
+<tr valign="middle" >
+							   <td rowspan="3" class="turnpikeCountyColum">MIAMI-DADE</td>
+								<td class="turnpikeTranspondersColumn"><ul><li>Mini</li> <li>Portable</li></ul></td>
+							   <td class="turnpikeTranspondersColumn"><p >
+SunPass Customer Service Center – Miami <br>
+7902 NW 36th Street, <br>
+						Unit 203<br>
+						Doral, FL 33166-667 </p></td>
+							   <td class="turnpikeTranspondersColumn"><p >Mon - Fri<BR>8:00 am - 6:00 pm<br></br>Sat/Sun<BR>Closed <br></p></td>
+							 </tr>
+							 <tr valign="middle">
+							   
+								<td class="turnpikeTranspondersColumn"><ul><li>Mini</li> <li>Portable</li></ul></td>
+							   <td class="turnpikeTranspondersColumn"><p >SunPass Customer Service Center - Snapper Creek<br>
+						Milepost 19 on the Homestead Extension of Florida's <br> Turnpike<br />
+						
+						
+						</p>
+						
+						
+						</td>
+							   <td class="turnpikeTranspondersColumn"><p >Mon - Fri<BR>8:00 am - 6:00 pm <br>
+							   <br>
+
+						Sat/Sun<BR>Closed <br><br>Major Holidays<BR>Closed
+							   
+						 </p></td>
+							 </tr>
+
+							<tr valign="middle">
+								<td class="turnpikeTranspondersColumn"><ul><li>Mini</li> <li>Portable</li></ul></td>
+						<td><p class="style5" >Florida's Turnpike <br>
+						Snapper Creek Service Plaza - Shell Convenience Store <br>
+						Milepost 19 on the Homestead Extension of Florida's Turnpike</p></td>
+							   <td class="turnpikeTranspondersColumn"><p >24-hours </p></td>
+
+							 </tr>
+							 <tr valign="middle" style="background-color: #E9E9E9;">
+							   <td class="turnpikeCountyColum">NASSAU </td>
+							  <td class="turnpikeTranspondersColumn"><ul><li>Mini</li> <li>Portable</li></ul></td>
+							   <td class="turnpikeTranspondersColumn"><p ><a class="hrefLinksColor" href="http://www.visitflorida.com/en-us/listing.a0t40000007qvEKAAY.html" id="externallinkpop58" target="_blank"> Nassau County Welcome Center Interstate I-95<br> South</a><br>
+						Mile Marker 378 <br>
+						3.5 mi S of FL/GA state line<br>
+						Yulee, FL 32041 </p>
+					
+					</td>
+						<td class="turnpikeTranspondersColumn"><p >Available in vending machines 24 hours </p></td>
+
+							 </tr>
+							 <tr valign="middle">
+							   <td class="turnpikeCountyColum">OKALOOSA </td>
+							   <td class="turnpikeTranspondersColumn"><ul><li>Mini</li> <li>Portable</li></ul></td>
+							   <td class="turnpikeTranspondersColumn"><p >Mid-Bay Bridge <br>
+						1200 White Point Road <br>
+						Niceville, FL 32578 </p>
+					
+					</td>
+							   <td style=""><p >Mon - Fri <br>9:00 am - 4:00 pm <br><br>
+
+						Sat/Sun<BR>Closed <br><br>Major Holidays<BR>Closed
+						 </p></td>
+							 </tr>
+							 <tr valign="middle" style="background-color: #E9E9E9;">
+							   <td class="turnpikeCountyColum">OKEECHOBEE </td>
+						<td class="turnpikeTranspondersColumn"><ul><li>Mini</li> <li>Portable</li></ul></td>
+							   <td class="turnpikeTranspondersColumn"><p >Florida's Turnpike <br>
+						Fort Drum Service Plaza Gift Shop <br>
+						Mile Marker 184 </p></td>
+							   <td class="turnpikeTranspondersColumn"><p >Daily<BR>7:00 am - 9:00 pm</p></td>
+							 </tr>
+							 <tr valign="middle">
+							   <td class="turnpikeCountyColum">ORANGE </td>
+						<td class="turnpikeTranspondersColumn"><ul><li>Mini</li> <li>Portable</li></ul></td>
+							   <td class="turnpikeTranspondersColumn"><p >Florida's Turnpike <br>
+						Turkey Lake Service Plaza Gift Shop <br>
+						Mile Marker 263 </p></td>
+							   <td class="turnpikeTranspondersColumn"><p >Daily<BR>8:00 am - 8:00 pm</p></td>
+							 </tr>
+							 <tr valign="middle" style="background-color: #E9E9E9;">
+							   <td class="turnpikeCountyColum">OSCEOLA </td>
+							  <td class="turnpikeTranspondersColumn"><ul><li>Mini</li> <li>Portable</li></ul></td>
+							   <td class="turnpikeTranspondersColumn"><p >Florida's Turnpike <br>
+						Canoe Creek Service Plaza Gift Shop <br>
+						Mile Marker 229 </p></td>
+							   <td class="turnpikeTranspondersColumn"><p >Daily<BR>8:00 am - 9:00 pm</p></td>
+							 </tr>
+							 <tr valign="middle">
+							   <td class="turnpikeCountyColum" rowspan="3">PALM BEACH 
+							  </td>
+
+								<td class="turnpikeTranspondersColumn"><ul><li>Mini</li> <li>Portable</li></ul></td>
+							   <td class="turnpikeTranspondersColumn"><p >SunPass Customer Service Center - Boca Raton<br>
+						7941 Glades Road <br>
+						Boca Raton, FL 33434-4115 </p></td>
+							   <td class="turnpikeTranspondersColumn"><p >Mon - Fri<BR>8:00 am - 6:00 pm <br><br>
+
+						Sat/Sun <BR>Closed <br><br>Major Holidays<BR>Closed
+						 </p></td>
+							 </tr>
+
+							<tr valign="middle">
+										<td class="turnpikeTranspondersColumn"><ul><li>Mini</li> <li>Portable</li></ul></td>
+							   <td class="turnpikeTranspondersColumn"><p >Florida's Turnpike <br>
+						West Palm Beach Service Plaza Gift Shop <br>
+						Mile Marker 94 </p></td>
+							   <td class="turnpikeTranspondersColumn"><p >Daily<BR>8:00 am - 8:00 pm</p></td>
+							 </tr>
+							 <tr valign="middle">
+									<td class="turnpikeTranspondersColumn"><ul><li>Mini</li> <li>Portable</li></ul></td>
+										   </td>
+
+										   <td class="turnpikeTranspondersColumn"> <p >
+                                    <a class="hrefLinksColor" href="https://www.pbctax.com/locations" id="externallinkpop59" target="_blank">  Palm Beach County Tax Collector's Office</a>
+										   <br>
+										
+										  Tax Collector's Service Centers</a> in<br>
+											 Downtown West Palm Beach, Belle Glade, Delray Beach,<br> Lake Worth, Palm Beach 
+											 Gardens and Royal Palm Beach
+											</p></td>
+											<td class="turnpikeTranspondersColumn"><p >Hours vary<BR>by location<br><br>
+
+						Sat/Sun<BR>Closed <br><br>Major Holidays<BR>Closed</p></td>
+							 </tr>
+
+							 <tr valign="middle" style="background-color: #E9E9E9;">
+							   <td class="turnpikeCountyColum">PINELLAS</td>
+									<td class="turnpikeTranspondersColumn"><ul><li>Mini</li> <li>Portable</li></ul></td>
+							   <td class="turnpikeTranspondersColumn"><p >Pinellas Bayway Administration Building <br>
+						4501 54th Avenue South<br>
+						Saint Petersburg, FL 33711-4647 </p>
+					</td>
+					
+							   <td class="turnpikeTranspondersColumn"><p >Mon<BR>8:00 am - 6:00 pm<br><br>Tue - Fri<BR>8:00 am - 4:30 pm<br><br>
+
+						Sat/Sun<BR>Closed <br><br>Major Holidays<BR>Closed
+								  </p>                 </td>
+							 </tr>
+				 
+							 <tr valign="middle">
+							   <td class="turnpikeCountyColum" rowspan="2">POLK </td>
+							   <td class="turnpikeTranspondersColumn"><ul><li>Mini</li> <li>Portable</li></ul></td>
+							   <td class="turnpikeTranspondersColumn"><p > Polk County Rest Area 
+						Interstate I-4<br>
+						Mile Marker 46<br>
+						2.0 mi. E of SR559 (Exit 44)<br>
+						1.4 mi. W of CR 557 (Exit 48)<br>
+						Polk City, FL 33801 </p>
+					
+					</td>
+						<td class="turnpikeTranspondersColumn"><p >Available in vending machines 24 hours </p></td>
+
+							 </tr> 
+							 <tr valign="middle">
+							   <td class="turnpikeTranspondersColumn"><ul><li>Mini</li> <li>Portable</li></ul></td>
+							   <td class="turnpikeTranspondersColumn"><p>
+							   <a class="hrefLinksColor" href="http://www.visitcentralflorida.org/destinations/polk-outpost-27-visitor-information-center" id="externallinkpop60" target="_blank">Central Florida's Visitor Information Center</a><br>
+						101 Adventure Court<br>
+						Davenport, FL 33837<br>
+						(U.S. Highway 27, ½ mile south
+						of I-4 at Exit 55)<br></p></td>
+					
+						<td class="turnpikeTranspondersColumn"><p >Daily<br> 8:00 am - 5:00 pm <br><br>Major Holidays<br>Closed<br></p></td>
+
+							 </tr>
+						 <tr valign="middle" style="background-color: #E9E9E9;">
+							   <td class="turnpikeCountyColum">SANTA ROSA                </td>
+								<td class="turnpikeTranspondersColumn"><ul><li>Mini</li> <li>Portable</li></ul></td>
+							   <td class="turnpikeTranspondersColumn"><p >Garcon Point Bridge <br>
+						555 Avalon Blvd. <br>
+						Milton, FL 32571 </p>
+					
+					</td>
+							   <td class="turnpikeTranspondersColumn"><p >Mon - Fri<BR>8:00 am - 5:00 pm <br><br>
+
+						Sat/Sun<BR>Closed <br><br>Major Holidays<BR>Closed
+								  </p>                 </td>
+							 </tr>
+							 <tr valign="middle">
+							   <td class="turnpikeCountyColum">ST. LUCIE </td>
+							<td class="turnpikeTranspondersColumn"><ul><li>Mini</li> <li>Portable</li></ul></td>
+							   <td class="turnpikeTranspondersColumn"><p >Florida's Turnpike <br>
+						Fort Pierce Service Plaza Gift Shop <br>
+						Mile Marker 144 </p></td>
+							   <td class="turnpikeTranspondersColumn"><p >Daily<BR>7:00 am - 9:00 pm</p></td>
+							 </tr>
+							 <tr valign="middle" style="background-color: #E9E9E9;">
+							   <td class="turnpikeCountyColum">SUMTER</td>
+								<td class="turnpikeTranspondersColumn"><ul><li>Mini</li> <li>Portable</li></ul></td>
+							   <td class="turnpikeTranspondersColumn"><p >Florida's Turnpike <br>
+						Okahumpka Service Plaza Gift Shop <br>
+						Mile Marker 299 </p></td>
+							   <td class="turnpikeTranspondersColumn"><p >Daily<BR>8:00 am - 8:00 pm</p></td>
+							 </tr>
+							 
+							  
+						 
+</table>
+</div>	
+		</div>
+		
+		<div class="row purchaseTranMob">
+		
+
+<div class="row">	
+<div class="col-md-4">		   
+			   <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".broward">
+				 <b> BROWARD </b>
+				  </div>
+				  
+				  <div class="c">
+                <table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody>
+
+<tr style="vertical-align:bottom" class="style7 collapse in broward">
+	        		<th> <span class="style1" style="display: block; text-align: center">Transponders Available</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Location</span> </th>
+					<!-- <th> <span class="style1">Feature</span> </th> -->
+					<th> <span class="style1" style="display: block; text-align: center">Hours</span> </th>
+				  </tr>
+				   
+                   <tr style="vertical-align:top" class="style7 collapse in broward">
+					<td> <ul><li>Mini</li> <li>Portable</li></ul> </td>
+					<td> <p>Florida's Turnpike <br>
+									  Pompano Beach Service Plaza Gift Shop <br>
+									  Mile Marker 65.0 </p> </td>
+					
+					<td><div style="text-align:left"> <p>Daily<br>8:00 am - 9:00 pm </p> </div></td>
+				  </tr>
+				  
+							
+                    </tbody>
+                </table>
+                    </div>
+                </div>
+				
+				
+				
+                
+				
+				<div class="col-md-4">		   
+			   <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".citrus">
+				 <b> CITRUS </b>
+				  </div>
+				  
+				  <div class="c">
+                <table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody>
+
+<tr style="vertical-align:bottom" class="style7 collapse in citrus">
+	        		<th> <span class="style1" style="display: block; text-align: center">Transponders Available</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Location</span> </th>
+					<!-- <th> <span class="style1">Feature</span> </th> -->
+					<th> <span class="style1" style="display: block; text-align: center">Hours</span> </th>
+				  </tr>
+				   
+                   <tr style="vertical-align:top" class="style7 collapse in citrus">
+					<td> <ul><li>Mini</li> <li>Portable</li></ul> </td>
+					<td> <p>Citrus County Tax Collector <br>
+										
+										<a class="hrefLinksColor" href="http://www.tc.citrus.fl.us/" id="externallinkpop51" target="_blank">Tax Collector's offices in Inverness and Crystal River</a> 
+										</p> </td>
+					
+					<td><div style="text-align:left"> <p>Daily<br>8:00 am - 5:00 pm <br><br>
+
+							Sat/Sun<BR>Closed <br><br>Major Holidays<BR>Closed</p> </div></td>
+				  </tr>
+				  
+							
+                    </tbody>
+                </table>
+                    </div>
+                </div>
+				
+				<div class="col-md-4">		   
+			   <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".escambia">
+				 <b> ESCAMBIA </b>
+				  </div>
+				  
+				  <div class="c">
+                <table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody>
+
+<tr style="vertical-align:bottom" class="style7 collapse in escambia">
+	        		<th> <span class="style1" style="display: block; text-align: center">Transponders Available</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Location</span> </th>
+					<!-- <th> <span class="style1">Feature</span> </th> -->
+					<th> <span class="style1" style="display: block; text-align: center">Hours</span> </th>
+				  </tr>
+				   
+                   <tr style="vertical-align:top" class="style7 collapse in escambia">
+					<td> <ul><li>Mini</li> <li>Portable</li></ul> </td>
+					<td> <p> <a class="hrefLinksColor" href="http://www.visitflorida.com/en-us/listing.a0t40000007qw7MAAQ.html" id="externallinkpop52" target="_blank">Escambia County Welcome Center Interstate I-10 </a><br>
+						Mile Marker 4 <br>
+						4.0 mi. E of FL/AL state line <br>
+						Pensacola , FL 32614 </p> </td>
+					
+					<td><p>Available in vending machines 24 hours </p></td>
+				  </tr>
+				  
+				   <tr style="vertical-align:top" class="style7 collapse in escambia">
+					<td> <ul><li>Mini</li> </ul> </td>
+					<td> <p>
+							   <a class="hrefLinksColor" href="https://www.google.com/maps/place/1+Via+De+Luna+Dr,+Pensacola+Beach,+FL+32561/@30.3341593,-87.141386,17z/data=!3m1!4b1!4m2!3m1!1s0x8890c5e08d7b0b83:0x9e3cbfc509543682" id="externallinkpop53" target="_blank">Santa Rosa Island Authority</a><br>
+						1 Via De Luna Drive<br>
+						Pensacola Beach, FL 32561<br>
+						</p> </td>
+					
+					<td><p>Mon - Fri<br>8:00 am - 5:00 pm <br><br>
+
+						Wednesdays<br>8:30 am – 5:00 pm</p></td>
+				  </tr>
+				  
+							
+                    </tbody>
+                </table>
+                    </div>
+                </div>
+				
+</div>   
+
+
+<div class="row">
+<div class="col-md-4">		   
+			   <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".hamilton">
+				 <b> HAMILTON </b>
+				  </div>
+				  
+				  <div class="c">
+                <table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody>
+
+<tr style="vertical-align:bottom" class="style7 collapse in hamilton">
+	        		<th> <span class="style1" style="display: block; text-align: center">Transponders Available</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Location</span> </th>
+					<!-- <th> <span class="style1">Feature</span> </th> -->
+					<th> <span class="style1" style="display: block; text-align: center">Hours</span> </th>
+				  </tr>
+				   
+                   <tr style="vertical-align:top" class="style7 collapse in hamilton">
+					<td> <ul><li>Mini</li> <li>Portable</li></ul> </td>
+					<td> <p> <a class="hrefLinksColor" href="http://www.visitflorida.com/en-us/listing.a0t40000007qvaUAAQ.html" id="externallinkpop54" target="_blank">Hamilton County Welcome Center Interstate I-75</a><br>
+						Mile Marker 470 <br>
+						1.7 mi. S of FL/GA state line<br>
+						Jennings, FL 32053 </p> </td>
+					
+					<td><p>Available in vending machines 24 hours </p></td>
+				  </tr>
+				  
+							
+                    </tbody>
+                </table>
+                    </div>
+                </div>
+				
+
+<div class="col-md-4">		   
+			   <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".hardee">
+				 <b> HARDEE </b>
+				  </div>
+				  
+				  <div class="c">
+                <table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody>
+
+<tr style="vertical-align:bottom" class="style7 collapse in hardee">
+	        		<th> <span class="style1" style="display: block; text-align: center">Transponders Available</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Location</span> </th>				
+					<th> <span class="style1" style="display: block; text-align: center">Hours</span> </th>
+				  </tr>
+				   
+                   <tr style="vertical-align:top" class="style7 collapse in hardee">
+					<td> <ul><li>Mini</li> <li>Portable</li></ul> </td>
+					<td> <p> Hardee County Tax Collector's Office <br>
+<a class="hrefLinksColor" href="https://www.google.com/maps/place/Hardee+County+Tax+Collector/@27.5502548,-81.8167792,16z/data=!4m5!3m4!1s0x88dce6fa6952972b:0x41c7ec1ea6aaf97c!8m2!3d27.5502382!4d-81.8129677" id="externallinkpop54" target="_blank">Tax Collector's office in Wauchula, FL 33873</a><br>
+						</p> </td>
+					
+					<td><p>Mon - Fri<BR>8:15 am - 4:45 pm <br>
+						<br>
+						Sat/Sun<BR>Closed <br><br>Major Holidays<BR>Closed</p></td>
+				  </tr>
+				  
+							
+                    </tbody>
+                </table>
+                    </div>
+                </div>
+
+
+
+
+
+				<div class="col-md-4">		   
+			   <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".highlands">
+				 <b> HIGHLANDS </b>
+				  </div>
+				  
+				  <div class="c">
+                <table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody>
+
+<tr style="vertical-align:bottom" class="style7 collapse in highlands">
+	        		<th> <span class="style1" style="display: block; text-align: center">Transponders Available</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Location</span> </th>
+					<!-- <th> <span class="style1">Feature</span> </th> -->
+					<th> <span class="style1" style="display: block; text-align: center">Hours</span> </th>
+				  </tr>
+				   
+                   <tr style="vertical-align:top" class="style7 collapse in highlands">
+					<td> <ul><li>Mini</li> <li>Portable</li></ul> </td>
+					<td> <p><a class="hrefLinksColor" href="http://www.hctaxcollector.com/" id="externallinkpop55" target="_blank">Highlands County Tax Collector </a><br>
+									 
+										Tax Collector’s Offices in Sebring, Avon Park, Indiantown, and Lake Placid
+										</p> </td>
+					
+					<td><p>Mon - Fri<br>8:00 am - 5:00 pm <br><br>
+
+						Wednesdays<br>8:30 am – 5:00 pm</p></td>
+				  </tr>
+				  
+							
+                    </tbody>
+                </table>
+                    </div>
+                </div>
+				</div>
+<div class="row">
+				<div class="col-md-4">		   
+			   <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".hillsborough">
+				 <b> HILLSBOROUGH </b>
+				  </div>
+				  
+				  <div class="c">
+                <table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody>
+
+<tr style="vertical-align:bottom" class="style7 collapse in hillsborough">
+	        		<th> <span class="style1" style="display: block; text-align: center">Transponders Available</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Location</span> </th>
+					<!-- <th> <span class="style1">Feature</span> </th> -->
+					<th> <span class="style1" style="display: block; text-align: center">Hours</span> </th>
+				  </tr>
+				   
+                   <tr style="vertical-align:top" class="style7 collapse in hillsborough">
+					<td> <ul><li>Mini</li> </ul> </td>
+					<td> <p> Hillsborough County Rest Area
+						Interstate I-75 <br> (Southbound)<br>
+						Mile Marker 238 <br>
+						2.0 mi. S of SR674 (Exit 240)<br>
+						Ruskin, FL 32570 </p> </td>
+					
+					<td><p>Available in vending machines 24 hours </p></td>
+				  </tr>
+				  
+							
+                    </tbody>
+                </table>
+                    </div>
+                </div>
+
+
+<div class="col-md-4">		   
+			   <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".indriver">
+				 <b> INDIAN RIVER </b>
+				  </div>
+				  
+				  <div class="c">
+                <table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody>
+
+<tr style="vertical-align:bottom" class="style7 collapse in indriver">
+	        		<th> <span class="style1" style="display: block; text-align: center">Transponders Available</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Location</span> </th>
+					<!-- <th> <span class="style1">Feature</span> </th> -->
+					<th> <span class="style1" style="display: block; text-align: center">Hours</span> </th>
+				  </tr>
+				   
+                   <tr style="vertical-align:top" class="style7 collapse in indriver">
+					<td> <ul><li>Mini</li> </ul> </td>
+					<td> <p><a class="hrefLinksColor" href="http://www.irctax.com/" id="externallinkpop56" target="_blank">Indian River County Tax Collector’s Office</a><br>
+							   Tax Collector’s Main Office, West Vero Office, and <br>
+Sebastian Office
+							   
+								
+								
+								</p> </td>
+					
+					<td><p>Mon - Fri<br>8:00 am - 5:00 pm<br><br>Sat/Sun<BR>Closed <br><br>Major Holidays<BR>Closed</p></td>
+				  </tr>
+				  
+							
+                    </tbody>
+                </table>
+                    </div>
+                </div>
+
+
+<div class="col-md-4">		   
+			   <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".indriver">
+				 <b> JACKSON </b>
+				  </div>
+				  
+				  <div class="c">
+                <table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody>
+
+<tr style="vertical-align:bottom" class="style7 collapse in indriver">
+	        		<th> <span class="style1" style="display: block; text-align: center">Transponders Available</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Location</span> </th>
+					<!-- <th> <span class="style1">Feature</span> </th> -->
+					<th> <span class="style1" style="display: block; text-align: center">Hours</span> </th>
+				  </tr>
+				   
+                   <tr style="vertical-align:top" class="style7 collapse in indriver">
+					<td> <ul><li>Mini</li> </ul> </td>
+					<td> <p >
+Jackson County Welcome Center - <br>
+
+<a class="hrefLinksColor" href="https://www.google.com/maps/place/Florida+Welcome+Center/@30.9946534,-85.410976,17z/data=!4m13!1m7!3m6!1s0x8892e563043657df:0xca542c5293f32c38!2s5865+US-231,+Campbellton,+FL+32426!3b1!8m2!3d30.9946488!4d-85.4087873!3m4!1s0x0:0x8630a4fecd2fffa!8m2!3d30.9946669!4d-85.4090506" id="externallinkpop56" target="_blank">Map it</a></br>
+							   5865 HWY US 231 <br>
+Mile Marker 0<br>
+			3 miles north of Campbellton, FL<br>	
+Campbellton, FL 32426<br>			   
+								
+								
+								</p> </td>
+					
+					<td><p >Available in vending machines 24 hours</br></br>Available in the Welcome Center Vending Machine Daily 8:00 am - 5:00 pm<BR></p></td>
+				  </tr>
+				  
+							
+                    </tbody>
+                </table>
+                    </div>
+                </div>
+
+</div>
+<div class="row">
+				
+				<div class="col-md-4">		   
+			   <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".martin">
+				 <b> MARTIN </b>
+				  </div>
+				  
+				  <div class="c">
+                <table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody>
+
+<tr style="vertical-align:bottom" class="style7 collapse in martin">
+	        		<th> <span class="style1" style="display: block; text-align: center">Transponders Available</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Location</span> </th>
+					<!-- <th> <span class="style1">Feature</span> </th> -->
+					<th> <span class="style1" style="display: block; text-align: center">Hours</span> </th>
+				  </tr>
+				   
+                   <tr style="vertical-align:top" class="style7 collapse in martin">
+					<td> <ul><li>Mini</li><li>Portable</li> </ul> </td>
+					<td> <p><a class="hrefLinksColor" href="http://taxcol.martin.fl.us/ws/CUofficelocations.aspx" id="externallinkpop57" target="_blank">Martin County Tax Collector's Office</a> <br> <br>
+										
+										Tax Collector’s Offices in Stuart, Hobe Sound, <br>
+Indiantown and Palm City.
+										</p> </td>
+					
+					<td><p>8:00 am - 4:30 pm <br><br>
+
+						Sat/Sun<BR>Closed <br><br>Major Holidays<BR>Closed</p></td>
+				  </tr>
+				  
+							
+                    </tbody>
+                </table>
+                    </div>
+                </div>
+		<div class="col-md-4">		   
+			   <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".miami">
+				 <b> MIAMI </b>
+				  </div>
+				  
+				  <div class="c">
+                <table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody>
+
+<tr style="vertical-align:bottom" class="style7 collapse in miami">
+	        		<th> <span class="style1" style="display: block; text-align: center">Transponders Available</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Location</span> </th>
+					<!-- <th> <span class="style1">Feature</span> </th> -->
+					<th> <span class="style1" style="display: block; text-align: center">Hours</span> </th>
+				  </tr>
+				   
+                   <tr style="vertical-align:top" class="style7 collapse in miami">
+					<td> <ul><li>Mini</li> <li>Portable</li></ul> </td>
+					<td> <p >7902 NW 36th Street, <br>
+						Unit 203,<br>
+						Doral, FL 33166-667 </p></td>
+					
+					<td><p >Mon - Fri<BR>8:00 am - 6:00 pm</p> </td>
+				  </tr>
+				  
+							
+                    </tbody>
+                </table>
+                    </div>
+                </div>		
+			
+				<div class="col-md-4">		   
+			   <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".miamiDade">
+				 <b> MIAMI-DADE </b>
+				  </div>
+				  
+				  <div class="c">
+                <table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody>
+
+<tr style="vertical-align:bottom" class="style7 collapse in miamiDade">
+	        		<th> <span class="style1" style="display: block; text-align: center">Transponders Available</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Location</span> </th>
+					<!-- <th> <span class="style1">Feature</span> </th> -->
+					<th> <span class="style1" style="display: block; text-align: center">Hours</span> </th>
+				  </tr>
+				   
+                   <tr style="vertical-align:top" class="style7 collapse in miamiDade">
+					<td> <ul><li>Mini</li><li>Portable</li> </ul> </td>
+					<td> <p>SunPass Customer Service Center - Snapper Creek<br>
+						Milepost 19 on the Homestead Extension of Florida's <br> Turnpike<br>
+						
+						
+						</p> </td>
+					
+					<td><p>Mon - Fri<br>8:00 am - 6:00 pm <br>
+							   <br>
+
+						Sat/Sun<BR>Closed <br><br>Major Holidays<BR>Closed
+							   
+						 </p></td>
+				  </tr>
+				  
+				  <tr style="vertical-align:top" class="style7 collapse in miamiDade">
+					<td> <ul><li>Mini</li><li>Portable</li> </ul> </td>
+					<td> <p class="style5">Florida's Turnpike <br>
+						Snapper Creek Service Plaza - Shell Convenience Store <br>
+						Milepost 19 on the Homestead Extension of Florida's Turnpike</p> </td>
+					
+					<td><p>24-hours </p></td>
+				  </tr>
+				  
+							
+                    </tbody>
+                </table>
+                    </div>
+                </div>
+
+</div>
+
+
+
+
+<div class="row">
+<div class="col-md-4">		   
+			   <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".nassau">
+				 <b> NASSAU </b>
+				  </div>
+				  
+				  <div class="c">
+                <table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody>
+
+<tr style="vertical-align:bottom" class="style7 collapse in nassau">
+	        		<th> <span class="style1" style="display: block; text-align: center">Transponders Available</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Location</span> </th>
+					<!-- <th> <span class="style1">Feature</span> </th> -->
+					<th> <span class="style1" style="display: block; text-align: center">Hours</span> </th>
+				  </tr>
+				   
+                   <tr style="vertical-align:top" class="style7 collapse in nassau">
+					<td> <ul><li>Mini</li> <li>Portable</li></ul> </td>
+					<td> <p ><a class="hrefLinksColor" href="http://www.visitflorida.com/en-us/listing.a0t40000007qvEKAAY.html" id="externallinkpop58" target="_blank"> Nassau County Welcome Center Interstate I-95<br> South</a><br>
+						Mile Marker M378 <br>
+						3.5 mi S of FL/GA state line<br>
+						Yulee, FL 32041 </p> </td>
+					
+					<td><p >Available in vending machines 24 hours </p></td>
+				  </tr>
+				  
+							
+                    </tbody>
+                </table>
+                    </div>
+                </div>
+				
+				
+				<div class="col-md-4">		   
+			   <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".okaloosa">
+				 <b> OKALOOSA </b>
+				  </div>
+				  
+				  <div class="c">
+                <table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody>
+
+<tr style="vertical-align:bottom" class="style7 collapse in okaloosa">
+	        		<th> <span class="style1" style="display: block; text-align: center">Transponders Available</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Location</span> </th>
+					<!-- <th> <span class="style1">Feature</span> </th> -->
+					<th> <span class="style1" style="display: block; text-align: center">Hours</span> </th>
+				  </tr>
+				   
+                   <tr style="vertical-align:top" class="style7 collapse in okaloosa">
+					<td> <ul><li>Mini</li> <li>Portable</li></ul> </td>
+					<td> <p >Mid-Bay Bridge <br>
+						1200 White Point Road <br>
+						Niceville, FL 32578 </p> </td>
+					
+					<td><p >Mon - Fri <br>9:00 am - 4:00 pm <br><br>
+
+						Sat/Sun<BR>Closed <br><br>Major Holidays<BR>Closed
+						 </p></td>
+				  </tr>
+				  
+							
+                    </tbody>
+                </table>
+                    </div>
+                </div>
+				
+				
+				<div class="col-md-4">		   
+			   <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".okeechobee">
+				 <b> OKEECHOBEE </b>
+				  </div>
+				  
+				  <div class="c">
+                <table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody>
+
+<tr style="vertical-align:bottom" class="style7 collapse in okeechobee">
+	        		<th> <span class="style1" style="display: block; text-align: center">Transponders Available</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Location</span> </th>
+					<!-- <th> <span class="style1">Feature</span> </th> -->
+					<th> <span class="style1" style="display: block; text-align: center">Hours</span> </th>
+				  </tr>
+				   
+                   <tr style="vertical-align:top" class="style7 collapse in okeechobee">
+					<td> <ul><li>Mini</li> <li>Portable</li></ul> </td>
+					<td> <p >Florida's Turnpike <br>
+						Fort Drum Service Plaza Gift Shop <br>
+						Mile Marker 184 </p> </td>
+					
+					<td><p >Daily<BR>7:00 am - 9:00 pm</p></td>
+				  </tr>
+				  
+							
+                    </tbody>
+                </table>
+                    </div>
+                </div>
+
+</div>
+
+<div class="row">
+<div class="col-md-4">		   
+			   <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".orange">
+				 <b> ORANGE </b>
+				  </div>
+				  
+				  <div class="c">
+                <table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody>
+
+<tr style="vertical-align:bottom" class="style7 collapse in orange">
+	        		<th> <span class="style1" style="display: block; text-align: center">Transponders Available</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Location</span> </th>
+					<!-- <th> <span class="style1">Feature</span> </th> -->
+					<th> <span class="style1" style="display: block; text-align: center">Hours</span> </th>
+				  </tr>
+				   
+                   <tr style="vertical-align:top" class="style7 collapse in orange">
+					<td> <ul><li>Mini</li> <li>Portable</li></ul> </td>
+					<td> <p >Florida's Turnpike <br>
+						Turkey Lake Service Plaza Gift Shop <br>
+						Mile Marker 263 </p> </td>
+					
+					<td><p >Daily<BR>8:00 am - 8:00 pm</p></td>
+				  </tr>
+				  
+							
+                    </tbody>
+                </table>
+                    </div>
+                </div>
+				
+				<div class="col-md-4">		   
+			   <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".osceola">
+				 <b> OSCEOLA </b>
+				  </div>
+				  
+				  <div class="c">
+                <table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody>
+
+<tr style="vertical-align:bottom" class="style7 collapse in osceola">
+	        		<th> <span class="style1" style="display: block; text-align: center">Transponders Available</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Location</span> </th>
+					<!-- <th> <span class="style1">Feature</span> </th> -->
+					<th> <span class="style1" style="display: block; text-align: center">Hours</span> </th>
+				  </tr>
+				   
+                   <tr style="vertical-align:top" class="style7 collapse in osceola">
+					<td> <ul><li>Mini</li> <li>Portable</li></ul> </td>
+					<td> <p >Florida's Turnpike <br>
+						Canoe Creek Service Plaza Gift Shop <br>
+						Mile Marker 229 </p> </td>
+					
+					<td><p >Daily<BR>8:00 am - 9:00 pm</p></td>
+				  </tr>
+				  
+							
+                    </tbody>
+                </table>
+                    </div>
+                </div>
+				
+				<div class="col-md-4">		   
+			   <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".palmBeach">
+				 <b> PALM BEACH </b>
+				  </div>
+				  
+				  <div class="c">
+                <table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody>
+
+<tr style="vertical-align:bottom" class="style7 collapse in palmBeach">
+	        		<th> <span class="style1" style="display: block; text-align: center">Transponders Available</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Location</span> </th>
+					<!-- <th> <span class="style1">Feature</span> </th> -->
+					<th> <span class="style1" style="display: block; text-align: center">Hours</span> </th>
+				  </tr>
+				   
+                   <tr style="vertical-align:top" class="style7 collapse in palmBeach">
+					<td> <ul><li>Mini</li> <li>Portable</li></ul> </td>
+					<td><p >SunPass Customer Service Center - Boca Raton<br>
+						7941 Glades Road <br>
+						Boca Raton, FL 33434-4115 </p> </td>
+					
+					<td><p >Mon - Fri<BR>8:00 am - 6:00 pm <br><br>
+
+						Sat/Sun <BR>Closed <br><br>Major Holidays<BR>Closed
+						 </p></td>
+				  </tr>
+				  
+				  <tr style="vertical-align:top" class="style7 collapse in palmBeach">
+					<td> <ul><li>Mini</li> <li>Portable</li></ul> </td>
+					<td> <p >Florida's Turnpike <br>
+						West Palm Beach Service Plaza Gift Shop <br>
+						Mile Marker 94</p> </td>
+					
+					<td><p >Daily<BR>8:00 am - 8:00 pm</p></td>
+				  </tr>
+				  
+				   <tr style="vertical-align:top" class="style7 collapse in palmBeach">
+					<td> <ul><li>Mini</li> <li>Portable</li></ul> </td>
+					<td> <p >
+                                    <a class="hrefLinksColor" href="https://www.pbctax.com/locations" id="externallinkpop59" target="_blank">  Palm Beach County Tax Collector's Office</a>
+										   <br>
+										
+										  Tax Collector's Service Centers</a> in<br>
+											 Downtown West Palm Beach, Belle Glade, Delray Beach,<br> Lake Worth, Palm Beach 
+											 Gardens and Royal Palm Beach
+											</p> </td>
+					
+					<td><p >Hours vary<BR>by location<br><br>
+
+						Sat/Sun<BR>Closed <br><br>Major Holidays<BR>Closed</p></td>
+				  </tr>
+				  
+							
+                    </tbody>
+                </table>
+                    </div>
+                </div>
+</div>
+
+<div class="row">
+<div class="col-md-4">		   
+			   <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".pinellas">
+				 <b> PINELLAS </b>
+				  </div>
+				  
+				  <div class="c">
+                <table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody>
+
+<tr style="vertical-align:bottom" class="style7 collapse in pinellas">
+	        		<th> <span class="style1" style="display: block; text-align: center">Transponders Available</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Location</span> </th>
+					<!-- <th> <span class="style1">Feature</span> </th> -->
+					<th> <span class="style1" style="display: block; text-align: center">Hours</span> </th>
+				  </tr>
+				   
+                   <tr style="vertical-align:top" class="style7 collapse in pinellas">
+					<td> <ul><li>Mini</li> <li>Portable</li></ul> </td>
+					<td> <p >Pinellas Bayway Administration Building <br>
+						4501 54th Avenue South<br>
+						Saint Petersburg, FL 33711-4647 </p> </td>
+					
+					<td><p >Mon<BR>8:00 am - 6:00 pm<br><br>Tue - Fri<BR>8:00 am - 4:30 pm<br><br>
+
+						Sat/Sun<BR>Closed <br><br>Major Holidays<BR>Closed
+								  </p></td>
+				  </tr>
+				  
+							
+                    </tbody>
+                </table>
+                    </div>
+                </div>
+				
+				
+				<div class="col-md-4">		   
+			   <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".polk">
+				 <b> POLK </b>
+				  </div>
+				  
+				  <div class="c">
+                <table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody>
+
+<tr style="vertical-align:bottom" class="style7 collapse in polk">
+	        		<th> <span class="style1" style="display: block; text-align: center">Transponders Available</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Location</span> </th>
+					<!-- <th> <span class="style1">Feature</span> </th> -->
+					<th> <span class="style1" style="display: block; text-align: center">Hours</span> </th>
+				  </tr>
+				   
+                   <tr style="vertical-align:top" class="style7 collapse in polk">
+					<td> <ul><li>Mini</li> <li>Portable</li></ul> </td>
+					<td> <p > Polk County Rest Area 
+						Interstate I-4<br>
+						Mile Marker 46<br>
+						2.0 mi. E of SR559 (Exit 44)<br>
+						1.4 mi. W of CR 557 (Exit 48)<br>
+						Polk City, FL 33801 </p></td>
+					
+					<td><p >Available in vending machines 24 hours </p></td>
+				  </tr>
+				  
+				  <tr style="vertical-align:top" class="style7 collapse in polk">
+					<td> <ul><li>Mini</li> <li>Portable</li></ul> </td>
+					<td> <p>
+							   <a class="hrefLinksColor" href="http://www.visitcentralflorida.org/destinations/polk-outpost-27-visitor-information-center" id="externallinkpop60" target="_blank">Central Florida's Visitor Information Center</a><br>
+						101 Adventure Court<br>
+						Davenport, FL 33837<br>
+						(U.S. Highway 27, ½ mile south
+						of I-4 at Exit 55)<br></p> </td>
+					
+					<td><p >Daily<br> 8:00 am - 5:00 pm <br><br>Major Holidays<br>Closed<br></p></td>
+				  </tr>
+				  
+							
+                    </tbody>
+                </table>
+                    </div>
+                </div>
+				
+				<div class="col-md-4">		   
+			   <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".santaRosa">
+				 <b> SANTA ROSA </b>
+				  </div>
+				  
+				  <div class="c">
+                <table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody>
+
+<tr style="vertical-align:bottom" class="style7 collapse in santaRosa">
+	        		<th> <span class="style1" style="display: block; text-align: center">Transponders Available</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Location</span> </th>
+					<!-- <th> <span class="style1">Feature</span> </th> -->
+					<th> <span class="style1" style="display: block; text-align: center">Hours</span> </th>
+				  </tr>
+				   
+                   <tr style="vertical-align:top" class="style7 collapse in santaRosa">
+					<td> <ul><li>Mini</li> <li>Portable</li></ul> </td>
+					<td> <p >Garcon Point Bridge <br>
+						555 Avalon Blvd. <br>
+						Milton, FL 32571 </p></td>
+					
+					<td><p >Mon - Fri<BR>8:00 am - 5:00 pm <br><br>
+
+						Sat/Sun<BR>Closed <br><br>Major Holidays<BR>Closed
+								  </p> </td>
+				  </tr>
+				  
+							
+                    </tbody>
+                </table>
+                    </div>
+                </div>
+</div>
+
+<div class="row">
+<div class="col-md-4">		   
+			   <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".stLucie">
+				 <b> ST. LUCIE </b>
+				  </div>
+				  
+				  <div class="c">
+                <table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody>
+
+<tr style="vertical-align:bottom" class="style7 collapse in stLucie">
+	        		<th> <span class="style1" style="display: block; text-align: center">Transponders Available</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Location</span> </th>
+					<!-- <th> <span class="style1">Feature</span> </th> -->
+					<th> <span class="style1" style="display: block; text-align: center">Hours</span> </th>
+				  </tr>
+				   
+                   <tr style="vertical-align:top" class="style7 collapse in stLucie">
+					<td> <ul><li>Mini</li> <li>Portable</li></ul> </td>
+					<td> <p >Florida's Turnpike <br>
+						Fort Pierce Service Plaza Gift Shop <br>
+						Mile Marker 144 </p></td>
+					
+					<td><p >Daily<BR>7:00 am - 9:00 pm</p> </td>
+				  </tr>
+				  
+							
+                    </tbody>
+                </table>
+                    </div>
+                </div>
+				
+				<div class="col-md-4">		   
+			   <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".sumter">
+				 <b> SUMTER </b>
+				  </div>
+				  
+				  <div class="c">
+                <table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody>
+
+<tr style="vertical-align:bottom" class="style7 collapse in sumter">
+	        		<th> <span class="style1" style="display: block; text-align: center">Transponders Available</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Location</span> </th>
+					<!-- <th> <span class="style1">Feature</span> </th> -->
+					<th> <span class="style1" style="display: block; text-align: center">Hours</span> </th>
+				  </tr>
+				   
+                   <tr style="vertical-align:top" class="style7 collapse in sumter">
+					<td> <ul><li>Mini</li> <li>Portable</li></ul> </td>
+					<td> <p >Florida's Turnpike <br>
+						Okahumpka Service Plaza Gift Shop <br>
+						Mile Marker 299 </p></td>
+					
+					<td><p >Daily<BR>8:00 am - 8:00 pm</p> </td>
+				  </tr>
+				  
+							
+                    </tbody>
+                </table>
+                    </div>
+                </div>
+				
+				<div class="col-md-4">		   
+			   <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".tampa">
+				 <b> TAMPA </b>
+				  </div>
+				  
+				  <div class="c">
+                <table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody>
+
+<tr style="vertical-align:bottom" class="style7 collapse in tampa">
+	        		<th> <span class="style1" style="display: block; text-align: center">Transponders Available</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Location</span> </th>
+					<!-- <th> <span class="style1">Feature</span> </th> -->
+					<th> <span class="style1" style="display: block; text-align: center">Hours</span> </th>
+				  </tr>
+				   
+                   <tr style="vertical-align:top" class="style7 collapse in tampa">
+					<td> <ul><li>Mini</li> <li>Portable</li></ul> </td>
+					<td> <p >10137 E. Adamo Drive,  <br>
+						Suite 800A, Tampa, <br>
+						 FL 33619-2670></td>
+					
+					<td><p>Mon - Fri<BR>8:00 am - 6:00 pm </p> </td>
+				  </tr>
+				  
+							
+                    </tbody>
+                </table>
+                    </div>
+                </div>
+</div>
+
+
+
+
+		</div>
+		</div>
+		
+		</div>
+    </div>
+    <!-- End content -->
+
+	<!--#include file="../includes/footer.html"-->
+<span id="topnavitem" class="invisible">hsw</span>
+</div>
+<!--#include file="../includes/footer_include.html"-->
+</body>
+</html>

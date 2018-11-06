@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<udm.DeploymentPackage version="28" application="vectorapp">
+  <application />
+  <orchestrator />
+  <deployables>
+    <was.Ear name="/eCustomer" file="">
+      <tags>
+        <value>eCustomer</value>
+      </tags>
+      <scanPlaceholders>false</scanPlaceholders>
+      <sharedLibraryNames />
+      <additionalInstallFlags />
+      <roleMappings />
+      <roleUserMappings />
+      <webServerNames />
+      <runAsRoleMappings />
+      <sessionManagers />
+      <webModules />
+      <ejbModules />
+    </was.Ear>
+  </deployables>
+  <applicationDependencies />
+  <dependencyResolution>LATEST</dependencyResolution>
+  <undeployDependencies>false</undeployDependencies>
+</udm.DeploymentPackage>

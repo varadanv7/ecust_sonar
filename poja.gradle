@@ -1,0 +1,48 @@
+// Include file that contains common configuration for Plain Ole Java Apps (as opposed to webapps)
+//subprojects {
+    apply plugin: 'java'
+    apply plugin: 'maven'
+
+    sourceCompatibility = 1.6
+    targetCompatibility = 1.6
+
+    repositories {
+      flatDir {
+        dirs 'C:/app/product/mw85/plugins'
+      }
+      maven {
+        url 'http://138.69.14.78:8085/artifactory/FLCSS-eCustomer-libext-local'
+      }
+    }
+
+    dependencies {
+        testCompile group: 'junit', name: 'junit', version: '4.12'
+    }
+
+    task sourceJar(type: Jar) {
+        description = "Create a JAR with all sources"
+        from sourceSets.main.allSource
+        classifier = 'sources'
+    }
+
+    task javadocJar(type: Jar, dependsOn: javadoc) {
+        description = "Create a JAR with the JavaDoc for the java sources"
+        from javadoc.destinationDir
+        classifier = 'javadoc'
+    }
+
+    // Define the artifacts we want to publish (the .pom will also be included since the Maven plugin is active)
+    artifacts {
+        archives sourceJar
+        //archives javadocJar
+    }
+
+    javadoc {
+        failOnError = false
+    }
+
+    test {
+        // Don't fail the build on broken tests, they'll get flagged in Jenkins and the job should go unstable
+        ignoreFailures = true
+    }
+//}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>FasTrak</title>
+
+ <!--#include file="../common/headerinclude.html"-->
+
+
+<body onLoad="setWindowSizeP()">
+ <!--#include file="../common/html/pageheader.shtml"-->
+   <div class="container"><ol class="breadcrumb">
+	  <li><a href="../home/index.shtml"><img src="../images/breadcrumb/Home_icon.png"></a></li>
+	  <li>Guide</a></li>
+	  <li class="active">Fastrak Flex Toll Tag </li>
+	</ol>
+</div>
+<div class="contentEnvelope">
+<!-- content -->
+	<div class="contentTitle">THE FASTRAK FLEX TOLL TAG</div>
+		<img src="../images/needFlexTop.jpg" width="100%" style="margin-top: 15px;">
+		<div class="threeQuarterCol">
+			<div class="twoColCopyBlock">
+			The FasTrak Flex toll tag works like a standard FasTrak toll tag and has an additional feature required for carpools in the I-580 Express Lanes.
+			</div>
+		</div>
+	<div class="left2Col">
+		<div class="twoColCopyBlock">
+			<div class="sideBysideBox250"><img src="../images/needFlexPass.png" width="100%" style="margin-top: 0;"></div>
+			<div class="sideBysideBox" style="color: #F6961D"><b>The FasTrak Flex toll tag</b> works as a standard FasTrak toll tag but also has a three-position switch to signal whether you are travelling as a carpool or alone. It is the carpool toll tag for all Bay Area Express Lanes.</div>
+		</div>
+	</div>
+	<div class="right2Col">
+		<div class="twoColCopyBlock">
+			<div class="sideBysideBox250"><img src="../images/needFlexPass_2.png" width="100%" style="margin-top: 0;"></div>
+			<div class="sideBysideBox" style="color: #F6961D"><b>The standard FasTrak toll
+ tag</b> works at all Bay Area toll bridges, in express lanes for solo drivers, and pays SFO parking.
+		</div>
+		</div>
+	</div>
+	<div class="greenArticleTop">Should You Get a FasTrak Flex Toll Tag? </div>
+	<div class="left2Col">
+		<div class="twoColCopyBlock">
+			<div class="orangeTitleCallout">Yes, for carpool travel in the I-580 Express Lanes.</div>
+			Get the FasTrak Flex toll tag if you want to travel toll-free as a carpool, motorcycle, or eligible Clean Air Vehicle (CAV) in the new I-580 Express Lanes. The FasTrak Flex toll tag also works as a standard FasTrak toll tag. It pays bridge tolls, express lanes as a solo driver, and parking at garages displaying the FasTrak logo.
+			<div class="orangeTitleCallout">Yes, if you want more convenient travel as a carpool in other express lanes. </div>
+			The FasTrak Flex toll tag is a convenience, but is not required, for toll-free travel in the SR-237 and I-680 Express Lanes as a carpool, motorcycle, or eligible CAV.  If you have a standard FasTrak toll tag, you must enclose it in a Mylar bag to avoid being charged a toll. If you have a FasTrak Flex toll tag, you can leave it mounted on your windshield and use the switch position to identify your vehicle for toll-free travel. 
+			
+			<div class="tipsBlock">
+			<div class="tipsBlockTitle">You can carpool toll-free in the midday, too</div>
+			It takes only two people to be a carpool and travel toll-free, any time between 5 am to 8 pm, Monday through Friday including holidays in the I-580 Express Lanes. A FasTrak Flex toll tag is required, so get yours today.
+			</div>
+		<div class="tipsBox">TIP</div>
+		</div>
+	</div>
+	<div class="right2Col">
+		<div class="twoColCopyBlock">
+			<div class="orangeTitleCallout">Otherwise, no.</div>
+			The standard FasTrak toll tag will serve all your needs if you do not use express lanes as a carpool. There is no need to obtain a FasTrak Flex toll tag. The vast majority of FasTrak users do not need a FasTrak Flex toll tag.
+		</div>
+		<div class="greenArticleTop">How to Use the FasTrak Flex Toll Tag</div>
+		<div class="twoColCopyBlock">
+			Before your trip, set the switch position on your FasTrak Flex toll tag as shown below. Position (2) and (3+) signals that you are a carpool, motorcycle, or eligible CAV and qualify for toll-free travel.
+			<img src="../images/flexTagDiagram.jpg" width="100%" style="margin-top: 15px;"><br>
+			Note: To receive carpool discounts at toll bridges, you must use a designated carpool lane.
+		</div>
+	</div>
+	
+<!-- end content -->
+</div>
+<div class="footerTopperRelated">
+	<div class="relatedLinks">Related Links</div>
+	<div class="footerBlockRelated">
+	<a href="expressLane.shtml" class="footerLink">Express Lanes</a>
+	<br>
+	<a href="../guide/carpool.shtml" class="footerLink">Using Carpool Lanes</a>
+	<br>
+	<a href="../support/flexTag.shtml" class="footerLink">I-580 Carpools</a>
+	</div>
+	<div class="footerBlockRelated_b">
+	<a href="http://bayareaexpresslanes.org/" class="footerLink" target="_blank">Bay Area Express Lanes</a>
+	</div>
+</div>
+<!--#include file="../common/html/footerpage.shtml"-->
+
+  </body>
+</html>

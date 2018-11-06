@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+	<!--#include file="../common/headerinclude.html"-->
+    </head>
+	<style>
+	.panel-body h4{
+		height: 3em;
+	}
+	</style>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a class="linkext" target="_blank" href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+	<!--#include file="../common/topnavigationnh.html"-->
+	<div class="container"><ol class="breadcrumb">
+	  <li><a href="../home/index.shtml"><img src="../images/breadcrumb/Home_icon.png"></a></li>
+	  <li class="active">AGENCIES AND PARTNERS</li>
+	</ol></div>
+	<div class="container clstatic"  editarea="img1111">
+	
+
+	<h1 class="page-header-noborder">
+		AGENCIES AND PARTNERS
+	</h1>
+	
+	<div class="row">
+		<div class="col-md-4">
+			<div class="panel panel-default">
+				<div class="panel-body text-center">
+				<h4><img width="100px" height="50px" alt="BATA Logo" src="../images/BATA_logo.jpg"></h4>
+				</div>
+				<div class="panel-body  panel-min-ht">
+					<p editareadesc="BATA Description">BATA is responsible for programming, administering and allocating toll revenue generated on the seven state-owned Bay Area toll bridges-Antioch, Benicia-Martinez, Carquinez, Dumbarton, Richmond-San Rafael, San Francisco-Oakland, and San Mateo-Hayward.</p>
+				</div>
+				<div class="panel-body">
+					<div class="row">
+						<div class="col-md-12">
+						<a target="_blank" class="btn btn-lg btn-default btn-block btngf linkext" href="http://bata.mtc.ca.gov/">
+						Visit BATA's Website</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="panel panel-default">
+				<div class="panel-body text-center">
+				<h4><img width="100px" height="50px" alt="MTC Logo" src="../images/MTCLogo.jpg"></h4>
+				</div>
+				<div class="panel-body  panel-min-ht">
+					<p editareadesc="MTC Description">MTC is the transportation planning, coordinating and financing agency for the nine-county San Francisco Bay Area.</p>
+				</div>
+				<div class="panel-body">
+					<div class="row">
+						<div class="col-md-12">
+						<a target="_blank" class="btn btn-lg btn-default btn-block btngf linkext" href="http://www.mtc.ca.gov/">
+						Visit MTC's Website</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="panel panel-default">
+				<div class="panel-body text-center">
+				<h4><img width="100px" height="50px" alt="Caltrans Logo" src="../images/caltrans_logo.jpg"></h4>
+				</div>
+				<div class="panel-body  panel-min-ht">
+					<p editareadesc="Caltrans Description">Caltrans owns, operates, and maintains the seven state-owned bridges in the Bay Area.</p>
+				</div>
+				<div class="panel-body">
+					<div class="row">
+						<div class="col-md-12">
+						<a target="_blank" class="btn btn-lg btn-default btn-block btngf linkext" href="http://www.dot.ca.gov/">
+						Visit Caltrans's Website</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-md-4">
+			<div class="panel panel-default">
+				<div class="panel-body text-center">
+				<h4><img width="100px" height="50px" alt="GGB Logo" src="../images/GGBLogo_small.jpg"></h4>
+				</div>
+				<div class="panel-body  panel-min-ht">
+					<p editareadesc="GGB Description">GGBHTD was formed in 1928 as the entity to build, maintain and operate the Golden Gate Bridge. Tolls on the Golden Gate are collected southbound only (into San Francisco). In July 2000, FasTrak was fully implemented.</p>
+				</div>
+				<div class="panel-body">
+					<div class="row">
+						<div class="col-md-12">
+						<a target="_blank" class="btn btn-lg btn-default btn-block btngf linkext" href="http://www.goldengate.org/">
+						Visit GGBHTD's Website</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="panel panel-default">
+				<div class="panel-body text-center">
+				<h4><img width="100px" height="50px" alt="VTA Logo" src="../images/VTA_logo.png"></h4>
+				</div>
+				<div class="panel-body  panel-min-ht">
+					<p editareadesc="VTA Description">VTA is an independent special district that provides bus, light rail, and paratransit services in Santa Clara County. VTA handles the funding, construction, operation and maintenance of the express lanes along the SR-237 and I-880 corridor.</p>
+				</div>
+				<div class="panel-body">
+					<div class="row">
+						<div class="col-md-12">
+						<a target="_blank" class="btn btn-lg btn-default btn-block btngf linkext" href="http://www.vta.org/">
+						Visit VTA's Website</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="panel panel-default">
+				<div class="panel-body text-center">
+				<h4><img width="100px" height="50px" alt="AlamedaCTC Logo" src="../images/AlamedaCTC_logo.png"></h4>
+				</div>
+				<div class="panel-body  panel-min-ht">
+					<p editareadesc="AlamedaCTC Description">The Alameda CTC is responsible for the funding, design, operation and maintenance of the I-680 express lane.</p>
+				</div>
+				<div class="panel-body">
+					<div class="row">
+						<div class="col-md-12">
+						<a target="_blank" class="btn btn-lg btn-default btn-block btngf linkext" href="http://www.alamedactc.org/">
+						Visit Alameda CTC's Website</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-md-4">
+			<div class="panel panel-default">
+				<div class="panel-body text-center">
+				<h4><img width="100px" height="50px" alt="BAIFA Logo" src="../images/baifa_express_lanes.png"></h4>
+				</div>
+				<div class="panel-body  panel-min-ht">
+					<p editareadesc="BAIFA Description">The Metropolitan Transportation Commission (MTC) and Bay Area Authority (BATA) have formed a Joint Powers Authority (JPA) to develop and operate their express lanes.</p>
+				</div>
+				<div class="panel-body">
+					<div class="row">
+						<div class="col-md-12">
+						<a target="_blank" class="btn btn-lg btn-default btn-block btngf linkext" href="http://www.baifaexpresslanes.org/projects/express_lanes/">
+						Visit BAIFA's Website</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="panel panel-default">
+				<div class="panel-body text-center">
+				<h4><img width="100px" height="50px" alt="CTOC Logo" src="../images/CTOC_logo.jpg"></h4>
+				</div>
+				<div class="panel-body  panel-min-ht">
+					<p editareadesc="CTOC Description">The California Toll Operators Committee (CTOC) is a collaborative organization composed of California's toll facility operators/owners. CTOC is the primary resource for interoperability and coordination among tolling facilities, and education and advocacy regarding tolling in California.</p>
+				</div>
+				<div class="panel-body">
+					<div class="row">
+						<div class="col-md-12">
+						<!--<a target="_blank" class="btn btn-lg btn-default btn-block btngf linkext" href="http://www.catolloperators.com/">
+						Visit CTOC's Website</a>-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+		</div>
+	</div>
+	</div>
+	<!--#include file="../common/footer.html"-->
+	<!--#include file="../common/footerinclude.html"-->
+    </body>
+</html>

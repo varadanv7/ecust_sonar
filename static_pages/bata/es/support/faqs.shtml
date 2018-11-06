@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+	<!--#include file="../common/headerinclude.html"-->
+	<!-- FAQ Search -->
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+	<!--#include file="../common/topnavigationnh.html"-->
+	<div class="container"><ol class="breadcrumb">
+	  <li><a href="../home/index.shtml"><img src="../images/breadcrumb/Home_icon.png"></a></li>
+	  <li>AYUDA</li>
+	  <li class="active">PREGUNTAS FRECUENTES</li>
+	</ol></div>
+	<div class="container clstatic faqpage">
+		<h1 class="page-header-noborder">
+			PREGUNTAS FRECUENTES
+		</h1>
+		<div class="row row-offcanvas row-offcanvas-left">
+			<!--#include file="supportlm.html"-->
+			<div class="faqdiv col-xs-12 col-sm-9">
+				<div class="row container">
+				<p class="pull-left visible-xs">
+					<button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Menu</button>
+				</p>
+				</div>
+				<p>
+				<!--#include file="search.html"-->
+				<dl class='faq p-sieve'>
+					<div class="bach searchlink" id="searchlink"><a href="#" onclick="searchGoogle();">Buscar Web</a></div>
+					<h1 class="faqhide-head page-header-noborder">
+						Preguntas frecuentes resultado
+					</h1>
+					<div class="faqhide">
+						<!--#include file="../support/content/faq_fastrak_basics_content.html"-->
+						<!--#include file="../support/content/faq_toll-bridges_content.html"-->
+						<!--#include file="../support/content/faq_xp-lanes_content.html"-->
+						<!--#include file="../support/content/faq_sfoparking_content.html"-->
+						<!--#include file="../support/content/faq_ttbasics_content.html"-->
+						<!--#include file="../support/content/faq_tagRetail_content.html"-->
+						<!--#include file="../support/content/faq_flexExpress_content.html"-->
+						<!--#include file="../support/content/faq_accountBasics_content.html"-->
+						<!--#include file="../support/content/faq_accountAccess_content.html"-->
+						<!--#include file="../support/content/faq_violations-info_content.html"-->
+						<!--#include file="../support/content/faq_enforcement_content.html"-->
+						<!--#include file="../support/content/faq_rentals_content.html"-->
+						<!--#include file="../support/content/faq_clean-air_content.html"-->
+						<!--#include file="../support/content/faq_commercial_content.html"-->
+					</div>
+				</dl>
+				<div class='noresults'>
+				</div>
+				<div class="faqnohide">
+					<h1 class="page-header-noborder">
+						Preguntas frecuentes m&#225;s populares
+					</h1>
+					<dl class='popular faq'>
+						
+					</dl>
+					<gcse:searchresults-only></gcse:searchresults-only>
+				</div>
+				<script>
+				  (function() {
+					var cx = '010341606070375814005:k0b_k-g-6ba';
+					var gcse = document.createElement('script');
+					gcse.type = 'text/javascript';
+					gcse.async = true;
+					gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+						'//www.google.com/cse/cse.js?cx=' + cx;
+					var s = document.getElementsByTagName('script')[0];
+					s.parentNode.insertBefore(gcse, s);
+				  })();
+				</script>
+				<hr>
+				<div class="row custom-faq">
+					<h1 class="page-header-noborder">Buscar por temas:</h1>
+					<div class="col-md-4">
+                        <h3 class="faq-heading">Informaci&#243;n general</h3>
+                        <hr>
+                        <ul class="bach faq-list">
+                            <p><a href="#" class="linkext" data-featherlight="ftbasics.shtml">Informaci&#243;n b&#225;sica acerca de FasTrak</a></p>
+                            <p><a href="#" class="linkext" data-featherlight="toll-bridges.shtml">Puentes de peaje</a></p>
+                            <p><a href="#" class="linkext" data-featherlight="xp-lanes.shtml">Carriles expr&#233;s</a></p>
+                            <p><a href="#" class="linkext" data-featherlight="sfo-parking.shtml">Estacionamiento del Aeropuerto Internacional de San Francisco</a></p>
+                        </ul>
+                    </div>
+					<div class="col-md-4">
+                        <h3 class="faq-heading">Dispositivos de peaje</h3>
+                        <hr>
+                        <ul class="bach faq-list">
+                            <p><a href="#" class="linkext" data-featherlight="ttbasics.shtml">Informaci&#243;n b&#225;sica de los dispositivos de peaje</a></p>
+                            <p><a href="#" class="linkext" data-featherlight="tags-retail.shtml">Dispositivos de peaje de una tienda</a></p>
+                            <p><a href="#" class="linkext" data-featherlight="flex-express.shtml">FasTrak Flex y la I-580 Carriles expr&#233;s</a></p>
+                        </ul>
+					</div>
+					<div class="col-md-4">
+                        <h3 class="faq-heading">Cuentas de FasTrak</h3>
+                        <hr>
+                        <ul class="bach faq-list">
+                            <p><a href="#" class="linkext" data-featherlight="acct-basics.shtml">Informaci&#243;n b&#225;sica de cuenta</a></p>
+                            <p><a href="#" class="linkext" data-featherlight="acct-access.shtml">Acceso a cuenta</a></p>
+                        </ul>
+					</div>
+					<div class="col-md-4">
+                        <h3 class="faq-heading">Infracciones de peaje</h3>
+                        <hr>
+                        <ul class="bach faq-list">
+                            <p><a href="#" class="linkext" data-featherlight="violations-info.html">Informaci&#243;n general</a></p>
+                            <p><a href="#" class="linkext" data-featherlight="enforcement.html">Cumplimiento en carriles expr&#233;s</a></p>
+                        </ul>
+					</div>
+					<div class="col-md-4">
+                        <h3 class="faq-heading">Informaci&#243;n espec&#237;fica para veh&#237;culos</h3>
+                        <hr>
+                        <ul class="bach faq-list">
+                            <p><a href="#" class="linkext" data-featherlight="rentals.html">Veh&#237;culos rentados</a></p>
+                            <p><a href="#" class="linkext" data-featherlight="clean-air.html">Veh&#237;culos de baja emisi&#243;n contaminante (CAV)</a></p>
+                            <p><a href="#" class="linkext" data-featherlight="commercial.html">Veh&#237;culos comerciales</a></p>
+                        </ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type='text/javascript'>		
+		jQuery.ajax({
+			type: "GET",
+			url: "../support/faq_popular_statistics.xml",
+			dataType: "xml",
+			success: function(xml){
+				var index=0;
+				var dtelem;
+				var popularItems="";
+				var sortable = [];
+				$(xml).find('faq').each(function(){
+					name = $(this).find('name').text();
+					$.each(this.attributes, function(i, attrib){
+						if(attrib.name=='id') id=attrib.value;
+						if(attrib.name=='count') count=attrib.value;
+					});				
+					sortable.push([id, count])
+				});
+				sortable.sort(function(a, b) {return b[1] - a[1]})
+				var max=5;
+				var visibleCount=0;
+				for (var item in sortable){
+					if(visibleCount == max)
+						break;
+						
+					dtelem = $(".faqhide").find("[id='"+sortable[item][0]+"']");
+					if(!!dtelem && !!dtelem[0]){
+						dtelem.attr('onclick','openAns(this)');
+						popularItems = popularItems+("<div class='popfaqs'>"+dtelem[0].outerHTML + dtelem.next("dd")[0].outerHTML+"</div>");
+						dtelem.attr('onclick','');
+						visibleCount=visibleCount+1;
+					}else{
+						$.ajax({
+							url: "../support/faq_file_processor.asp?faqId="+sortable[item][0]+"&count=-1",
+						})
+					}
+				}
+				$(".popular").html(popularItems);
+			},
+			error: function() {
+				alert("An error occurred while loading MAP.");
+			}
+		});
+
+		function openAns(elem) {
+			var ans1 = $(elem).next('dd');
+			if(ans1.css("display") == 'none'){
+				$.ajax({
+					url: "../support/faq_file_processor.asp?faqId="+elem.id,
+				})
+			}
+			ans1.slideToggle('fast');
+		}
+	</script>
+	<!--#include file="../common/footer.html"-->
+	<!--#include file="../common/footerinclude.html"-->
+	<!--#include file="faq_includes.html"-->
+    </body>
+</html>

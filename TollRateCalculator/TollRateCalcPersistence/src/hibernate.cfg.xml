@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+<session-factory>
+    <property name="connection.datasource">java:comp/env/jdbc/TollRateCalc</property>
+	<property name="hibernate.transaction.factory_class">org.hibernate.transaction.CMTTransactionFactory</property>
+	<property name="hibernate.transaction.manager_lookup_class">org.hibernate.transaction.WebSphereExtendedJTATransactionLookup</property> 
+	<property name="hibernate.default_schema">${WS_DB_SCHEMA_NAME}</property>
+	<property name="dialect">org.hibernate.dialect.Oracle9Dialect</property>
+	<property name="jndi.class">com.ibm.websphere.naming.WsnInitialContextFactory</property>
+	<property name="show_sql">true</property>
+    <!-- Mapping files -->
+    <mapping resource="com/acs/ts/vector/ws/tollrate/persistence/TTollRatePlaza.hbm.xml"/>
+    <mapping resource="com/acs/ts/vector/ws/tollrate/persistence/TVehicleClass.hbm.xml"/>
+</session-factory>
+</hibernate-configuration>

@@ -1,0 +1,30 @@
+<ion-view view-title="Settings-es" ng-controller="SettingsCtrl">
+    <ion-content>
+        <p style="display:none">{{page.title="Configuraciones"}}</p>
+        <div class="list">
+            <div class="item item-icon-right setticon1" ng-click="showLanguagePopup()">
+                <span class="item-icon-left1">Idioma</span>
+                <i class="icon right-arrow"></i>
+            </div>
+            <ion-toggle class="item item-icon-right setticon5" ng-change="onPushNotificationClicked()" ng-model="page.isPushNotificationEnabled" ng-checked="page.isPushNotificationEnabled"><span class="item-icon-left1">Notificación Push</span></ion-toggle>
+            <ion-toggle class="item item-icon-right setticon2" ng-change="onTouchIdChanged()" ng-model="page.isTouchIdEnabled" ng-checked="page.isTouchIdEnabled" ng-show="page.isTouchIdAvailable"><span class="item-icon-left1">Identificación táctil</span></ion-toggle>
+            <ion-toggle ng-hide="isLolipop" class="item setticon3" ng-change="onCameraSettingsChanged()" ng-model="page.isCameraEnabled" ng-checked="page.isCameraEnabled"><span class="item-icon-left1">Permitir el acceso a la cámara</span></ion-toggle>
+            <ion-toggle ng-hide="isLolipop" class="item setticon4" ng-change="onLocationSettingsChanged()" ng-model="page.isLocationServiceEnabled" ng-checked="page.isLocationServiceEnabled"><span class="item-icon-left-ws">Permitir el acceso a la ubicación</span></ion-toggle>
+            <div class="item clear-cha" ng-click="clearCache()">
+                <span>Limpiar caché</span>
+                <!-- <br>
+                <span>Click on clear cache to remove previously stored information. The application will get latest information after the existing cache is cleared</span> -->
+            </div>
+
+            <div class="item item-icon-right" ng-click="onLogoutBtnClicked()" ng-show="isLogedInUser">
+                <span>Cerrar sesión</span>
+                <i class="icon ion-log-out"></i>
+            </div>
+
+            <div class="item">
+                <span>Versión 3.6.4</span>
+            </div>
+
+        </div>
+    </ion-content>
+</ion-view>

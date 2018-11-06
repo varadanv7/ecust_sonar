@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>FasTrak</title>
+    <!--#include file="../common/headerinclude.html"-->
+ <!--#include file="../common/html/pageheader.shtml"-->
+ 
+  
+</head>
+
+<body onLoad="setWindowSizeP()">
+<div class="container"><ol class="breadcrumb">
+	  <li><a href="../home/index.shtml"><img src="../images/breadcrumb/Home_icon.png"></a></li>
+	  <li>Guide</a></li>
+	  <li class="active">Enforcement</li>
+</div>
+<div class="contentEnvelope">
+<!-- content -->
+	<div class="contentTitle" style="margin-bottom: 10px;">ENFORCEMENT</div>
+	<div class="left2Col">
+		<div class="twoColCopyBlock">
+		FasTrak issues violation notices to motorists who choose to use FasTrak facilities but fail to pay the tolls. We provide a wide range of convenient payment options.
+		</div>
+	</div>
+	<div class="right2Col">
+		<div class="twoColCopyBlock">
+		We also work with each motorist to resolve a violation by correcting any possible error or waiving a first-time violation penalty if the motorist opens a FasTrak account.
+		</div>
+	</div>
+	
+	<div class="left2Col">
+		<div class="greenArticleTop">Bridge Toll and Express Lane Violations and Enforcement</div>
+		<div class="twoColCopyBlock">
+		The California Highway Patrol (CHP) enforces the vehicle code. The CHP patrols toll collection points at bridges and express lanes. They check if motorists using a carpool lane qualify for discounted or toll-free travel. The CHP issues tickets to violators. 
+		
+		</div>
+	</div>
+	<div class="right2Col">
+		<div class="twoColCopyBlock">
+		FasTrak electronically detects FasTrak toll tags and uses cameras to identify the license plates of vehicles passing through toll collection points. If a motorist does not pay the toll, FasTrak issues a violation notice to the registered owner of the vehicle.
+	</div>	
+	</div>
+	<div class="left2Col">
+		<div class="greenArticleTop">Toll Violation Penalties</div>
+		<div class="twoColCopyBlock">
+		Violation notices are mailed to the vehicle's registered owner. 
+			<ul>
+				<li class="lister">First Notice Issued - Toll plus $25 penalty.</li>
+				<li class="lister">Second Notice Issued - Toll plus $70 ($25 penalty plus $45 late fee).
+				If the toll is paid within 15 days, the penalty is reduced to $25.
+
+				<div style="margin-top: 5px;">Failure to respond to the second notice will result in additional penalties and fees, as well as referral to a collections agency and/or withholding of your vehicle registration by the DMV.</div></li>
+			</ul>
+		</div>
+	</div>
+	<div class="right2Col">
+		<div class="greenArticleTop">Resolve a Violation</div>
+		<div class="twoColCopyBlock">
+		If you want FasTrak to waive your first time violation penalty or if you want to pay or dispute a violation, learn more here.
+		<br><br>
+		<a href="invoicesViolations.shtml" class="beigeButton">Invoice & Violation Info</a>
+		</div>
+	</div>
+<!-- end content -->
+</div>
+<div class="footerTopperRelated">
+	<div class="relatedLinks">Related Links</div>
+	<div class="footerBlockRelated">
+	<a href="invoicesViolations.shtml" class="footerLink">Invoices and Violations</a>
+	<br>
+	<a href="../support/faqs.shtml" class="footerLink">Toll Violations FAQs</a>
+	<br>
+	<a href="../howitworks/waysToPay.shtml" class="footerLink">Ways To Pay</a>
+	</div>
+</div>
+<!--#include file="../common/html/footerpage.shtml"-->
+
+  </body>
+</html>

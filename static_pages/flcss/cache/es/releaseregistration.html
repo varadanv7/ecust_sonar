@@ -1,0 +1,36 @@
+<ion-view view-title="Release Registration-es" ng-controller="ReleaseRegistrationCtrl">
+    <ion-content>
+      
+        <div class="container">
+
+            <p style="display:none">{{page.title="Retención de registro"}}</p>
+            <p style="display:none">{{releasereg.redirectURL="https://mobileapp.sunpass.com/vector/vurl/mobileapp/invoices/TaxCollectorSearch.do?serviceid="}}</p>
+            
+            <div class="nospace">
+                <form id="release_reg_form" method="post" class="form-horizontal mTop20">
+                    <div class="form-group">
+                        <div class="row nospace">
+                            <div class="col-sm-12 col-xs-12 col-lg-12 nospace">
+                                <input type="text" class="input-text form-control" name="lincenseplateno_es" id="platenumber" ng-model="releasereg.plateNumber" placeholder="Número de matrícula" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="row nospace">
+                            <div class="col-sm-12 col-xs-12  col-lg-12 nospace">
+                               <!-- <input type="text" class="input-text form-control" name="regdate1_es" id="dp1" ng-model="releasereg.issuedDate" placeholder="Fecha de Registro" ng-click="onDatePickerFocus()" ng-readonly="true"/>-->
+                                <input type="text" class="input-text form-control" name="lastName_es" id="lastName" ng-model="releasereg.lastName" placeholder="Apellido" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row nospace">
+                        <button href="#"  ng-click="onLookUpClick()" class="button mTop10 special text-center ripplelink3">Buscar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+
+        <script type="text/javascript"> function noSubmit() {}</script>
+    </ion-content>
+</ion-view>

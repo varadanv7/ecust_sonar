@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+<!--#include file="../common/head.html"-->
+<!--#include file="../common/eztoggle.html"-->
+	</head>
+	<body>
+		<div class="container1">
+<!--#include file="../common/topbannermenu.html"-->
+<!--include file="../common/leftmenu_help.html"-->
+<script type='text/javascript' language='JavaScript'>
+$("#top_help").attr("class", "active");
+$("#general").attr("class", "active");
+</script> 
+<script>
+$(function() { $('#faq71').dialog({	autoOpen: false, modal: true, width:'600px'});
+$('#opener71').click(function() {
+ $('#faq7').dialog('open'); return false; }); });
+</script>
+<!--content start-->
+<br class='clear' />
+<div class='sidebar1'>
+<!--#include file="../faq/general_popup.html"-->
+</div>
+			<div class="content1">
+				<div class="contentPlain"><br>
+					<h3 style="float:left;width:100%;" class="contenttitle">
+						FAQs
+					</h3>
+					<div class="content" style="text-align: right">
+					<b><a href="javascript:toggleAllOn();" tabindex="1">Mostrar todas las respuestas</a>  |  <a href="javascript:toggleAllOff();" tabindex="2">Ocultar todas las respuestas</a>&nbsp;&nbsp;	</b></div>
+					<br clear='all'> 
+					<dl class='faq'>
+						<dt>Como podre yo identificar cuales son las carreteras de peaje manejadas por Fort Bend County?</dt><dd class="hide">Fort Bend County maneja  Fort Bend Grand Parkway (SH-99) desde US-59  hasta Fry Rd, Fort Bend Parkway desde Beltway 8 hasta Sienna Parkway y el Westpark Tollway desde SH-99, el Grand Parkway, hasta FM 1464 en Houston. Tambien puedes ir al inicio de nuestra pagina electronica y referirse al enlace web de Fort Bend Toll Roads Map.</dd>
+						<dt>Yo tengo una cuenta de etiqueta electronico, porque no me funciono en las Carreteras de peaje de Fort Bend County?</dt><dd class="hide">TxTAG (Texas Tollways), EZ Tag (Harris County Toll Road Authority), o TollTag (North Texas Tollway Authority) titulares de cuenta, tambien pueden recib&iacute;r  Avisos o infracción de peaje.  La raz&oacute;n m&aacute;s frecuente de recib&iacute;r un Aviso puede ser por lo siguente:<ul style="padding-left:25px"><li>La Etiqueta electrinica no esta correctamente  montada.<li>La tarjeta de credito  que  esta archivada en su cuenta de etiqueta electronico esta vencida.<li>Tienes un vehículo nuevo/ placa de la licencia nueva y tu cuenta no esta correctamente actualizada.<li>No hay fondos suficientes en su cuenta <li>La etiqueta electronica esta defectuosa.</ul>
+Para evitar pagar más multas en el futuro, por favor póngase en contacto con el centro de atención al cliente para rectificar su cuenta.
+<br><b>TxTag: 1-888-468-9824 o <a href="http://www.txtag.org" target="_blank">http://www.txtag.org</a><br>
+EZ Tag: 1-281-875-3279 o <a href="https://www.hctra.org" target="_blank">https://www.hctra.org</a><br>
+Toll Tag: 1-972-818-6882 o <a href="https://www.ntta.org" target="_blank">https://www.ntta.org</a></b><br>
+Tambien p&oacute;ngase en contacto con el centro de supporte al cliente al 855-999-2024, para resolver algun Avisos de Violacion que aya recibido
+</dd>
+						<dt>Qué pasa si manejo por una plaza de peaje de Fort Bend County por error?</dt><dd class="hide">Porfavor a contactar a nuestro ervicio al cliente a 855-999-2024 inmediatamente.</dd>
+						<dt>Soy un visitante de la zona , puedo configurar una cuenta temporal ? </dt><dd class="hide">Visita <a href="http://www.ptoll.com/">www.ptoll.com</a> para configurar una cuenta para futuros peajes.</dd>
+						<dt>Bajo que condiciones podria yo recibir una violacion?</dt><dd class="hide">El Fort Bend County Toll Road Authority  sistema de cobro electrónico de peajes opera carriles de peaje exclusivamente  para autorizado TxTAG (Texas Tollways), EZ Tag (Harris County Toll Road Authority), o Toll Tag (North Texas Tollway Authority) titulares de etiqueta electronico . Personas sin cuentas de etiquetas electronica  que utilizan los carriles de peaje dedicado,  incurrir en violaciones y imagines de placa de la licencia  sera grabado por un sistema  de  video . En el evento que usted tenga una etiqueta electronica de una de las agencias mentionada  anteriormente, puede ser que usted recibio  la notacion de violacion  porque la cuenta de etiqueta electronica no estaba valida durante el tiempo de la transaccion.</dd>
+						<dt>Tengo una cuenta de etiqueta electronica y a veces tengo un camper o remolque. ¿Todavía puedo utilizar a Fort Bend County toll road?</dt><dd class="hide">Si, el sistema  calculará automáticamente la tasa de peaje basados en la cantidad de ejes de su vehículo y camper o remolque. Tambien puedes ir al inicio de nuestra pagina electronica y referirse al enlace web de Fort Bend Toll Roads Map.</dd>
+						<dt>Necesito una cuenta de etiqueta electronico para viajar en las carretera de peaje de Fort Bend County?</dt><dd class="hide">Si, el sistema de collection de peaje electronico esta operada por el Fort Bend County Toll Road Authority exclusivamente para  titulares de cuenta autorizado de etiqueta electronica</dd>
+						<dt>He recibido un aviso inicial del peaje (ITN) </dt><dd class="hide">Por favor refi&eacute;rase a la parte delantera o trasera de la ITN para el pago o disputa instrucciones. El pago o disputa y se pueden hacer en nuestro sitio web.</dd>
+						<dt>E recibido un notacion de violacion , Que debo aser?</dt><dd class="hide">Porfavor de referir a la parte delantera o trasera de la notacion de violacion para instruciones en como pagar o discutir.  Pagos  o disputas tambien se podran hacer por nuestra pagina electronica. </dd>
+						<dt>He recibido un Avisos o infracci&oacute;n de peaje, que yo quiero  discutir. Que debo aser?</dt><dd class="hide">Para vehículo  vendido, contrato de arrendamiento o rentado, porfavor de enviar una copia de comprobante de venta, una copia de el contrato de arrendamiento, o una copia de contrato de alquiler con su notacion de violacion y envielo por correo a Fort Bend County Toll Road Authority, 16107 Kensington Drive, #1008, Sugar Land, TX 77479.<p>Si el vehículo ha sido robado, porfavor de  enviar un copia de el reporte de policia o una copia de reclamo de seguro con su notacion de violacion y envielo por correo a Fort Bend County Toll Road Authority, 16107 Kensington Drive, #1008, Sugar Land, TX 77479.<p>Para titulares de cuentas de etiqueta electronica, porfavor incluye pago de peaje con prueba de una cuenta de etiqueta electronica valida a Fort Bend County Toll Road Authority, 16107 Kensington Drive, #1008,  Sugar Land, TX 77479.</dd>
+						<dt>¿C&oacute;mo puedo verificar el estado de Avisos o infracci&oacute;n de peaje??</dt><dd class="hide">Estados de un aviso podra ser encontrado en nuestra p&aacute;gina de web. Vas a necesitar su numero de notacion de violacion, el numero de placa y el estado de registration del vehiculo para poder verificar el estado de la notacion de violation.</dd>
+						<dt>Que es la carta de determinacion?</dt><dd class="hide">Al recibir  la disputa con la documentacion de apoyo, el FBTRCSC le enviara una carta de determination, en la cual le avisara de el estado de su disputa de violación del peaje.</dd>
+						
+						<dt>Soy un veterano incapasitado. ¿Por qué recibí esta violation?</dt><dd class="hide">Por favor, consulte el siguiente enlace para más detalles.<br><a href="http://fbctra.com/faqs/veteran-discount-programs.html">http://fbctra.com/faqs/veteran-discount-programs.html</a><br>Al término del registro, porfavor de contactar a nuestro  Customer Support Center a 855-999-2024.</dd>
+						<dt>Soy militar activo. ¿Por qué recibí esta violation?</dt><dd class="hide">Para los titulares de cuentas de etiqueta electronico válida, porfavor incluir pago de peaje y prueba de una etiqueta válida a Fort Bend County Toll Road Authority, 16107 Kensington Drive, #1008, Sugar Land, TX 77479.<br>Para mas information, porfavor consulte el siguiente enlace para m&aacute;s detalles. <a href="http://fbctra.com/images/FBCTRANonRevenuePolicyAugust2014.pdf">http://fbctra.com/images/FBCTRANonRevenuePolicyAugust2014.pdf</a> </dd>
+						<dt>Tengo una cuenta de etiqueta electronico active. ¿por qué veo tarifas de peaje diferentes en mi estado de cuenta?</dt><dd class="hide">Fort Bend County tiene etiqueta válida y no válida/ tarifa de peaje Fleet. Si se lee una etiqueta válida en el carril en el momento de la transacción, se aplica el tipo de etiqueta válida. Si una etiqueta no está presente en el vehículo o una transacción no válida se produce, se aplica la tarifa de peaje Fleet.<br><a id="opener71" href="#"  title="Click for answer">Por favor, vea la información de peaje para ver tarifas.</a></dd>
+					</dl>
+					</h6>
+				</div>
+			</div>
+			<div id="faq71" class="faq_style" title="Informaci&oacute;n de estaciones de peaje">
+<table border="0" cellpadding="10" cellspacing="0" width="100%" style="padding-left:25px">
+<tr><td valign='top'>
+<table border="0" cellpadding="1" cellspacing="0" width="100%">
+<tr><td colspan="2"><h3>Fort Bend Grand parkway</h3></td></tr>
+<tr><td class='plaza_abbr'>RVP</td><td class='plaza_name'>Riverpark Ramp</td></tr>
+<tr><td class='plaza_abbr'>NWT</td><td class='plaza_name'>New Territory ML</td></tr>
+<tr><td class='plaza_abbr'>U90</td><td class='plaza_name'>US90A ML</td></tr>
+<tr><td class='plaza_abbr'>HRL</td><td class='plaza_name'>GP1 Harlem ML</td></tr>
+<tr><td class='plaza_abbr'>WSB</td><td class='plaza_name'>West Bellfort ML</td></tr>
+<tr><td class='plaza_abbr'>BEL</td><td class='plaza_name'>Bellaire ML</td></tr>
+<tr><td class='plaza_abbr'>WSP</td><td class='plaza_name'>Westpark ML</td></tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+<tr><td colspan="2"><h3>Fort Bend Parkway</h3></td></tr>
+<tr><td class='plaza_abbr'>SPE</td><td class='plaza_name'>FBP Sienna Pkwy Ext</td></tr>
+<tr><td class='plaza_abbr'>LKO</td><td class='plaza_name'>FBP Lake Olympia ML</td></tr>
+<tr><td class='plaza_abbr'>MCH</td><td class='plaza_name'>FBP McHard ML</td></tr>
+<tr><td class='plaza_abbr'>FND</td><td class='plaza_name'>FBP Fondren ML</td></tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+<tr><td colspan="2"><h3>West Park Tollway</h3></td></tr>
+<tr><td class='plaza_abbr'>WMR</td><td class='plaza_name'>Westmoor ML</td></tr>
+<tr><td class='plaza_abbr'>WPT</td><td class='plaza_name'>Peek ML</td></tr>
+<tr><td><a href="http://fbctra.com/toll-rates.html" target="blank" title='Tarifa de Peaje'>Tarifa de Peaje</a></td></tr>
+</table></td></tr>
+</table>
+</div>
+			<br class='clear' /><br class='clear' />
+<!--content end-->
+<!--#include file="../common/footer.html"-->
+	</body>
+</html>
+

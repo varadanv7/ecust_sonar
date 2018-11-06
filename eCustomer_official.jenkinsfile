@@ -1,0 +1,45 @@
+@Library('sharedLibs')
+import com.conduent.notifications.SparseNotify
+
+node('FLCSS_eCustomer') {
+  // Note that the notify logic takes the remainder of the Jenkinsfile as a closure, wrapping it in exception handling
+  notify('joseph.dowling@conduent.com, Mani.Viswanathan@conduent.com, USA.PDSI.FLCCSS.JAVA@conduent.com') {
+
+    // kick off appscan
+    build job: 'FLCSS_eCustomer_static_analysis_official',
+    parameters: [
+      string(name: 'EAR_TAG', value: EAR_TAG),
+      string(name: 'VERSION_TAG', value: VERSION_TAG),
+      string(name: 'SNAPSHOT', value: SNAPSHOT)
+    ],
+    wait: false
+
+    stage('Checkout') {
+      def repo = "${SNAPSHOT}/eCustomer_Integration/eCustomer_Java"
+      initialCheckout("${repo}@HEAD", 'UpdateWithCleanUpdater')
+      def co = load 'checkout.groovy'
+      co.checkout(repo, '@HEAD', 'UpdateWithCleanUpdater')
+    }
+
+    stage('Build') {
+      withEnv(['PATH+SDP85=C:/IBM/SDP85/jdk/bin', 'JAVA_HOME=C:/IBM/SDP85/jdk']) {
+        bat './gradlew clean build --no-daemon'
+      }
+
+      dir('eCustomer') {
+        bat "./gradlew --no-daemon -b dar.gradle -PreleaseVersion=\"${EAR_TAG}\" clean dar"
+      }
+    }
+
+    stage('Publish') {
+      zip dir: 'static_pages/flcss', glob: '', zipFile: "eCustomer_static_pages_${EAR_TAG}.zip"
+      //archiveArtifacts 'vectorapp/build/libs/vectorapp_rmic.ear'
+      def server = Artifactory.newServer url: 'http://138.69.14.78:8085/artifactory/', credentialsId: 'fb03a5c5-329b-4d49-bfb6-5e2f515c7b40'
+      uploadToArtifactory(server, [pattern: 'vectorapp/build/libs/vectorapp_rmic.ear', target: "FLCSS_CI/master/eCustomer/${EAR_TAG}/${VERSION_TAG}.ear"])
+      uploadToArtifactory(server, [pattern:  "eCustomer_static_pages_${EAR_TAG}.zip", target: "FLCSS_CI/master/eCustomer/${EAR_TAG}/eCustomer_static_pages_${EAR_TAG}.zip"])
+      uploadToArtifactory(server, [pattern: "eCustomer/build/libs/eCustomer-${EAR_TAG}.dar", target: "FLCSS_CI/master/eCustomer/${EAR_TAG}/eCustomer-${EAR_TAG}.dar"])
+      addBuiltPropertyToArtifactory("http://138.69.14.78:8085/artifactory/api/storage/FLCSS_CI/master/eCustomer/${EAR_TAG}", "${currentBuild.startTimeInMillis}")
+      xldPublishPackage serverCredentials: 'admin', darPath: "eCustomer/build/libs/eCustomer-${EAR_TAG}.dar"
+    }
+  }
+}

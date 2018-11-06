@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+
+<title>FasTrak</title>
+
+<!-- INCLUDE MODERNIZR USING CDN -->
+<script src="../common/js/modernizr.min.js"
+	type="text/javascript" charset="utf-8"></script>
+
+<!-- INCLUDE FAVICON -->
+<link rel="shortcut icon" type="image/x-ico"
+	href="../images/favicon.ico">
+
+<!-- INCLUDE STYLESHEETS - OVERALL, BOOTSTRAP, SUPERFISH, MEANMENU -->
+
+<link href="../common/css/bootstrap.css" rel="stylesheet"
+	type="text/css">
+<link href="../common/css/bootstrap-responsive.css" rel="stylesheet"
+	type="text/css">
+<link href="../common/css/carouFredSel.css" rel="stylesheet"
+	type="text/css">
+<link href="../common/css/superfish.css" rel="stylesheet"
+	type="text/css">
+<link href="../common/css/meanmenu.css" rel="stylesheet" type="text/css">
+<link href="../common/css/styles.css" rel="stylesheet" type="text/css">
+
+<!-- SET BROWSER WIDTH & LOCK SCALE -->
+<meta name="viewport"
+	content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+    <script src="../assets/js/html5shiv.js"></script>
+  <![endif]-->
+
+<script>
+	function buttFader(arg) {
+		document.getElementById(arg).style.opacity = ".5"
+	}
+
+	function buttRevealer(arg) {
+		document.getElementById(arg).style.opacity = "1"
+	}
+</script>
+
+<!--#include file="../common/headerinclude.html"-->
+<!--#include file="../common/html/pageheader.shtml"-->
+</head>
+
+<body onLoad="setWindowSizeP()">
+	<div class="row12" id="swart"
+		style="background: url(../images/headerBG.jpg); width: 100%; height: 100%; background-size: 100%; background-repeat: no-repeat;">
+		<!-- <a href="../home/index.shtml"><div id="logoBogo"></div></a> -->
+	</div>
+<!-- 	<div class="contentTopper">
+		<a href="../home/index.shtml"><img src="../images/Home_icon.png"
+			border="0">
+		</a>
+	</div> -->
+	
+		<div class="container">
+		<ol class="breadcrumb">
+			<li><a href="../home/index.shtml"><img
+					src="../images/breadcrumb/Home_icon.png">
+			</a>
+			</li>
+			<li>Support</a>
+			</li>
+			<li class="active">Instructional Videos</li>
+	</div>
+	<!-- content -->
+	<div class="contentEnvelope">
+
+		<div class="contentTitle">INSTRUCTIONAL VIDEOS</div>
+
+		<div class="twoColCopyBlock" style="margin: 15px 0 15px 0;">
+			Choose a topic to see what FasTrak offers and learn easy steps to
+			manage your account.<br> We also give handy tips to save you
+			time and money. FasTrak keeps you moving!
+		</div>
+
+		<div class="twoColCopyBlock">
+			<a href="https://vimeo.com/264672205/6ff40dbbb2" target="_blank"
+				onMouseover="buttFader('butt1')" onMouseout="buttRevealer('butt1')"><div
+					class="vidHolder" style="margin: 0 15px 10px 0;">
+					<img src="../images/vidPlaceholder.jpg" width="100%">
+					<div class="bigVidButt">
+						<img src="../images/bigPlayButt.png" id="butt1">
+					</div>
+				</div>
+			</a> <a href="https://vimeo.com/264672589/e425b7553a" target="_blank"
+				onMouseover="buttFader('butt2')" onMouseout="buttRevealer('butt2')"><div
+					class="vidHolder" style="margin: 0 15px 10px 0;">
+					<img src="../images/vidPlaceholder_b.jpg" width="100%">
+					<div class="bigVidButt">
+						<img src="../images/bigPlayButt.png" id="butt2">
+					</div>
+				</div>
+			</a>
+		</div>
+
+		<div class="twoColCopyBlock">
+			<div class="vidHolder" style="margin: 0 10px 0 15px;">
+				<div class="orangeTitleCalloutVid" style="margin: 22px 0 0 0;">Getting
+					Started</div>
+				<div class="vidCalloutContainer">
+					<a href="https://vimeo.com/264672205/6ff40dbbb2" target="_blank"><div
+							class="smPlayer">
+							<img src="../images/smallPlayButt.png">
+						</div> <a href="https://vimeo.com/264672205/6ff40dbbb2" target="_blank"
+						class="vidCallout">What is FasTrak?</a>
+				</div>
+				<div class="vidCalloutContainer">
+					<a href="https://vimeo.com/264672589/e425b7553a" target="_blank"><div
+							class="smPlayer">
+							<img src="../images/smallPlayButt.png">
+						</div>
+					</a> <a href="https://vimeo.com/264672589/e425b7553a" target="_blank"
+						class="vidCallout">How to Sign Up for FasTrak</a>
+				</div>
+				<div class="orangeTitleCalloutVid" style="margin: 22px 0 0 0;">Account
+					Basics</div>
+				<div class="vidCalloutContainer">
+					<a href="https://vimeo.com/265018116/c2cfab3689" target="_blank"><div
+							class="smPlayer">
+							<img src="../images/smallPlayButt.png">
+						</div>
+					</a> <a href="https://vimeo.com/265018116/c2cfab3689" target="_blank"
+						class="vidCallout">How Replenishment Works</a>
+				</div>
+				<div class="vidCalloutContainer">
+					<a href="https://vimeo.com/264700586/9e7dafd052" target="_blank"><div
+							class="smPlayer">
+							<img src="../images/smallPlayButt.png">
+						</div>
+					</a> <a href="https://vimeo.com/264700586/9e7dafd052" target="_blank"
+						class="vidCallout">How to Update Your Credit Card</a>
+				</div>
+			</div>
+			<div class="vidHolder" style="margin: 0 0px 0 15px;">
+				<div class="orangeTitleCalloutVid" style="margin: 22px 0 0 0;">Toll
+					Tags</div>
+				<div class="vidCalloutContainer">
+					<a href="https://vimeo.com/264685033/33246a7ab4" target="_blank"><div
+							class="smPlayer">
+							<img src="../images/smallPlayButt.png">
+						</div>
+					</a> <a href="https://vimeo.com/264685033/33246a7ab4" target="_blank"
+						class="vidCallout">How to Choose a Toll Tag</a>
+				</div>
+				<div class="vidCalloutContainer">
+					<a href="https://vimeo.com/264672448/1bfadea7a2" target="_blank"><div
+							class="smPlayer">
+							<img src="../images/smallPlayButt.png">
+						</div>
+					</a> <a href="https://vimeo.com/264672448/1bfadea7a2" target="_blank"
+						class="vidCallout">How to Return a Toll Tag</a>
+				</div>
+				<div class="orangeTitleCalloutVid" style="margin: 22px 0 0 0;">Golden
+					Gate Bridge</div>
+				<div class="vidCalloutContainer">
+					<a href="https://vimeo.com/264672724/e6020cebc2" target="_blank"><div
+							class="smPlayer" id="asdfasdf">
+							<img src="../images/smallPlayButt.png">
+						</div>
+					</a> <a href="https://vimeo.com/264672724/e6020cebc2" target="_blank"
+						class="vidCallout" id="wertwert">How to Pay Your Golden Gate
+						Bridge Toll in a Rental Vehicle</a>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<!-- end content -->
+	<div class="footerTopperRelated">
+		<div class="footerToppler">Keep moving with FasTrak</div>
+	</div>
+
+	<!-- Le javascript
+    ================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="../common/js/jquery.js"></script>
+	<script src="../common/js/bootstrap.js"></script>
+	<script src="../common/js/jquery.carouFredSel-6.2.0.js"></script>
+	<!--<script src="js/hoverIntent.js"></script>-->
+	<script src="../common/js/superfish.js"></script>
+	<script src="../common/js/jquery.meanmenu.js"></script>
+
+	<script src="../common/js/custom.js"></script>
+
+
+	<script>
+		// initialise plugins
+		jQuery(function() {
+			jQuery('#ebur_sf').superfish({
+			//useClick: true
+			});
+
+			jQuery('header nav').meanmenu();
+
+			$("#carouselb").carouFredSel();
+
+			$("#carouselc").carouFredSel();
+		});
+	</script>
+	<script src="../common/js/footer.js"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.custom-bodyfont{font-size:16px;}.custom-wrap{max-width:100%}.custom1{}.custom2{display:inline-block; width:48%;float:none;font-size:16px;vertical-align:top;margin-top:20px;margin-left:20px;}.custom3{font-style:italic;}.bg2{background-color:#fff;padding-bottom:40px;}.custom1 h3{margin-top:0;} strong{font-family:'OpenSansSemiBold';}
+.custom-subhead {width:75%; min-width:360px;}.custom-subhead2{width:90%}
+.custom-wrap2{display:inline-block;width:37%;margin-left:20px;vertical-align:top;}#ggbmap{width:300px;height: 380px;margin-left:0;display:inline-block;position:relative;vertical-align:top;margin-top: 20px;}#ggbmap sub{text-align: right;margin-top:10px;display:block;font-style:italic;font-size:85%;}.custom-wrap2 h3{margin-left: 15px;}.custom-wrap2 .acclinks{display:inline-block;width:85%;position:relative;margin-left:20px;}.acclinks2{width:85%;}.custom1 h3:nth-of-type(2){margin-top:30px;}
+#flex-ad{width:90%;min-width:300px;margin-top:20px;padding-top:20px;margin-bottom:-20px;}#flex-ad img{width:100%;opacity:0.5;}#flex-link,#flex-link:hover,#flex-link:link{text-decoration:none;} .custom-btn {display:none;}
+#flex-ad figcaption{width:100%;padding:5px 0px 5px 10px; text-align:left;color:white;top:-30px;background:rgba(0,0,0,.5);position:relative;font-size:14px;font-family:'OpenSansRegular';} #flex-ad figcaption:after{content:url(../../images/cta-arrow-small.png);display:inline-block;position:absolute;top:5px;right:15px;border:thin solid white;border-radius:11px;height:22px;background: white;} #flex-ad:hover img{opacity:0.8;} #flex-ad:hover figcaption{background:rgba(0,0,0,0.8);}.indent{margin-left:15px;}
+
+/* .custom-btn {border:thin solid rgb(0,152,163);background: rgba(255,255,255,0.8);padding:4px 20px;position: relative;top:-70px;right:-190px;text-transform: uppercase;color: rgb(0,152,163);font-family:'OpenSansSemiBold';} */
+
+.I680:after, .SR237:after {content:url(../../images/pop-out.png); display:none;position:relative;left:4px;transform:scale(.7);top:3px;}
+.panel-group{width:48%;display:inline-block;vertical-align:top;}#accordion2{margin-left:30px;}
+#socal h1{margin-top:5px;}#socal p{margin-bottom:20px;} #socal img {float:left;padding-right:20px;padding-bottom:20px}#socal ul{margin-bottom:20px;margin-left:-20px;font-size:14px;} #socal li{margin-bottom:-7px;margin-left:235px;} #socal ul li:nth-of-type(2) {margin-top: 10px;}
+
+/* FLEX TAG & I-580 EXPRESS LANE PAGE */
+.full-bleed{margin:0 auto;padding:0;}#flex-desc{background:url("../../images/fastrak-drivers.jpg") no-repeat; background-size:cover;width:100%;height:390px;background-position:0 -110px;position:relative;top:20px;margin-bottom:15px;margin-left: -15px;}#flex-desc figcaption{color: #5a5a5a;padding-top:1px;margin:0 auto;margin-top:25px;position:relative;top:-80px;}#flex-desc h1{font-family:'OpenSansSemiBold';text-align: center;padding-bottom:15px;}
+.grey-pad{margin-bottom: 25px;}.flex-body p{width:90%;}.flex-info{font-family: 'OpenSansRegular';float: right;font-size: 19px;color: white;background: rgba(0,152,163,0.6);display: inline-block;text-align: right;padding: 7px 25px 7px 25px;clear: both;top:200px;position:relative;right:20px;margin-bottom:7px;}.custom-info{background: rgba(0,152,163,0.8);border: thin solid white;padding-right: 40px;}.custom-info:after{content:url(../../images/cta-arrow-white-small.png);transform:rotate(90deg);display:inline-block;position:relative;top:0px;left:15px;}#flex-note{margin:40px 0px;font-style:italic;background:rgba(0,152,163,1);color:white;padding:20px;}
+.flex-heading{margin-left: 30px;margin-bottom:-20px;margin-top:40px;} #i580-info{margin-bottom:25px;} #i580-info figcaption{margin-bottom: 15px;}#i580-info sub{display: block;margin-top: 10px;color: #5a5a5a;font-style: italic;}#flex-disclaim{color:rgb(0,152,163);font-style:italic;margin-top:30px;}#flex-how{width:100%;margin-top:100px;}.custom2 h2:nth-of-type(2){margin-top:40px;} #how-to-use sub{font-size:85%;} .custom2 sub{color:rgb(0,152,163)}.custom2 p a:link,.custom2 p a{color:rgb(0,152,163)}.custom2 p a:hover{color:rgb(0,152,163)}
+.custom2 aside{font-style:italic;font-size:13px;margin-top:5px;display:inline-block;width:90%;text-align:left;line-height:1.8rem;}
+
+/* WHERE TO BUY */
+.table-responsive thead .row3 {font-family: 'OpenSansRegular';font-size: 24px; vertical-align:middle;}
+
+/* FAQs */
+.faqnohide h1, .custom-faq h1{margin-left:0px;font-size:24px;} .custom-faq h3{font-size:20px} .custom-faq .col-md-4{width: 33%;display: inline-block;vertical-align: top;float:none;} .faq-heading{height:35px;} 
+.faq-title{font-family:'OpenSansSemiBold';font-size:24px;text-align:center;width:50%;min-width:300px;margin:0 auto;} .modal-feather h3{font-family:'OpenSansSemiBold';font-size:20px;} .modal-feather .custom-wrap3 {display:none;} .modal-feather .custom-wrap3 p{width:49%;display:inline-block;}.modal-feather .custom-wrap3 p:last-of-type{width:100%;}.featherlight-content .panel-group{width:96%;}#conceal{display:none;} .featherlight-content .panel-title{line-height:1.5;}
+
+/* CARPOOL page */
+.custom-wrap3{display: inline-block;margin-bottom: 10px;margin-top: 10px;}.carpool-wrap{margin-top:-75px;} .custom-wrap3 .col-sm-12{padding-left:0px}.carpool-sub{display:block;font-style:italic;bottom: 10px;line-height:1.6rem;font-size:95%;}.newTable tr td.no-border{border:none;}.newTable tr td:nth-of-type(4),.newTable tr td:nth-of-type(5){width:15%;}
+
+.show-screen{display:none;}
+
+/* CONTACT PAGE */
+.ctu{top:-75px;} .ctu .col-sm-10 h2:nth-of-type(3) {margin-top:20px;margin-bottom:20px;} .ctu h2, .ctu h4.active{color:rgb(0,152,163);} .ctu .col-sm-10 h4 a{color:#5a5a5a;} .ctu .ft-info {margin-bottom:40px;}
+.ctu .col-sm-10 p, .ctu .col-sm-6 p{margin-bottom:0px;}
+.ctu .col-sm-6{text-align:left;} .ctu .col-sm-6 span {display:inline-block;width:78%;}
+.trngl{height:30px;text-align:center;margin-left:150px;margin-top:10px;margin-bottom: -20px;}
+#contact-wrap .row:nth-of-type(3) {border-top: thin solid rgba(0,152,163,0.3);padding-top: 20px;border-bottom: thin solid rgba(0,152,163,0.3);padding-bottom: 20px;margin-bottom:25px;} .int .contact-cell p:nth-of-type(4){margin-left:-33px;}
+.cell-wrap:before{display:inline-block;position:relative;top:0px;left:0px;width:10%;vertical-align:top;} 
+.addy:before{content:url(../../images/location-01.png);} .hrs:before{content:url(../../images/clock-01.png);} .int:before{content:url(../../images/globe-01.png);}
+.ctu .btn-ct {padding: 0px 30px;margin-top: 15px;margin-bottom:10px; margin-left:35px; width:45%}
+#tty:before{content:url(../../images/tty-01.png);display:inline-block;position:relative;top:5px;left:0px;width:10%;vertical-align:top;}
+#tty{margin-bottom: 5px;}#tty strong{display: inline-block;width: 60%;vertical-align: top;top: 25px;position: relative;}
+.faqpage #contact-wrap .image-link img {border: thin solid #eee;margin-top:20px;}
+
+/* CUSTOM MOBILE OPTIMIZATION */
+
+.hide-desk{display:none;}
+@media (max-width: 1199px) {
+	.wtu{max-width:95%;} 
+	.flx .custom2 {width:47%;} #i580-info img {width:95%;}
+/* contact page */
+	.cell-wrap:before{width:15%;}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.wtu .col-md-6{width:55%;} #ggbmap{width: 50%;height: auto;} #ggbmap img{width:100%}; .wtu .custom-wrap2{width:40%;}
+	.wtu .col-md-5{width:45%;margin-top:0px;} .wtu .col-md-5 .acclinks2{width:95%;} #flex-ad{width:100%;margin-top:0px;display:inline-block;} .wtu .col-md-5 h3:nth-of-type(2){margin-top:5px;}
+}
+
+@media (max-width: 991px) {
+	#ggbmap{display:none;} 
+	.wtu .col-md-6{display:none;}  .wtu .acclinks2{display:none;}
+	.full-bleed{max-width:95%;}
+/* contact page */
+	.ctu {top:0px;} .ctu .col-md-4 {width: 30%; display: inline-block; vertical-align: top;}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+/* where to use page */
+	.wtu .col-md-6{width:37%;display:inline-block;vertical-align:top;} .wtu .custom-wrap2{width:90%;margin-left:-20px}
+	.wtu .col-md-5{width:60%;display:inline-block;} #flex-ad{width:100%;} .flex-info{top:160px;} 
+	.wtu .panel-group{width:45%;}
+/* carpool page */
+	.faqpage .page-header-noborder {width:25%;}
+/* FAQ page */
+	.custom-faq {width: 130%; margin-left: -140px;} .custom-faq .col-md-4{width: 32%;}
+}
+
+@media (max-width: 767px) {
+/* where to use page */
+	#flex-ad{width:65%;min-width:300px;}
+	.wtu .col-md-5 h3{display:none;} .hide-desk{display:block;} p.hide-desk{font-style:italic;}
+	.show-screen{display:block;} .panel-group{width:90%;margin:0 auto;margin-left:15px;}#accordion2{margin-left:15px;}
+/*flex page */
+	.flx .custom2 {width:95%;} .flex-info {top:140px;font-size:14px;} #flex-desc h1{font-size:24px;}
+/*faq page */
+	.custom-faq {width: 95%;margin-left: 0px;} .custom-faq .col-md-4{width: 45%;} .faq-heading{height:25px;} .custom-faq .col-md-4:last-of-type{width: 52%;}
+/* contact page */
+	.ctu .btn-ct {min-width:130px;} .cell-wrap:before{width:20%;}
+	.ct-mail, .ct-map {width: 48%;display:inline-block;vertical-align: top;} .ct-map {margin-bottom:50px;}
+}
+
+@media (max-width: 480px) {
+/*faq page */
+	.custom-faq .col-md-4{width: 65%;} .custom-faq .col-md-4 h3{font-size:18px;}
+/* contact page */
+	.trngl{margin-left:30%;}
+}

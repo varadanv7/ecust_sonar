@@ -1,0 +1,73 @@
+    <script src="https://www.mapquestapi.com/sdk/js/v7.1.s/mqa.toolkit.js?key=Gmjtd%7Cluu22g6tn0%2Cag%3Do5-lz2lg"></script>
+	<script type='text/javascript' src='../common/jquery-1.9.1.min.js'></script>
+	<link rel="stylesheet" href="../common/map.css"/>	
+	<script type="text/javascript">
+		// An example of using the MQA.EventUtil to hook into the window load event and execute the defined
+		// function passed in as the last parameter. You could alternatively create a plain function here and
+		// have it executed whenever you like (e.g. <body onload="yourfunction">).
+		var map;
+		MQA.EventUtil.observe(window, 'load', function() {
+
+			// create an object for options
+			var options = {
+				elt: document.getElementById('map1'),           	// ID of map element on page
+				zoom: 13,                                      	// initial zoom level of the map
+				latLng: { lat: 37.819827, lng: -122.478514 },  	// center of map in latitude/longitude
+				mtype: 'map',                                  	// map type (map, sat, hyb); defaults to map
+				bestFitMargin: 0,                              	// margin offset from map viewport when applying a bestfit on shapes
+				zoomOnDoubleClick: true,						// enable map to be zoomed in when double-clicking on map
+				minimized: true                        
+			};
+			// construct an instance of MQA.TileMap with the options object
+			window.map = new MQA.TileMap(options);
+			
+			// download the modules
+			MQA.withModule('htmlpoi','new-route','largezoom', 'mousewheel','shapes', function() {	 
+				// add the Large Zoom control
+				map.addControl(
+					new MQA.LargeZoom(),
+					new MQA.MapCornerPlacement(MQA.MapCorner.TOP_LEFT, new MQA.Size(5,5))
+				);
+				// enable zooming with your mouse
+				map.enableMouseWheelZoom();
+				drawmarkers();
+			});
+			
+		});
+
+		function drawmarkers() {
+						
+			var poi = new MQA.Poi({ lat: 37.819827, lng: -122.478514 });
+			poi.setIcon(new MQA.Icon('../images/mm_20_red.png', 12, 32));
+			
+			var toHere='<form id="formDir" action="javascript:getDirections();"><p class="small grey">Start Address</p><input id="startAddr" class="address" type="text"><input value="Go" type="submit" ><p></p><input id="endAddr" value="Golden Gate Bridge,San Francisco,CA,94129@37.819827, -122.478514" type="hidden"></form>';
+				
+			var html ='<div style="width:150px;height:80px;white-space: nowrap;"><b>Get Directions:</b>'
+							+'<a href="javascript:void(0)" onclick="openDirpanel();">To Here</a>'+toHere+'<span id="hidden_span" style="visibility:hidden"><br><br><br><br><br><br></span></div>';
+										
+			poi.setInfoContentHTML(html);
+			poi.setShadowOffset({ x: 5, y: -25 });
+			map.addShape(poi);
+								
+		}	
+		
+		function openDirpanel(){
+			$('form').hide();
+			$('form[id=formDir]').show();
+			$('#hidden_span').hide();
+		}
+		
+		function getDirections() {
+			var start = $('#startAddr').val();
+			var end = $('#endAddr').val();
+			
+			map.addRoute({
+			 request: {
+			   locations: [start,end]
+			 }
+		   });
+		}
+	</script>
+	<DIV id="mapOuter">
+		<DIV id="map1"></DIV>
+	</DIV>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>FasTrak</title>
+    <!--#include file="../common/headerinclude.html"-->
+
+ 
+</head>
+
+<body onLoad="setWindowSizeP()">
+ <!--#include file="../common/html/pageheader.shtml"-->
+<div class="container"><ol class="breadcrumb">
+	  <li><a href="../home/index.shtml"><img src="../images/breadcrumb/Home_icon.png"></a></li>
+	  <li>Guide</a></li>
+	  <li class="active">Rental Vehicles & Visitors</li>
+</div>
+<div class="contentEnvelope">
+<!-- content -->
+	<div class="contentTitle">RENTAL VEHICLES & VISITORS</div>
+	<img src="../images/visitorsBridge.jpg" width="100%" style="margin-top: 25px; margin-bottom: 15px;">
+	<div class="left2Col">
+		<div class="twoColCopyBlock">
+		Bay Area toll bridges and express lanes collect tolls. A FasTrak account lets you pay all tolls conveniently and allows a carpool to receive toll discounts and to travel toll-free. 
+
+		</div>
+	</div>
+	<div class="right2Col">
+		<div class="twoColCopyBlock">
+		Without a FasTrak account, you can pay all bridge tolls in other ways and, as a carpool, travel toll-free in some express lanes. The choice is yours.
+		</div>
+	</div>
+	<div class="greenArticleTop">In A Rental Car, Pay Tolls Through a Rental Company</div>
+	<div class="left2Col">
+		<div class="twoColCopyBlock">
+		Most rental companies provide a service plan to pay your tolls. These plans usually cover most types of tolls but may not cover all, such as certain express lanes. These plans charge a convenience fee plus the tolls you incur. You can opt in to the plan.
+		</div>
+	</div>
+	<div class="right2Col">
+		<div class="twoColCopyBlock">
+		 Or, you can opt out and pay tolls directly. You can pay many tolls yourself without a FasTrak account, but if you want all travel options, you will need a FasTrak account.
+		</div>
+	</div>
+	<div class="greenArticleTop">In a Rental Car or Your Own Vehicle, Pay Tolls Directly</div>
+	<div class="left2Col">
+		<div class="twoColCopyBlock">
+		You have two choices to pay tolls directly yourself. You can pay particular tolls and use many travel options in the Bay Area, without a FasTrak account. Or, you can use FasTrak's electronic toll service for full convenience and all travel options.
+
+		<div class="orangeTitleCallout">Choice #1: Pay tolls <b>without</b> a FasTrak account</div>
+
+		You can:<br>
+		<ul>
+			<li class="lister">On all Bay Area toll bridges, except the Golden Gate Bridge, pay cash tolls</li>
+			<li class="lister">On the Golden Gate Bridge, pay the toll using one of the <a href="#convenient" class="inLineLinkk">convenient options</a></li>
+			<li class="lister">In express lanes on the SR-237 and I-680 in the southern Bay Area, travel toll-free as a carpool</li>
+		</ul>
+		You cannot:<br>
+		<ul>
+			<li class="lister">On Bay Area toll bridges, use the carpool lane during commute hours for faster travel and toll discounts</li>
+			<li class="lister">On the Golden Gate Bridge, get the $1 toll discount</li>
+			<li class="lister">In the express lanes on the SR-237 and I-680, travel as a solo driver</li>
+			<li class="lister">In the I-580 Express Lanes in the eastern Bay Area, travel as a solo driver or carpool</li>
+		</ul>
+		</div>
+		</div>
+		<div class="right2Col">
+		<div class="twoColCopyBlock">
+		<div class="orangeTitleCallout" style="margin-top: 0;">Choice #2: Pay tolls <b>with</b> a FasTrak account</div>
+
+		You can:
+		<br>
+		<ul>
+			<li class="lister">On all Bay Area toll bridges, including the Golden Gate Bridge, pay tolls electronically</li>
+			<li class="lister">On the Golden Gate Bridge, get the $1 toll discount</li>
+			<li class="lister">On all Bay Area toll bridges, use the carpool lane as a carpool during commute hours for faster travel and toll discounts</li>
+			<li class="lister">In the express lanes on the SR-237 and I-680, travel either as a solo driver paying the toll or as a carpool for toll-free travel</li>
+			<li class="lister">In the I-580 Express Lanes in the eastern Bay Area, travel as a solo driver, and, using a FasTrak Flex toll tag, travel toll-free as a carpool</li>
+			<li class="lister">At SFO, pay for parking</li>
+		</ul>
+		<div class="tipsBlock">
+			<div class="tipsBlockTitle">Use your FasTrak account for a rental vehicle</div>
+			It's convenient to pay tolls in any vehicle you are driving using your existing FasTrak account and toll tag. Log in to your account. Add the vehicle with its license plate number to your Registered Vehicle list. Set the dates to the period you are using the vehicle. Mount your toll tag in the vehicle. At the end of the period of use, remove your toll tag from the vehicle and delete the vehicle from your account.
+			</div>
+			<div class="tipsBox">TIP</div>
+		</div>
+		</div>
+		
+		<div class="left2Col">
+		<div class="greenArticleTop">Crossing The Golden Gate Bridge <a name="convenient"></a></div><br>
+		<div class="twoColCopyBlock">
+		<img src="../images/visitorGGBridge.jpg" width="100%" style="margin-top: 5px; margin-bottom: 15px;" class="imgDropshadow">
+		<br>
+		This bridge charges a toll when you cross southbound into San Francisco, but you cannot stop on the bridge to pay the toll. You must use other options to pay. The tolling process begins when a camera reads your vehicle license plate or when an antenna detects a toll tag. If you have a rental vehicle toll plan, it will pay this toll for you. Or, you can pay the toll directly using one of our payment options.
+		<br><br>
+		A One Time Payment is an easy option to pay this toll.
+		<br><br>
+		<a href="../guide/GGBridgeToll.shtml" class="oliveButton">Golden Gate Bridge Toll</a>
+		<div class="tipsBlock" style="width: 90%">
+			<div class="tipsBlockTitle">48 hours to pay Golden Gate Bridge tolls</div>
+			If you are paying tolls using a One Time Payment, make sure you pay the Golden Gate Bridge toll on time. Otherwise the rental company will pay the toll and may charge you an additional service fee.
+			</div>
+			<div class="tipsBox">TIP</div>
+		</div>
+		</div>
+		
+		<div class="right2Col">
+		<div class="greenArticleTop">Consider Getting FasTrak</div>
+		<div class="twoColCopyBlock">
+		<br>
+		You can open a FasTrak account to pay tolls electronically and use all FasTrak travel options even during a short visit to the Bay Area.
+		<br><br>
+		With FasTrak, you avoid waiting in line to pay cash tolls at bridges. You automatically receive a $1 discount on each Golden Gate Bridge toll charged to your account. You can use all express lanes as a solo driver. 
+		<br><br>
+		To travel toll-free in the I-580 Express Lanes as a carpool, motorcycle or eligible Clean Air Vehicle (CAV), get a FasTrak Flex toll tag instead of a standard FasTrak toll tag, at no additional cost.
+		<br><br>
+		<a href="../signup/signUp.shtml" class="greenButton">Sign Up</a>
+		</div>
+		<div class="greenArticleTop">Using Express Lanes</div>
+		<div class="twoColCopyBlock">
+		<br>
+		Express Lanes are available in the eastern and southern Bay Area to bypass traffic congestion. If you need this travel option, you'll need to open a FasTrak account. Learn more here.
+			<div style="width: 100%">
+				<div class="sideBysideBox" style="margin-right: 50px;"><a href="../guide/expressLane.shtml" class="oliveButton">Express Lanes</a></div>
+				<div class="sideBysideBox"><a href="../guide/doINeedFlex.shtml" class="oliveButton">FasTrak Flex</a></div>
+			</div>
+		</div>
+		</div>
+		</div>
+		
+		
+	</div>
+<!-- end content -->
+</div>
+<div class="footerTopperRelated">
+	<div class="relatedLinks">Related Links</div>
+	<div class="footerBlockRelated">
+	<a href="../support/faqs.shtml" class="footerLink">Rental Vehicle FAQs</a>
+	<br>
+	<a href="http://goldengate.org/tolls/tolltipsforvisitors.php" class="footerLink" target="_blank">Golden Gate Bridge Tips for Visitors</a>
+	<br>
+	<a href="http://goldengate.org/tolls/rentalvehicles.php" class="footerLink" target="_blank">Golden Gate Bridge Rental Vehicles</a>
+	</div>
+</div>
+<!--#include file="../common/html/footerpage.shtml"-->
+  </body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+	<!--#include file="../common/headerinclude.html"-->
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+	<!--#include file="../common/topnavigationnh.html"-->
+	<div class="container"><ol class="breadcrumb">
+	  <li><a href="../home/index.shtml"><img src="../images/breadcrumb/Home_icon.png"></a></li>
+	  <li class="active">Registrarse</li>
+	</ol></div>
+	
+	<div class="container clstatic" editarea="img111">
+	
+
+	<h1 class="page-header-noborder">
+		Suscribirse para abrir una nueva cuenta
+	</h1>
+	
+	<div class="table-responsive">
+	  <table class="withborder">
+		<thead>
+		<tr>
+			<td class="row3">Abrir una cuenta de FasTrak</td><td class="row3">A&ntilde;adir a su cuenta su dispositivo de peaje que compr&oacute; en una tienda</td><td class="row3">Abrir una nueva cuenta con su dispositivo de peaje que compr&oacute; en una tienda</td>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+		<td class="row3"><img src="../images/OpenFasTrakAccount.png"></td>
+		<td class="row3"><img src="../images/RegisterNewAccount.png"></td>
+		<td rowspan="2">
+			<form role="form" name="inquiryForm" method="post" action="/vector/account/transponders/registerTollTag.do?from=Home&locale=es_US">
+			  <div class="form-group has-feedback" id="tollTagNumber">
+				<label>N&Uacute;MERO DEL DISPOSITIVO DE PEAJE*</label>
+				<input type="text" id="tt_tollTagNumber" class="form-control" placeholder="N&uacute;mero Del Dispositivo De Peaje" maxlength="11" size="30" name="tollTagNumber" onblur="fillChars(this.value);tabOutTopNav('tollTagNumber',this.value, tagregURL);">
+				El n&uacute;mero del dispositivo de peaje se encuentra en la parte frontal de este.
+			  </div>
+			  <div class="form-group has-feedback" id="validationCode">
+				<label>C&Oacute;DIGO DE VALIDACI&Oacute;N*</label>
+				<input type="text" id="tt_validationCode" class="form-control" placeholder="8-caracteres" maxlength="8" size="30" name="validationCode" onblur="tabOutTopNav('validationCode',this.value, tagregURL)">
+				El c&oacute;digo de validaci&oacute;n se encuentra en las tiras para montar el dispositivo, en la parte trasera de este, y es alfanum&eacute;rico.
+			  </div>
+			  <input type="hidden" name="existingAccount" value="">
+			*obligatorio
+			</form>
+		</td>
+		</tr>
+		<tr>
+		<td class="row3"><br><br>
+		Pida que se le env&iacute;en por correo dispositivos de peaje como parte del proceso de suscripci&oacute;n. 
+		</td>
+		<td class="row3"><br><br>
+		Inicie sesi&oacute;n en su cuenta y seleccione la pesta&ntilde;a de "Dispositivos y veh&iacute;culos", en el panel de control. Seleccione "A&ntilde;adir un dispositivo" y escriba el n&uacute;mero de este y su c&oacute;digo de validaci&oacute;n.
+		</td>
+		</tr>
+		<tr>
+		<td class="row3"><a style="font-family:inherit" class="btn btn-lg btn-default btn-block btngf" href="../signup/fastrakprep.shtml">&iexcl;SUSCR&Iacute;BASE AHORA!</a></td>
+		<td class="row3"><a style="font-family:inherit" class="btn btn-lg btn-default btn-block btngf" href="../routers/my_account.html">INICIAR SESI&Oacute;N EN SU CUENTA</a></td>
+		<td class="row3"><a style="font-family:inherit" class="btn btn-lg btn-default btn-block btngf" value="1" name="btnRegisterNewAccount" href="javascript:registerToNew();">REGISTRAR A NUEVA CUENTA</a></td>
+		</tr>
+		</tbody>
+		<tfoot><tr><td class="row3"></td><td class="row3"></td><td class="row3"></td></tr></tfoot>
+	  </table>
+	</div>
+	
+	</div>
+	<script type="text/javascript">
+	function registerToExisting(){
+		document.forms["inquiryForm"].action="/vector/account/transponders/registerTollTag.do?existingAccount=true&from=Home&locale=es_US";
+		document.forms["inquiryForm"].submit();
+	}
+	function registerToNew(){
+		document.forms["inquiryForm"].action="/vector/account/transponders/registerTollTag.do?btnRegisterNewAccount=1&from=Home&locale=es_US";
+		document.forms["inquiryForm"].submit();
+	}
+	function fillChars(val){
+		var filler="00000000000";
+		if(!!document.getElementById('tt_tollTagNumber') && val != null && val != ""){
+			document.getElementById('tt_tollTagNumber').value=filler.substring(0,11-val.length)+val;
+		}
+	}
+	</script>
+	<!--#include file="../common/footer.html"-->
+	<!--#include file="../common/footerinclude.html"-->
+    </body>
+</html>

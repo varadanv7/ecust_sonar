@@ -1,0 +1,246 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+	"http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Cache-Control" content="no-store">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="-1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="Copyright" content="Copyright (c) 2007 - 2008 ACS">
+<title>Metro ExpressLanes </title>
+<link rel="stylesheet" href='../common/ezpass.css' type="text/css">
+
+<script type='text/javascript' language='JavaScript' src='../common/construction.js'></script>
+<script type='text/javascript' language='JavaScript' src='../common/js/jquery.js'></script>
+<script type='text/javascript' language='JavaScript' src='../common/js/ui.core.js'></script>
+
+<script type="text/javascript">
+$(function(){
+	$("#btnLogin img, #btnSignUpForNewAccount img").hover(function(){
+		$(this).attr("src","../images/" + $(this).parent().attr("id") + "3.gif");
+	},function(){
+		$(this).attr("src","../images/" + $(this).parent().attr("id") + "1.gif");
+	});
+	$("#btnLogin img, #btnSignUpForNewAccount img").click(function(){
+		$(this).attr("src","../images/" + $(this).parent().attr("id") + "2.gif");
+	});
+}); 
+</script> 
+
+<script>
+function fsubmit(){
+	if(document.forms["fLogin"].login.value.length>0 && document.forms["fLogin"].password.value.length>0)
+		document.forms["fLogin"].submit();
+}
+function fsignup(){
+document.location.href="#";
+}
+</script>
+
+<!-- Support jquery ui faqs -->
+<link type="text/css" href='../common/jquery-ui-1.8.4.custom.css' rel="stylesheet" />
+<script type="text/javascript" src='../common/js/jquery-1.4.2.min.js'></script>
+<script type="text/javascript" src='../common/js/jquery-ui-1.8.4.custom.min.js'></script>
+<script type="text/javascript">
+	$.fx.speeds._default = 500;
+</script>
+
+<link type="text/css" href='../custom/messages.css' rel="stylesheet" />
+<script type='text/javascript' language='JavaScript' src='./home.js'></script>
+<script type='text/javascript' language='JavaScript' src='../common/js/jquery.youtubepopup.min.js'></script>
+</head>
+
+<body onLoad='runSlideShow();'>
+<div class="container1">
+
+<!--banner start-->
+<div class="header1">
+<img src= '../images/Banner_960x96.gif' title='Metro ExpressLanes' alt="" border="0">
+</div>
+<!--banner end-->
+
+<!--top menu start-->
+<div class="header1">
+	<div class="tmwrapper">
+	<div class="tmcontainer">
+	<ul class="menu">
+		<li><a title='Open an Account'>Open an Account</a></li>
+		<li><a title='My Account'>My Account</a></li>
+		<li><a title='Violations'>Violations</a></li>
+		<li><a title='About ExpressLanes'>About ExpressLanes</a></li>
+		<li><a title='FAQs'>FAQs</a></li>
+	</ul>
+	</div>
+	<div class="tmcontainer">
+	<ul class="menu1">
+		<li><h5><a>En Espa&ntilde;ol</a></h5></li>
+	</ul>
+	<div class="tmcontainer sociallinks">
+		<a target='_blank' alt='' title='Follow ExpressLanes on Facebook.'><img src='../images/facebook.gif'></a>
+		<a target='_blank' alt='' title='Follow ExpressLanes on Twitter.'><img src='../images/twitter.gif'></a>
+		<a target='_blank' alt='' title='Follow ExpressLanes on YouTube.'><img src='../images/youtube.gif'></a>
+	</div>
+	</div>
+	</div>
+</div>
+
+<div class='hometopimage'>
+	<a id='homeImageLink' class='youtube'>
+	<img id="homeImage" src='../images/home/Promo_ComingSoon_800x300.jpg' alt='' border='0'></a>
+</div>
+<!--top menu end-->
+
+<!-- sidebar start-->
+<div class="sidebar1">
+	<div class="sideBlueBox">
+	<h3>Log In</h3>
+	<form action="/vector/account/home/accountLogin.do" method="post" name="fLogin">
+		<table border="0">
+		<tr><td align="right">User ID:</td><td><input type="text" name="login" maxlen="35" size="10"></td></tr>
+		<tr><td align="right">Password:</td><td><input type="password" name="password" maxlen="30" size="11"></td></tr>
+		<tr><td align="right"><a>Login&nbsp;Help</a></td><td>
+		<a id="btnLogin" ><img border="0" src="../images/btnLogin2.gif"></a>
+		</td></tr>
+		<tr><td colspan="2" align="center"><hr></td>
+		<tr><td colspan="2" align="center">
+		<a id="btnSignUpForNewAccount" ><img border="0" src="../images/btnSignUpForNewAccount2.gif"></a>
+		</td></tr>
+		</table>
+		<input type="hidden" name="loginType" value="username">
+		<input type="hidden" name="btnLogin.y" value="1">
+		<input type="hidden" name="btnLogin.x" value="1">
+		<input type="hidden" name="formid" value="frmLogin">
+		<input type="hidden" name="locale" value="en_US">
+		<input type="hidden" name="from" value="Home">
+	</form>
+	</div>
+
+	<div id="home511" class="sideBlueBox">
+	<h3>Live Traffic from 511</h3>
+	<a target='_blank'><img alt="Los Angeles Area Traffic Information" src="../images/12-0000_WEB_511_bannerad_r1v3.jpg" title="Click here for Los Angeles Traffic Map with real-time traffic conditions!"/></a>
+	</div>
+
+	<div id="home511" class="sideBlueBox">
+	<h3>AAA Members</h3>
+	<div  style='xpadding:5px;text-align:center;'>
+	<a target='_blank'><img alt="AAA Discount" src="../images/ad_170x108_AAA.gif" title="Click here for AAA member discount."/></a>
+	Find out about our special discount for AAA Members.
+	</div></div>
+</div>
+<!--sidebar end-->
+
+<!--content start-->
+<div class="content1">
+	
+	<div style='float:left;'>
+	<!-- signup button -->
+	<a id='btnSignUpToday' >
+	<img src='../images/ad_310x130_SignUpNow.gif' border='0' title='Click here to sign up today!'>
+	</a>
+	</div>
+
+	<!-- timer -->
+	<div style='float:right;margin-right:66px;border:0px solid #c0c0c0;'>
+	<script type="text/javascript" src="https://cdn.widgetserver.com/syndication/subscriber/InsertWidget.js"></script>
+	<script type="text/javascript">if (WIDGETBOX) WIDGETBOX.renderWidget('443836d0-4edb-4079-a8a8-688c2e030730');</script>
+	<noscript>Get the <a href="http://www.widgetbox.com/i/443836d0-4edb-4079-a8a8-688c2e030730">Countdown Creator Pro</a> widget and many other <a href="http://www.widgetbox.com/">great free widgets</a> at <a href="http://www.widgetbox.com">Widgetbox</a>! Not seeing a widget? (<a href="http://support.widgetbox.com/">More info</a>)</noscript>
+	</div>
+	
+	<div id="homeNews" class="contentPink" style='margin-top:15px;'>
+	<h3>Latest News</h3>
+	<h6 style='margin-bottom:0;'>
+<!-- Messages -->
+<div class="msg_default msg_left">
+	<div id="leftbox" style='font-size: 18px;line-height:30px;text-align:center;'>
+	The Metro ExpressLanes site is under construction and will be<br>available to the public on June 18th, 2012.<br>Please visit again.
+	</div>
+</div>
+<!-- End Messages -->
+	</h6>
+	</div>
+
+	<div class="contentGrey" style='padding:0;margin:0;'>
+	<h3 style='margin-bottom:0;'>FasTrak&reg; Entry and Exit Locations</h3>
+	<a target='_blank' alt='' title='ExpressLanes Toll Entry & Exit Map'>
+	<img src='../images/ExpressLanes_Map_718.jpg'  title='Click to download Metro ExpressLanes Map Toll Entry Map' alt='' style='padding:0;margin:0;'>
+	</a>
+	</div>
+
+</div>
+<!--content end-->
+
+<!-- footer start -->
+
+<div class="footerlogo">
+  	<div class="fltlft"><img src= '../images/Logo_Metro_200x100.gif' alt="" border="0" /></div>
+  	<div class="fltrt"><img src= '../images/Logo_Fastrak_140x100.gif' alt="" border="0" /></div>
+</div>
+<div class="footer1">
+
+<div class="footnav">
+<ul>
+  <li class="head">Getting Started</li>
+  <li><a title='Get FasTrak&reg;'>Get FasTrak<sup>&reg;</sup></a></li>
+  <li><a title='Register Your FasTrak&reg; Transponder'>Register Your FasTrak<sup>&reg;</sup> Transponder</a></li>
+  <li><a title='FasTrak&reg; Mounting Instructions (PDF 279K)' >FasTrak<sup>&reg;</sup> Mounting Instructions</a></li>
+  <li><a title='Account Plans &amp; Fee Schedule'>Account Plans &amp; Fee Schedule</a></li>
+  <li><a title='Contact Us'>Contact Us</a></li>
+</ul>
+</div>
+
+<div class="footnav">
+<ul>
+  <li class="head">My Account</li>
+  <li><a title='Update Account'>Update Account</a></li>
+  <li><a title='Update Credit Card'>Update Credit Card</a></li>
+  <li><a title='Make a Payment'>Make a Payment</a></li>
+  <li><a title='Add a Vehicle'>Add a Vehicle</a></li>
+  <li><a title='Manage Retail Account'>Manage Retail Account</a></li>
+</ul>
+</div>
+
+<div class="footnav">
+<ul>
+  <li class="head">Violations</li>
+  <li><a title='Pay a Violation'>Pay a Violation</a></li>
+  <li><a title='Dispute a Violation'>Dispute a Violation</a></li>
+</ul>
+</div>
+
+<div class="footnav">
+<ul>
+  <li class="head">About Metro ExpressLanes</li>
+  <li><a title='How it Works'>How it Works</a></li>
+  <li><a title='Carpool Loyalty Program'>Carpool Loyalty Program</a></li>
+  <li><a title='Transit Rewards Program'>Transit Rewards Program</a></li>
+  <li><a title='ExpressLanes Map'>ExpressLanes Map</a></li>
+  <li><a title='FAQs'>FAQs</a></li>
+</ul>
+</div>
+
+<div class="footnav">
+<ul>
+  <li class="head">Latest News & Information</li>
+  <li><a title='Give us Feedback'>Give us Feedback</a></li>  <!-- still unspecified -->
+  <li><a title='Privacy Policy'>Privacy Policy</a></li>
+  <li><a title='Newsroom'>Newsroom</a></li>
+  <li><a title='Useful Links'>Useful Links</a></li> <!-- thought this was to be removed??? -->
+  <li>ExpressLanes &copy; 2012</li>
+</ul>
+</div>
+
+</div>
+
+<script type="text/javascript">
+	function showMountingInstructions() {
+		$('<div/>')
+	.html('<iframe style="width:680px;height:490px;" src="../about/12-1828_EL_transponder_mounting_instr_color_LO.pdf"></iframe>')
+	.dialog({ width: 710, height: 550, title: "FasTrak Mounting Instructions", resizable: false, modal: true });
+	}
+</script>
+
+<!-- footer end -->
+</div>
+</body>
+</html>

@@ -1,0 +1,182 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="utf-8" />
+
+  <title>FasTrak</title>
+ <!--#include file="../common/headerinclude.html"-->
+ 
+</head>
+
+<body onload="setWindowSizeP()">
+ <!--#include file="../common/html/pageheader.shtml"-->
+  <div class="container"><ol class="breadcrumb">
+	  <li><a href="../home/index.shtml"><img src="../images/breadcrumb/Home_icon.png" /></a></li>
+	  <li>Guide</li>
+	  <li class="active">Toll Bridges &amp; Parking</li>
+	</ol>
+</div>
+<div class="contentEnvelope" editarea="img1111" editarea="bridgeParking" editareadesc="bridge Parking"><!-- content --> 
+<div class="contentTitle">
+  TOLL BRIDGES &amp; PARKING 
+</div> 
+<img src="../images/skipLines.jpg" width="100%" style="margin-top: 15px;" /> 
+<div class="greenArticleTop">
+  All Bay Area Toll Bridges 
+</div> 
+<div class="left2Col"> 
+ <div class="twoColCopyBlock">
+   A FasTrak toll tag pays tolls electronically on all eight toll bridges in the San Francisco Bay Area. It gives a $1 discount on the Golden Gate Bridge. 
+  <div class="orangeTitleCallout">
+    How FasTrak works 
+  </div> 
+  <div> 
+   <table cellpadding="0" cellspacing="0"> 
+    <tbody> 
+     <tr> 
+      <td><img src="../images/bullet1.png" style="margin-right: 10px;" /></td> 
+      <td class="greenBullet">FasTrak Toll Tag</td> 
+     </tr> 
+    </tbody> 
+   </table> 
+   <div style="margin-left: 40px; line-height: 15px;">
+     A properly mounted toll tag is detected. 
+   </div> 
+  </div> 
+  <div style="margin-top: 10px;"> 
+   <table> 
+    <tbody> 
+     <tr> 
+      <td><img src="../images/bullet2.png" style="margin-right: 10px;" /></td> 
+      <td class="greenBullet">Antenna</td> 
+     </tr> 
+    </tbody> 
+   </table> 
+   <div style="margin-left: 40px; line-height: 15px;">
+     An antenna detects the toll tag which beeps as you drive through. FasTrak electronically checks your account. 
+   </div> 
+  </div> 
+  <div style="margin-top: 10px;"> 
+   <table> 
+    <tbody> 
+     <tr> 
+      <td><img src="../images/bullet3.png" style="margin-right: 10px;" /></td> 
+      <td class="greenBullet">Account Status Display</td> 
+     </tr> 
+    </tbody> 
+   </table> 
+   <div style="margin-left: 40px; line-height: 15px;">
+     The display shows one of the following: 
+    <br /> 
+    <b>Valid FasTrak</b> - your account paid the toll 
+    <br /> 
+    <b>Account Low or Low Balance</b> - you should increase your account's prepaid balance 
+    <br /> 
+    <b>Call FasTrak or Pay Toll</b> - your account needs more funds to pay the required amount using FasTrak. 
+   </div> 
+  </div> 
+  <div style="margin-top: 10px;"> 
+   <table> 
+    <tbody> 
+     <tr> 
+      <td><img src="../images/bullet4.png" style="margin-right: 10px;" /></td> 
+      <td class="greenBullet">Cameras</td> 
+     </tr> 
+    </tbody> 
+   </table> 
+   <div style="margin-left: 40px; line-height: 15px;">
+     Cameras take pictures of the vehicle license plates as they pass through. In case a toll tag is not detected, the pictures are used to identify your vehicle and charge your account. They are also used to identify vehicles which cross without paying the toll as violators. 
+   </div> 
+  </div> 
+  <img src="../images/ladyDriver.jpg" width="100%" class="imgDropshadow" id="ladyDriver" style="margin-top: 15px;" /> 
+ </div> 
+</div> 
+<div class="right2Col"> 
+ <div class="twoColCopyBlock"> 
+  <div class="orangeTitleCallout" style="margin: 70px 0px 20px 0px">
+    Bridge Toll Collection Point 
+  </div> 
+  <img src="../images/tollBooth.png" width="100%" /> 
+  <br /> 
+  <br /> 
+  <div> 
+   <div class="orangeTitleCallout">
+     Carpools Get Discounts 
+   </div> Carpools, vanpools, motorcycles and eligible clean air vehicles (CAV) can receive a discounted toll. Use the carpool lane with a FasTrak toll tag. 
+  </div> 
+  <div class="tipsBlock"> 
+   <div class="tipsBlockTitle">
+     The Bay Bridge Toll Plaza's Bus Only/Carpool Lane 
+   </div> A carpool with a FasTrak toll tag may use this bypass lane during the posted carpool hours. However, at all other times this lane is for buses only and any other vehicle using it may incur a violation. 
+  </div> 
+  <div class="tipsBox">
+    TIP 
+  </div> 
+ </div> 
+</div> 
+<div class="greenArticleTop">
+  Parking Garages Using FasTrak 
+ <a name="parking" id="parking"></a> 
+</div> 
+<img src="../images/parkingGarage1.jpg" width="100%" class="imgDropshadow" style="margin: 15px 0px 25px 0px;" /> 
+<div class="left2Col"> 
+ <div class="twoColCopyBlock">
+   The San Francisco International Airport (SFO) Long Term and Short Term parking facilities accept FasTrak for payment. 
+  <div class="orangeTitleCallout">
+    You can use FasTrak for parking at SFO if 
+  </div> 
+  <ul> 
+   <li class="lister">You auto-pay your FasTrak account online by credit card</li> 
+   <li class="lister">You opted-in to the FasTrak parking program:<br /> FasTrak will deduct a parking fee of $10.00 or less from your account balance. FasTrak will charge any parking fee greater than $10.00 directly to your credit card. </li> 
+  </ul> The opt-in setting can be found on the Account Settings page of your online account. 
+ </div> 
+</div> 
+<div class="right2Col"> 
+ <div class="twoColCopyBlock"> 
+  <div class="orangeTitleCallout" style="margin-top: 3px;">
+    How it works at the garage 
+  </div> 
+  <ul> 
+   <li class="lister">Display your toll tag for detection, usually mounted inside your windshield</li> 
+   <li class="lister">Enter the FasTrak lane and stop before the gate</li> 
+   <li class="lister">FasTrak reads your toll tag and the gate rises, but you will not receive any parking ticket</li> 
+   <li class="lister">Proceed to park</li> 
+   <li class="lister">To exit the garage, pull into a FasTrak lane and stop before the gate</li> 
+   <li class="lister">FasTrak detects your toll tag, charges your account or credit card, and the booth machine displays confirmation or other account information</li> 
+   <li class="lister">To open the exit gate, take your receipt from the booth machine </li> 
+  </ul> 
+  <div class="tipsBlock" style="width: 90%"> 
+   <div class="tipsBlockTitle">
+     Parking fee concerns, questions, or disputes 
+   </div> Please Contact: 
+   <br /> 
+   <div style="margin-left: 25px;">
+     New South Parking 
+    <br />San Francisco International Airport 
+    <br /> PO Box 280567, San Francisco, CA 94128 
+    <br /> Phone: (650) 821-7903 
+    <br /> 
+   </div> 
+   <a href="http://www.flysfo.com/contact-sfo" target="_blank">Contact SFO</a> 
+  </div> 
+  <div class="tipsBox">
+    TIP 
+  </div> 
+ </div> 
+</div> 
+<!-- end content --></div>
+<div class="footerTopperRelated">
+	<div class="relatedLinks">Related Links</div>
+	<div class="footerBlockRelated">
+	<a href="../guide/GGBridgeToll.shtml" class="footerLink">Golden Gate Bridge Toll</a>
+	<br />
+	<a href="../guide/carpool.shtml" class="footerLink">Using Carpool Lanes</a>
+	<br />
+	<a href="../support/faqs.shtml" class="footerLink">SF International Airport Parking FAQs</a>
+	</div>
+</div>
+<script src="../common/js/footer.js"></script>
+
+
+
+  
+
+</body></html>

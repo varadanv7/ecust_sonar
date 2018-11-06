@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+	"http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+<!--#include file="/en/common/head.html"-->
+</head>
+
+<body>
+<div class="container1">
+
+<!--#include file="/en/common/topbannermenu.html"--> 
+
+<!--#include file="/en/common/leftmenu_road.html"-->
+
+<script type='text/javascript' language='JavaScript'>
+$("#top_road").attr("class", "active");
+$("#traffic").attr("class", "active");
+</script>
+
+<!--content start-->
+<div class="content1">
+<div class="contentPlain">
+<!-- Begin Content -->
+<br>
+<span class="faq_title">Traffic Information</span>
+<br><br>
+<p>
+<a class="external" href="#" target="_blank" title="View Live Traffic">View Live Traffic</a>
+<p>
+<br>
+
+<!--  End Content  -->
+
+	</div>
+</div>
+<!--content end-->
+
+<!--#include file="/en/common/footer.html"-->
+</div>
+</body>
+</html>

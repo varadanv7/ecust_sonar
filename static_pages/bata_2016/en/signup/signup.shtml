@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>FasTrak</title>
+ <!--#include file="../common/headerinclude.html"-->
+ <!--#include file="../common/html/pageheader.shtml"-->
+  <script>
+  function boo(event){
+   var x = event.screenX;
+    var y = event.screenY;
+    var coords = "X coords: " + x + ", Y coords: " + y;
+	X = x + 300;
+    document.getElementById("detailed").style.top = '200px';
+    document.getElementById("detailed").style.left = '40px';
+
+    bloop = "#" + "detailed";
+	$(bloop).fadeIn(900);
+
+  }
+  </script>
+
+</head>
+
+<body onLoad="setWindowSizeP()">
+<div class="container"><ol class="breadcrumb">
+	  <li><a href="../home/index.shtml"><img src="../images/breadcrumb/Home_icon.png"></a></li>
+	  <li>Sign up</a></li>
+	  <li class="active">Sign up for Fastrak</li>
+</div>
+
+<div id="detailed" style="max-width: 600px;">
+<a href="#detailed" onClick="closer('detailed')" class="searchButton" style="margin-bottom: 15px; float: right;">X</a>
+<br><br>
+Call 1-877-229-8655<br>
+From outside USA: +1-415-486-8655
+<br><br>
+Customer Service Representatives available:<br>
+Monday - Friday 8:30am - 5:30pm<br>
+Saturday 9:00am - 1:00 pm<br>
+Or use our Automated Phone System
+<br>
+</div>
+
+<div class="contentEnvelope" editarea="signup" editareadesc="sign-up">
+<!-- content -->
+	<div class="contentTitle">SIGN UP FOR FASTRAK</div>
+	<div class="left2Col">
+		<div class="greenArticleTop">You Need an Account and a Toll Tag</div>
+		<div class="twoColCopyBlock">
+		<b>Pay by credit card.</b>
+		<br><br>
+		<a href="../routers/psignup.html" class="greenButton" >Open New Account</a>
+		<br><br>
+		Be ready with an email address, your vehicle license plate #, make, model and state of registration, and credit card information. Receive one or more toll tags by mail.
+		<br><br>
+		<b>Pay by cash or check.</b>
+		<br><br>
+		Call our <a href="#detailed" onclick="boo(event)" name="detailed" class="inLineLinkk">Customer Service Center</a> for guidance to set up your account and receive one or more toll tags by mail. Or download an application form in <a href="../images/application.pdf" class="inLineLinkk" target="_blank">English</a>, <a href="../images/application_sp.pdf" class="inLineLinkk" target="_blank">Espa&#241;ol</a> or <a href="../images/application_ch.pdf" class="inLineLinkk" target="_blank">中文</a>.
+		<br><br>
+		<b>To pick up a toll tag for immediate use, go to a retail store.</b><br>
+		Afterwards, register the toll tag and create an account.
+		<br><br>
+		<a href="../howitworks/retailmap.html" class="beigeButton" >Find a Retail Store</a>
+		</div>
+	</div>
+	<div class="right2Col">
+		<div class="greenArticleTop">You Have a Toll Tag but Need an Account</div>
+		<div class="twoColCopyBlock">
+			<div style="color: #454545; font-size: 14px;"><b>If you picked up a toll tag at a retail store, register your toll tag and create an account.</b></div>
+			<div style="width: 100%;">
+				<div class="sideBysideBox" style="margin-right: 20px;">
+				<input type="text" id="tollTag" name="tollTag" placeholder="Toll Tag #" maxlength="11"><br>
+				The toll tag number is located on the front side of the toll tag.
+				</div>
+
+				<div class="sideBysideBox">
+				<input type="text" id="validationTag" name="validationTag" placeholder="Validation Code" maxlength="8"><br>
+				The validation code is located on the mounting strip on the back side of the toll tag and is alpha-numeric.
+				</div>
+			</div>
+
+			<a href="javascript:tagreg()" class="greenButton" style="width: 240px; margin-top: 15px;">Register Toll Tag For New Account</a>
+			<br><br>
+			Be ready with an email address, your vehicle license plate #, make, model and state of registration, and a payment method. If paying by credit card, have the card information ready. You can also pay by cash or check.
+			<br>
+			<div class="tipsBlock">
+			<div class="tipsBlockTitle">You have an account and want to add a toll tag to it</div>
+
+			Log in to your account, go to Vehicles & Tags, and Add a Toll Tag.
+			</div>
+			<div class="tipsBox">TIP</div>
+		</div>
+	</div>
+
+<!-- end content -->
+</div>
+<!--#include file="../common/html/footerpage.shtml"-->
+
+
+
+  </body>
+</html>

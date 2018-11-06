@@ -1,0 +1,26 @@
+<ion-view view-title="Pay Documents" ng-controller="PayDocumentsCtrl">
+   <ion-content>
+      <div class="container">
+         <p style="display:none">{{page.title="Pay Documents"}}</p>
+         <p style="display:none">{{paydocuments.redirectURL="https://mobileapp.sunpass.com/vector/vurl/mobileapp/invoices/invoiceInquiry.do?serviceid="}}</p>
+         <div class="nospace">
+            <form id="pay_doc_form" method="post" class="form-horizontal mTop20">
+               <div class="form-group">
+                  <div class="row nospace-top">
+                     <div class="col-sm-12 col-xs-12 col-lg-12 nospace"> <input type="text" class="input-text form-control" name="tollNumber" id="tollnumber" ng-model="paydocuments.utcNumber" placeholder="Toll Enforcement Invoice or UTC Number"/> </div>
+                  </div>
+               
+                  <div class="row nospace-top">
+                     <div class="col-sm-12 col-xs-12 col-lg-12 nospace"> <input type="text" class="input-text form-control" name="lincensePlateNo" id="lpn" ng-model="paydocuments.plateNumber" placeholder="License Plate Number"/> </div>
+                  </div>
+               
+                  
+                  </div>
+               
+               <div class="row nospace"> <button href="#" ng-click="onPaySearchClick()" class="button pay-btn special text-center ripplelink2">Search</button> </div>
+            </form>
+        
+          </div>
+       </div>
+   </ion-content>
+</ion-view>

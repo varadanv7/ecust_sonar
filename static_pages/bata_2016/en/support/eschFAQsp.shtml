@@ -1,0 +1,306 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+
+<title>FasTrak</title>
+
+<!--#include file="../common/headerinclude.html"-->
+<!--#include file="../common/html/pageheader.shtml"-->
+
+<script>
+	function dropShower(arg, arg1) {
+		var chudd = document.getElementById('ploot').value
+		var gibbery = "#" + arg;
+
+		document.getElementById('subClaim').style.display = 'none'
+
+		if (chudd == 'X') {
+			$(gibbery).fadeIn("slow");
+			document.getElementById(arg1).src = '../images/orangeArrowD.png';
+			document.getElementById('ploot').value = 'Y'
+		} else if (chudd == 'Y') {
+			$(gibbery).fadeOut("slow");
+			document.getElementById(arg1).src = '../images/orangeArrowL.png';
+			document.getElementById('ploot').value = 'X'
+		}
+	}
+
+	function closeby() {
+		document.getElementById('subClaim').style.display = 'none';
+		document.getElementById('orangeArrowX').src = '../images/orangeArrowL.png';
+	}
+</script>
+</head>
+
+<body onLoad="setWindowSizeP()">
+	<input type="hidden" id="ploot" value="X">
+	<div class="container">
+		<ol class="breadcrumb">
+			<li><a href="../home/index.shtml"><img
+					src="../images/breadcrumb/Home_icon.png"> </a></li>
+			<li>Support</li>
+			<li>Unclaimed Property</li>
+			<li class="active">FAQ_SP</li>
+		</ol>
+	</div>
+	<div class="contentEnvelope" editarea="eschFAQsp" editareadesc="esch FAQsp">
+		<!-- content -->
+		<div class="contentTitle">
+			<div
+				style="display: inline-block; float: left; width: 240px; padding: 0 0 0 0;">&nbsp;</div>
+			<div style="display: inline-block; padding: 0 0 0 0;">PREGUNTAS
+				FRECUENTES</div>
+		</div>
+		<div class="menuCol">
+			<div class="menuBox">
+				<div class="navBox" id="overview">
+					<div class="arrowSpace">&nbsp;</div>
+					<a href="eschOverview.shtml" class="leftNav">OVERVIEW</a>
+				</div>
+				<div class="navBox" id="filing">
+					<div class="arrowSpace">&nbsp;</div>
+					<a href="eschFiling.shtml" class="leftNav">FILING A CLAIM</a>
+				</div>
+				<div class="navBox" id="claim">
+					<div id="claimOrangeArrow" class="arrowSpace">
+						<img src="../images/orangeArrowL.png" id="orangeArrowX">
+					</div>
+					<a href="#" onClick="dropShower('subClaim','orangeArrowX')"
+						class="leftNav">CLAIM FORM</a>
+				</div>
+				<div id="subClaim">
+					<div class="subby">
+						<a href="../images/EscheatmentClaimFormi123016-2b.pdf"
+							class="subbyLink" target="_blank">ENGLISH</a>
+					</div>
+					<div class="subby">
+						<a href="../images/EscheatmentClaimFormSpanishi020917.pdf"
+							class="subbyLink" target="_blank">ESPA&Ntilde;OL</a>
+					</div>
+					<div class="subby">
+						<a href="../images/EscheatmentClaimFormChinesei020917.pdf"
+							class="subbyLink" target="_blank">中文</a>
+					</div>
+				</div>
+				<div class="navBox" id="required">
+					<div class="arrowSpace">&nbsp;</div>
+					<a href="eschRequired.shtml" class="leftNav">REQUIRED
+						DOCUMENTATION</a>
+				</div>
+				<div class="navBox" id="faq">
+					<div id="faqOrangeArrow" class="arrowSpace">
+						<img src="../images/orangeArrowD.png" id="orangeArrowY">
+					</div>
+					<a href="eschFAQen.shtml" class="leftNav">FAQs</a>
+				</div>
+				<div id="subFaq">
+					<div class="subbyActive">PREGUNTAS FRECUENTES</div>
+					<div class="subby">
+						<a href="eschFAQch.shtml" class="subbyLink">常見問題</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="contentCol">
+			<div class="colFullCopy">
+				<div class="indentoFaqo">
+
+					<div class="faqLink" data-toggle="collapse" data-target="#faq1">
+						<img src="../images/orangeArrowSmL.png"
+							style="margin-right: 5px; float: left;">Recibí por correo
+						un aviso o encontré mi nombre en la lista de bienes no reclamados.
+						¿Cómo puedo recibir mis bienes antes de que sean transferidos a la
+						Bay Area Toll Authority?
+					</div>
+					<div id="faq1" class="collapse"
+						style="padding-left: 20px; max-width: 600px;">Para reclamar
+						sus bienes antes de que sean transferidos a la Bay Area Toll
+						Authority, usted debe enviar un Formulario de Reclamación
+						debidamente llenado, así como toda la documentación requerida, al
+						Centro de Servicio al Cliente de FasTrak a más tardar para el 30 de abril de 2018.</div>
+
+					<div class="faqLink" data-toggle="collapse" data-target="#faq2">
+						<img src="../images/orangeArrowSmL.png"
+							style="margin-right: 5px; float: left;">¿Tengo algún límite
+						de tiempo para presentar una reclamación?
+					</div>
+					<div id="faq2" class="collapse"
+						style="padding-left: 20px; max-width: 600px;">Sí, su
+						reclamación deberá ser presentada a más tardar para el 30 de abril de 2018. Las reclamaciones recibidas después del 30 de abril de 2018 deberán incluir una explicación por escrito del motivo de la
+						presentación tardía. La Bay Area Toll Authority, actuando a su
+						exclusiva discreción, determinará si acepta la reclamación tardía.
+					</div>
+
+					<div class="faqLink" data-toggle="collapse" data-target="#faq3">
+						<img src="../images/orangeArrowSmL.png"
+							style="margin-right: 5px; float: left;">¿En dónde puedo
+						encontrar el Formulario de Reclamación?
+					</div>
+					<div id="faq3" class="collapse"
+						style="padding-left: 20px; max-width: 600px;">
+						Descargue un Formulario de Reclamación imprimible en <a
+							href="../images/EscheatmentClaimFormi123016-2b.pdf"
+							class="inLineLinkk" target="_blank">inglés</a> o <a
+							href="../images/EscheatmentClaimFormSpanishi020917.pdf"
+							class="inLineLinkk" target="_blank">español</a>. Asegúrese de seguir todas las
+						instrucciones indicadas en el formulario y adjunte toda la
+						documentación requerida. También puede comunicarse con nosotros
+						llamando al 1-877-229-8655 para solicitar que se le envíe un
+						Formulario de Reclamación por correo o por fax.
+					</div>
+
+					<div class="faqLink" data-toggle="collapse" data-target="#faq4">
+						<img src="../images/orangeArrowSmL.png"
+							style="margin-right: 5px; float: left;">¿Cómo puedo
+						presentar una reclamación?
+					</div>
+					<div id="faq4" class="collapse"
+						style="padding-left: 20px; max-width: 600px;">
+						Siga las instrucciones indicadas en el Formulario de Reclamación.
+						Asegúrese de llenarlo por completo, firmarlo y enviarlo al Centro
+						de Servicio al Cliente de FasTrak junto con la documentación
+						requerida. Los formularios debidamente llenados pueden ser
+						presentados en persona, por correo, por fax o por Internet.
+						<div style="margin: 0 0 0 20px;">
+							<div class="orangeTitleCallout">En persona</div>
+							Centro de Servicio al Cliente de FasTrak<br> 375 Beale
+							Street San Francisco, CA 94015 <a
+								href="../other/contactSpanish.shtml" class="inLineLinkk">Haga
+								clic aquí</a> para recibir instrucciones sobre cómo llegar y el
+							horario de servicio.
+							<div class="orangeTitleCallout">Por correo:</div>
+							FasTrak Customer Service Center Escheatment Claims<br> PO
+							Box 26926 San Francisco, CA 94126 <br> Por Fax
+							1-415-974-6356 <br>
+							<div class="orangeTitleCallout">Por Internet:</div>
+							1. Acuda a <a href="../routers/contactUs.html"
+								class="inLineLinkk">Email FasTrak</a><br> 2. Haga clic en
+							Web, y cuando aparezca el menú desplegable, seleccione <b>
+								Unclaimed Property</b>.<br> 3. Llene su información y cargue su
+							Formulario de Reclamación firmado y la documentación requerida.<br>
+							4. Haga clic en <b>Submit</b>.<br>
+						</div>
+					</div>
+
+					<div class="faqLink" data-toggle="collapse" data-target="#faq5">
+						<img src="../images/orangeArrowSmL.png"
+							style="margin-right: 5px; float: left;">¿Cómo puedo
+						presentar la reclamación de un propietario que ha fallecido?
+					</div>
+					<div id="faq5" class="collapse"
+						style="padding-left: 20px; max-width: 600px;">
+						Puede presentar una reclamación de los bienes de un propietario
+						que ha fallecido si usted es un heredero, fideicomisario o
+						representante legal/albacea/administrador. Sírvase consultar las
+						instrucciones de presentación <a href="eschRequired.shtml"
+							class="inLineLinkk">de reclamaciones de propietarios</a> que han
+						fallecido para informarse acerca de la documentación que
+						necesitará presentar para comprobar la propiedad de los bienes.
+					</div>
+
+					<div class="faqLink" data-toggle="collapse" data-target="#faq6">
+						<img src="../images/orangeArrowSmL.png"
+							style="margin-right: 5px; float: left;">¿Puedo presentar
+						una reclamación mancomunadamente con otro propietario?
+					</div>
+					<div id="faq6" class="collapse"
+						style="padding-left: 20px; max-width: 600px;">Sí, si todos
+						los propietarios firman el Formulario de Reclamación y presentan
+						los documentos requeridos para comprobar la propiedad de los
+						bienes.</div>
+
+					<div class="faqLink" data-toggle="collapse" data-target="#faq7">
+						<img src="../images/orangeArrowSmL.png"
+							style="margin-right: 5px; float: left;">¿Qué documentación
+						se requiere como comprobante de cambio de nombre?
+					</div>
+					<div id="faq7" class="collapse"
+						style="padding-left: 20px; max-width: 600px;">Usted tendrá
+						que proporcionar documentos que establezcan que usted es la
+						persona cuyo nombre aparece en la cuenta de los bienes no
+						reclamados. Un acta de matrimonio o documentos de un tribunal son
+						ejemplos de comprobantes aceptables.</div>
+
+					<div class="faqLink" data-toggle="collapse" data-target="#faq8">
+						<img src="../images/orangeArrowSmL.png"
+							style="margin-right: 5px; float: left;">Aún tengo el cheque
+						original sin cobrar del reembolso realizado por la Bay Area Toll
+						Authority, pero el banco ya no lo acepta porque tiene más de un
+						año. ¿Cómo puedo obtener la devolución de mi dinero?
+					</div>
+					<div id="faq8" class="collapse"
+						style="padding-left: 20px; max-width: 600px;">Usted debe
+						llenar un Formulario de Reclamación, proporcionar un comprobante
+						de identidad y adjuntar el original o una copia del cheque sin
+						cobrar. Una vez que hayamos determinado la propiedad válida, le
+						enviaremos un nuevo cheque. No olvide conservar copias de estos
+						documentos para sus archivos.</div>
+
+					<div class="faqLink" data-toggle="collapse" data-target="#faq9">
+						<img src="../images/orangeArrowSmL.png"
+							style="margin-right: 5px; float: left;">¿Pueden ustedes
+						depositar electrónicamente mis fondos en mi cuenta bancaria
+						actual?
+					</div>
+					<div id="faq9" class="collapse"
+						style="padding-left: 20px; max-width: 600px;">No. La Bay
+						Area Toll Authority no puede transferir fondos a su cuenta
+						bancaria actual. Si la reclamación es aprobada, se le enviará por
+						correo un cheque a la dirección proporcionada en el Formulario de
+						Reclamación.</div>
+
+					<div class="faqLink" data-toggle="collapse" data-target="#faq10">
+						<img src="../images/orangeArrowSmL.png"
+							style="margin-right: 5px; float: left;">¿Hay alguna manera
+						de presentar mi reclamación electrónicamente en lugar de enviar
+						por correo un formulario de reclamación impreso?
+					</div>
+					<div id="faq10" class="collapse"
+						style="padding-left: 20px; max-width: 600px;">
+						Sí, puede presentar un Formulario de Reclamación firmado junto con
+						copias de la documentación requerida tanto por Internet como por
+						fax (415-974-6356). <br> <br> Para presentar un
+						Formulario de Reclamación por Internet:<br>
+						<div style="margin: 15px 0 0 20px;">
+							1. Acuda a <a href="../routers/contactUs.html"
+								class="inLineLinkk">Email FasTrak</a><br> 2. Haga clic en
+							Web, y cuando aparezca el menú desplegable, Seleccione <b>Unclaimed
+								Property</b>.<br> 3. Llene su información y cargue su
+							Formulario de Reclamación firmado y la documentación requerida.<br>
+							4. Haga clic en <b>Submit</b>.<br>
+						</div>
+					</div>
+
+					<div class="faqLink" data-toggle="collapse" data-target="#faq11">
+						<img src="../images/orangeArrowSmL.png"
+							style="margin-right: 5px; float: left;">Ya presenté mi
+						Formulario de Reclamación. ¿Dónde está el cheque con mi reembolso?
+					</div>
+					<div id="faq11" class="collapse"
+						style="padding-left: 20px; max-width: 600px;">
+						Pueden pasar hasta 60 días a partir de la recepción de su
+						Formulario de Reclamación para el trámite de la reclamación y la
+						emisión del cheque de reembolso. <br> <br> Si tiene
+						problemas para verificar el status de su reclamación o se enfrenta
+						a alguna dificultad, puede llamar sin costo al Centro de Servicio
+						al Cliente de FasTrak al 1-877-229-8655 o acuda a <a
+							href="../routers/contactUs.html" class="inLineLinkk">Email
+							FasTrak</a> haga clic en Web, y cuando aparezca el menú desplegable,
+						seleccione <b>Unclaimed Property</b>. Tendrá que proporcionar el
+						nombre que aparece en la lista de bienes no reclamados de FasTrak
+						y una breve declaración de su consulta. <br> <br>
+					</div>
+					<br> <br>
+				</div>
+			</div>
+		</div>
+		<!-- end content -->
+	</div>
+	<div class="footerTopperRelated">
+		<div class="footerToppler">Keep moving with FasTrak</div>
+	</div>
+	<script src="../common/js/footer.js"></script>
+</body>
+</html>

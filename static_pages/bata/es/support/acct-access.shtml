@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+<head style="display:none;">
+<title class="faq-title" style="">Cuentas de FasTrak</title>
+<meta charset="UTF-8">
+	<style style="color:white;">
+        .featherlight-content{width:65%;min-width:360px;}
+    </style>
+
+</head>
+
+<body>
+<div editarea="img111">
+    <div class="container row custom-wrap modal-feather">
+		<div class="col-md-12">
+	        <h3>Acceso a cuenta</h3>
+            <div class="custom-wrap3">
+                <div class="acclinks bach custom1">
+                    <p><a href="#access" class="collapseLink FasTrak" ref="access">&#191;C&#243;mo puedo acceder a la informaci&#243;n de mi cuenta de FasTrak?</a></p>
+                    <p><a href="#username" class="collapseLink FasTrak" ref="username">&#191;Qu&#233; es un nombre de usuario?</a></p>
+                    <p><a href="#password" class="collapseLink FasTrak" ref="password">&#191;Qu&#233; es una contrase&#241;a?</a></p>
+                    <p><a href="#pin" class="collapseLink FasTrak" ref="pin">&#191;Qu&#233; es un PIN?</a></p>
+                    <p><a href="#forgotup" class="collapseLink FasTrak" ref="forgotup">&#191;Qu&#233; hago si olvido ya sea mi nombre de usuario o mi contrase&#241;a?</a></p>
+                    <p><a href="#forgotpin" class="collapseLink FasTrak" ref="forgotpin">&#191;Qu&#233; hago si olvido PIN? ?</a></p>
+                </div>
+            </div>
+		</div>
+    </div>
+
+	<div class="panel-group" id="accordion">
+	  <div class="panel panel-default">
+		<div class="panel-heading">
+		  <h4 class="panel-title">
+			<a href="#access">&#191;C&#243;mo puedo acceder a la informaci&#243;n de mi cuenta de FasTrak?</a>
+		  </h4>
+		</div>
+		<div id="access" class="panel-collapse collapse collapsediv">
+		  <div id="faq_acc_301" class="panel-body">
+			<p>Para acceder a la informaci&#243;n de su cuenta en l&#237;nea, debe introducir un nombre de usuario y una contrase&#241;a. Para acceder a la informaci&#243;n de su cuenta mediante nuestro sistema telef&#243;nico automatizado, debe usar su n&#250;mero de cuenta y un n&#250;mero de identificaci&#243;n personal (PIN de 4 d&#237;gitos o el c&#243;digo postal de su domicilio.</p>
+          </div>
+        </div>
+      </div>
+
+	  <div class="panel panel-default">
+		<div class="panel-heading">
+		  <h4 class="panel-title">
+			<a href="#username">&#191;Qu&#233; es un nombre de usuario?</a>
+		  </h4>
+		</div>
+		<div id="username" class="panel-collapse collapse collapsediv">
+		  <div id="faq_acc_301" class="panel-body">
+			<h4>&#191;Qu&#233; es un nombre de usuario?</h4>
+			<p>Un nombre de usuario es un nombre de acceso &#250;nico que usted crea para acceder a su informaci&#243;n por Internet. El nombre de usuario debe ser alfanum&#233;rico, con un m&#237;nimo de 6 y un m&#225;ximo de 20 caracteres. Si selecciona un nombre de usuario que est&#225; en uso actualmente, recibir&#225; un mensaje que le pedir&#225; elegir otro.</p>
+		  </div>
+        </div>
+      </div>
+      
+	  <div class="panel panel-default">
+		<div class="panel-heading">
+		  <h4 class="panel-title">
+			<a href="#password">&#191;Qu&#233; es una contrase&#241;a?</a>
+		  </h4>
+		</div>
+		<div id="password" class="panel-collapse collapse collapsediv">
+		  <div id="faq_acc_302" class="panel-body">
+			<p>Una contrase&#241;a es una palabra o expresi&#243;n secreta que usted crea para comprobar su derecho de acceso a la informaci&#243;n de su cuenta de FasTrak en l&#237;nea. Su contrase&#241;a debe tener entre 6 y 12 caracteres y tener al menos 1 letra min&#250;scula, 1 may&#250;scula y por lo menos 1 n&#250;mero. Puede cambiar su contrase&#241;a en cualquier momento que lo desee: solo inicie sesi&#243;n en su cuenta en l&#237;nea y entre a los ajustes.</p>
+          </div>
+        </div>
+      </div>
+
+	  <div class="panel panel-default">
+		<div class="panel-heading">
+		  <h4 class="panel-title">
+			<a href="#pin">&#191;Qu&#233; es un PIN?</a>
+		  </h4>
+		</div>
+		<div id="pin" class="panel-collapse collapse collapsediv">
+		  <div id="faq_acc_303" class="panel-body">
+			<p>Un PIN es un n&#250;mero de 4 d&#237;gitos que usted debe crear al abrir una cuenta de FasTrak. Este PIN se usa para acceder a la informaci&#243;n de su cuenta mediante nuestro sistema telef&#243;nico automatizado. Tambi&#233;n es necesario para ver sus estados de cuenta, si decide recibirlos por correo electr&#243;nico. Puede cambiar este n&#250;mero en cualquier momento, si inicia sesi&#243;n en su cuenta en l&#237;nea o si llama al centro de servicio al cliente de FasTrak al (877) 229-8655 durante horarios de atenci&#243;n regular.</p>
+		  </div>
+        </div>
+      </div>
+
+	  <div class="panel panel-default">
+		<div class="panel-heading">
+		  <h4 class="panel-title">
+			<a href="#forgotup">&#191;Qu&#233; hago si olvido ya sea mi nombre de usuario o mi contrase&#241;a?</a>
+		  </h4>
+		</div>
+		<div id="forgotup" class="panel-collapse collapse collapsediv">
+		  <div id="faq_acc_304" class="panel-body">
+			<p>Si olvida ya sea su nombre de usuario o su contrase&#241;a, haga clic <a href="../../vector/account/maintenance/bataforgotPassword.do?from=Home&locale=es_US" target="_blank">aqu&#237;</a>. Para recuperar su nombre de usuario, necesitar&#225; proporcionar su n&#250;mero de cuenta o el n&#250;mero de su dispositivo de peaje, as&#237; como el c&#243;digo postal del domicilio que aparece en su cuenta. Para restablecer su contrase&#241;a, necesitar&#225; su nombre de usuario y el c&#243;digo postal del domicilio que aparece en su cuenta. Se le pedir&#225; que restablezca su contrase&#241;a.</p>
+			<p>Tambi&#233;n puede ponerse en contacto con el centro de servicio al cliente de FasTrak al (877) 229-8655 durante horarios de atenci&#243;n regular. En el centro podr&#225;n proporcionarle esta informaci&#243;n despu&#233;s de una verificaci&#243;n de rutina.</p>
+		  </div>
+        </div>
+      </div>
+
+	  <div class="panel panel-default">
+		<div class="panel-heading">
+		  <h4 class="panel-title">
+			<a href="#forgotpin">&#191;Qu&#233; hago si olvido PIN? ? </a>
+		  </h4>
+		</div>
+		<div id="forgotpin" class="panel-collapse collapse collapsediv">
+		  <div id="faq_acc_305" class="panel-body">
+			<p>Si olvida su PIN, tiene que ponerse en contacto con el centro de servicio al cliente de FasTrak al (877) 229-8655, durante el horario de atenci&#243;n regular. En el centro podr&#225;n proporcionarle esta informaci&#243;n despu&#233;s de una verificaci&#243;n de rutina.</p>
+          </div>
+        </div>
+      </div>
+
+	</div> <!-- accordion -->
+</div>
+	<div id="conceal">
+	<script>	
+        $(function () { 
+            $('.collapseLink').on('click', 
+                function(){
+                    var divid=this.href.split('#')[1];
+                    $('.collapsediv').hide();
+                    $('#'+divid).show(0,'linear');	
+                    $('html, body').animate({
+                        scrollTop: $('#'+divid).parent().offset().top
+                    }, 1000);
+                }
+            );
+            
+            $('.panel-heading').on('click', 
+                function(){
+                    var toshow = $(this).next("div").css("display");
+                    $('.collapsediv').hide();
+                    if(toshow == 'none'){
+                        $(this).next("div").show(0,'linear');
+                        $('html, body').animate({
+                            scrollTop: $(this).offset().top
+                        }, 1000);
+                    }
+                }
+            );
+        });
+		
+		$(function(){
+			$('a').each(function(){
+			   var href=$(this).attr("href");
+						if(href != null && href != 'undefined'){
+						if(href.startsWith('#')){
+									var path = location.protocol+'//'+location.host+location.pathname+href;
+									$(this).attr("href", path);
+						}
+						}
+			}); 
+		})
+
+    </script>
+    </div>
+
+</body>
+</html>

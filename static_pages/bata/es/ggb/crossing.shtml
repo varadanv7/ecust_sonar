@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+	<!--#include file="../common/headerinclude.html"-->
+	<script language="javascript" type="text/javascript">
+		function popitup(url) {
+			newwindow=window.open(url,'name','height=625px,width=520px');
+			if (window.focus) {newwindow.focus()}
+			return false;
+		}
+	</script>
+	<style>
+	.btn{
+		white-space: normal;
+	}
+	</style>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+	<!--#include file="../common/topnavigationnh.html"-->
+	<div class="container"><ol class="breadcrumb">
+	  <li><a href="../home/index.shtml"><img src="../images/breadcrumb/Home_icon.png"></a></li>
+	  <li class="active">PARA CRUZAR EL PUENTE GOLDEN GATE</li>
+	</ol></div>
+	<div class="container clstatic" editarea="img111">
+	
+
+	<h1 class="page-header-noborder">
+		PARA CRUZAR EL PUENTE GOLDEN GATE
+	</h1>
+	<div class="ctggbimg">
+	<div class="outer imgLiquidFill imgLiquid">
+		<img class="respimg" src="../images/GGbridge_1200x484_72dpi.png">
+		<div class="inner">
+			<h2>Solo conduzca.<br>
+			Se acabaron las casetas de cobro.</h2>
+		</div>
+	</div>
+	</div>
+	<p>
+	<h1 class="page-header-noborder">El peaje totalmente electr&oacute;nico hace que sea f&aacute;cil cruzar el Golden Gate: ya no hay que detenerse ni preocuparse por sacar el dinero. La gran variedad de opciones de pago le da la libertad de elegir, adem&aacute;s de ayudarle a que su trayecto sea m&aacute;s r&aacute;pido.</h1>
+	<a name="waystopay"></a>
+	<h1 class="page-header-noborder">
+		C&oacute;mo pagar un peaje del puente Golden Gate
+	</h1>
+	
+	<div class="table-responsive">
+	  <table class="withborder">
+		<tbody>
+		<tr>
+		<td class="row1"><h5>Pago &uacute;nico en l&iacute;nea</h5><div style="width:12em;"></div></td>
+		<td class="row1"><h5>Abra una cuenta de FasTrak</h5><div style="width:12em;"></div></td>
+		<td class="row1"><h5>Facturas</h5><div style="width:12em;"></div></td>
+		<td class="row1"><h5>Abrir una cuenta de placa</h5><div style="width:12em;"></div></td>
+		</tr>
+		<tr>
+		<td class="row1"><div class="boxedshadowtable"></div></td>
+		<td class="row1"><div class="boxedshadowtable"></div></td>
+		<td class="row1"><div class="boxedshadowtable"></div></td>
+		<td class="row1"><div class="boxedshadowtable"></div></td>
+		</tr>
+		<tr>
+		<td class="row1">Puede hacer un pago &uacute;nico en l&iacute;nea por medio de su tarjeta de cr&eacute;dito, antes de cruzar o a m&aacute;s tardar 48 horas despu&eacute;s.</td>
+		<td class="row1">&iexcl;Abra una cuenta de FasTrak para pagar sus peajes de forma c&oacute;moda y ahorrar tiempo! &iexcl;Adem&aacute;s, los usuarios de FasTrak reciben descuentos en peajes para el puente Golden Gate!</td>
+		<td class="row1">Una factura se env&iacute;a al propietario registro del veh&iacute;culo, por la cantidad del peaje, unos cuantos d&iacute;as despu&eacute;s del cruce.</td>
+		<td class="row1">Las cuentas de placa son especiales solo para el puente Golden Gate. No se necesitan dispositivos de peaje para este tipo de cuenta: la imagen de la placa de su veh&iacute;culo se vincula con su cuenta. Sus peajes se cargan de forma autom&aacute;tica a la tarjeta de cr&eacute;dito que tenemos registrada o se deducen del saldo prepagado de su cuenta.</td>
+		</tr>
+		<tr>
+		<td class="row3"><a class="btn btn-lg btn-default btn-block btngf fontcopy" href="../ggb/onetimepayment.shtml">HACER UN PAGO &Uacute;NICO</a>
+		</td>
+		<td class="row3" rowspan="2"><a class="btn btn-lg btn-default btn-block btngf fontcopy" href="../signup/fastrakprep.shtml">SUSCRIBIRSE</a></td>
+		<td class="row3"><a class="btn btn-lg btn-default btn-block btngf fontcopy" href="../routers/invoice.html">PAGAR UNA FACTURA</a></td>
+		<td class="row3"><a class="btn btn-lg btn-default btn-block btngf fontcopy" href="../signup/licenseprep.shtml">SUSCRIBIRSEP</a></td>
+		</tr>
+		<tr>
+		<td class="row1">Usted puede pagar cualquiera de los m&eacute;todos de pago de peaje utilizando dinero en efectivo en un pago en efectivo Ubicaci&oacute;n o en un Centro de Servicio al Cliente en San Francisco.</td>
+		<td class="row3"></td>
+		<td class="row3"></td>
+		<td class="row3"></td>
+		</tr>
+		<tr>
+		<td class="row3">
+		<a class="btn btn-lg btn-default btn-block btngf fontcopy" onclick="return popitup('../howitworks/cashLocationsMap.html');">BUSCAR UNA UBICACI&Oacute;N DE PAGO EN EFECTIVO</a>
+		</td>
+		<td class="row3"></td>
+		<td class="row3"></td>
+		<td class="row3"></td>
+		</tr>
+		</tbody>
+		<tfoot><tr><td class="row1"></td><td class="row1"></td><td class="row1"></td><td class="row1"></td></tr></tfoot>
+	  </table>
+	</div>
+	<p>
+	<div class="container row">
+		<div class="col-md-6">
+			<a name="rental"></a>
+			<h1 class="page-header-noborder">
+				&iquest;Usa un veh&iacute;culo rentado?
+			</h1>
+			La mayor&iacute;a de las empresas de renta proporcionan un programa de pago de peajes. Si ha decidido no usar el programa de la agencia de veh&iacute;culos rentados, tiene que hacer un pago antes o a m&aacute;s tardar 48 horas despu&eacute;s de cruzar.
+			<p></td>
+		</div>
+		<div class="col-md-6 imgLiquidFill imgLiquid">
+			<img class="respimg" src="../images/RentalCar_400x289_72dpi.jpg">
+		</div>
+	</div>
+	<h1 class="page-header-noborder">
+		&iquest;Es nuevo residente o nuevo conductor? 
+	</h1>
+	<h5 class="bach">&iexcl;Obtenga FasTrak hoy mismo! Haga clic <a href="../signup/signup.shtml">aqu&iacute;</a> para iniciar.</h5>
+	<a name="visitorinfo"></a>
+	<h1 class="page-header-noborder">
+		Para llegar al puente Golden Gate 
+	</h1>
+	<div class="container row">
+		<div class="col-md-6 imgLiquidFill imgLiquid">
+			<h4>Desde San Francisco</h4>
+			Tome la Pacific Coast Highway Route 1 o la US Highway 101 hacia el norte, para atravesar el puente Golden Gate. Los peajes se cobran solo cuando se va al sur. 
+			<h4>Desde el condado Marin</h4>
+			Tome la US Highway 101 hacia el sur, para atravesar el puente Golden Gate. Los peajes se cobran solo cuando se va al sur.
+			<h4>Desde el Este de la Bah&iacute;a</h4>
+			Tome la US Highway 580 en direcci&oacute;n oeste y despu&eacute;s tome la US Highway 101 hacia el sur, para atravesar el puente Golden Gate. Los peajes se cobran solo cuando se va al sur. 
+			<h5 class="bach"><p><br>Para m&aacute;s informaci&oacute;n &uacute;til para visitantes, visite el sito web oficial del <a href="http://www.goldengatebridge.org/" target="_blank">puente Golden Gate</a>.</h5>
+		</div>
+		<div class="col-md-6">
+			<div id="ggbmap">
+				<!--#include file="../ggb/ggbmap.html"-->
+			</div>
+		</div>
+	</div>
+	</div>
+	<!--#include file="../common/footer.html"-->
+	<!--#include file="../common/footerinclude.html"-->
+    </body>
+</html>

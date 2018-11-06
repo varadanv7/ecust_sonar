@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+
+<title>FasTrak</title>
+
+<!--#include file="../common/headerinclude.html"-->
+
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+    <script src="../assets/js/html5shiv.js"></script>
+  <![endif]-->
+
+</head>
+
+<body onLoad="setWindowSizeP()">
+	<!--#include file="../common/html/pageheader.shtml"-->
+	
+	<!--div class="contentTopper"><ol class="breadcrumb">
+	  <li><a href="../home/index.shtml"><img src="../images/breadcrumb/Home_icon.png"></a></li>	  
+	  <li class="active">DISPOSITIVO ELECTR&Oacute;NICO de PEAJE DE FASTRAK</li>
+	</ol>
+</div -->
+	<div class="contentTopper">
+		<a href="../home/index.shtml"><ol class="breadcrumb">
+	  <li><img src="../images/breadcrumb/Home_icon.png" border="0"> </a></li>
+	  <li class="active">DISPOSITIVO
+				ELECTR&Oacute;NICO de PEAJE DE FASTRAK</li>
+	  </ol>
+	</div>
+	<div class="contentEnvelope" editarea="tollTagSpanish" editareadesc="toll Tag Spanish">
+		<!-- content -->
+		<div class="contentTitle">
+			<div style="display: inline-block; float: left; width: 240px;">&nbsp;</div>
+			<div style="display: inline-block;">DISPOSITIVO
+				ELECTR&Oacute;NICO de PEAJE DE FASTRAK</div>
+		</div>
+		<div class="menuCol">
+			<div class="menuBox">
+				<div class="navBox" id="benefit">
+					<div id="benefitOrangeBox">&nbsp;</div>
+					<a href="benefitsSpanish.shtml" class="leftNav"
+						onMouseover="langMouse('benefit','benefitOrangeBox')"
+						onMouseOut="langMouseOut('benefit','benefitOrangeBox')">VENTAJAS</a>
+				</div>
+				<div class="navBox" id="getting">
+					<div id="gettingOrangeBox">&nbsp;</div>
+					<a href="startedSpanish.shtml" class="leftNav"
+						onMouseover="langMouse('getting','gettingOrangeBox')"
+						onMouseOut="langMouseOut('getting','gettingOrangeBox')">C&Oacute;MO
+						EMPEZAR</a>
+				</div>
+				<div class="navBoxActive" id="get">
+					<div id="getOrangeBox" style="visibility: visible;">&nbsp;</div>
+					DISPOSITIVO ELECTR&Oacute;NICO de PEAJE DE FASTRAK</a>
+				</div>
+				<div class="navBox" id="use">
+					<div id="useOrangeBox">&nbsp;</div>
+					<a href="usingSpanish.shtml" class="leftNav"
+						onMouseover="langMouse('use','useOrangeBox')"
+						onMouseOut="langMouseOut('use','useOrangeBox')">USO de FASTRAK</a>
+				</div>
+				<div class="navBox" id="where">
+					<div id="whereOrangeBox">&nbsp;</div>
+					<a href="whereSpanish.shtml" class="leftNav"
+						onMouseover="langMouse('where','whereOrangeBox')"
+						onMouseOut="langMouseOut('where','whereOrangeBox')">D&Oacute;NDE
+						USAR FASTRAK</a>
+				</div>
+				<div class="navBox" id="GG">
+					<div id="GGOrangeBox">&nbsp;</div>
+					<a href="ggGateSpanish.shtml" class="leftNav"
+						onMouseover="langMouse('GG','GGOrangeBox')"
+						onMouseOut="langMouseOut('GG','GGOrangeBox')">PEAJE en el
+						GOLDEN GATE</a>
+				</div>
+				<div class="navBox" id="invoice">
+					<div id="invoiceOrangeBox">&nbsp;</div>
+					<a href="invoiceSpanish.shtml" class="leftNav"
+						onMouseover="langMouse('invoice','invoiceOrangeBox')"
+						onMouseOut="langMouseOut('invoice','invoiceOrangeBox')">FACTURA
+						o INFRACCI&Oacute;N</a>
+				</div>
+				<div class="navBox" id="discount">
+					<div id="discountOrangeBox">&nbsp;</div>
+					<a href="discountsSpanish.shtml" class="leftNav"
+						onMouseover="langMouse('discount','discountOrangeBox')"
+						onMouseOut="langMouseOut('discount','discountOrangeBox')">DESCUENTOS
+						y RECORRIDOS SIN PEAJE</a>
+				</div>
+				<div class="navBox" id="contact">
+					<div id="contactOrangeBox">&nbsp;</div>
+					<a href="contactSpanish.shtml" class="leftNav"
+						onMouseover="langMouse('contact','contactOrangeBox')"
+						onMouseOut="langMouseOut('contact','contactOrangeBox')">COMUN&Iacute;QUESE
+						CON NOSOTROS</a>
+				</div>
+			</div>
+		</div>
+		<div id="contentCol">
+			<div class="colFull">
+				<img src="../images/tollTags_1Span.jpg" width="100%"
+					style="max-width: 742px"> <br> <br>
+				<div class="indento">Usted tiene la opci&oacute;n de elegir
+					entre dos tipos de dispositivos electr&oacute;nicos de peaje de
+					FasTrak.</div>
+			</div>
+			<div class="colLeft">
+				<div style="width: 100%; text-align: center; height: 70%;">
+					<img src="../images/tollTags_2.jpg" width="100%"
+						style="max-width: 205px">
+				</div>
+				<br>
+				<div class="indento">
+					<b>El dispositivo electr&oacute;nico de peaje est&aacute;ndar
+						de FasTrak</b> est&aacute;ndar de FasTrak funciona en todos los
+					puentes de peaje del &Aacute;rea de la Bah&iacute;a de San
+					Francisco, en los carriles r&aacute;pidos de peaje para conductores
+					que viajan solos y en el estacionamiento del aeropuerto de San
+					Francisco (SFO).
+				</div>
+			</div>
+			<div class="colRight">
+				<div style="width: 100%; text-align: center; height: 70%">
+					<img src="../images/tollTags_3.jpg" width="100%"
+						style="max-width: 187px">
+				</div>
+				<br> <b>El dispositivo electr&oacute;nico de peaje FasTrak
+					Flex</b> funciona como dispositivo FasTrak est&aacute;ndar, pero ofrece
+				una funci&oacute;n adicional requerida en los veh&iacute;culos
+				compartidos en los carriles r&aacute;pidos de peaje I-580 y I-680
+				Express Lanes de Contra Costa. Tiene un interruptor de tres
+				posiciones para indicar si viaja solo o en un viaje compartido en un
+				carril r&aacute;pido de peaje. Para obtener informaci&oacute;n
+				adicional sobre c&oacute;mo funciona este dispositivo
+				electr&oacute;nico de peaje (en ingl&eacute;s), vea <a
+					href="../guide/doINeedFlex.shtml"
+					class="inLineLinkk">The FasTrak Flex Toll Tag</a>.
+			</div>
+			<div class="colFull">
+				<div class="greenArticleTop">C&oacute;mo obtener un
+					dispositivo electr&oacute;nico de peaje de FasTrak</div>
+				<div class="indento">Puede ordenar uno o m&aacute;s de estos
+					dispositivos electr&oacute;nicos de peaje al abrir su cuenta de
+					FasTrak en Internet, obtener uno en una tienda minorista o recibir
+					uno o m&aacute;s dispositivos electr&oacute;nicos de peaje si acude
+					al Centro de Servicio al Cliente. Si lo desea, tambi&eacute;n puede
+					agregar uno o m&aacute;s dispositivos electr&oacute;nicos de peaje
+					a su cuenta en el futuro.</div>
+			</div>
+			<div class="colFull">
+				<a href="#top" class="backToTop" style="float: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Regresar
+					al Inicio</a><br>
+				<div class="greenArticleTop">Instale su dispositivo
+					electr&oacute;nico de peaje</div>
+				<img src="../images/tollTags_4Span.png" width="100%"
+					style="max-width: 740px; margin: 7px 0 10px 0;"> <br>
+				<div class="indento">Instale su dispositivo electr&oacute;nico
+					de peaje de FasTrak en el interior del parabrisas de su auto para
+					que FasTrak pueda detectarlo. Vea las ubicaciones aprobadas en la
+					ilustraci&oacute;n.</div>
+				<div class="greenArticleTop">Devoluci&oacute;n o reemplazo de
+					un dispositivo electr&oacute;nico de peaje</div>
+			</div>
+			<div class="colLeft">
+				<div class="indento">
+					<div class="orangeTitleCallout">Devolver un dispositivo
+						electr&oacute;nico de peaje</div>
+					Si desea devolver un dispositivo electr&oacute;nico de peaje que ya
+					no funcione o que ya no necesite, puede enviarlo por correo
+					deposit&aacute;ndolo en un buz&oacute;n sin necesidad de ponerlo en
+					un sobre. La direcci&oacute;n de devoluci&oacute;n est&aacute;
+					indicada en el dispositivo electr&oacute;nico de peaje y el porte
+					postal ya ha sido pagado, por lo que la oficina de correos se lo
+					entregar&aacute; a FasTrak. Eliminaremos el dispositivo
+					electr&oacute;nico de peaje de su cuenta y le reembolsaremos su
+					dep&oacute;sito, si es que usted pag&oacute; un dep&oacute;sito.
+					Use correo certificado si desea rastrear su env&iacute;o.
+				</div>
+			</div>
+			<div class="colRight">
+				<div class="orangeTitleCallout">Reemplazar un dispositivo
+					electr&oacute;nico de peaje</div>
+				Si necesita reemplazar un dispositivo electr&oacute;nico de peaje o
+				desea un tipo de dispositivo electr&oacute;nico de peaje diferente,
+				llame al Centro de Servicio al Cliente y hable con uno de nuestros
+				representantes. D&iacute;gale que desea reemplazar un dispositivo
+				electr&oacute;nico de peaje, proporci&oacute;nele el n&uacute;mero
+				del dispositivo electr&oacute;nico de peaje que desea cambiar y
+				especifique el tipo de dispositivo electr&oacute;nico de peaje por
+				el que desea cambiarlo. Su nuevo dispositivo electr&oacute;nico de
+				peaje llegar&aacute; por correo. Se incluir&aacute; un sobre con el
+				porte postal pagado a fin de que usted lo utilice para devolver su
+				antiguo dispositivo.
+			</div>
+			<br> <br> <a href="#top" class="backToTop"
+				style="float: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Regresar al
+				Inicio</a>
+		</div>
+	</div>
+	<!-- end content -->
+	</div>
+	<div class="footerTopperRelated">
+		<div class="footerToppler">Keep moving with FasTrak</div>
+	</div>
+	<script src="../common/js/footer.js"></script>
+
+</body>
+</html>

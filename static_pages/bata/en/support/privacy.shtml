@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+	<!--#include file="../common/headerinclude.html"-->
+    </head>
+<body onLoad="setWindowSizeP()">
+ <!--#include file="../common/html/pageheader.shtml"-->
+	<div class="container"><ol class="breadcrumb">
+	  <li><a href="../home/index.shtml"><img src="../images/breadcrumb/Home_icon.png"></a></li>
+	  <li class="active">PRIVACY POLICY</li>
+	</ol></div>
+	<div class="contentEnvelope">
+<!-- content -->
+	<div class="contentTitle">PRIVACY POLICY</div>
+	
+		<div class="row row-offcanvas row-offcanvas-left">
+			<div class="col-xs-5 col-sm-2 sidebar-offcanvas" id="sidebar" role="navigation">
+				<div class="lmenu3">
+					<ul>
+					<li><button class="btn btn-submit btn-sm btn-block" onclick="window.open('../images/privacy.pdf','','height=1000em,width=800em');">Download</button>
+					</ul>
+				</div>
+			</div>
+			<div class="col-xs-1 col-sm-1 sidebar-offcanvas" id="sidebar" role="navigation"></div>
+			<div class="col-xs-12 col-sm-9 bach">
+				<p class="pull-left visible-xs">
+					<button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Menu</button>
+				</p>
+				<p>
+				<!--#include file="privacy_content.html"-->
+			</div>
+		</div>
+	</div>
+
+	<!--#include file="../common/html/footerpage.shtml"-->
+    </body>
+</html>

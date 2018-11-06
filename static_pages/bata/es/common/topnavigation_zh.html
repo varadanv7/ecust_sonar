@@ -1,0 +1,216 @@
+<style>
+ul.nav{display:none;}
+</style>
+<script type="text/javascript">
+	var xmlrequest1 = null;
+	$(document).ready(function(e) {
+		xmlrequest1 = getXMLHTTPRequestObject('/vector/homepage/HomePage.do?fbpz=skip&exclGen=true&ajax=chat','updateNavigationItems', '');
+	});
+	
+	var panel = "default_nav_panel";
+	function updateNavigationItems(){
+		var accountNo = "";
+		var accountName = "";
+		var firstName = "";
+		var accounttype = "";
+		if(!!xmlrequest1){
+			if (xmlrequest1.readyState == 4){
+				if (xmlrequest1.status == 200){
+					if(!!xmlrequest1.responseXML){
+						if(!!xmlrequest1.responseXML.getElementsByTagName("accountNo")){
+							accountNo = xmlrequest1.responseXML.getElementsByTagName("accountNo")[0].childNodes[0].nodeValue;
+							if(accountNo=='~')accountNo=" ";
+						}
+						if(!!xmlrequest1.responseXML.getElementsByTagName("accountName")){
+							accountName = xmlrequest1.responseXML.getElementsByTagName("accountName")[0].childNodes[0].nodeValue;
+							if(accountName=='~')accountName=" ";
+						}
+						if(!!xmlrequest1.responseXML.getElementsByTagName("firstName")){
+							firstName = xmlrequest1.responseXML.getElementsByTagName("firstName")[0].childNodes[0].nodeValue;
+							if(firstName=='~')firstName=" ";
+						}
+						if(!!xmlrequest1.responseXML.getElementsByTagName("accounttype")){
+							accounttype = xmlrequest1.responseXML.getElementsByTagName("accounttype")[0].childNodes[0].nodeValue;
+							if(accounttype=='~')accounttype=" ";
+						}
+						
+						if(!!accounttype){
+							if(accounttype=='1' || accounttype=='3'){
+								panel = "account_nav_panel";
+							}else if(accounttype=='5' || accounttype=='7'){
+								panel = "videotolls_nav_panel";
+							}else if(accounttype=='99'){
+								panel = "retailer_nav_panel";
+							}else{
+								panel = "default_nav_panel";
+							}
+						}
+					}
+				}
+			}
+		}
+		$("li[id $='_nav_panel']").each(function(index, element) {
+            if(panel == this.id){
+				$(this).show();	
+			}else{
+				$(this).hide();
+			}
+        });
+        $("span[id='userName_panel']").each(function(index, element) {
+            this.innerHTML = firstName;
+        });
+        $("ul[class*='nav']").show();
+        
+        var value = getCookie('userName');
+		if(value){
+			document.getElementById('tt_username').value = value;
+			document.getElementById('tt_rememberme').checked = true;
+		}else{
+			document.getElementById('tt_username').value ="";
+			document.getElementById('tt_rememberme').checked = false;
+		}
+	}
+	
+	function rememberMeOnClick(){
+		var state = document.getElementById("tt_rememberme").checked;
+		if(state){
+			var userName = document.getElementById("tt_username").value;
+			createCookie('userName',userName,30);
+		}else{
+			eraseCookie('userName');
+		}
+		return true;
+	}
+	
+	function getCookie(name){
+	    var re = new RegExp(name + "=([^;]+)");
+	    var value = re.exec(document.cookie);
+	    return (value != null) ? unescape(value[1]) : null;
+	}
+	function createCookie(name,cookVal,days) {
+		if (days) {
+			var date = new Date();
+			date.setTime(date.getTime()+(days*24*60*60*1000));
+			var expires = "; expires="+date.toGMTString();
+		}else {
+			var expires = "";
+		}
+		document.cookie = name+"="+cookVal+expires+"; path=/";
+	}
+	function eraseCookie(name) {
+		createCookie(name,"",-1);
+	}
+</script>
+
+	<div class="navbar-wrapper">
+      <div class="container">
+        <div class="navbarhome navbarhome-default" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Menu</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand-home" href="/index.html"><img src="../images/FasTrak_logo.png" alt="Home"></a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav-home">
+				<li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">入门指南<b class="caret"></b></a>
+                  <ul class="dropdown-menu-left">
+                    <li><a href="../howitworks/gettingstarted.shtml">HOW IT WORKS</a></li>
+                    <li><a href="../howitworks/wheretouse.shtml">WHERE TO USE IT</a></li>
+                    <li><a href="../howitworks/waystopay.shtml">WAYS TO PAY</a></li>
+                    <li><a href="../howitworks/wheretobuy.shtml">WHERE TO BUY</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">支持<b class="caret"></b></a>
+                  <ul class="dropdown-menu-left">
+                    <li><a href="../support/faqs.shtml">FAQS</a></li>
+                    <li><a href="../support/mounting.shtml">MOUNTING INSTRUCTIONS</a></li>
+                    <li><a href="../support/forms.shtml">FORMS & PDFs</a></li>
+					<li><a href="../support/csc.shtml">CONTACT US</a></li>
+                  </ul>
+                </li>
+              </ul>
+			  <ul class="nav navbar-nav-home navbar-right">
+				  <li class="dropdown active">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-globe"></span>&nbsp;ESPANOL&nbsp;<b class="caret"></b></a>
+					<ul class="dropdown-menu">
+					  <li><a id="lang_en">ENGLISH</a></li>
+					</ul>
+				  </li>
+				  <li class="dropdown active" id="account_nav_panel">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span>&nbsp;Hi, <span id="userName_panel"></span>&nbsp;<b class="caret"></b></a>
+					<ul class="dropdown-menu">
+					  <li><a href="/vector/account/home/accountOverview.do">Account Overview</a></li>
+					</ul>
+				  </li>
+				  <li class="dropdown active" id="account_nav_panel">
+					<a href="/vector/account/home/accountLogout.do" class="dropdown-toggle">&nbsp;LogOut&nbsp;</a>
+				  </li>
+				  <li class="dropdown active" id="videotolls_nav_panel">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span>&nbsp;Hi, <span id="userName_panel"></span>&nbsp;<b class="caret"></b></a>
+					<ul class="dropdown-menu">
+					  <li><a href="/vector/videotolls/home/accountOverview.do">Account Overview</a></li>
+					</ul>
+				  </li>
+				  <li class="dropdown active" id="videotolls_nav_panel">
+					<a href="/vector/videotolls/home/accountLogout.do" class="dropdown-toggle">&nbsp;LogOut&nbsp;</a>
+				  </li>
+				  <li class="dropdown active" id="retailer_nav_panel">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span>&nbsp;Hi, <span id="userName_panel"></span>&nbsp;<b class="caret"></b></a>
+					<ul class="dropdown-menu">
+					  <li><a href="/vector/retailers/myAccount.do">Account Overview</a></li>
+					</ul>
+				  </li>
+				  <li class="dropdown active" id="retailer_nav_panel">
+					<a href="/vector/retailers/retailerLogout.do" class="dropdown-toggle">&nbsp;LogOut&nbsp;</a>
+				  </li>
+				  <li class="dropdown active"  id="default_nav_panel">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span>&nbsp;SIGN IN&nbsp;<b class="caret"></b></a>
+					<ul class="dropdown-menu">
+					  <li>
+						<div style="width: 300px;">
+						<form class="form-signincus" role="form" name="accountLoginForm" method="post" action="/vector/retailers/retailerLogin.do?btnLogin.x=1&checkaccount=true">
+						<input name='formid' type='hidden' value='frmLogin'>
+						<div class="form-group has-feedback" id="username">
+						<input type="text" id="tt_username" class="form-control" placeholder="Username" size="30" maxlength="20" name="loginName" onblur="tabOutTopNav('username',this.value, valSignInURL)">
+						</div>
+						<div class="form-group has-feedback" id="loginPassword">
+						<input type="password" id="tt_loginPassword" class="form-control" placeholder="Password" size="30" maxlength="12" name="password" onblur="tabOutTopNav('loginPassword',this.value, valSignInURL)">
+						</div>
+						<div class="form-group" style="margin-left: -10px;">
+							<div class="col-md-1">
+								<input type="checkbox" id="tt_rememberme" class="checkbox" value="remember-me"></input>
+							</div>
+							<div class="col-md-9">
+								<span>Remember me</span>
+								<span><img src="../images/Information.png" title='When you Sign In and select "Remember me", the Username will be remembered for 30days.' class="righttip"></span>
+							</div>
+						</div>
+						<p><br>
+						<div class="form-group has-feedback" id="loginPassword">
+						<a href="/vector/account/maintenance/bataforgotPassword.do">Forgot password or username?</a>
+						</div>
+						<div class="form-group has-feedback" id="loginPassword">
+						<a href="../signup/signup.shtml">Don't have an account?</a>
+						</div>
+						<div class="form-group has-feedback" id="loginPassword">
+						<a href="/vector/account/maintenance/firstTimeLogin.do">Did you open an account offline? </a>
+						</div>
+						<button class="btnbt btn-lg btnbt-default btn-block" name="btnLogin" onclick="rememberMeOnClick();" type="submit">SIGN IN</button>
+						</form>
+						</div>
+					  </li>
+					</ul>
+				  </li>
+			  </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+	<!--#include file="../common/headerinclude.html"-->
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+	<!--#include file="../common/topnavigation.html"-->
+	<!--#include file="../common/carousel.html"-->
+	<div class="boxednoshadow">
+      <div class="container">
+        <img src="../images/daily_commute.png">
+      </div>
+    </div>
+	<div class="container boxedshadow">
+	<div class="row">&nbsp;</div>
+	<div class="row">
+	  <div class="col-md-6">
+			<div class="text-left date">TODAY: <span id="currDate"></span></div>
+	  </div>
+	  <div class="col-md-6">
+			<div id="nav-05" class="text-right">
+				<a href="#" class="previous"><img src="../images/home_previous.png"></a>&nbsp;&nbsp;<img src="../images/home_middle.png">&nbsp;&nbsp;
+				<a href="#" class="next"><img src="../images/home_next.png"></span></a>
+			</div>
+	  </div>
+	</div>
+	<div class="panels-05 crsl-items" data-navigation="nav-05">
+		<div class="crsl-wrap">
+			<!--#include file="../common/newpanels_golive.html"-->
+		</div>
+	</div>
+	</div> 
+	<div class="modal fade bg-danger danger" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+		<div class="homemodal-dialog">
+			<div class="modal-content">
+				<div class="homemodal-header bg-danger danger">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				Thank you for your patience as we make improvements to our system.
+				</div>
+				<div class="homemodal-body wach">
+					<p>All services are now available via the website, phone service and Customer Service Center.
+					<p>If you were unable to make a payment during the system upgrade, an extension without penalty may apply. <a href="../about/news_golive.shtml">For more information...</a><p><a href="../support/faq_goliveSp.shtml">Para obtener más información, por favor, visite la página web de la actualización del Sistema </a><br><br><br>
+				<div class="homemodal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div><br>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!--#include file="../common/footer.html"-->
+	<!--#include file="../common/footerinclude.html"-->
+    </body>
+</html>

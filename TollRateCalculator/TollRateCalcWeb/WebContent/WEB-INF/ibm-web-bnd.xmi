@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webappbnd:WebAppBinding xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:common="common.xmi" xmlns:webappbnd="webappbnd.xmi" xmi:id="WebAppBinding_1320044128330" virtualHostName="default_host">
+  <webapp href="WEB-INF/web.xml#WebApp_ID"/>
+  <resRefBindings xmi:id="ResourceRefBinding_1321578781694" jndiName="jdbc/TollRateCalc">
+    <bindingResourceRef href="WEB-INF/web.xml#ResourceRef_1321578781695"/>
+  </resRefBindings>
+  <ejbRefBindings xmi:id="EjbRefBinding_1321578692517" jndiName="ejb/ejbs/com/acs/ts/vector/ws/tollrate/TollRateCalcLocalHome">
+    <bindingEjbRef xmi:type="common:EJBLocalRef" href="WEB-INF/web.xml#EJBLocalRef_1321578692517"/>
+  </ejbRefBindings>
+</webappbnd:WebAppBinding>

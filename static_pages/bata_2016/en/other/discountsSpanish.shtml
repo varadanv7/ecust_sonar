@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+
+<title>FasTrak</title>
+
+<!--#include file="../common/headerinclude.html"-->
+
+<!-- SET BROWSER WIDTH & LOCK SCALE -->
+<meta name="viewport"
+	content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+    <script src="../assets/js/html5shiv.js"></script>
+  <![endif]-->
+<script>
+	function colorChanger(arg) {
+		document.getElementById(arg).style.backgroundColor = '#138992';
+	}
+
+	function colorReverser(arg, arg2) {
+		if (document.getElementById(arg2).style.display == 'block') {
+			document.getElementById(arg).style.backgroundColor = '#138992';
+		} else {
+			document.getElementById(arg).style.backgroundColor = '#9c9c9c';
+		}
+	}
+
+	function shower(arg, arg2) {
+		document.getElementById('hodler').value = arg2;
+
+		document.getElementById('bridgeDiv').style.display = 'none';
+		document.getElementById('carpoolDiv').style.display = 'none';
+		document.getElementById('expressDiv').style.display = 'none';
+
+		document.getElementById(arg).style.display = 'block';
+
+		document.getElementById('bridges').style.backgroundColor = '#9c9c9c';
+		document.getElementById('carpool').style.backgroundColor = '#9c9c9c';
+		document.getElementById('express').style.backgroundColor = '#9c9c9c';
+
+		document.getElementById(arg2).style.backgroundColor = '#138992';
+	}
+</script>
+
+<script>
+	function expression() {
+		$(document).ready(function() {
+			if (window.location.href.indexOf("express") > -1) {
+				shower('expressDiv', 'express');
+			}
+		});
+	}
+</script>
+
+</head>
+
+<body onLoad="setWindowSizeP(), expression()">
+
+	<!--#include file="../common/html/pageheader.shtml"-->
+	<input type="hidden" id="hodler" value="marker">
+	<!--div class="contentTopper"><ol class="breadcrumb">
+	  <li><a href="../home/index.shtml"><img src="../images/breadcrumb/Home_icon.png"></a></li>	  
+	  <li class="active">Descuentos y recorridos sin peaje</li>
+	</ol>
+</div-->
+	<div class="contentTopper">
+		<a href="../home/index.shtml"><ol class="breadcrumb">
+				<li><img src="../images/breadcrumb/Home_icon.png" border="0">
+		</a>
+		</li>
+		<li class="active">Descuentos y recorridos sin peaje</li>
+		</ol>
+	</div>
+	<div class="contentEnvelope" editarea="discountsSpanish" editareadesc="discounts Spanish">
+		<!-- content -->
+		<div class="contentTitle">
+			<div
+				style="display: inline-block; float: left; width: 240px; padding: 0 0 0 0;">&nbsp;</div>
+			<div style="display: inline-block; padding: 0 0 0 0;">Descuentos
+				y recorridos sin peaje</div>
+		</div>
+		<div class="menuCol">
+			<div class="menuBox">
+				<div class="navBox" id="benefit">
+					<div id="benefitOrangeBox">&nbsp;</div>
+					<a href="benefitsSpanish.shtml" class="leftNav"
+						onMouseover="langMouse('benefit','benefitOrangeBox')"
+						onMouseOut="langMouseOut('benefit','benefitOrangeBox')">VENTAJAS</a>
+				</div>
+				<div class="navBox" id="getting">
+					<div id="gettingOrangeBox">&nbsp;</div>
+					<a href="startedSpanish.shtml" class="leftNav"
+						onMouseover="langMouse('getting','gettingOrangeBox')"
+						onMouseOut="langMouseOut('getting','gettingOrangeBox')">C&Oacute;MO
+						EMPEZAR</a>
+				</div>
+				<div class="navBox" id="get">
+					<div id="getOrangeBox">&nbsp;</div>
+					<a href="tollTagSpanish.shtml" class="leftNav"
+						onMouseover="langMouse('get','getOrangeBox')"
+						onMouseOut="langMouseOut('get','getOrangeBox')">DISPOSITIVO
+						ELECTR&Oacute;NICO de PEAJE DE FASTRAK</a>
+				</div>
+				<div class="navBox" id="use">
+					<div id="useOrangeBox">&nbsp;</div>
+					<a href="usingSpanish.shtml" class="leftNav"
+						onMouseover="langMouse('use','useOrangeBox')"
+						onMouseOut="langMouseOut('use','useOrangeBox')">USO de FASTRAK</a>
+				</div>
+				<div class="navBox" id="where">
+					<div id="whereOrangeBox">&nbsp;</div>
+					<a href="whereSpanish.shtml" class="leftNav"
+						onMouseover="langMouse('where','whereOrangeBox')"
+						onMouseOut="langMouseOut('where','whereOrangeBox')">D&Oacute;NDE
+						USAR FASTRAK</a>
+				</div>
+				<div class="navBox" id="GG">
+					<div id="GGOrangeBox">&nbsp;</div>
+					<a href="ggGateSpanish.shtml" class="leftNav"
+						onMouseover="langMouse('GG','GGOrangeBox')"
+						onMouseOut="langMouseOut('GG','GGOrangeBox')">PEAJE en el
+						GOLDEN GATE</a>
+				</div>
+				<div class="navBox" id="invoice">
+					<div id="invoiceOrangeBox">&nbsp;</div>
+					<a href="invoiceSpanish.shtml" class="leftNav"
+						onMouseover="langMouse('invoice','invoiceOrangeBox')"
+						onMouseOut="langMouseOut('invoice','invoiceOrangeBox')">FACTURA
+						o INFRACCI&Oacute;N</a>
+				</div>
+				<div class="navBoxActive" id="discount">
+					<div id="discountOrangeBox" style="visibility: visible;">&nbsp;</div>
+					DESCUENTOS y RECORRIDOS SIN PEAJE
+				</div>
+				<div class="navBox" id="contact">
+					<div id="contactOrangeBox">&nbsp;</div>
+					<a href="contactSpanish.shtml" class="leftNav"
+						onMouseover="langMouse('contact','contactOrangeBox')"
+						onMouseOut="langMouseOut('contact','contactOrangeBox')">COMUN&Iacute;QUESE
+						CON NOSOTROS</a>
+				</div>
+			</div>
+		</div>
+
+		<div id="contentCol">
+			<div class="colFullCopy">
+				<div class="indento">Use FasTrak para ahorrar dinero en peajes
+					de muchas formas - en los puentes del &Aacute;rea de la
+					Bah&iacute;a de San Francisco y al usar los carriles r&aacute;pidos
+					de peaje como veh&iacute;culo compartido.</div>
+				<div style="margin: 15px 0 15px 0;">
+					<a href="#" onMouseOver="colorChanger('bridges')"
+						onMouseOut="colorReverser('bridges','bridgeDiv')"
+						onClick="shower('bridgeDiv', 'bridges')"><div class="triplet"
+							id="bridges" style="background-color: #138992;">Puentes</div>
+					</a> <a href="#" onMouseOver="colorChanger('carpool')"
+						onMouseOut="colorReverser('carpool','carpoolDiv')"
+						onClick="shower('carpoolDiv', 'carpool')"><div class="triplet"
+							id="carpool">Veh&iacute;culos compartidos</div>
+					</a> <a href="#" onMouseOver="colorChanger('express')"
+						onMouseOut="colorReverser('express','expressDiv')"
+						onClick="shower('expressDiv', 'express')"><div class="triplet"
+							id="express">Carriles r&aacute;pidos de peaje</div>
+					</a>
+				</div>
+
+				<!-- begin Bridges -->
+				<div id="bridgeDiv">
+					<div class="colLeft">
+						<div class="indento">
+							<b>Todos los puentes del &Aacute;rea de la Bah&iacute;a de
+								San Francisco</b><br> Los titulares de cuentas de FasTrak que
+							sean considerados como veh&iacute;culos compartidos reciben
+							grandes descuentos en el peaje durante horarios de tr&aacute;fico
+							intenso en todos los puentes de peaje del &Aacute;rea de la
+							Bah&iacute;a de San Francisco. Ver <a href="#"
+								class="inLineLinkk" onClick="shower('carpoolDiv', 'carpool')">&iquest;Qu&eacute;
+								es un veh&iacute;culo compartido?</a>
+						</div>
+					</div>
+					<div class="colRight" style="max-width: 340px;">
+						<b>Golden Gate Bridge</b><br> Los titulares de cuentas de
+						FasTrak reciben un descuento de $1.00 en el peaje, y otros tipos
+						de veh&iacute;culos pueden recibir rebajas a&uacute;n mayores en
+						el peaje. <a
+							href="http://goldengatebridge.org/tolls_traffic/documents/multi-axle-vehicle-toll-chart-2016.pdf"
+							class="inLineLinkk" target="_blank">Ver el cuadro aqu&iacute;</a>.
+					</div>
+					<div class="colFullCopy">
+						<img src="../images/bridgesTableSpan.png">
+					</div>
+				</div>
+				<!-- end Bridges -->
+
+				<!-- begin Carpool -->
+				<div id="carpoolDiv">
+					<div class="indento">
+						<b>&iquest;Qu&eacute; es un veh&iacute;culo compartido?</b><br>
+						El diagrama de abajo ilustra el n&uacute;mero de pasajeros
+						requerido para ser considerado como veh&iacute;culo compartido en
+						los puentes y carriles r&aacute;pidos de peaje del &Aacute;rea de
+						la Bah&iacute;a de San Francisco.
+					</div>
+					<div class="colFullCopy">
+						<img src="../images/carpoolTableSpan_2.png">
+					</div>
+				</div>
+				<!-- end Carpool -->
+
+				<!-- begin Express -->
+				<div id="expressDiv">
+					<div class="indento">
+						Ent&eacute;rese de las diferentes formas en las que puede conducir
+						en carriles r&aacute;pidos de peaje sin costo como veh&iacute;culo
+						compartido. <br>
+						<br>
+					</div>
+
+					<div class="colLeft" style="max-width: 384px;">
+						<div class="indento">
+					<b>En los carriles r&aacute;pidos de peaje I-580 y I-680 Express Lanes de Contra Costa</b><br>
+					Como veh&iacute;culo compartido, usted debe usar un dispositivo electr&oacute;nico de peaje FasTrak Flex para viajar sin costo en estos carriles r&aacute;pidos de peaje. Antes de iniciar su recorrido, coloque el interruptor de su dispositivo electr&oacute;nico de peaje de FasTrak Flex en la posici&oacute;n (1), (2) o (3+) como se indica abajo. 
+	 				<br><br>
+	 				<img src="../images/expressIllustrationSpan.png" style="padding-bottom: 15px;">
+						</div>
+					</div>
+					<div class="colRight" style="max-width: 320px;">
+	 			<b>En los carriles r&aacute;pidos de peaje SR-237 y I-680 Express Lanes de Sunol</b><br>
+	 				No es necesario contar con un dispositivo electr&oacute;nico de peaje o cuenta de FasTrak para recibir el descuento de veh&iacute;culo compartido en estos carriles r&aacute;pidos de peaje. Si cuenta con un dispositivo electr&oacute;nico de peaje de FasTrak, siga estos pasos para evitar que se le cobre el peaje. 
+	 				<li class="spanishList">Si tiene un dispositivo electr&oacute;nico de peaje de FasTrak est&aacute;ndar, depos&iacute;telo en la bolsa met&aacute;lica de Mylar, lo que evitar&aacute; que FasTrak detecte el dispositivo electr&oacute;nico de peaje y le cobre el peaje.</li>
+	 				<li class="spanishList">Si cuenta con un dispositivo electr&oacute;nico de peaje FasTrak Flex, col&oacute;quelo en la posici&oacute;n (2) o (3+), para que FasTrak no le cobre el peaje. </li>
+					</div>
+				</div>
+				<!-- end Express -->
+
+
+			</div>
+		</div>
+	</div>
+	<!-- end content -->
+	</div>
+	<div class="footerTopperRelated">
+		<div class="footerToppler">Keep moving with FasTrak</div>
+	</div>
+	<script src="../common/js/footer.js"></script>
+
+</body>
+</html>

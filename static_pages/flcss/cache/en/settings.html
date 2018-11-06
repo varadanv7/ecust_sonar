@@ -1,0 +1,31 @@
+<ion-view view-title="Settings" ng-controller="SettingsCtrl">
+    <ion-content>
+
+        <p style="display:none">{{page.title="Settings"}}</p>
+        <div class="list">
+            <div class="item item-icon-right setticon1" ng-click="showLanguagePopup()">
+                <span class="item-icon-left1">Language</span>
+                <i class="icon right-arrow"></i>
+            </div>
+            <ion-toggle class="item  item-icon-right setticon5" ng-change="onPushNotificationClicked()" ng-model="page.isPushNotificationEnabled" ng-checked="page.isPushNotificationEnabled"><span class="item-icon-left1">Push Notification</span></ion-toggle>
+            <ion-toggle class="item item-icon-right setticon2" ng-change="onTouchIdChanged()" ng-model="page.isTouchIdEnabled" ng-checked="page.isTouchIdEnabled" ng-show="page.isTouchIdAvailable"><span class="item-icon-left1">Touch Id</span></ion-toggle>
+            <ion-toggle ng-hide="isLolipop" class="item setticon3" ng-change="onCameraSettingsChanged()" ng-model="page.isCameraEnabled" ng-checked="page.isCameraEnabled"><span class="item-icon-left1">Allow access to Camera</span></ion-toggle>
+            <ion-toggle ng-hide="isLolipop" class="item setticon4" ng-change="onLocationSettingsChanged()" ng-model="page.isLocationServiceEnabled" ng-checked="page.isLocationServiceEnabled"><span class="item-icon-left1">Allow access to Location</span></ion-toggle>
+            <div class="item clear-cha" ng-click="clearCache()">
+                <span>Clear Cache</span>
+                <!-- <br>
+                <span>Click on clear cache to remove previously stored information. The application will get latest information after the existing cache is cleared</span> -->
+            </div>
+
+            <div class="item item-icon-right" ng-click="onLogoutBtnClicked()" ng-show="isLogedInUser">
+                <span>Logout</span>
+                <i class="icon ion-log-out"></i>
+            </div>
+
+            <div class="item">
+                <span>Version 3.6.4</span>
+            </div>
+            
+        </div>
+    </ion-content>
+</ion-view>

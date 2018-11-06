@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:f="http://java.sun.com/jsf/core">
+<body>
+	<ui:composition>
+		<table>
+			<tr>
+				<td><div style="min-height:50px;max-height: 400px;overflow-y: scroll;">
+						<h:outputText id="editCntntBox" value="#{currcomp.newval}" escape="false"></h:outputText>
+					</div>
+				</td>
+				<td width="5%">
+					<p:commandLink id="editCntntLink" actionListener="#{currcomp.editContents}" oncomplete="PF('editDialPnl').show();navArrow();" update="@form">
+						<h:graphicImage value="../../ui/images/edit.png" alt="Edit" ></h:graphicImage>
+					</p:commandLink>
+				</td>
+			</tr>
+		</table>
+ 	</ui:composition>
+</body>
+</html>

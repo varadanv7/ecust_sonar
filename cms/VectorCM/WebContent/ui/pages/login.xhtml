@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+<ui:composition template="/ui/template/layout.xhtml">
+
+	
+	<ui:define name="header">
+	    <ui:include src="/ui/template/loginheader.xhtml"></ui:include>
+	</ui:define>	
+	<ui:define name="content">
+		<div style="padding:10px;padding-bottom:50px;" align="center">
+	    	<ui:include src="/ui/content/loginContent.xhtml"></ui:include>
+	    </div>
+	</ui:define>
+</ui:composition>
+</html>

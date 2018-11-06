@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ejb-jar id="ejb-jar_ID" version="2.1" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/ejb-jar_2_1.xsd">
+	<display-name>
+	TollRateCalcEjb</display-name>
+	<enterprise-beans>
+		<session id="TollRateCalc">
+			<ejb-name>TollRateCalc</ejb-name>
+			<local-home>ejbs.com.acs.ts.vector.ws.tollrate.TollRateCalcLocalHome</local-home>
+			<local>ejbs.com.acs.ts.vector.ws.tollrate.TollRateCalcLocal</local>
+			<ejb-class>ejbs.com.acs.ts.vector.ws.tollrate.TollRateCalcBean</ejb-class>
+			<session-type>Stateless</session-type>
+			<transaction-type>Container</transaction-type>
+			<resource-ref id="ResourceRef_1321684876901">
+				<description>
+				jdbc/TollRateCalc</description>
+				<res-ref-name>jdbc/TollRateCalc</res-ref-name>
+				<res-type>jdbc/TollRateCalc</res-type>
+				<res-auth>Container</res-auth>
+				<res-sharing-scope>Shareable</res-sharing-scope>
+			</resource-ref>
+		</session>
+	</enterprise-beans>
+</ejb-jar>

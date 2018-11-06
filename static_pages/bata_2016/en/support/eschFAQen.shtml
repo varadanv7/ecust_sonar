@@ -1,0 +1,305 @@
+﻿<html lang="en">
+<head></head>
+<body onload="setWindowSizeP()">
+
+
+
+	<meta charset="utf-8" />
+
+	<title>FasTrak</title>
+
+	<!--#include file="../common/headerinclude.html"-->
+	<!--#include file="../common/html/pageheader.shtml"-->
+
+	<script>
+		function dropShower(arg, arg1) {
+			var chudd = document.getElementById('ploot').value
+			var gibbery = "#" + arg;
+
+			document.getElementById('subClaim').style.display = 'none'
+
+			if (chudd == 'X') {
+				$(gibbery).fadeIn("slow");
+				document.getElementById(arg1).src = '../images/orangeArrowD.png';
+				document.getElementById('ploot').value = 'Y'
+			} else if (chudd == 'Y') {
+				$(gibbery).fadeOut("slow");
+				document.getElementById(arg1).src = '../images/orangeArrowL.png';
+				document.getElementById('ploot').value = 'X'
+			}
+		}
+
+		function closeby() {
+			document.getElementById('subClaim').style.display = 'none';
+			document.getElementById('orangeArrowX').src = '../images/orangeArrowL.png';
+		}
+	</script>
+
+
+
+	<input type="hidden" id="ploot" value="X" />
+	<div class="container">
+		<ol class="breadcrumb">
+			<li><a href="../home/index.shtml"><img
+					src="../images/breadcrumb/Home_icon.png" /> </a></li>
+			<li>Support</li>
+			<li>Unclaimed Property</li>
+			<li class="active">FAQs</li>
+		</ol>
+	</div>
+	<div class="contentEnvelope" editarea="eschFAQen"
+		editareadesc="esch FAQen">
+		<!-- content -->
+		<div class="contentTitle">
+			<div
+				style="display: inline-block; float: left; width: 240px; padding: 0 0 0 0;">&nbsp;</div>
+			<div style="display: inline-block; padding: 0 0 0 0;">FAQs</div>
+		</div>
+		<div class="menuCol">
+			<div class="menuBox">
+				<div class="navBox" id="overview">
+					<div class="arrowSpace">&nbsp;</div>
+					<a href="eschOverview.shtml" class="leftNav">OVERVIEW</a>
+				</div>
+				<div class="navBox" id="filing">
+					<div class="arrowSpace">&nbsp;</div>
+					<a href="eschFiling.shtml" class="leftNav">FILING A CLAIM</a>
+				</div>
+				<div class="navBox" id="claim">
+					<div id="claimOrangeArrow" class="arrowSpace">
+						<img src="../images/orangeArrowL.png" id="orangeArrowX" />
+					</div>
+					<a href="#"
+						onclick="dropShower('subClaim','orangeArrowX', 'orangeArrowY')"
+						class="leftNav">CLAIM FORM</a>
+				</div>
+				<div id="subClaim">
+					<div class="subby">
+						<a href="../images/EscheatmentClaimFormi123016-2b.pdf"
+							class="subbyLink" target="_blank">ENGLISH</a>
+					</div>
+					<div class="subby">
+						<a href="../images/EscheatmentClaimFormSpanishi020917.pdf"
+							class="subbyLink" target="_blank">ESPA&Ntilde;OL</a>
+					</div>
+					<div class="subby">
+						<a href="../images/EscheatmentClaimFormChinesei020917.pdf"
+							class="subbyLink" target="_blank">中文</a>
+					</div>
+				</div>
+				<div class="navBox" id="required">
+					<div class="arrowSpace">&nbsp;</div>
+					<a href="eschRequired.shtml" class="leftNav">REQUIRED
+						DOCUMENTATION</a>
+				</div>
+				<div class="navBoxActive" id="faq">
+					<div id="faqOrangeArrow" class="arrowSpace">
+						<img src="../images/orangeArrowD.png" id="orangeArrowY" />
+					</div>
+					FAQs
+				</div>
+				<div id="subFaq">
+					<div class="subby">
+						<a href="eschFAQsp.shtml" class="subbyLink">PREGUNTAS
+							FRECUENTES</a>
+					</div>
+					<div class="subby">
+						<a href="eschFAQch.shtml" class="subbyLink">常見問題</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="contentCol">
+			<div class="colFullCopy">
+				<div class="indentoFaqo" editarea="FAQen"
+					editareadesc="FAQ escheatment">
+					<div class="faqLink" data-toggle="collapse" data-target="#faq1">
+						<img src="../images/orangeArrowSmL.png"
+							style="margin-right: 5px; float: left;" />I received a notice in
+						the mail, or I found my name on the list of unclaimed properties.
+						How do I receive my property before it is transferred to the Bay
+						Area Toll Authority?
+					</div>
+					<div id="faq1" class="collapse"
+						style="padding-left: 20px; max-width: 600px;">To claim your
+						property before it is transferred to the Bay Area Toll Authority,
+						you must send a completed Claim Form and all required
+						documentation to the FasTrak Customer Service Center by April 30,
+						2018.</div>
+
+					<div class="faqLink" data-toggle="collapse" data-target="#faq2">
+						<img src="../images/orangeArrowSmL.png"
+							style="margin-right: 5px; float: left;" />Is there a time limit
+						to file a claim?
+					</div>
+					<div id="faq2" class="collapse"
+						style="padding-left: 20px; max-width: 600px;">
+						Yes, a claim should be filed by&nbsp;<span
+							style="font-size: 13.3333px;">April 30, 2018</span>. Claims
+						received after&nbsp;<span style="font-size: 13.3333px;">April
+							30, 2018</span>, must include a written explanation of the reason for
+						the late filing. The Bay Area Toll Authority, acting in its sole
+						discretion, will determine whether to accept the late claim.
+					</div>
+					<div class="faqLink" data-toggle="collapse" data-target="#faq3">
+						<img src="../images/orangeArrowSmL.png"
+							style="margin-right: 5px; float: left;" />Where do I find the
+						Claim Form?
+					</div>
+					<div id="faq3" class="collapse"
+						style="padding-left: 20px; max-width: 600px;">
+						Download a printable Claim Form in <a
+							href="../images/EscheatmentClaimFormi123016-2b.pdf"
+							class="inLineLinkk" target="_blank">English</a>, <a
+							href="../images/EscheatmentClaimFormSpanishi020917.pdf"
+							class="inLineLinkk" target="_blank">Spanish</a>, or <a
+							href="../images/EscheatmentClaimFormChinesei020917.pdf"
+							class="inLineLinkk" target="_blank">Chinese</a>. Be sure to
+						follow all the instructions on the form and attach all required
+						documentation. You can also contact us at 1-877-229-8655 to
+						request a Claim Form to be mailed or faxed to you.
+					</div>
+
+					<div class="faqLink" data-toggle="collapse" data-target="#faq4">
+						<img src="../images/orangeArrowSmL.png"
+							style="margin-right: 5px; float: left;" />How do I file a claim?
+					</div>
+					<div id="faq4" class="collapse"
+						style="padding-left: 20px; max-width: 600px;">
+						Follow the instructions on the Claim Form. Be sure to complete the
+						form, sign it, and send it to the FasTrak Customer Service Center
+						with the required documentation. Completed forms may be submitted
+						in person, by mail, via fax, or online.
+						<div style="margin: 0 0 0 20px;">
+							<div class="orangeTitleCallout">By Mail</div>
+							FasTrak Customer Service Center <br /> Escheatment Claims <br />
+							P.O. Box 26926 <br /> San Francisco, CA 94126 <br />
+							<div class="orangeTitleCallout">In Person</div>
+							FasTrak Customer Service Center <br /> 375 Beale Street <br />
+							San Francisco, CA 94105 <br /> <a href="contactUs.shtml"
+								class="inLineLinkk">Click here</a> for directions and hours of
+							operation <br /> <br />
+							<div style="font-size: 12px;">(Bring government-issued
+								identification such as a driver's license, identification card,
+								military identification card, or passport, and check in with the
+								lobby security desk.)</div>
+							<div class="orangeTitleCallout">By Fax</div>
+							1-415-974-6356
+							<div class="orangeTitleCallout">Online</div>
+							1. Go to <a href="../routers/contactUs.html" class="inLineLinkk">Email
+								FasTrak</a> <br /> 2. Click Web, and when the drop-down box
+							appears, select <b>Unclaimed Property</b> <br /> 3. Fill in your
+							details and upload your signed Claim Form and required
+							documentation <br /> 4. Hit <b>Submit</b> <br />
+						</div>
+					</div>
+
+					<div class="faqLink" data-toggle="collapse" data-target="#faq5">
+						<img src="../images/orangeArrowSmL.png"
+							style="margin-right: 5px; float: left;" />How do I file a claim
+						for a deceased owner?
+					</div>
+					<div id="faq5" class="collapse"
+						style="padding-left: 20px; max-width: 600px;">
+						You may file a claim for the property of a deceased owner if you
+						are an heir, trustee, or personal
+						representative/executor/administrator. Please see the <a
+							href="eschRequired.shtml" class="inLineLinkk">required
+							documentation</a> for deceased owner claims for the documentation you
+						will need to submit to prove ownership.
+					</div>
+
+					<div class="faqLink" data-toggle="collapse" data-target="#faq6">
+						<img src="../images/orangeArrowSmL.png"
+							style="margin-right: 5px; float: left;" />Can a claim be filed
+						jointly with another owner?
+					</div>
+					<div id="faq6" class="collapse"
+						style="padding-left: 20px; max-width: 600px;">Yes, if all
+						owners sign the Claim Form and submit the required documents to
+						prove ownership.</div>
+					<div class="faqLink" data-toggle="collapse" data-target="#faq7">
+						<img src="../images/orangeArrowSmL.png"
+							style="margin-right: 5px; float: left;" />What documentation is
+						required to show proof of a name change?
+					</div>
+					<div id="faq7" class="collapse"
+						style="padding-left: 20px; max-width: 600px;">You will need
+						to provide documents that establish that you are the person whose
+						name appears on the unclaimed property account. A marriage
+						certificate or court documents are examples of acceptable forms of
+						proof.</div>
+
+					<div class="faqLink" data-toggle="collapse" data-target="#faq8">
+						<img src="../images/orangeArrowSmL.png"
+							style="margin-right: 5px; float: left;" />I still have the
+						original, uncashed refund check from the Bay Area Toll Authority,
+						but the bank will not honor it because it is over a year old. How
+						can I get my money back?
+					</div>
+					<div id="faq8" class="collapse"
+						style="padding-left: 20px; max-width: 600px;">You must
+						complete a Claim Form, provide proof of identity, and enclose the
+						original or a copy of the uncashed check. Once we have determined
+						valid ownership, we will send you a new check. Be sure to keep
+						copies of these documents for your records.</div>
+					<div class="faqLink" data-toggle="collapse" data-target="#faq9">
+						<img src="../images/orangeArrowSmL.png"
+							style="margin-right: 5px; float: left;" />Can you electronically
+						deposit my funds into my current bank account?
+					</div>
+					<div id="faq9" class="collapse"
+						style="padding-left: 20px; max-width: 600px;">No. The Bay
+						Area Toll Authority cannot transfer funds to your current bank
+						account. If the claim is approved, a check will be mailed to the
+						address provided on the Claim Form.</div>
+					<div class="faqLink" data-toggle="collapse" data-target="#faq10">
+						<img src="../images/orangeArrowSmL.png"
+							style="margin-right: 5px; float: left;" />Is there a way to file
+						my claim electronically instead of by mailing in a paper claim
+						form?
+					</div>
+					<div id="faq10" class="collapse"
+						style="padding-left: 20px; max-width: 600px;">
+						Yes, you may submit a <b>signed</b> Claim Form, along with copies
+						of any required documentation online or via fax (1-415-974-6356).
+						<br /> <br /> To submit your Claim Form online:
+						<div style="margin: 15px 0 0 20px;">
+							1. Go to <a href="../routers/contactUs.html" class="inLineLinkk">Email
+								FasTrak</a> <br /> 2. Click Web, and when the drop-down box
+							appears, select <b>Unclaimed Property</b> <br /> 3. Fill in your
+							details and upload your signed Claim Form and required
+							documentation <br /> 4. Hit <b>Submit</b>
+						</div>
+					</div>
+
+					<div class="faqLink" data-toggle="collapse" data-target="#faq11">
+						<img src="../images/orangeArrowSmL.png"
+							style="margin-right: 5px; float: left;" />I submitted my Claim
+						Form. Where's my refund check?
+					</div>
+					<div id="faq11" class="collapse"
+						style="padding-left: 20px; max-width: 600px;">
+						It may take up to 60 days from receipt to process your Claim Form
+						and issue a refund check. <br /> <br /> If you are having
+						trouble verifying the status of your claim or have a hardship, you
+						may call the FasTrak Customer Service Center toll free at
+						1-877-229-8655, or go to <a href="../routers/contactUs.html"
+							class="inLineLinkk">Email FasTrak</a>, click Web, and when the
+						drop-down box appears, select <b>Unclaimed Property</b>. You will
+						need to provide the name that appears on the FasTrak unclaimed
+						property list and a brief statement of your inquiry. <br /> <br />
+					</div>
+					<br />
+				</div>
+			</div>
+		</div>
+		<!-- end content -->
+	</div>
+	<div class="footerTopperRelated">
+		<div class="footerToppler">Keep moving with FasTrak</div>
+	</div>
+	<script src="../common/js/footer.js"></script>
+
+</body>
+</html>

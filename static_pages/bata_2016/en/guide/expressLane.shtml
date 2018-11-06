@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>FasTrak</title>
+
+
+   <script>
+  function boo(event){
+   var x = event.screenX;
+    var y = event.screenY;
+    var coords = "X coords: " + x + ", Y coords: " + y;
+	X = x + 300;
+    document.getElementById("detailed").style.top = X +'px';
+    document.getElementById("detailed").style.left = '40px';
+   
+    
+    bloop = "#" + "detailed";
+	$(bloop).fadeIn(900);
+
+  }
+  
+  function booHoo(event){
+   var x = event.screenX;
+    var y = event.screenY;
+    var coords = "X coords: " + x + ", Y coords: " + y;
+	X = x + 10;
+    //document.getElementById("apples").style.top = x +'px';
+    //document.getElementById("apples").style.left = '40px';
+    
+    //document.getElementById("apples").style.top = '50px';
+    
+    bloop = "#" + "apples";
+	$(bloop).fadeIn(900);
+
+  }
+  </script>
+    <!--#include file="../common/headerinclude.html"-->
+ <!--#include file="../common/html/pageheader.shtml"-->
+</head>
+
+<body onLoad="setWindowSizeP()">
+   <div class="container"><ol class="breadcrumb">
+	  <li><a href="../home/index.shtml"><img src="../images/breadcrumb/Home_icon.png"></a></li>
+	  <li>Guide</a></li>
+	  <li class="active">Bay Area Express Lanes</li>
+</div>
+<div id="detailed" style="z-index: 999999;">
+<a href="#detailed" onClick="closer('detailed')" class="searchButton" style="margin-bottom: 15px; float: right;">X</a>
+<table width="550" cellpadding="5" cellspacing="0" border="1">
+	<tr>
+		<td bgcolor="#c4bc92">Express Lanes </td>
+		<td bgcolor="#c4bc92">Hours</td>
+		<td bgcolor="#c4bc92">Days</td>
+	</tr>
+	<tr>
+		<td>I-680 Southbound  </td>
+		<td>5am to 8pm </td>
+		<td rowspan="5">Monday through Friday </td>
+	</tr>
+	<tr>
+		<td>SR-237 - Westbound </td>
+		<td>5 - 10 am and 3 - 7 pm </td>
+	</tr>
+	<tr>
+		<td>SR-237 - Eastbound</td>
+		<td>5 - 9 am and 3 - 7 pm</td>
+	</tr>
+	<tr>
+		<td>I-580 - Westbound </td>
+		<td>5am - 8 pm</td>
+	</tr>
+	<tr>
+		<td>I-580 - Eastbound </td>
+		<td>5am - 8 pm</td>
+	</tr>
+</table>
+<br>
+</div>
+<div id="apples" style="width: 80%; text-align: center; z-index: 99">
+<a href="#apples" onClick="closer('apples')" class="searchButton" style="margin-bottom: 15px; float: right">X</a>
+<img src="../images/expressLaneMap3.jpg" width="100%" style="max-width: 782px;">
+</div>
+
+<div class="contentEnvelope" editarea="expressLane" editareadesc="express Lane">
+<!-- content -->
+	<div class="contentTitle">BAY AREA EXPRESS LANES</div>
+		<img src="../images/expressLaneTop.jpg" width="100%" style="margin-top: 15px;">
+		<div style="float: right; font-size: 11px">Photo by Noah Berger</div>
+		<div class="threeQuarterCol" style="clear: both;">
+			<div class="twoColCopyBlock">
+			Express lanes let you enjoy more reliable travel as you bypass traffic congestion. FasTrak allows solo drivers to pay a toll to drive in express lanes. Carpools can travel toll-free in all express lanes, but need the FasTrak Flex toll tag to travel toll-free  in some Express Lanes.
+				
+			</div>
+		</div>
+	<div class="greenArticleTop">Using Bay Area Express Lanes</div>
+	<div class="left2Col">
+		<div class="twoColCopyBlock">
+		Look for the dashed or broken lines. These are lane openings where you are allowed to enter or leave an express lane. <br>
+		<img src="../images/expressLaneDiagram_1.jpg" width="100%" style="margin: 15px 0 25px 0">
+		Some highway exits may not be available when driving in an express lane. Check roadside signs for details.<br>
+		<img src="../images/expressLaneDiagram_3.png" width="100%" style="margin: 15px 0 0 0">
+		</div>
+	</div>
+	<div class="right2Col">
+		<div class="twoColCopyBlock">
+		Do not cross the double white lines to enter or leave an express lane. Crossing them is a traffic violation.<a name="myExit"></a><br>
+		<img src="../images/expressLaneDiagram_2.jpg" width="100%" style="margin: 15px 0 25px 0"><br>
+		<div class="tipsBlock">
+					<div class="tipsBlockTitle">I-580 Express Lanes &mdash; Some highway exits not available</div>
+					Look at roadside signs for information or see the map here to plan ahead.
+					<br><a href="#myExit" onClick="booHoo(event)">I-580 Express Lanes Map</a>
+					<br><br>
+					Westbound<br>
+					If you need to access I-680 or to exit at Dougherty Road, leave the express lane before Hacienda.
+					<br><br>
+					Eastbound<br>
+					If you need to exit at Santa Rita Road or Fallon/El Charro Road, do not enter the express lane.
+					</div>
+					<div class="tipsBox" id="tippy">TIP</div>
+		</div>
+	</div>
+	<div class="left2Col">
+	<div class="greenArticleTop">Solo Drivers Pay a Toll</div>
+		<div class="twoColCopyBlock">
+		
+			<div class="orangeTitleCallout" style="margin-top: 0;">The toll amount varies</div>
+			The toll prices may go up or down depending on the level of traffic congestion.
+			<div class="orangeTitleCallout">You'll know the toll in advance</div>
+			Look for the overhead sign that states the toll amount before entering the express lane. It shows the price to travel through the next zone and the price to travel through to the end of the express lane.
+			<div class="orangeTitleCallout">Zone pricing</div>
+			<img src="../images/expressLaneZonePricing.png" width="100%">
+			You will be charged based on the tolls displayed when you first enter the express lane. If you exit the express lane before the final posted zone, you will be charged a lower price.
+			<br><br>
+			For more information on pricing and signs, <a href="http://bayareaexpresslanes.org/pricing-and-signs" target="_blank" class="inLineLinkk">click here</a>.
+			<div class="tipsBlock">
+					<div class="tipsBlockTitle">Stay in the lane &mdash; the toll stays the same</div>
+					If you briefly leave and then re-enter an express lane, FasTrak will charge you a single toll as though you travelled continuously in the lane. It is unlikely that weaving in and out of the express lane will decrease your toll.
+					</div>
+					<div class="tipsBox">TIP</div>
+
+		</div>
+	</div>
+	<div class="right2Col">
+	<div class="greenArticleTop">Carpools Can Travel Toll-Free</div>
+		<div class="twoColCopyBlock">
+		Use FasTrak correctly for toll-free travel in Express Lanes as a carpool, motorcycle, or eligible Clean Air Vehicle (CAV).
+		<div class="orangeTitleCallout">In the I-580 and I-680 Contra Costa Express Lanes</div>
+		You must use the new FasTrak Flex toll tag, set to position (2) or (3+), to travel toll-free.
+		<div style="margin: 10px 0px 15px 0px;"><a href="../support/flexTag.shtml" class="beigeButton">I-580 and I-680 Contra Costa</a></div>
+		<div class="orangeTitleCallout">In the SR-237 and I-680 Sunol Express Lanes</div>
+		You do not need any toll tag for toll-free travel as a carpool. If you have a standard FasTrak toll tag, put it into a Mylar bag to avoid detection. If you have a FasTrak Flex toll tag, set it to position (2) or (3+) to travel toll-free.
+		<br><br>
+		To find out more about vehicle toll exemption eligibility, <a href="http://bayareaexpresslanes.org/am-i-toll-exempt/" target="_blank" border="0">click here</a>.
+		</div>
+		<div class="greenArticleTop">FasTrak Flex Toll Tag</div>
+		<div class="twoColCopyBlock">
+		The FasTrak Flex toll tag is required for carpools to travel toll-free in I-580 and I-680 Contra Costa express lanes, and though not required in other express lanes, it works there for carpool travel too. This toll tag allows you to pay tolls when you're travelling alone and travel toll-free when you qualify as a carpool.
+		<div style="margin: 10px 0px 15px 0px;"><a href="../guide/doINeedFlex.shtml" class="beigeButton">FasTrak Flex</a></div>
+		</div>
+		<div class="greenArticleTop">More About Bay Area Express Lanes</div>
+		<div class="twoColCopyBlock">
+		<a href="http://bayareaexpresslanes.org/" target="_blank" class="inLineLinkk" style="float: left; margin-right: 15px; margin-bottom: 5px; margin-top: 5px;"><img src="../images/baelLogo.png"></a>Learn more about using express lanes, where they are, and why they are important.
+		</div>
+	</div>
+	
+	<div  id="xpressChutesTips">
+	<div class="tipsBlock">
+		<div class="doubleTip">
+			<div class="tipsBlockTitle">I-580 Express Lane chutes</div>
+			<div class="tipsBlockTitle" style="font-size: 13px">The Westbound "San Ramon Road Chute"</div>
+			Going west, it starts at Hacienda Road. You cannot enter or leave the Express Lane until San Ramon Road. If you are travelling in the Express Lane and need to access I-680 or to exit at Dougherty Road, leave the Express Lane before Hacienda. <a href="#apples" onclick="booHoo(event)" name="apples" class="inLineLinkk">Click For Map</a>.
+		</div>
+		<div class="doubleTip">
+			<div class="tipsBlockTitle" style="font-size: 13px; margin-top: 10px">The Eastbound "Airway Road Chute"</div>
+			Going east, it starts at Hacienda Road. You cannot leave the Express Lane to exit the highway until Airway Road. If you need to exit at Santa Rita Road or Fallon/El Charro Road, do not enter the eastbound Express Lane.
+			<a href="#apples" onclick="booHoo(event)" name="apples" class="inLineLinkk">Click For Map</a>.
+			</div>
+		</div>
+		<div class="tipsBox" style="margin-right: 30px;">TIP</div>
+		</div>
+
+	
+<!-- end content -->
+</div>
+<div class="footerTopperRelated">
+	<div class="relatedLinks">Related Links</div>
+	<div class="footerBlockRelated">
+	<a href="../support/faqs.shtml" class="footerLink">Express Lanes FAQs</a>
+	<br>
+	<a href="../guide/doINeedFlex.shtml" class="footerLink">FasTrak Flex Toll Tag</a>
+	<br>
+	<a href="../howitworks/carpool.shtml" class="footerLink">Using Carpool Lanes</a>
+	</div>
+	<div class="footerBlockRelated_b">
+	<a href="../support/flexTag.shtml" class="footerLink">I-580 Carpools</a>
+	<br>
+	<a href="../support/flexTag.shtml" class="footerLink">I-680 Contra Costa Carpools</a>
+	<br>
+	<a href="http://bayareaexpresslanes.org/" class="footerLink" target="_blank">Bay Area Express Lanes</a>
+	</div>
+</div>
+<script src="../common/js/footer.js"></script>
+
+  </body>
+</html>

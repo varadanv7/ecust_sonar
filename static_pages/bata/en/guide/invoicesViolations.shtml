@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>FasTrak</title>
+    <!--#include file="../common/headerinclude.html"-->
+ <!--#include file="../common/html/pageheader.shtml"-->
+
+  <script>
+  function boo(event){
+   var x = event.screenX;
+    var y = event.screenY;
+    var coords = "X coords: " + x + ", Y coords: " + y;
+	X = x - 300;
+    document.getElementById("detailed").style.top = '200px';
+    document.getElementById("detailed").style.left = '40px';
+    
+    bloop = "#" + "detailed";
+	$(bloop).fadeIn(900);
+
+  }
+  </script>
+  
+</head>
+
+<body onLoad="setWindowSizeP()">
+<div class="container"><ol class="breadcrumb">
+	  <li><a href="../home/index.shtml"><img src="../images/breadcrumb/Home_icon.png"></a></li>
+	  <li>Guide</a></li>
+	  <li class="active">Invoice & Violation Info</li>
+</div>
+
+<div id="detailed" style="max-width: 600px;">
+<a href="#detailed" onClick="closer('detailed')" class="searchButton" style="margin-bottom: 15px; float: right;">X</a><br>
+<div style="clear: both;">Make sure your tag is properly mounted and that you don't have a special metal oxide window or other metal obstruction such as an overhead rack. Otherwise, the battery in your FasTrak tag may not be working. If you don't hear a beep or see the light blink when the tag is read, you should contact the Customer Service Center. A Customer Service Representative may be able to waive the violation penalty as a first time courtesy.</div>
+<br>
+</div>
+
+<div class="contentEnvelope">
+<!-- content -->
+	<div class="contentTitle">INVOICE & VIOLATION INFO</div>
+	<div class="left2Col">
+		<div class="greenArticleTop">An Invoice for a Golden Gate Bridge Toll</div>
+		<div class="twoColCopyBlock">
+		An invoice is for the toll amount only. You received an invoice for crossing the Golden Gate Bridge if a vehicle registered to you passed through the toll collection point, and either:
+		<br>
+		<ul>
+			<li class="lister">You did not pay the toll through a FasTrak account, License Plate account, or One Time Payment 
+			<li class="lister">You did not have a FasTrak toll tag or your toll tag <a href="../howitworks/howToMount.shtml"  class="inLineLinkk">was not read properly</a> and the license plate of the vehicle is not registered to a FasTrak account
+		</ul>
+		If you have been invoiced by mistake, you can resolve it. If you do not have a FasTrak account, consider opening one before you pay an invoice here. It's a convenient way to pay and you'll receive future toll discounts.
+		<br><br>
+		<a href="../routers/invoice.html"  class="beigeButton">Pay Or Resolve An Invoice</a><!-- links to existing page -->
+		<br><br>
+		<div class="tipsBlock">
+			<div class="tipsBlockTitle">Be sure to pay by the due date </div>
+			
+			If we do not receive your payment on time, we will issue a violation notice to you, including associated penalties.
+			</div>
+			<div class="tipsBox">TIP</div>
+		</div>
+	</div>
+	<div class="right2Col">
+		<div class="greenArticleTop">A Violation Notice</div>
+		<div class="twoColCopyBlock">
+		A violation notice includes the toll amount and associated penalty fees. You received a violation notice if you did not pay the toll as required by any Bay Area toll bridge or express lane, and either:
+		<ul>
+			<li class="lister">You did not have a FasTrak toll tag or your toll tag <a href="../howitworks/howToMount.shtml" class="inLineLinkk">was not read properly</a> and the license plate of the vehicle is not registered to a FasTrak account</li>
+			<li class="lister">Your payment for a Golden Gate Bridge toll was not received by the due date or your payment method was declined</li>
+		</ul>
+		If there has been a mistake, you can resolve it. Use this button to find your violation, and then select the Dispute button to provide us with your information. 
+		<br><br>
+		If this is the first time you have received a violation, open a FasTrak account and we will waive the violation penalty amount so that you only pay the toll.
+		<br><br>
+		<a href="../routers/violation.html"  class="beigeButton">Pay Or Resolve A Violation</a><!-- links to pdf -->
+		</div>
+	</div>
+		<div class="greenArticleTop" style="margin-right: 20px;">Before You Pay, Open A FasTrak Account</div>
+	<div class="left2Col">
+		<div class="twoColCopyBlock">
+		When you open a FasTrak account, you can simplify paying toll invoices and resolve a first-time violation notice in your favor.
+		<br><br>
+		You'll also experience FasTrak's many conveniences to save time and money. You'll pay all tolls electronically using a toll tag and avoid waiting in line to pay cash tolls. On the Golden Gate Bridge, you'll receive a $1 discount on future tolls. As a carpool, you'll get a discount during commute times on all Bay Area toll bridges. You can use express lanes as a solo driver. You can travel toll-free in the I-580 Express Lanes as a carpool, motorcycle or eligible Clean Air Vehicle (CAV) using a FasTrak Flex toll tag. 
+		</div>
+	</div>
+	<div class="right2Col">
+		<div class="twoColCopyBlock">
+		<div class="orangeTitleCallout" style="margin-top: 0">For Golden Gate Bridge tolls</div>
+		You can pay for prior toll invoices when you open a FasTrak account. Backdate the start date of the vehicle in the account to the date of your earliest toll crossing within the past 30 days. Sign up with FasTrak to get started.
+
+		<div class="orangeTitleCallout">For first-time violation</div>
+
+		If you incurred a violation for the first time, we will waive the violation penalty if you open a FasTrak account within 30 days of the violation. When you set up your account, backdate the start date of the vehicle which incurred the violation to include the date of your unpaid toll crossing. We will deduct the unpaid toll from your account and waive the penalty portion of the amount owed. You will see the violation status change to "Closed" within about a week.
+		<br><br>
+		<a href="../signup/signUp.shtml" class="greenButton">Sign Up</a>
+		</div>
+	</div>
+<!-- end content -->
+</div>
+<div class="footerTopperRelated">
+	<div class="relatedLinks">Related Links</div>
+	<div class="footerBlockRelated">
+	<a href="../guide/GGBridgeToll.shtml" class="footerLink">Golden Gate Bridge Toll</a>
+	<br>
+	<a href="../howitworks/whereToUse.shtml" class="footerLink">Where To Use</a>
+	<br>
+	<a href="../guide/violationsEnforcement.shtml" class="footerLink">Enforcement</a>
+	</div>
+</div>
+<!--#include file="../common/html/footerpage.shtml"-->
+  </body>
+</html>

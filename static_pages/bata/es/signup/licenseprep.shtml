@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+	<!--#include file="../common/headerinclude.html"-->
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+	<!--#include file="../common/topnavigationnh.html"-->
+	<div class="container"><ol class="breadcrumb">
+	  <li><a href="../home/index.shtml"><img src="../images/breadcrumb/Home_icon.png"></a></li>
+	  <li><a href="../ggb/crossing.shtml">Puente Golden Gate</a></li>
+	  <li class="active">Abrir una cuenta de placa</li>
+	</ol></div>
+	
+	<div class="container clstatic" editarea="img111">
+	
+
+	<h1 class="page-header-noborder">
+		Abrir una cuenta de placa
+	</h1>
+	<p>Necesitar&aacute; la siguiente informaci&oacute;n para el proceso de suscripci&oacute;n. Por razones de seguridad, tendr&aacute; 15 minutos para llevar a cabo el proceso de registro antes de que se agote el tiempo.</p>
+	<h1 class="page-subheader-noborder">Lo que necesitar&aacute;</h1>
+	<div class="table-responsive">
+	  <table class="withborder">
+		<tbody>
+		<tr>
+		<td class="row1"><h5>Un correo electr&oacute;nico v&aacute;lido</h5><div class="boxedshadowtable"></div></td>
+		<td class="row1"><h5>Tarjeta de cr&eacute;dito</h5><div class="boxedshadowtable"></div></td>
+		<td class="row1"><h5>Informaci&oacute;n de la placa</h5><div class="boxedshadowtable"></div></td>
+		</tr>
+		<tr>
+		<td class="row1">Es necesario tener una direcci&oacute;n de correo electr&oacute;nico v&aacute;lida para suscribirse a una cuenta de placa.</td>
+		<td class="row1">Se necesita una tarjeta de cr&eacute;dito v&aacute;lida para registrarse en l&iacute;nea. Si quiere abrir una cuenta usando efectivo o un cheque, tendr&aacute; que ponerse en contacto con servicio al cliente, para obtener ayuda.</td>
+		<td class="row1">Tiene que tener el n&uacute;mero de su placa y saberl el estado de cada veh&iacute;culo que quiera registrar.</td>
+		</tr>
+		</tbody>
+		<tfoot><tr><td class="row1"></td><td class="row1"></td><td class="row1"></td></tr></tfoot>
+	  </table>
+	</div>
+	<p>
+	<div class="btn-group">
+      <button sourceindex="55" type="button" class="btn btn-cancel" onclick="document.location='../ggb/crossing.shtml'">Cancelar</button>
+    </div><!-- /btn-group -->
+    <div class="btn-group">
+      <button sourceindex="57" type="button" class="btn btn-submit" onclick="document.location=vsignupURL">Comenzar registro</button>
+    </div>
+
+	</div>
+	<!--#include file="../common/footer.html"-->
+	<!--#include file="../common/footerinclude.html"-->
+    </body>
+</html>

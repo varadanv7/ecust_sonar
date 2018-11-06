@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://service.ws.vector.ts.acs.com/TollRateCalc/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="TollRateCalc" targetNamespace="http://service.ws.vector.ts.acs.com/TollRateCalc/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://service.ws.vector.ts.acs.com/TollRateCalc/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <xsd:element name="getFacilities">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="req" type="tns:FacilityRequest"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="getFacilitiesResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="resp" type="tns:FacilityResponse"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    
+      <xsd:complexType name="FacilityRequest">
+      	<xsd:sequence>
+      		<xsd:element name="agency" type="xsd:string"/>
+      		<xsd:element name="attrib01" type="xsd:string"/>
+      		<xsd:element name="attrib02" type="xsd:string"/>
+      	</xsd:sequence>
+      </xsd:complexType>
+    
+      <xsd:complexType name="FacilityResponse">
+      	<xsd:sequence>
+      		<xsd:element maxOccurs="unbounded" minOccurs="0" name="facilities" type="tns:FacilityInfo"/>
+      		<xsd:element name="attrib01" type="xsd:string"/>
+      		<xsd:element name="attrib02" type="xsd:string"/>
+      	</xsd:sequence>
+      </xsd:complexType>
+    
+      <xsd:complexType name="FacilityInfo">
+      	<xsd:sequence>
+      		<xsd:element name="facilityCode" type="xsd:string"/>
+      		<xsd:element name="facilityName" type="xsd:string"/>
+      		<xsd:element name="isICC" type="xsd:string"/>
+      		<xsd:element name="attrib02" type="xsd:string"/>
+      	</xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="getVehicleClass">
+      	<xsd:complexType>
+      		<xsd:sequence>
+      			<xsd:element name="req" type="tns:VehicleClassRequest"/>
+      		</xsd:sequence>
+      	</xsd:complexType>
+      </xsd:element>
+      <xsd:element name="getVehicleClassResponse">
+      	<xsd:complexType>
+      		<xsd:sequence>
+      			<xsd:element name="resp" type="tns:VehicleClassResponse"/>
+      		</xsd:sequence>
+      	</xsd:complexType>
+      </xsd:element>
+    
+      <xsd:complexType name="VehicleClassRequest">
+      	<xsd:sequence>
+      		<xsd:element name="agency" type="xsd:string"/>
+      		<xsd:element name="attrib01" type="xsd:string"/>
+      		<xsd:element name="attrib02" type="xsd:string"/>
+      	</xsd:sequence>
+      </xsd:complexType>
+
+      <xsd:complexType name="VehicleClassResponse">
+      	<xsd:sequence>
+      		<xsd:element maxOccurs="unbounded" minOccurs="0" name="vehicleClass" type="tns:VehicleClassInfo"/>
+      		<xsd:element name="attrib01" type="xsd:string"/>
+      		<xsd:element name="attrib02" type="xsd:string"/>
+      	</xsd:sequence>
+      </xsd:complexType>
+    
+      <xsd:complexType name="VehicleClassInfo">
+      	<xsd:sequence>
+      		<xsd:element name="vehicleClassCode" type="xsd:string"/>
+      		<xsd:element name="vehicleClassDesc" type="xsd:string"/>
+      		<xsd:element name="attrib01" type="xsd:string"/>
+      		<xsd:element name="attrib02" type="xsd:string"/>
+      	</xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="getEntryPoints">
+      	<xsd:complexType>
+      		<xsd:sequence>
+      			<xsd:element name="req" type="tns:EntryPointsRequest"/>
+      		</xsd:sequence>
+      	</xsd:complexType>
+      </xsd:element>
+      <xsd:element name="getEntryPointsResponse">
+      	<xsd:complexType>
+      		<xsd:sequence>
+      			<xsd:element name="resp" type="tns:EntryPointsResponse"/>
+      		</xsd:sequence>
+      	</xsd:complexType>
+      </xsd:element>
+    
+
+      <xsd:element name="getExitPoints">
+            	<xsd:complexType>
+            		<xsd:sequence>
+            			<xsd:element name="req" type="tns:ExitPointsRequest"/>
+            		</xsd:sequence>
+            	</xsd:complexType>
+            </xsd:element>
+            <xsd:element name="getExitPointsResponse">
+            	<xsd:complexType>
+            		<xsd:sequence>
+            			<xsd:element name="resp" type="tns:ExitPointsResponse"/>
+            		</xsd:sequence>
+            	</xsd:complexType>
+            </xsd:element>
+    
+            <xsd:complexType name="ExitPointsRequest">
+            	<xsd:sequence>
+            		<xsd:element name="facilityCode" type="xsd:string"/>
+            		<xsd:element name="entryPointCode" type="xsd:string"/>
+            		<xsd:element name="attrib01" type="xsd:string"/>
+            		<xsd:element name="attrib02" type="xsd:string"/>
+            	</xsd:sequence>
+            </xsd:complexType>
+
+            <xsd:complexType name="ExitPointsResponse">
+            	<xsd:sequence>
+            		<xsd:element maxOccurs="unbounded" minOccurs="0" name="facilities" type="tns:FacilityInfo"/>
+            		<xsd:element name="attrib01" type="xsd:string"/>
+            		<xsd:element name="attrib02" type="xsd:string"/>
+            	</xsd:sequence>
+            </xsd:complexType>
+            <xsd:element name="calcTollRate">
+            	<xsd:complexType>
+            		<xsd:sequence>
+            			<xsd:element name="req" type="tns:CalcTollRateRequest"/>
+            		</xsd:sequence>
+            	</xsd:complexType>
+            </xsd:element>
+            <xsd:element name="calcTollRateResponse">
+            	<xsd:complexType>
+            		<xsd:sequence>
+            			<xsd:element name="resp" type="tns:CalcTollRateResponse"/>
+            		</xsd:sequence>
+            	</xsd:complexType>
+            </xsd:element>
+    
+            <xsd:complexType name="CalcTollRateRequest">
+            	<xsd:sequence>
+            		<xsd:element name="facilityCode" type="xsd:string"/>
+            		<xsd:element name="vehicleClassCode" type="xsd:string">
+            		</xsd:element>
+            		<xsd:element name="entryPointCode" type="xsd:string"/>
+
+            		<xsd:element name="exitPointCode" type="xsd:string"/>
+            		<xsd:element name="attrib01" type="xsd:string"/>
+            		<xsd:element name="attrib02" type="xsd:string"/>
+            	</xsd:sequence>
+            </xsd:complexType>
+            
+            <xsd:complexType name="CalcTollRateResponse">
+            	<xsd:sequence>
+
+
+
+
+
+
+            		            		            		<xsd:element name="icc" type="tns:ICC"/>
+            		<xsd:element name="nonicc" type="tns:NonICC"/>
+                    <xsd:element name="attrib01" type="xsd:string"/>
+                    <xsd:element name="attrib02" type="xsd:string"/>
+                </xsd:sequence>
+            </xsd:complexType>
+    
+            <xsd:complexType name="EntryPointsResponse">
+            	<xsd:sequence>
+            		<xsd:element maxOccurs="unbounded" minOccurs="0" name="facilities" type="tns:FacilityInfo"/>
+            		<xsd:element name="attrib01" type="xsd:string"/>
+            		<xsd:element name="attrib02" type="xsd:string"/>
+            	</xsd:sequence>
+            </xsd:complexType>
+    
+            <xsd:complexType name="EntryPointsRequest">
+            	<xsd:sequence>
+            		<xsd:element name="facilityCode" type="xsd:string"/>
+            		<xsd:element name="attrib01" type="xsd:string"/>
+            		<xsd:element name="attrib02" type="xsd:string"/>
+            	</xsd:sequence>
+            </xsd:complexType>
+    
+            <xsd:complexType name="EZPassRate">
+            	<xsd:sequence>
+            		<xsd:element name="peak" type="xsd:string"/>
+            		<xsd:element name="offPeak" type="xsd:string"/>
+            		<xsd:element name="overnight" type="xsd:string"/>
+            	</xsd:sequence>
+            </xsd:complexType>
+    
+            <xsd:complexType name="VideoTollRate">
+            	<xsd:sequence>
+            		<xsd:element name="peak" type="xsd:string"/>
+            		<xsd:element name="offPeak" type="xsd:string"/>
+            		<xsd:element name="overnight" type="xsd:string"/>
+            	</xsd:sequence>
+            </xsd:complexType>
+    
+            <xsd:complexType name="ICC">
+            	<xsd:sequence>
+                    <xsd:element name="ezpass" type="tns:EZPassRate"/>
+                    <xsd:element name="videoToll" type="tns:VideoTollRate">
+            		</xsd:element>
+                </xsd:sequence>
+            </xsd:complexType>
+    
+            <xsd:complexType name="NonICC">
+            	<xsd:sequence>
+            		<xsd:element name="commuter" type="xsd:string"/>
+            		<xsd:element name="ezpass" type="xsd:string"/>
+            		<xsd:element name="cash" type="xsd:string"/>
+            		<xsd:element name="video" type="xsd:string"/>
+            	</xsd:sequence>
+            </xsd:complexType>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="getFacilitiesRequest">
+    <wsdl:part element="tns:getFacilities" name="request"/>
+  </wsdl:message>
+  <wsdl:message name="getFacilitiesResponse">
+    <wsdl:part element="tns:getFacilitiesResponse" name="response"/>
+  </wsdl:message>
+  <wsdl:message name="getVehicleClassRequest">
+  	<wsdl:part element="tns:getVehicleClass" name="request"/>
+  </wsdl:message>
+  <wsdl:message name="getVehicleClassResponse">
+  	<wsdl:part element="tns:getVehicleClassResponse" name="response"/>
+  </wsdl:message>
+  <wsdl:message name="getEntryPointsRequest">
+  	<wsdl:part element="tns:getEntryPoints" name="request"/>
+  </wsdl:message>
+  <wsdl:message name="getEntryPointsResponse">
+  	<wsdl:part element="tns:getEntryPointsResponse" name="response"/>
+  </wsdl:message>
+  <wsdl:message name="getExitPointsRequest">
+  	<wsdl:part element="tns:getExitPoints" name="request"/>
+  </wsdl:message>
+  <wsdl:message name="getExitPointsResponse">
+  	<wsdl:part element="tns:getExitPointsResponse" name="response"/>
+  </wsdl:message>
+  <wsdl:message name="calcTollRateRequest">
+  	<wsdl:part element="tns:calcTollRate" name="request"/>
+  </wsdl:message>
+  <wsdl:message name="calcTollRateResponse">
+  	<wsdl:part element="tns:calcTollRateResponse" name="response"/>
+  </wsdl:message>
+  <wsdl:portType name="TollRateCalc">
+    <wsdl:operation name="getFacilities">
+      <wsdl:input message="tns:getFacilitiesRequest" name="facilityRequest"/>
+      <wsdl:output message="tns:getFacilitiesResponse" name="facilityResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="getVehicleClass">
+    	<wsdl:input message="tns:getVehicleClassRequest" name="vehicleRequest"/>
+    	<wsdl:output message="tns:getVehicleClassResponse" name="vehicleResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="getEntryPoints">
+    	<wsdl:input message="tns:getEntryPointsRequest" name="entryPointsRequest"/>
+    	<wsdl:output message="tns:getEntryPointsResponse" name="entryPointsResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="getExitPoints">
+    	<wsdl:input message="tns:getExitPointsRequest" name="exitPointsRequest"/>
+    	<wsdl:output message="tns:getExitPointsResponse" name="exitPointsResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="calcTollRate">
+    	<wsdl:input message="tns:calcTollRateRequest" name="calcRequest"/>
+    	<wsdl:output message="tns:calcTollRateResponse" name="calcResponse"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="TollRateCalcSOAP" type="tns:TollRateCalc">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="getFacilities">
+      <soap:operation soapAction="http://www.ezpassmd.com/TollRateCalc/getFacilities"/>
+      <wsdl:input name="facilityRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="facilityResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getVehicleClass">
+      <soap:operation soapAction="http://www.ezpassmd.com/TollRateCalc/getVehicleClass"/>
+      <wsdl:input name="vehicleRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="vehicleResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getEntryPoints">
+      <soap:operation soapAction="http://www.ezpassmd.com/TollRateCalc/getEntryPoints"/>
+      <wsdl:input name="entryPointsRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="entryPointsResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getExitPoints">
+      <soap:operation soapAction="http://www.ezpassmd.com/TollRateCalc/getExitPoints"/>
+      <wsdl:input name="exitPointsRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="exitPointsResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="calcTollRate">
+      <soap:operation soapAction="http://www.ezpassmd.com/TollRateCalc/calcTollRate"/>
+      <wsdl:input name="calcRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="calcResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="TollRateCalc">
+    <wsdl:port binding="tns:TollRateCalcSOAP" name="TollRateCalcService">
+		<soap:address location="http://localhost:9080/TollRateCalc/services/TollRateCalcService"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

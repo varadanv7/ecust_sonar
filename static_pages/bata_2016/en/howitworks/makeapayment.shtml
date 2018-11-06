@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+	<!--#include file="../common/headerinclude.html"-->
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+	<!--#include file="../common/topnavigationnh.html"-->
+	<div class="container"><ol class="breadcrumb">
+	  <li><a href="../home/index.shtml"><img src="../images/breadcrumb/Home_icon.png"></a></li>
+	  <li class="active">PAY AN INVOICE OR VIOLATION</li>
+	</ol></div>
+	<div class="container clstatic" editarea="p1" >
+	
+
+	<h1 class="page-header-noborder">
+		PAY AN INVOICE OR VIOLATION
+	</h1>
+	<p editareadesc="Make a Payment">There are two ways to pay for a Golden Gate Bridge toll crossing if you are not a FasTrak account holder: Set up a One-Time Payment or Pay an Invoice after you receive one in the mail.<br/><br/>If you used a FasTrak facility that requires a valid FasTrak account, but did not have one at the time, or if you didn't pay your notice by the due date, you can pay for your tolls and any associated penalties using the Resolve a Violation button.<br/><br/>If you are a FasTrak account holder and received an invoice or violation, please do not make a payment at this time, but use the corresponding invoice or violation button below to file a dispute and let us know how we can resolve this issue for you. </p>
+	<hr>
+	<div class="table-responsive">
+	  <table class="withborder">
+		<thead>
+		<tr>
+			<td class="row3">ONE-TIME PAYMENTS</td><td class="row3">INVOICES</td><td class="row3">VIOLATIONS</td>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+		<td class="row3"><img editareadesc="One Time Payment" width="284px" height="193px" src="../images/OTP_284x193.png"></td>
+		<td class="row3"><img editareadesc="Invoice" width="284px" height="193px" src="../images/Invoices_284x193.png"></td>
+		<td class="row3"><img  editareadesc="Violation" width="284px" height="193px" src="../images/Violations_284x193.png"></td>
+		</tr>
+		<tr>
+		<td class="row3"><div class="boxedshadowtable"></div></td>
+		<td class="row3"><div class="boxedshadowtable"></div></td>
+		<td class="row3"><div class="boxedshadowtable"></div></td>
+		</tr>
+		<tr>
+		<td class="row3"><p  editareadesc="One Time Payment">Do you plan on crossing the Golden Gate Bridge and want to pay for your tolls in advance? Or, have you crossed the Golden Gate Bridge within the past 48 hours and want to pay for your tolls now? Select the button below to set up a One-Time Payment to pay for your Golden Gate Bridge toll activity. You also have the option to do nothing now and wait for an invoice to be mailed to the vehicle's registered owner for the toll amount only (there are no added costs).</p></td>
+		<td class="row3"><p editareadesc="Invoice">Did you receive an invoice in the mail for a toll crossing over the Golden Gate Bridge? An invoice is a bill for your toll amount only, there are no added costs. An invoice notice number begins with the letter "I" and is followed by up to 12 digits. Select the button below and enter your invoice and vehicle information to view and pay your invoice.</p></td>
+		<td class="row3"><p editareadesc="Violation">Did you receive a notice of violation in the mail? A violation is a bill for your toll as well as associated penalties. A violation notice number begins with the letter "T" and is followed by up to 12 digits. Select the button below and enter your violation and vehicle information to view and pay your violation.</p></td>
+		</tr>
+		<tr>
+		<td class="row3"><button class="btn btn-lg btn-default btn-block btngf" type="button" onclick='document.location="../ggb/onetimepayment.shtml"'>MAKE A ONE-TIME PAYMENT</button>
+		</td>
+		<td class="row3"><button class="btn btn-lg btn-default btn-block btngf" name="btnLogin" type="button" onclick='document.location="../routers/invoice.html"'>PAY AN INVOICE</button></td>
+		<td class="row3"><button class="btn btn-lg btn-default btn-block btngf" name="btnLogin" type="button" onclick='document.location="../routers/violation.html"'>RESOLVE A VIOLATION</button></td>
+		</tr>
+		</tbody>
+		<tfoot><tr><td class="row3"></td><td class="row3"></td><td class="row3"></td></tr></tfoot>
+	  </table>
+	</div>
+	</div>
+	<script src="../common/js/footer.js"></script>
+    </body>
+</html>

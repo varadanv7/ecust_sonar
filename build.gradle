@@ -1,0 +1,2 @@
+// Needed for extending the "clean" task to also delete custom stuff defined here like natives
+apply plugin: 'base'

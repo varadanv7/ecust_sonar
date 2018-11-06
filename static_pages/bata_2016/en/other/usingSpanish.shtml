@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<title>FasTrak</title>
+
+<!--#include file="../common/headerinclude.html"-->
+
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+    <script src="../assets/js/html5shiv.js"></script>
+  <![endif]-->
+
+</head>
+
+<body onLoad="setWindowSizeP()">
+	<!--#include file="../common/html/pageheader.shtml"-->
+	<!--div class="contentTopper"><ol class="breadcrumb">
+	  <li><a href="../home/index.shtml"><img src="../images/breadcrumb/Home_icon.png"></a></li>	  
+	  <li class="active">USO de FASTRAK</li>
+	</ol>
+</div-->
+	<div class="contentTopper">
+		<a href="../home/index.shtml"><ol class="breadcrumb">
+				<li><img src="../images/breadcrumb/Home_icon.png" border="0">
+		</a>
+		</li>
+		<li class="active">USO de FASTRAK</li>
+		</ol>
+	</div>
+	<div class="contentEnvelope" editarea="usingSpanish" editareadesc="using Spanish">
+		<!-- content -->
+		<div class="contentTitle">
+			<div style="display: inline-block; float: left; width: 240px;">&nbsp;</div>
+			<div style="display: inline-block;">USO de FASTRAK</div>
+		</div>
+		<div class="menuCol">
+			<div class="menuBox">
+				<div class="navBox" id="benefit">
+					<div id="benefitOrangeBox">&nbsp;</div>
+					<a href="benefitsSpanish.shtml" class="leftNav"
+						onMouseover="langMouse('benefit','benefitOrangeBox')"
+						onMouseOut="langMouseOut('benefit','benefitOrangeBox')">VENTAJAS</a>
+				</div>
+				<div class="navBox" id="getting">
+					<div id="gettingOrangeBox">&nbsp;</div>
+					<a href="startedSpanish.shtml" class="leftNav"
+						onMouseover="langMouse('getting','gettingOrangeBox')"
+						onMouseOut="langMouseOut('getting','gettingOrangeBox')">C&Oacute;MO
+						EMPEZAR</a>
+				</div>
+				<div class="navBox" id="get">
+					<div id="getOrangeBox">&nbsp;</div>
+					<a href="tollTagSpanish.shtml" class="leftNav"
+						onMouseover="langMouse('get','getOrangeBox')"
+						onMouseOut="langMouseOut('get','getOrangeBox')">DISPOSITIVO
+						ELECTR&Oacute;NICO de PEAJE DE FASTRAK</a>
+				</div>
+				<div class="navBoxActive" id="use">
+					<div id="useOrangeBox" style="visibility: visible;">&nbsp;</div>
+					USO de FASTRAK
+				</div>
+				<div class="navBox" id="where">
+					<div id="whereOrangeBox">&nbsp;</div>
+					<a href="whereSpanish.shtml" class="leftNav"
+						onMouseover="langMouse('where','whereOrangeBox')"
+						onMouseOut="langMouseOut('where','whereOrangeBox')">D&Oacute;NDE
+						USAR FASTRAK</a>
+				</div>
+				<div class="navBox" id="GG">
+					<div id="GGOrangeBox">&nbsp;</div>
+					<a href="ggGateSpanish.shtml" class="leftNav"
+						onMouseover="langMouse('GG','GGOrangeBox')"
+						onMouseOut="langMouseOut('GG','GGOrangeBox')">PEAJE en el
+						GOLDEN GATE</a>
+				</div>
+				<div class="navBox" id="invoice">
+					<div id="invoiceOrangeBox">&nbsp;</div>
+					<a href="invoiceSpanish.shtml" class="leftNav"
+						onMouseover="langMouse('invoice','invoiceOrangeBox')"
+						onMouseOut="langMouseOut('invoice','invoiceOrangeBox')">FACTURA
+						o INFRACCI&Oacute;N</a>
+				</div>
+				<div class="navBox" id="discount">
+					<div id="discountOrangeBox">&nbsp;</div>
+					<a href="discountsSpanish.shtml" class="leftNav"
+						onMouseover="langMouse('discount','discountOrangeBox')"
+						onMouseOut="langMouseOut('discount','discountOrangeBox')">DESCUENTOS
+						y RECORRIDOS SIN PEAJE</a>
+				</div>
+				<div class="navBox" id="contact">
+					<div id="contactOrangeBox">&nbsp;</div>
+					<a href="contactSpanish.shtml" class="leftNav"
+						onMouseover="langMouse('contact','contactOrangeBox')"
+						onMouseOut="langMouseOut('contact','contactOrangeBox')">COMUN&Iacute;QUESE
+						CON NOSOTROS</a>
+				</div>
+			</div>
+		</div>
+		<div id="contentCol">
+
+			<div class="colFullCopy">
+				<img src="../images/using_1.jpg" width="100%"
+					style="max-width: 742px"> <br>
+				<div class="greenArticleTop">En un puente de peaje</div>
+				<div class="indento">
+					Al acercarse a la caseta de cobro, use los carriles que indican
+					"FasTrak Only" (s&oacute;lo FasTrak) para ahorrar tiempo.
+					Tambi&eacute;n puede utilizar cualquier otro carril, incluso en los
+					que una persona se encarga de cobrar el peaje. Circule lentamente y
+					de forma segura sin detenerse. Su dispositivo electr&oacute;nico de
+					peaje pagar&aacute; el peaje y emitir&aacute; un sonido. El
+					indicador exhibir&aacute; "Valid FasTrak" (FasTrak v&aacute;lido) u
+					otros mensajes importantes sobre su cuenta. <br>
+					<br> Si circula en un carril de viajes compartidos, utilice
+					los carriles especiales para veh&iacute;culos compartidos durante
+					los horarios indicados a fin de pagar la tarifa reducida para
+					veh&iacute;culos compartidos.
+					<div class="orangeTitleCallout">Punto de cobro del peaje en
+						un puente</div>
+				</div>
+				<img src="../images/using_2.png" width="100%"
+					style="max-width: 700px"><br>
+				<br> <a href="#top" class="backToTop" style="float: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Regresar
+					al Inicio</a><br>
+				<div class="greenArticleTop">En lo carriles r&aacute;pidos de
+					peaje del &Aacute;rea de la Bah&iacute;a de San Francisco</div>
+				<div class="indento">
+					Entre o salga de los carriles r&aacute;pidos de peaje cuando
+					est&eacute; permitido hacerlo de acuerdo con las l&iacute;neas
+					punteadas en el camino.
+					<div
+						style="width: 100%; text-align: center; padding: 10px 0 10px 0;">
+						<img src="../images/using_3.jpg" width="100%"
+							style="max-width: 473px">
+					</div>
+					No cruce las l&iacute;neas blancas dobles.
+					<div
+						style="width: 100%; text-align: center; padding: 10px 0 10px 0;">
+						<img src="../images/using_4.jpg" width="100%"
+							style="max-width: 473px">
+					</div>
+				</div>
+			</div>
+			<div class="colLeft">
+				<div class="indento">
+					<div class="orangeTitleCallout">Si conduce solo</div>
+					Pague los peajes de los carriles r&aacute;pidos de peaje utilizando
+					cualquiera de los dispositivos FasTrak. FasTrak detecta su
+					dispositivo electr&oacute;nico de peaje cuando viaja en el carril
+					r&aacute;pido de peaje y paga el peaje. La cantidad del peaje
+					est&aacute; basada en las tarifas exhibidas en los tableros
+					electr&oacute;nicos de la parte superior y en la distancia
+					recorrida en el carril r&aacute;pido de peaje.
+				</div>
+			</div>
+			<div class="colRight">
+				<div class="orangeTitleCallout">Como veh&iacute;culo
+					compartido a fin de viajar gratis en los carriles r&aacute;pidos de
+					peaje I-580 y I-680 Express Lanes de Contra Costa</div>
+				Para viajar sin tener que pagar el peaje, debe usar un dispositivo
+				electr&oacute;nico de peaje FasTrak Flex colocado en la
+				posici&oacute;n (2) o (3+), dependiendo de su status como
+				veh&iacute;culo compartido. <br>
+				<br> Si desea obtener informaci&oacute;n adicional, consulte <a
+					href="discountsSpanish.html?express" class="inLineLinkk">Descuentos
+					y recorridos sin peaje</a>.
+			</div>
+			<div class="colFullCopy">
+				<div class="indento">
+					<div class="orangeTitleCallout">Como veh&iacute;culo
+						compartido a fin de viajar gratis en los carriles r&aacute;pidos
+						de peaje SR-237 y I-680 Express Lanes de Sunol</div>
+					No se requiere un dispositivo electr&oacute;nico de peaje de
+					FasTrak para recibir el descuento de veh&iacute;culo compartido en
+					estos carriles r&aacute;pidos de peaje. Si tiene un dispositivo
+					electr&oacute;nico de peaje de FasTrak, siga estos pasos para
+					evitar que se le cobre el peaje.
+				</div>
+			</div>
+			<div class="colFullCopy">
+				<div class="indento">
+					<li class="lister">Si cuenta con un dispositivo
+						electr&oacute;nico de peaje de FasTrak est&aacute;ndar,
+						col&oacute;quelo dentro de la bolsa met&aacute;lica de Mylar, lo
+						que evitar&aacute; que FasTrak detecte el dispositivo
+						electr&oacute;nico de peaje y le cobre el peaje.</li> <br>
+					<li class="lister">Si cuenta con un dispositivo
+						electr&oacute;nico de peaje FasTrak Flex, col&oacute;quelo en la
+						posici&oacute;n (2) o (3+), dependiendo de su status como
+						veh&iacute;culo compartido para que FasTrak no le cobre el peaje.</li>
+					<ul>
+				</div>
+			</div>
+			<div class="greenArticleTop">Para pagar el estacionamiento del
+				Aeropuerto Internacional de San Francisco (SFO)</div>
+			<img src="../images/using_5.jpg" width="100%"
+				style="max-width: 742px; padding-bottom: 15px;">
+			<div class="indento">
+				Para pagar la tarifa de estacionamiento con FasTrak en este lugar,
+				debe cumplir tres requisitos sencillos:
+				<div style="padding: 10px 0 10px 15px;">
+					1. tener una tarjeta de cr&eacute;dito asignada en su cuenta de
+					FasTrak,<br> 2. haber convenido en utilizar el Programa de
+					Estacionamiento en su cuenta, y<br> 3. tener un dispositivo
+					electr&oacute;nico de peaje de FasTrak en su veh&iacute;culo para
+					entrar y salir del estacionamiento.
+				</div>
+				FasTrak le carga las tarifas de estacionamiento de $10 o m&aacute;s
+				directamente a su tarjeta de cr&eacute;dito. De otra manera, FasTrak
+				deduce la tarifa de estacionamiento del saldo de su cuenta.
+				<div class="orangeTitleCallout">Lo que debe hacer</div>
+				Aseg&uacute;rese de que su dispositivo electr&oacute;nico de peaje
+				est&eacute; instalado correctamente a fin de que sea detectado.
+				Ingrese al carril de FasTrak y det&eacute;ngase antes de llegar al
+				portal. Despu&eacute;s de que FasTrak haya detectado su dispositivo
+				electr&oacute;nico de peaje y el portal se haya elevado, prosiga a
+				estacionar su veh&iacute;culo. Para salir del estacionamiento, use
+				el carril de FasTrak. Despu&eacute;s de que FasTrak haya detectado
+				el dispositivo electr&oacute;nico de peaje, tome el recibo para
+				elevar el portal de salida y salga del estacionamiento.
+			</div>
+			<br> <a href="#top" class="backToTop" style="float: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Regresar
+				al Inicio</a>
+
+		</div>
+	</div>
+	<!-- end content -->
+	</div>
+	<div class="footerTopperRelated">
+		<div class="footerToppler">Keep moving with FasTrak</div>
+	</div>
+	<script src="../common/js/footer.js"></script>
+
+</body>
+</html>

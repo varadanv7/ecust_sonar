@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>FasTrak</title>
+
+  <!--#include file="../common/headerinclude.html"-->
+
+  <!-- SET BROWSER WIDTH & LOCK SCALE -->
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+  
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+    <script src="../assets/js/html5shiv.js"></script>
+  <![endif]-->
+  
+</head>
+
+<body onLoad="setWindowSizeP()">
+ <!--#include file="../common/html/pageheader.shtml"-->
+<div class="contentTopper"><ol class="breadcrumb">
+	  <li><a href="../home/index.shtml"><img src="../images/breadcrumb/Home_icon.png"></a></li>	  
+	  <li class="active">FasTrak 入門指南</li>
+	</ol>
+</div>
+<div class="contentEnvelope" editarea="startedChinese" editareadesc="started Chinese">
+<!-- content -->
+<div class="contentTitle">
+	<div style="display: inline-block; float: left; width: 240px;">&nbsp;</div>
+	<div style="display: inline-block;">FasTrak 入門指南</div>
+</div>
+<div class="menuCol">
+	<div class="menuBox">
+		<div class="navBox" id="benefit"><div id="benefitOrangeBox">&nbsp;</div><a href="benefitsChinese.shtml" class="leftNav" onMouseover="langMouse('benefit','benefitOrangeBox')" onMouseOut="langMouseOut('benefit','benefitOrangeBox')">益處</a></div>
+		<div class="navBoxActive" id="getting"><div id="gettingOrangeBox" style="visibility: visible;">&nbsp;</div>入門指南</a></div>
+		<div class="navBox" id="get"><div id="getOrangeBoxAlt">&nbsp;</div><a href="tollTagChinese.shtml" class="leftNav" onMouseover="langMouse('get','getOrangeBoxAlt')" onMouseOut="langMouseOut('get','getOrangeBoxAlt')">FasTrak 通行費標籤</a></div>
+		<div class="navBox" id="use"><div id="useOrangeBox">&nbsp;</div><a href="usingChinese.shtml" class="leftNav" onMouseover="langMouse('use','useOrangeBox')" onMouseOut="langMouseOut('use','useOrangeBox')">使用 FasTrak</a></div>
+		<div class="navBox" id="where"><div id="whereOrangeBox">&nbsp;</div><a href="whereChinese.shtml" class="leftNav" onMouseover="langMouse('where','whereOrangeBox')" onMouseOut="langMouseOut('where','whereOrangeBox')">在哪裡使用 FasTrak</a></div>
+		<div class="navBox" id="GG"><div id="GGOrangeBox">&nbsp;</div><a href="ggGateChinese.shtml" class="leftNav" onMouseover="langMouse('GG','GGOrangeBox')" onMouseOut="langMouseOut('GG','GGOrangeBox')">金門大橋通行費</a></div>
+		<div class="navBox" id="invoice"><div id="invoiceOrangeBox">&nbsp;</div><a href="invoiceChinese.shtml" class="leftNav" onMouseover="langMouse('invoice','invoiceOrangeBox')" onMouseOut="langMouseOut('invoice','invoiceOrangeBox')">賬單或違規通知</a></div>
+		<div class="navBox" id="discount"><div id="discountOrangeBoxAlt">&nbsp;</div><a href="discountsChinese.shtml" class="leftNav" onMouseover="langMouse('discount','discountOrangeBoxAlt')" onMouseOut="langMouseOut('discount','discountOrangeBoxAlt')">減價優惠和免費通行</a></div>
+		<div class="navBox" id="contact"><div id="contactOrangeBoxAlt">&nbsp;</div><a href="contactChinese.shtml" class="leftNav" onMouseover="langMouse('contact','contactOrangeBoxAlt')" onMouseOut="langMouseOut('contact','contactOrangeBoxAlt')">與我們聯絡</a></div>
+	</div>
+</div>
+<div id="contentCol">
+		<div class="colFullCopy">
+		<img src="../images/started_1Chin.jpg" width="100%" style="max-width: 742px">
+		<br><br>
+			<div class="indento">開始使用 FasTrak 很簡單。開設 FasTrak 賬戶、在您的賬戶中存款用於支付通行費、領取 FasTrak 通行費標籤。使用 FasTrak 無需支付服務費。</div>
+		<div class="greenArticleTop">選擇如何開始</div>
+		</div>
+		<div class="colLeft">
+			<div class="indento">
+			<div class="orangeTitleCallout">選項 1：您需要有通行費標籤和賬戶</div>
+			採取以下措施開始使用 FasTrak：
+			<br><br>
+			<b>開設賬戶</b><br>
+			<li class="spanishList" style="margin-bottom: 15px;">在 FasTrak 網站用英語填寫申請，或打電話或用郵件送交申請，或親自遞交中文申請。</li><br>
+			<br><br>
+			<b>在您的賬戶中存款</b></br>
+			<li class="spanishList" style="margin-bottom: 15px;">在賬戶中存入首筆存款，用於從您的賬戶支付通行費，並用作通行費標籤押金（如要求）。</li><br>
+			<br><br>
+			<b>領取通行費標籤</b><br>
+			<li class="spanishList" style="margin-bottom: 15px;">當您開設賬戶時，您可以要求將通行費標籤立即寄給您。如果您在客戶服務中心親自開設賬戶，您可以立即領取一個或多個通行費標籤。</li>
+			<br><br>
+			<b>請查閱以下為賬戶申請做準備。</b>
+	 		</div>
+	 		</div>
+	 	<div  class="colRight">
+	 	<div class="orangeTitleCallout">選項 2：您已經有通行費標籤，但需要開設賬戶</div>
+	 	如果您已經從零售店領取通行費標籤，請採取以下措施：
+	 	<br><br>
+	 	<b>開設賬戶</b><br>
+	 	<li class="spanishList">使用通行費標籤號碼和通行證標籤上的確認代碼將通行費標籤與您的新賬戶鏈結在一起。</li><br>
+		<br>
+		<li class="spanishList">在 FasTrak 網站用英語填寫申請表，或打電話或親自遞交中文申請。</li><br>
+		<br>
+		<li class="spanishList">通行證標籤的促銷價格包括通行費標籤押金和 $10 通行費。取決於您選擇的付款方法，您可能仍然需要在您的賬戶中存入首筆存款。</li>
+		<br><br>
+		<div style="margin-top: 50px;"><b>請查閱以下為賬戶申請做準備。</b></div>
+	 	</div>
+	 	<div class="colFull">
+	 		<div class="indento">
+	 		<a href="#prepare" class="inLineLinkk"><b>將通行費標籤掛在車內，開始使用 FasTrak，並在下方開始您的賬戶。</b></a>
+			
+			</div>
+	 	</div>
+	 	<div class="colLeft">
+	 		<div class="tipsBlock">
+			如需領取通行費標籤，以便立即使用，請前往 Costco、Safeway 或 Walgreens。請提前打電話給商店，核實店內有您希望領取的通行費標籤。然後為您的通行費標籤註冊，並開設賬戶。 
+			</div>
+			<div class="tipsBox">提示</div>
+	 	</div>
+	 	<div class="colRight" style="vertical-align: bottom; padding-bottom: 13px;">
+	 	<a href="https://www.bayareafastrak.org/en/howitworks/retailmap.html" class="oliveButton" style="margin-top: 10px; margin-bottom: 0;" target="_blank">找一家零售店</a>
+	 	</div>
+	 	<div class="colFull">
+	 	<a name="prepare"></a>
+	 	<a href="#top" class="backToTopChinese" style="float: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;返回最上方</a><br>
+	 	<div class="greenArticleTop">為賬戶申請做準備</div>
+	 		<div class="indento">
+	 		如需為賬戶申請程式做準備，您應當準備好以下資訊：
+	 		<br>
+	 		<ul>
+			<li class="spanishList">您的聯絡資訊</li>
+			
+			<li class="spanishList">您的車輛牌號、型號、年份和車牌照號碼</li>
+			
+			<li class="spanishList">如果您尚未領取通行費標籤，您需要的通行費標籤類型和數量。請在<a href="tollTagChinese.shtml" class="inLineLinkk">FasTrak 通行費標籤</a>瞭解進一步詳細資訊</li>
+			
+			<li class="spanishList">您選擇的付款方法</li>
+			</ul>
+			
+			<div class="orangeTitleCallout" style="clear: both; padding-top: 7px;">用信用卡自動付款</div>
+			存入 $25 最低餘額，開設賬戶。隨著您從您的賬戶支付通行費，我們將從您的信用卡收費，保持最低賬戶餘額。頭三個通行費標籤不收取押金。每一個額外的通行費標籤要求交 $20 押金。在您的賬戶中存入信用卡是保持賬戶餘額的最便利的方法。
+			<div class="orangeTitleCallout">用現金、支票或信用卡單次付款</div>
+			存入 $50 最低餘額，開設賬戶。另外為每一個通行費標籤支付 $20 押金。隨著您從您的賬戶支付通行費，您需要記住在餘額降低時在您的賬戶中增加更多的錢款。這種付款方法比用存在賬戶中的信用卡自動付款方法更費時。
+			<br><br>
+			瞭解有關<a href="#maintain" class="inLineLinkk">保持最低賬戶餘額</a>的進一步詳情。
+			</div>
+		<div class="greenArticleTop">開始使用您的賬戶 </div>
+			<div class="indento">
+			選擇一種方法：
+			<div class="orangeTitleCallout">用英語</div>
+			在網上<a href="https://www.bayareafastrak.org/en/signup/signUp.shtml" class="inLineLinkk" target="_blank">登記使用 FasTrak</a>.
+			<div style="padding: 15px 0 0 0;">或者</div>
+			<div class="orangeTitleCallout">用中文</div>
+			打電話或訪問我們的客戶服務中心與我們聯絡，請在<a href="contactChinese.shtml" class="inLineLinkk">我們聯絡</a>中查看怎樣與我們聯絡
+			<div style="padding: 15px 0 0 0;">或者</div>
+			<br><a name="maintain"></a>
+			用郵件申請，請進入<a href="../images/FTApplicationCh.pdf" class="inLineLinkk" target="_blank">下載申請表。</a>
+			<br>
+			但是，如果您已經領取通行費標籤，請使用除郵寄之外的一種其他方法開始使用您的賬戶。
+			</div><br>
+		<a href="#top" class="backToTopChinese" style="float: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;返回最上方</a><br>
+		<div class="greenArticleTop">保持最低賬戶餘額</div>
+			<div class="indento">
+			FasTrak 透過您每月支付的平均通行費數額計算您的賬戶最低餘額。當您的賬戶餘額過低時，您必須存入更多的錢款才能繼續使用 FasTrak。有兩種付款方法。
+			<br>
+			</div>
+		<div class="colLeft" style="max-width: 350px;">
+			<div class="indento">
+			<div class="orangeTitleCallout">用信用卡自動付款</div>
+			用信用卡開設您的賬戶付款是保持您的賬戶餘額的最方便的方法。FasTrak 會將賬戶對賬單寄給您，顯示這些交易。
+			</div>
+		</div>
+		<div class="colRight">
+			<div class="orangeTitleCallout">用現金、支票或信用卡單次付款</div>
+			您可以每當在您的賬戶餘額過低時在您的賬戶中增加錢款。當您通過橋樑收費站時您會看到顯示的訊息。另外，我們會因為您必須在賬戶中增加資金才能繼續使用 FasTrak 給您寄送通知。如果您在賬戶中沒有足夠資金時嘗試使用 FasTrak 支付通行費，但 FasTrak 無法支付通行費，您可能會收到通行費違規通知。
+			<br><br>
+			單次付款方法比用信用卡自動付款的方法更費時。
+			<br><br>
+			您可以在任何時候從網上在您的賬戶設置中或打電話給客戶服務中心改變您的付款方法。
+		</div>
+		<div class="colFull">
+			<div class="tipsBlock">
+				<div class="tipsBlockTitle">單次付款方法</div>
+			如果您不選擇用您的賬戶裡已登記的信用卡自動付款，有多種單次付款選擇方法。您可以用現金、支票或信用卡付款。您可以在網上、打電話、郵寄支票、在接受現金和信用卡的服務亭或三藩市客戶服務中心親自付款。請進入英語網站查看所有付款選擇方法。
+			</div>
+				<div class="tipsBox">提示</div>
+
+		</div>
+		<a href="https://www.bayareafastrak.org/en/howitworks/waysToPay.shtml " class="oliveButton" style="margin-top: 10px; margin-bottom: 0;" target="_blank">單次付款選擇</a>
+	 	<div class="greenArticleTop" style="max-width: 722px;">全額退款</div>
+	 		<div class="indento">
+	 		如果您在任何時候關閉 FasTrak 賬戶，在您向我們退回 FasTrak 通行費標籤後，您將收到您的賬戶中任何剩餘錢款的全額退款。FasTrak 不收取服務費。
+	 		</div>
+	 		<br>
+	 		<a href="#top" class="backToTopChinese" style="float: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;返回最上方</a>
+	 </div>
+</div>
+<!-- end content -->
+</div>
+<div class="footerTopperRelated">
+	<div class="footerToppler">Keep moving with FasTrak</div>
+</div>
+<script src="../common/js/footer.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,1685 @@
+<!doctype html>
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><html lang="en" class="no-js"> <![endif]-->
+<html lang="en">
+<head>
+  <title>SunPass</title>
+  <!--#include file="../includes/headerinclude.html"-->
+  
+  <style>
+    #google-map,
+    body,
+    html {
+      padding: 0;
+      height: 400px;
+    }
+
+.b{
+	padding-left:10px;
+	padding-top:7px;
+	padding-bottom:7px;
+	background:#009999;
+	cursor: pointer;
+	color: white;
+	}
+	
+	.c{
+	background:#CCFFE5;
+	<!-- cursor: pointer; -->
+	}
+</style>
+<script type="text/javascript">
+var useragent = navigator.userAgent.toLowerCase();
+function scrollToContent1(){
+	if(useragent.indexOf("rv") != -1 || useragent.indexOf("msie") != -1)
+		window.scrollTo(0,$("#ttd").offset().top-180);
+	else {
+		window.scrollTo({
+			top: $("#ttd").offset().top-180,
+			behavior: "smooth"
+		});
+	}
+//$('html,body').animate({ scrollTop: $("#ttd").offset().top-180}, 800); 
+}
+function scrollToContent2(){
+	if(useragent.indexOf("rv") != -1 || useragent.indexOf("msie") != -1)
+		window.scrollTo(0,$("#si").offset().top-180);
+	else {
+		window.scrollTo({
+			top: $("#si").offset().top-180,
+			behavior: "smooth"
+		});
+	}
+//$('html,body').animate({ scrollTop: $("#si").offset().top-180}, 800); 
+}
+function scrollToContent3(){
+	if(useragent.indexOf("rv") != -1 || useragent.indexOf("msie") != -1)
+		window.scrollTo(0,$("#swc").offset().top-180);
+	else {
+		window.scrollTo({
+			top: $("#swc").offset().top-180,
+			behavior: "smooth"
+		});
+	}
+//$('html,body').animate({ scrollTop: $("#swc").offset().top-180}, 800); 
+}
+function scrollToContent4(){
+	if(useragent.indexOf("rv") != -1 || useragent.indexOf("msie") != -1)
+		window.scrollTo(0,$("#fytnghh").offset().top-180);
+	else {
+		window.scrollTo({
+			top: $("#fytnghh").offset().top-180,
+			behavior: "smooth"
+		});
+	}
+//$('html,body').animate({ scrollTop: $("#fytnghh").offset().top-180}, 800); 
+}
+</script>
+
+<script type='text/javascript' language='JavaScript'>
+$(document).ready(function () {
+var param = getParameterByName("sy");
+if(param=='tagInstallation'){
+scrollToContent2();
+}
+});
+</script>
+</head>
+<body>
+<a href="#maincontent" class="skip">Skip to content</a>
+  <div id="container">
+    <!--#include file="../includes/topnavigator.html"-->
+	    <!-- Start Page Banner -->
+    <div class="page-banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>SunPass Transponders</h2>
+            <p></p>
+          </div>
+          <div class="col-md-6">
+            <ul class="breadcrumbs">
+              <li><a href="../home/index.shtml">Home</a></li>
+              <li>What is SunPass?</li>
+              <li>SunPass Transponders</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+	
+
+
+
+    <div id="content">
+		<div class="container bach">
+		<!-- <h4 class="classic-title"><span>SunPass Installation</span></h4> -->
+		<div class="page-content">
+		<div class="row sunPassTransponders">
+ <div class="col-md-12"> 
+		
+        <a href="javascript:scrollToContent1();" class="btn">Transponder Types and Descriptions</a> 
+        
+		<a href="javascript:scrollToContent2();" class="btn">SunPass Installation</a>
+      
+		<a href="javascript:scrollToContent3();" class="btn">Special Windshield  Considerations</a>
+      
+		
+		<a href="javascript:scrollToContent4();" class="btn">Find Your Transponder Number</a>
+      
+ </div> 
+		</div>
+		<br><br> 
+		<hr style="border-color: #009d57;;margin-top:15px;margin-bottom: 10px;">
+<div  id="ttd">		
+<span class="boxHeadingText1"> TRANSPONDER TYPES AND DESCRIPTIONS</span>
+<br><br>
+       <p>The most commonly used SunPass transponders are small, pocket sized devices that are attached to the inside of your car windshield, just below the
+rear view mirror. The transponder communicates via radio frequency with toll plaza readers and equipment. As the vehicle passes through SunPass equipped
+lanes, the toll charges are electronically deducted from your prepaid toll account. </p>
+<p>There are two types of SunPass transponders: </p>
+<div class="row">
+<div class="col-md-6 col xs-9">
+<div class="row">
+<div class="divheaderTransponder">
+
+SUNPASS MINI
+</div>
+</div>
+<br>
+<div class="row">
+<div class="col-md-5 equalheight" >
+<img src="../common/images/SunPass-Mini.png" alt="Windshield locations for installation.">
+</div>
+<div class="col-md-7 equalheight" style="text-align: left;padding-top:125px;">
+<h3 style="color:#009d57;">PRICE $4.99 </h3>
+</div>
+</div>
+<div class="row">
+<ul style="padding-left:35px;" class="bullet">
+<li>Must be permanently adhered to inside of windshield</li>
+<li>Will NOT work if removed from windshield</li>
+<li>Not for motorcycles</li>
+<li>SunPass Plus Parking</li>
+</ul>
+</div>
+</div>
+<div class="col-md-6 col xs-9 vertical-lineNoTable">
+
+<div class="row">
+<div class="divheaderTransponder">
+SUNPASS PORTABLE
+</div>
+</div>
+<br>
+<div class="row">
+<div class="col-md-6 equalheight">
+<img src="../common/images/SunPass Portable.jpg" alt="Windshield locations for installation.">
+</div>
+<div class="col-md-6 equalheight" style="text-align: left;padding-top:125px;">
+<h3 style="color:#009d57;">PRICE $19.99 </h3>
+</div>
+</div>
+
+
+
+
+<div class="row">
+<ul style="padding-left:35px;" class="bullet">
+<li>Sticks to the inside of windshield with suction cups</li>
+<li>Can carry it with you when you travel</li>
+<li>Works on motorcycles</li>
+<li>SunPass Plus Parking</li>
+</ul>
+</div>
+<br>
+<br>
+</div>
+
+</div>
+<a href="../signup/transponderclassify.shtml">
+<img src="../common/images/Purchase-transponder.png" alt="Windshield locations for installation." style="margin: auto;display: block;">
+</a>
+
+</div>
+<br> <br>
+	<hr style="border-color: #009d57;;margin-top:-10px;margin-bottom: 10px;">
+<div  id="si">
+<span class="boxHeadingText1"> SUNPASS INSTALLATION</span>
+<br><br>
+<p>
+As a SunPass customer, you are required to properly mount your transponder. Holding the transponder often causes inconsistent communications
+between the transponder and the lane reader.
+</p>
+<p>
+Before installing, please see Special Windshield Considerations, below.
+</p>
+<div class="row">
+
+<div class="col-md-6 col-xs-9">
+<div class="row" style="margin-left: 2px;">
+<span class="boxHeadingText"> Installing SunPass Mini Transponder</span><br></br>
+<p>
+Many SunPass customers utilize the SunPass Mini, even though it no longer works after it is removed from their vehicle’s windshield.</p>
+<p><b>Installation Steps: </b></p>
+</div>
+<div class="row">
+<ol class="bulletNumbers">
+<li>Choose location from illustrations shown.</li>
+<li>Clean area using window cleaner.</li>
+<li>Peel off backing and apply.</li>
+</ol>
+</div>
+<p>
+
+<a class="hrefLinksColor" href="../common/docs/MiniInstallation_en.pdf" target="new">Click here to see Mini Transponder Installation Instructions</a>.
+</p>
+<div class="row" style="margin-left: 2px;margin-top:20px">
+<span class="boxHeadingText"> Installing SunPass Portable Transponder</span><br></br>
+<p>
+The SunPass Portable Transponder is now easier than ever to install on
+the inside of your vehicle’s windshield due to the attached suction cups.</p>
+<p><b>Installation Steps: </b></p>
+
+</div>
+</div>
+
+<div class="col-md-6 col-xs-9">
+
+<img src="../common/images/windshield graphic_SunPass.png" alt="Windshield locations for installation." style="margin: auto;display: block;">
+
+</div>
+</div>
+<div class="row">
+<ol class="bulletNumbers">
+<li>See diagram for the placement of your transponder. </li>
+<li>Clean the area where you will be placing your transponder with rubbing alcohol or glass cleaner.</li>
+<li>Press your transponder against the windshield to enable the suction cups to stick. Transponder must be placed a minimum of 2 inches below the windshield frame. If the windshield has a solar strip, install the transponder at least 2 inches below the strip.
+ </li>
+<li>Each suction cup has a “tab” that can be lifted to facilitate the removal of your portable transponder.</li>
+</ol>
+</div>
+
+
+</div>
+
+<br> <br>
+	<hr style="border-color: #009d57;;margin-top:-10px;margin-bottom: 10px;">
+
+<div  id="swc">
+<span class="boxHeadingText1">SPECIAL WINDSHIELD CONSIDERATIONS</span>
+<div class="row">
+<div class="col-md-12 col-sm-12">
+<br>
+      <p>     
+			The vehicles listed below may be equipped with special windshields containing metal oxide in the glass. This can prevent your SunPass transponder from being read. If you are unsure about whether your vehicle has one of these windshields, contact the dealer where you purchased your car.<b> If your transponder is not always being read when driving through SunPass lanes, or if you need information on a Bumper Mount Transponder, please call the SunPass Customer Service Center at 1-888-TOLL-FLA&nbsp;(1-888-865-5352).</b>
+	</p>	
+            <p>
+            </p>
+				
+	<p hidden id="tableSummaryId">this table displays the Make, Model, Year, Feature, and Mounting Location options for vehicles with problematic windshields.</p>			
+		
+<div class="row">	
+<div class="col-md-4">		   
+			   <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".bmw">
+				 <b> BMW </b>
+				  </div>
+				  
+				  <div class="c">
+                <table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody>
+<tr style="vertical-align:top" class="style7 collapse bmw">
+                    <td colspan="3"><b>Feature: </b>Infrared Reflecting Glass (*optional) <br>					  
+					 * Vehicle will have Infrared Reflecting Glass if equipped with Automatic Wipers. </td>
+                   </tr>
+<tr style="vertical-align:bottom" class="style7 collapse bmw">
+	        		<th> <span class="style1" style="display: block; text-align: center">Model</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Year</span> </th>
+					<!-- <th> <span class="style1">Feature</span> </th> -->
+					<th> <span class="style1" style="display: block; text-align: center">Mounting Location</span> </th>
+				  </tr>
+				   <!-- <tr style="vertical-align:top" class="style7 collapse bmw">
+                    <td colspan="3"><b>Feature: </b>INFRARED REFLECTING GLASS (*OPTIONAL)<br>					  
+					  *VEHICLE WILL HAVE INFRARED REFLECTING GLASS IF EQUIPPED WITH AUTOMATIC WIPERS. </td>
+                   </tr> -->
+                   <tr style="vertical-align:top" class="style7 collapse bmw">
+					<td> All 3 Series </td>
+					<td> 1998-2008 </td>
+					<!--  <td rowspan="3"> INFRARED REFLECTING GLASS (*OPTIONAL)  <br>
+					  <br>
+					  *VEHICLE WILL HAVE INFRARED REFLECTING GLASS IF EQUIPPED WITH AUTOMATIC WIPERS. </td>  -->
+					<td rowspan="3"><div style="text-align:left"> Top, left or right of rear-view mirror </div></td>
+				  </tr>
+				  <tr style="vertical-align:top" class="style7 collapse bmw">
+					<td> X5 </td>
+					<td> 1999-2008 </td>
+				  </tr>
+				  <tr style="vertical-align:top" class="style7 collapse bmw">
+					<td> 645 </td>
+					<td> 2004-2008 </td>
+				  </tr>
+ <tr style="vertical-align:top" class="style7 collapse bmw">
+                    <td colspan="3"><b>Feature: </b>Infrared Reflecting Glass (Standard) </td>
+                   </tr>
+<tr style="vertical-align:bottom" class="style7 collapse bmw">
+	        		<th> <span class="style1" style="display: block; text-align: center">Model</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Year</span> </th>
+					<!-- <th> <span class="style1">Feature</span> </th> -->
+					<th> <span class="style1" style="display: block; text-align: center">Mounting Location</span> </th>
+				  </tr>
+				  <tr style="vertical-align:top" class="style7 collapse bmw">
+					<td> All 7 series <br>
+					  740 <br>
+					  745 <br>
+					  750 <br>
+					  760 </td>
+					<td> 1999-2008 </td>
+<td><div style="text-align:left"> Top, left or right of rear-view mirror </div></td>
+					<!-- <td rowspan="2"> INFRARED REFLECTING GLASS (STANDARD) </td> -->
+				  </tr>
+							<tr style="vertical-align:top" class="style7 collapse bmw">
+					<td> All 7 series <br>
+					  740 <br>
+					  745 <br>
+					  750 <br>
+					  760 </td>
+					<td> 2009-2018 </td>
+					 <td> Top center (in black shading)</td>
+				  </tr>
+                    </tbody>
+                </table>
+                    </div>
+                </div>
+                <div class="col-md-4">	
+				<div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".buick1">
+				<b>  BUICK </b>
+				  </div>
+				  <div class="c">
+                <table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+ <tr style="vertical-align:top" class="style7 collapse buick1">
+                    <td colspan="3"><b>Feature: </b>EZ View</td>
+                   </tr>				  <tbody>
+<tr style="vertical-align:bottom" class="style7 collapse buick1">
+	        		<th> <span class="style1" style="display: block; text-align: center">Model</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Year</span> </th>
+					<!-- <th> <span class="style1">Feature</span> </th> -->
+					<th> <span class="style1" style="display: block; text-align: center">Mounting Location</span> </th>
+				  </tr>
+                   
+				  <tr style="vertical-align:top" class="style7 collapse buick1">
+					<td> Rendezvous </td>
+					<td> 2002-2005 </td>
+					<!-- <td> EZ VIEW </td> -->
+					<td><div style="text-align:left"> Top of windshield, left of the rear-view mirror post </div></td>
+				  </tr>
+				  </tbody>
+                </table>
+                </div>
+                </div>
+				<div class="col-md-4">	
+                <div  class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".cadillac1">
+				 <b> CADILLAC </b>
+				  </div>
+				  <div class="c">
+               <table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+ <tr style="vertical-align:top" class="style7 collapse cadillac1">
+                    <td colspan="3"><b>Feature: </b>Infrared Reflecting Glass</td>
+                   </tr>				  <tbody>
+<tr style="vertical-align:bottom" class="style7 collapse cadillac1">
+	        		<th> <span class="style1" style="display: block; text-align: center">Model</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Year</span> </th>
+					<!-- <th> <span class="style1">Feature</span> </th> -->
+					<th> <span class="style1" style="display: block; text-align: center">Mounting Location</span> </th>
+				  </tr>
+                  
+				  <tr style="vertical-align:top" class="style7 collapse cadillac1">
+					<td> Catera </td>
+					<td> 2001 Only</td>
+				<!-- 	<td> INFRARED REFLECTING GLASS </td> -->
+					<td><div style="text-align:left"> Top, right of rear-view mirror in black shading </div></td>
+				  </tr>
+				  </tbody>
+                </table>
+                </div>
+                </div>
+                </div>    
+			<div class="row">	
+                   <div class="col-md-4">	  
+                <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".chevrolet1">
+				  <b>CHEVROLET </b>
+				  </div>
+				  <div class="c">
+               <table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+<tr style="vertical-align:top" class="style7 collapse chevrolet1">
+                    <td colspan="3"><b>Feature: </b>EZ View</td>
+                   </tr>				  <tbody>
+<tr style="vertical-align:bottom" class="style7 collapse chevrolet1">
+	        		<th> <span class="style1" style="display: block; text-align: center">Model</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Year</span> </th>
+					<!-- <th> <span class="style1">Feature</span> </th> -->
+					<th> <span class="style1" style="display: block; text-align: center">Mounting Location</span> </th>
+				  </tr>
+                     
+				  <tr style="vertical-align:top" class="style7 collapse chevrolet1">
+					<td> Venture </td>
+					<td> 1997-2002 </td>
+					<!-- <td> EZ VIEW </td> -->
+					<td><div style="text-align:left"> Top-left corner </div></td>
+				  </tr>
+				  </tbody>
+                </table>
+                </div>
+				</div>
+
+
+ <div class="col-md-4">	  
+                <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".jaguar11">
+				  <b>JAGUAR </b>
+				  </div>
+				  <div class="c">
+               <table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+<tr style="vertical-align:top" class="style7 collapse jaguar11">
+                    <td colspan="3"><b>Feature: </b>Infrared Reflecting Glass (optional)</td>
+                   </tr>				  <tbody>
+<tr style="vertical-align:bottom" class="style7 collapse jaguar11">
+	        		<th> <span class="style1" style="display: block; text-align: center">Model</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Year</span> </th>
+					<!-- <th> <span class="style1">Feature</span> </th> -->
+					<th> <span class="style1" style="display: block; text-align: center">Mounting Location</span> </th>
+				  </tr>
+                     
+				   <tr style="vertical-align:top" class="style7 collapse jaguar11">
+					<td> XF </td>
+					<td>2016-2018 </td>
+					
+					<td rowspan="3"><div style="text-align:left"> Top center (in black shading)</div></td>
+				  </tr>
+				  <tr style="vertical-align:top" class="style7 collapse jaguar11">
+					<td> XJ & XJL </td>
+					<td>2017-2018 </td>
+				  </tr>
+				  <tr style="vertical-align:top" class="style7 collapse jaguar11">
+					<td> E-Pace </td>
+					<td>2018-2018 </td>
+				  </tr>
+ <tr style="vertical-align:top" class="style7 collapse jaguar11">
+					<td> F Pace (SUV) </td>
+					<td> 2017-2018 </td>
+				  </tr>
+ <tr style="vertical-align:top" class="style7 collapse jaguar11">
+					<td> XE </td>
+					<td>2015-2018 </td>
+				  </tr>
+				  </tbody>
+                </table>
+                </div>
+				</div>
+
+
+
+<div class="col-md-4">
+                
+                <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".landrover1">
+				  <b>LAND ROVER <!-- (must use "portable" if glass code is 43R-001693) --> </b>
+				  </div>
+                <div class="c">
+				<table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+<tr style="vertical-align:top" class="style7 collapse landrover1">
+                    <td colspan="3"><b>Feature: </b>Infrared Reflecting Glass (optional)</td>
+                   </tr>				  <tbody>
+<tr style="vertical-align:bottom" class="style7 collapse landrover1">
+	        		<th> <span class="style1" style="display: block; text-align: center">Model</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Year</span> </th>
+					<!-- <th> <span class="style1">Feature</span> </th> -->
+					<th> <span class="style1" style="display: block; text-align: center">Mounting Location</span> </th>
+				  </tr>
+                 
+				   <tr style="vertical-align:top" class="style7 collapse landrover1">
+					<td> Range rover </td>
+					<td> 2003-2008 </td>
+					<!-- <td rowspan="2"> INFRARED REFLECTING GLASS (OPTIONAL) </td> -->
+					<td><div style="text-align:left"> Top, left or right of rear-view mirror </div></td>
+				  </tr>
+					
+				  <tr style="vertical-align:top" class="style7 collapse landrover1">
+					<td> Range rover </td>
+					<td> 2010-2013 </td>
+					<td><div style="text-align:left"> Top center  <br>    (in black shading) </div></td>
+				  </tr>
+<tr style="vertical-align:top" class="style7 collapse landrover1">
+					<td> Range rover </td>
+					<td> 2014-2018 </td>
+					<td><div style="text-align:left">Top, driver side of mirror (in black shading) </div></td>
+				  </tr>
+                    <tr style="vertical-align:top" class="style7 collapse landrover1">
+                    <td colspan="3"><b>Feature: </b>Infrared Reflecting Glass</td>
+                   </tr>
+<tr style="vertical-align:bottom" class="style7 collapse landrover1">
+	        		<th> <span class="style1" style="display: block; text-align: center">Model</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Year</span> </th>
+					<!-- <th> <span class="style1">Feature</span> </th> -->
+					<th> <span class="style1" style="display: block; text-align: center">Mounting Location</span> </th>
+				  </tr>
+				  <tr style="vertical-align:top" class="style7 collapse landrover1">
+					<td> Range rover evoque </td>
+					<td> Early 2012 Models   </td>
+					<!-- <td> INFRARED REFLECTING GLASS </td> -->
+					<td><div style="text-align:left"> Sunroof-fwd edge centered  </div></td>
+				  </tr>
+ <tr style="vertical-align:top" class="style7 collapse landrover1">
+					<td> Range Rover Evoque </td>
+					<td>Late 2012 Models - Current  </td>
+				
+					<td><div style="text-align:left"> Top, left of mirror in cut-out  </div></td>
+				  </tr>
+<tr style="vertical-align:top" class="style7 collapse landrover1">
+					<td>Range Rover Velar </td>
+					<td> 2018-2018   </td>
+				
+					<td rowspan="3"><div style="text-align:left"> Top, driver side of mirror (in black shading)  </div></td>
+				  </tr>
+ <tr style="vertical-align:top" class="style7 collapse landrover1">
+					<td> Discovery Sport </td>
+					<td> 2015-2018   </td>
+				  </tr>
+ <tr style="vertical-align:top" class="style7 collapse landrover1">
+					<td> RR Sport </td>
+					<td>2016-2016  </td>
+				  </tr>
+<tr style="vertical-align:top" class="style7 collapse landrover1">
+                    <td colspan="3"><b>Feature: </b>Heated</td>
+                   </tr>
+<tr style="vertical-align:bottom" class="style7 collapse landrover1">
+	        		<th> <span class="style1" style="display: block; text-align: center">Model</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Year</span> </th>				
+					<th> <span class="style1" style="display: block; text-align: center">Mounting Location</span> </th>
+				  </tr>
+<tr style="vertical-align:top" class="style7 collapse landrover1">
+					<td>LR2 </td>
+					<td> 2008-2015   </td>
+				
+					<td rowspan="3"><div style="text-align:left"> Bottom-left corner beyond heating elements  </div></td>
+				  </tr>
+ <tr style="vertical-align:top" class="style7 collapse landrover1">
+					<td> DLR3 </td>
+					<td> 2004-2016   </td>
+				  </tr>
+ <tr style="vertical-align:top" class="style7 collapse landrover1">
+					<td> LR4 </td>
+					<td>2009-2016  </td>
+				  </tr>
+<tr style="vertical-align:top" class="style7 collapse landrover1">
+                    <td colspan="3"><b>Feature: </b>Heated (optional)</td>
+                   </tr>
+<tr style="vertical-align:bottom" class="style7 collapse landrover1">
+	        		<th> <span class="style1" style="display: block; text-align: center">Model</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Year</span> </th>				
+					<th> <span class="style1" style="display: block; text-align: center">Mounting Location</span> </th>
+				  </tr>
+<tr style="vertical-align:top" class="style7 collapse landrover1">
+					<td>Discovery </td>
+					<td>2017-2018   </td>
+				
+					<td><div style="text-align:left"> Bottom-left corner beyond heating elements  </div></td>
+				  </tr>
+<tr style="vertical-align:top" class="style7 collapse landrover1">
+                    <td colspan="3"><b>Feature: </b>Heated non-infrared glass</td>
+                   </tr>
+<tr style="vertical-align:bottom" class="style7 collapse landrover1">
+	        		<th> <span class="style1" style="display: block; text-align: center">Model</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Year</span> </th>
+				
+					<th> <span class="style1" style="display: block; text-align: center">Mounting Location</span> </th>
+				  </tr>
+<tr style="vertical-align:top" class="style7 collapse landrover1">
+					<td>Range rover </td>
+					<td>2010-2018   </td>
+				
+					<td rowspan="2"><div style="text-align:left"> Bottom-left corner beyond heating elements  </div></td>
+				  </tr>
+<tr style="vertical-align:top" class="style7 collapse landrover1">
+					<td>RR Sport </td>
+					<td>2016-2018   </td>
+				
+					
+				  </tr>
+
+				  </tbody>
+                </table>
+                </div>
+                 
+                </div>  
+
+
+				
+</div>
+
+<div class="row">
+
+<div class="col-md-4">
+                <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".lincoln1">
+				 <b> LINCOLN </b>
+				  </div>
+                <div class="c">               
+			  <table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody><tr style="vertical-align:top" class="style7 collapse lincoln1">
+                    <td colspan="3"><b>Feature: </b>Infrared Reflecting Glass</td>
+                   </tr><tr style="vertical-align:bottom" class="style7 collapse lincoln1">
+	        		<th> <span class="style1" style="display: block; text-align: center">Model</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Year</span> </th>
+					<!-- <th> <span class="style1">Feature</span> </th> -->
+					<th> <span class="style1" style="display: block; text-align: center">Mounting Location</span> </th>
+				  </tr>
+
+				  
+				  <tr style="vertical-align:top" class="style7 collapse lincoln1">
+					<td> Continental </td>
+					<td> 	2017-2018 </td>
+					<td><div style="text-align:left">Top, left of the rear-view </div></td>
+				  </tr>
+				  <tr style="vertical-align:top" class="style7 collapse lincoln1">
+					<td> Navigators </td>
+					<td> 2018 </td>
+					<td><div style="text-align:left">Top, left of the rear-view </div></td>
+				  </tr>
+				  </tbody>
+                </table>
+                </div>
+				</div>
+
+	
+
+  
+				 <div class="col-md-4">
+                <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".maybach1">
+				 <b> MAYBACH </b>
+				  </div>
+                <div class="c">               
+			  <table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody><tr style="vertical-align:top" class="style7 collapse maybach1">
+                    <td colspan="3"><b>Feature: </b>Infrared Reflecting Glass</td>
+                   </tr><tr style="vertical-align:bottom" class="style7 collapse maybach1">
+	        		<th> <span class="style1" style="display: block; text-align: center">Model</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Year</span> </th>
+					<!-- <th> <span class="style1">Feature</span> </th> -->
+					<th> <span class="style1" style="display: block; text-align: center">Mounting Location</span> </th>
+				  </tr>
+
+				  <tr style="vertical-align:top" class="style7 collapse maybach1">
+					<td> 57 &amp; 62 </td>
+					<td> 2002-2012 </td>
+					<!-- <td rowspan="3"> INFRARED REFLECTING GLASS  <br>
+					  <br>
+					  </td> -->
+<td><div style="text-align:left"> Bottom center </div></td>
+					 
+				  </tr>
+				  <tr style="vertical-align:top" class="style7 collapse maybach1">
+					<td> 57-S </td>
+					<td> 2007-2012 </td>
+					<td><div style="text-align:left"> Top center  <br>    (in black shading) </div></td>
+				  </tr>
+				  <tr style="vertical-align:top" class="style7 collapse maybach1">
+					<td> 62-S </td>
+					<td> 2008-2012 </td>
+					<td><div style="text-align:left"> Top center  <br>   (in black shading) </div></td>
+				  </tr>
+				  </tbody>
+                </table>
+                </div>
+				</div>			
+
+                   	
+                <div class="col-md-4">
+                <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".mercedes1">
+				 <b> MERCEDES-BENZ </b>
+				  </div>
+                <div class="c">               
+			   <table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody><tr style="vertical-align:top" class="style7 collapse mercedes1">
+                    <td colspan="3"><b>Feature: </b>Infrared Reflecting Glass</td>
+                   </tr>
+<tr style="vertical-align:bottom" class="style7 collapse mercedes1">
+	        		<th> <span class="style1" style="display: block; text-align: center">Model</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Year</span> </th>
+					<!-- <th> <span class="style1">Feature</span> </th> -->
+					<th> <span class="style1" style="display: block; text-align: center">Mounting Location</span> </th>
+				  </tr>
+
+				  <tr style="vertical-align:top" class="style7 collapse mercedes1">
+					<td> CL Class (Equipped with “Night View Assist”) </td>
+					<td> 2007-2014 </td>					
+					<td rowspan="3"><div style="text-align:left"> (* See foot note) </div></td>
+				  </tr>
+ <tr style="vertical-align:top" class="style7 collapse mercedes1">
+					<td>E Class (Equipped with “Night View Assist”) </td>
+					<td>2010-2012 </td>					
+				
+				  </tr>
+ <tr style="vertical-align:top" class="style7 collapse mercedes1">
+					<td> S Class </td>
+					<td> 2008-2018 </td>
+					
+				  </tr>
+ <tr style="vertical-align:top" class="style7 collapse mercedes1">
+					<td> S Class Coupe </td>
+					<td> 2015-2018 </td>					
+					<td><div style="text-align:left"> Center, below mirror module (in cut-out) </div></td>
+				  </tr>
+				 
+				  <tr style="vertical-align:top" class="style7 collapse mercedes1">
+					<td> GL Class </td>
+					<td> 2007-2016 </td>
+					<td rowspan="5"><div style="text-align:left"> Top center (in black shading) </div></td>
+				  </tr>
+                  <tr style="vertical-align:top" class="style7 collapse mercedes1">
+					<td> ML Class </td>
+					<td> 2006-2012 </td>
+				  </tr>
+                  <tr style="vertical-align:top" class="style7 collapse mercedes1">
+					<td> R Class </td>
+					<td> 2006-2012 </td>
+				  </tr>
+                  <tr style="vertical-align:top" class="style7 collapse mercedes1">
+					<td> S Class </td>
+					<td> 2000-2007 </td>
+				  </tr>
+<tr style="vertical-align:top" class="style7 collapse mercedes1">
+					<td> SL Class (except SL500 & SL600) </td>
+					<td> 2003-2008</td>
+				  </tr>
+                   <tr style="vertical-align:top" class="style7 collapse mercedes1">
+					<td> GLS Class SUV (GLS 450, GLS 550 & GLS 63 AMG) </td>
+					<td> 2018 </td>
+<td> Top, left or right of rear-view mirror in cut-out or bottom cut-out</td>
+				  </tr>
+				  </tbody>
+                </table>
+                </div>
+                </div>
+</div>
+<div class="row">
+				<div class="col-md-4">
+                <div  class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".oldsmobile1">
+				  <b>OLDSMOBILE </b>
+				  </div>
+                <div class="c">
+				<table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody><tr style="vertical-align:top" class="style7 collapse oldsmobile1">
+                    <td colspan="3"><b>Feature: </b>EZ View</td>
+                   </tr>
+<tr style="vertical-align:bottom" class="style7 collapse oldsmobile1">
+	        		<th> <span class="style1" style="display: block; text-align: center">Model</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Year</span> </th>
+					<!-- <th> <span class="style1">Feature</span> </th> -->
+					<th> <span class="style1" style="display: block; text-align: center">Mounting Location</span> </th>
+				  </tr>
+
+				  <tr style="vertical-align:top" class="style7 collapse oldsmobile1">
+					<td> Silhouette </td>
+					<td> 1997-2002 </td>
+					<!-- <td> EZ VIEW </td> -->
+					<td><div style="text-align:left"> Top-left corner </div></td>
+				  </tr>
+				  </tbody>
+                </table>
+                </div>
+				
+                </div>
+
+<div class="col-md-4">
+				
+                <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".pontiac1">
+				  <b>PONTIAC </b>
+				  </div>
+                <div class="c">
+				<table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody><tr style="vertical-align:top" class="style7 collapse pontiac1">
+                    <td colspan="3"><b>Feature: </b>EZ view</td>
+                   </tr>
+<tr style="vertical-align:bottom" class="style7 collapse pontiac1">
+	        		<th> <span class="style1" style="display: block; text-align: center">Model</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Year</span> </th>
+					<!-- <th> <span class="style1">Feature</span> </th> -->
+					<th> <span class="style1" style="display: block; text-align: center">Mounting Location</span> </th>
+				  </tr>
+
+				  <tr style="vertical-align:top" class="style7 collapse pontiac1">
+					<td> Aztek </td>
+					<td> 2001-2005 </td>
+					<!-- <td> EZ VIEW </td> -->
+					<td><div style="text-align:left"> Top of windshield, left of the rear-view mirror post </div></td>
+				  </tr>
+                  <tr style="vertical-align:top" class="style7 collapse pontiac1">
+				    <td> Montana </td>
+					<td> 1999-2002 </td>
+					<!-- <td rowspan="2"> EZ VIEW </td> -->
+					<td rowspan="2"><div style="text-align:left"> Top-left corner </div></td>
+				  </tr>
+                  <tr style="vertical-align:top" class="style7 collapse pontiac1">
+					<td> Transport </td>
+					<td> 1997-1998 </td>
+				  </tr>      
+				  </tbody>
+                </table>
+                </div>
+                 </div>
+				
+			
+                
+				  <div class="col-md-4">
+                <div  class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".porsche1">
+				  <b>PORSCHE </b>
+				  </div>
+                <div class="c">
+				<table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody><tr style="vertical-align:top" class="style7 collapse porsche1">
+                    <td colspan="3"><b>Feature: </b>Solar Control Glass (optional)</td>
+                   </tr>
+<tr style="vertical-align:bottom" class="style7 collapse porsche1">
+	        		<th> <span class="style1" style="display: block; text-align: center">Model</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Year</span> </th>
+					<!-- <th> <span class="style1">Feature</span> </th> -->
+					<th> <span class="style1" style="display: block; text-align: center">Mounting Location</span> </th>
+				  </tr>
+
+				  <tr style="vertical-align:top" class="style7 collapse porsche1">
+					<td> Cayenne </td>
+					<td> 2003-2007 </td>
+					<!-- <td> SOLAR CONTROL GLASS(OPTIONAL)
+					</td> -->
+<td><div style="text-align:left"> Top, left or right of rear-view mirror  </div></td>
+				  </tr>
+<tr style="vertical-align:top" class="style7 collapse porsche1">
+                    <td colspan="3"><b>Feature: </b>Thermal insulated glass (optional)</td>
+                   </tr>
+<tr style="vertical-align:bottom" class="style7 collapse porsche1">
+	        		<th> <span class="style1" style="display: block; text-align: center">Model</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Year</span> </th>
+					<!-- <th> <span class="style1">Feature</span> </th> -->
+					<th> <span class="style1" style="display: block; text-align: center">Mounting Location</span> </th>
+				  </tr>
+
+				  <tr style="vertical-align:top" class="style7 collapse porsche1">
+					<td> MACAN </td>
+					<td>2015-2018 </td>
+				
+<td><div style="text-align:left"> Top, left or right of rear-view mirror  </div></td>
+				  </tr>
+
+
+
+				  </tbody>
+                </table>
+                </div>
+				</div>
+</div>
+<div class="row">
+ <div class="col-md-4">
+                <div  class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".rollsroyce">
+				  <b>ROLLS-ROYCE</b>
+				  </div>
+                <div class="c">
+				<table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody><tr style="vertical-align:top" class="style7 collapse rollsroyce">
+                    <td colspan="3"><b>Feature: </b>Infrared reflecting glass</td>
+                   </tr>
+<tr style="vertical-align:bottom" class="style7 collapse rollsroyce">
+	        		<th> <span class="style1" style="display: block; text-align: center">Model</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Year</span> </th>
+				
+					<th> <span class="style1" style="display: block; text-align: center">Mounting Location</span> </th>
+				  </tr>
+
+				  <tr style="vertical-align:top" class="style7 collapse rollsroyce">
+					<td> Phantom </td>
+					<td>2004-2007 </td>					
+<td><div style="text-align:left"> Top, left or right of rear-view mirror  </div></td>
+				  </tr>
+
+
+
+				  <tr style="vertical-align:top" class="style7 collapse rollsroyce">
+					<td> Wraith </td>
+					<td>2014-2016 </td>
+				
+<td><div style="text-align:left"> Top center (in black shading) </div></td>
+				  </tr>
+
+
+
+				  </tbody>
+                </table>
+                </div>
+				</div>
+
+<div class="col-md-4">
+                <div  class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".volvo11">
+				  <b>VOLVO</b>
+				  </div>
+                <div class="c">
+				<table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody><tr style="vertical-align:top" class="style7 collapse volvo11">
+                    <td colspan="3"><b>Feature: </b>Infrared reflecting glass</td>
+                   </tr>
+<tr style="vertical-align:bottom" class="style7 collapse volvo11">
+	        		<th> <span class="style1" style="display: block; text-align: center">Model</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Year</span> </th>
+				
+					<th> <span class="style1" style="display: block; text-align: center">Mounting Location</span> </th>
+				  </tr>
+
+				  <tr style="vertical-align:top" class="style7 collapse volvo11">
+					<td> XC90 </td>
+					<td>2010-2014 </td>					
+<td><div style="text-align:left"> Top, left or right of rear-view mirror  </div></td>
+				  </tr>
+
+
+				  </tbody>
+                </table>
+                </div>
+				</div>
+</div>
+
+
+				
+				<p>Note: Customers should mount the transponder to the top center of the windshield, if available. If a plastic cover for the rear view mirror exists in this location, mount the transponder next to that location. If the transponder is still not being read, and if the vehicle is outfitted with a sunroof, mount the transponder directly to the sunroof. This option is especially effective with a mini sticker.</p>
+				
+                <p>
+                   Other Windshield Features – click vehicle make below to determine if this applies to your vehicle.
+            </p>
+                
+                 <div class="row">	
+                <div class="col-md-3">   
+                <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".astonmartin2">
+				 <b> ASTON MARTIN </b>
+				  </div>
+                <div class="c">
+				<table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody><tr style="vertical-align:top" class="style7 collapse astonmartin2">
+                    <td colspan="2"><b>Windshield Feature: </b>Heated</td>
+                   </tr><tr style="vertical-align:bottom" class="style7 collapse astonmartin2">
+	        		<th> <span class="style1" style="display: block; text-align: center">Model</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Year</span> </th>
+					<!-- <th> <span class="style1">Windshield Feature</span> </th> -->
+				  </tr>
+
+				  <tr style="vertical-align:top" class="style7 collapse astonmartin2">
+				    <td><span class="style7">Vanquish</span></td>
+					<td><span class="style7">2001-2007</span></td>
+				<!-- 	<td rowspan="2"><div style="text-align:left"> <span class="style7">HEATED</span> </div></td> -->
+				  </tr>
+                 <tr style="vertical-align:top" class="style7 collapse astonmartin2">
+				    <td><span class="style7">Vantage</span></td>
+					<td><span class="style7">2003-2008</span></td>
+				  </tr>      
+				  </tbody>
+                </table>
+                </div>
+                </div>
+                 <div class="col-md-3">   
+                <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".audi2">
+				 <b> AUDI</b>
+				  </div>
+               <div class="c">               
+			   <table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody><tr style="vertical-align:top" class="style7 collapse audi2">
+                    <td colspan="2"><b>Windshield Feature: </b>Siglasol</td>
+                   </tr><tr style="vertical-align:bottom" class="style7 collapse audi2">
+	        		<th> <span class="style1" style="display: block; text-align: center">Model</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Year</span> </th>
+				<!-- 	<th> <span class="style1">Windshield Feature</span> </th> -->
+				  </tr>
+
+				  <tr style="vertical-align:top" class="style7 collapse audi2">
+				    <td><span class="style7">A6</span></td>
+					<td><span class="style7">1998-2003</span></td>
+				<!-- 	<td rowspan="2"><div style="text-align:left"> <span class="style7">SIGLASOL</span> </div></td> -->
+				  </tr>
+                 <tr style="vertical-align:top" class="style7 collapse audi2">
+				    <td><span class="style7">A8</span></td>
+					<td><span class="style7">1998-2003</span></td>
+				  </tr>      
+				  </tbody>
+                </table>
+                </div>
+                </div>
+				
+                <div class="col-md-3">  
+                <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".buick2">
+				 <b> BUICK</b>
+				  </div>
+                <div class="c">
+				<table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody><tr style="vertical-align:top" class="style7 collapse buick2">
+                    <td colspan="2"><b>Windshield Feature: </b>PPG Sungate</td>
+                   </tr>
+<tr style="vertical-align:bottom" class="style7 collapse buick2">
+	        		<th> <span class="style1" style="display: block; text-align: center">Model</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Year</span> </th>
+					<!-- <th> <span class="style1">Windshield Feature</span> </th> -->
+				  </tr>
+
+				  <tr style="vertical-align:top" class="style7 collapse buick2">
+				   <td><span class="style7">Roadmaster Sedan</span></td>
+					<td><span class="style7">1993-1996</span></td>
+					<!-- <td><div style="text-align:left"> <span class="style7">PPG Sungate</span> </div></td> -->
+				  </tr>
+<tr style="vertical-align:top" class="style7 collapse buick2">
+                    <td colspan="2"><b>Windshield Feature: </b>Heated</td>
+                   </tr>
+<tr style="vertical-align:bottom" class="style7 collapse buick2">
+	        		<th> <span class="style1" style="display: block; text-align: center">Model</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Year</span> </th>
+					<!-- <th> <span class="style1">Windshield Feature</span> </th> -->
+				  </tr>
+                 <tr style="vertical-align:top" class="style7 collapse buick2">
+				   <td><span class="style7">Lesabre</span></td>
+					<td><span class="style7">1992 Only</span></td>
+					<!-- <td rowspan="2"><div style="text-align:left"> <span class="style7">HEATED</span> </div></td> -->
+				  </tr>
+                  <tr style="vertical-align:top" class="style7 collapse buick2">
+				   			<td><span class="style7">Park Avenue</span></td>
+					<td><span class="style7">1991-1992</span></td>
+				  </tr>      
+				  </tbody>
+                </table>
+                </div>
+                 </div>	
+                <div class="col-md-3"> 
+                <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".cadillac2">
+				 <b> CADILLAC</b>
+				  </div>
+                <div class="c">
+				<table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody><tr style="vertical-align:top" class="style7 collapse cadillac2">
+                    <td colspan="2"><b>Windshield Feature: </b>Heated</td>
+                   </tr>
+<tr style="vertical-align:bottom" class="style7 collapse cadillac2">
+	        		<th> <span class="style1" style="display: block; text-align: center">Model</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Year</span> </th>
+					<!-- <th> <span class="style1">Windshield Feature</span> </th> -->
+				  </tr>
+
+				  <tr style="vertical-align:top" class="style7 collapse cadillac2">
+				  <td><span class="style7">Concours</span></td>
+					<td><span class="style7">1993-1998</span></td>
+					<!-- <td rowspan="4"><div style="text-align:left"> <span class="style7">HEATED</span> </div></td> -->
+				  </tr>
+                 <tr style="vertical-align:top" class="style7 collapse cadillac2">
+				  <td><span class="style7">Deville</span></td>
+					<td><span class="style7">1989-1999</span></td>
+				  </tr>
+                  <tr style="vertical-align:top" class="style7 collapse cadillac2">
+				   <td><span class="style7">Eldorado</span></td>
+					<td><span class="style7">1992-2002</span></td>
+				  </tr>
+                  <tr style="vertical-align:top" class="style7 collapse cadillac2">
+				   <td ><span class="style7">Fleetwood</span></td>
+					<td><span class="style7">1989-1992</span></td>
+				  </tr>
+<tr style="vertical-align:top" class="style7 collapse cadillac2">
+                    <td colspan="2"><b>Windshield Feature: </b>PPG Sungate</td>
+                   </tr>
+                 <tr style="vertical-align:top" class="style7 collapse cadillac2">
+             <td ><span class="style7">Fleetwood</span></td>
+				   <td><span class="style7">1993-1996</span></td>
+					<!-- <td><div style="text-align:left"> <span class="style7">PPG Sungate</span> </div></td> -->
+				  </tr>
+<tr style="vertical-align:top" class="style7 collapse cadillac2">
+                    <td colspan="2"><b>Windshield Feature: </b>Heated</td>
+                   </tr>
+<tr style="vertical-align:bottom" class="style7 collapse cadillac2">
+	        		<th> <span class="style1" style="display: block; text-align: center">Model</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Year</span> </th>
+					<!-- <th> <span class="style1">Windshield Feature</span> </th> -->
+				  </tr>
+                  <tr style="vertical-align:top" class="style7 collapse cadillac2">
+				   <td><span class="style7">Seville</span></td>
+					<td><span class="style7">1992-1999</span></td>
+				<!-- 	<td rowspan="3"><div style="text-align:left"> <span class="style7">HEATED</span> </div></td> -->
+				  </tr> 
+                  <tr style="vertical-align:top" class="style7 collapse cadillac2">
+				   	<td><span class="style7">Sixty Special</span></td>
+					<td><span class="style7">1993 Only</span></td>
+				  </tr>      
+                   <tr style="vertical-align:top" class="style7 collapse cadillac2">
+				   <td><span class="style7">Touring Sedan</span></td>
+					<td><span class="style7">1992-1998</span></td>
+				  </tr>       
+				  </tbody>
+                </table>
+                </div>
+                  </div>	
+                </div> 
+				
+				 <div class="row">	
+                <div class="col-md-3"> 
+                <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".chevrolet2">
+				 <b> CHEVROLET</b>
+				  </div>
+                <div class="c">
+				<table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody><tr style="vertical-align:top" class="style7 collapse chevrolet2">
+                    <td colspan="2"><b>Windshield Feature: </b>PPG Sungate</td>
+                   </tr><tr style="vertical-align:bottom" class="style7 collapse chevrolet2">
+	        		<th> <span class="style1" style="display: block; text-align: center">Model</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Year</span> </th>
+					<!-- <th> <span class="style1">Windshield Feature</span> </th> -->
+				  </tr>
+
+
+				  <tr style="vertical-align:top" class="style7 collapse chevrolet2">
+				  <td><span class="style7">Caprice</span></td>
+					<td><span class="style7">1993-1996</span></td>
+					<!-- <td><div style="text-align:left"> <span class="style7">PPG Sungate</span> </div></td> -->
+				  </tr>
+<tr style="vertical-align:top" class="style7 collapse chevrolet2">
+                    <td colspan="2"><b>Windshield Feature: </b>Heated</td>
+                   </tr>
+<tr style="vertical-align:bottom" class="style7 collapse chevrolet2">
+	        		<th> <span class="style1" style="display: block; text-align: center">Model</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Year</span> </th>
+					<!-- <th> <span class="style1">Windshield Feature</span> </th> -->
+				  </tr>
+                 <tr style="vertical-align:top" class="style7 collapse chevrolet2">
+				 <td><span class="style7">Corvette ZR-1</span></td>
+					<td><span class="style7">1990-1995</span></td>
+					<!-- <td><div style="text-align:left"> <span class="style7">HEATED</span> </div></td> -->
+				  </tr>
+<tr style="vertical-align:top" class="style7 collapse chevrolet2">
+                    <td colspan="2"><b>Windshield Feature: </b>PPG Sungate</td>
+                   </tr>
+<tr style="vertical-align:bottom" class="style7 collapse chevrolet2">
+	        		<th> <span class="style1" style="display: block; text-align: center">Model</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Year</span> </th>
+					<!-- <th> <span class="style1">Windshield Feature</span> </th> -->
+				  </tr>
+                  <tr style="vertical-align:top" class="style7 collapse chevrolet2">
+				   <td><span class="style7">Impala</span></td>
+					<td><span class="style7">1993-1996</span></td>
+					<!-- <td><div style="text-align:left"> <span class="style7">PPG Sungate</span> </div></td> -->
+				  </tr>
+ 				  </tbody>
+                </table>
+                </div>
+                  </div>	
+                <div class="col-md-3"> 
+                 <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".ford2">
+				 <b>FORD</b>
+				  </div>
+                <div class="c">
+				<table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody><tr style="vertical-align:top" class="style7 collapse ford2">
+                    <td colspan="2"><b>Windshield Feature: </b>Insta-Clear</td>
+                   </tr>
+<tr style="vertical-align:bottom" class="style7 collapse ford2">
+	        		<th> <span class="style1" style="display: block; text-align: center">Model</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Year</span> </th>
+				<!-- 	<th> <span class="style1">Windshield Feature</span> </th> -->
+				  </tr>
+
+				  <tr style="vertical-align:top" class="style7 collapse ford2">
+				  <td><span class="style7">Crown Victoria</span></td>
+					<td><span class="style7">1988-1992</span></td>
+					<!-- <td rowspan="2"><div style="text-align:left"> <span class="style7">Insta-Clear</span> </div></td> -->
+				  </tr>
+                 <tr style="vertical-align:top" class="style7 collapse ford2">
+				 <td><span class="style7">Taurus</span></td>
+					<td><span class="style7">1986-1991</span></td>
+				  </tr>
+ 				  </tbody>
+                </table>
+                </div>
+                 </div>	
+                	
+                <div class="col-md-3"> 
+                 <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".jaguar2">
+				 <b> JAGUAR</b>
+				  </div>
+                <div class="c">
+				<table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody><tr style="vertical-align:top" class="style7 collapse jaguar2">
+                    <td colspan="2"><b>Windshield Feature: </b>Heated</td>
+                   </tr>
+<tr style="vertical-align:bottom" class="style7 collapse jaguar2">
+	        		<th> <span class="style1" style="display: block; text-align: center">Model</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Year</span> </th>
+					<!-- <th> <span class="style1">Windshield Feature</span> </th> -->
+				  </tr>
+
+				  <tr style="vertical-align:top" class="style7 collapse jaguar2">
+				  <td><span class="style7">S-Type</span></td>
+					<td><span class="style7">2000-2004</span></td>
+					<!-- <td rowspan="4"><span class="style7">HEATED</span></td> -->
+				  </tr>
+                 <tr style="vertical-align:top" class="style7 collapse jaguar2">
+				 <td><span class="style7">VDP</span></td>
+					<td><span class="style7">1999-2004</span></td>
+				  </tr>
+                      <tr style="vertical-align:top" class="style7 collapse jaguar2">
+				<td><span class="style7">XJ Series</span></td>
+					<td><span class="style7">1999-2004</span></td>
+				  </tr>
+                      <tr style="vertical-align:top" class="style7 collapse jaguar2">
+				 <td><span class="style7">XK Series</span></td>
+					<td><span class="style7">1999-2004</span></td>
+				  </tr>
+<tr style="vertical-align:top" class="style7 collapse jaguar2">
+				 <td><span class="style7">XF</span></td>
+					<td><span class="style7">2010-Current</span></td>
+				  </tr>
+ 				  </tbody>
+                </table>
+                </div>
+                  </div>	
+                <div class="col-md-3"> 
+                 <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".lincoln2">
+				  <b>LINCOLN</b>
+				  </div>
+                <div class="c">
+				<table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody><tr style="vertical-align:top" class="style7 collapse lincoln2">
+                    <td colspan="2"><b>Windshield Feature: </b>Insta-Clear</td>
+                   </tr>
+<tr style="vertical-align:bottom" class="style7 collapse lincoln2">
+	        		<th> <span class="style1" style="display: block; text-align: center">Model</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Year</span> </th>
+				<!-- 	<th> <span class="style1">Windshield Feature</span> </th> -->
+				  </tr>
+
+				  <tr style="vertical-align:top" class="style7 collapse lincoln2">
+				  <td><span class="style7">Continental</span></td>
+					<td><span class="style7">1988-1992</span></td>
+				<!-- 	<td rowspan="2"><div style="text-align:left"> <span class="style7">Insta-Clear</span> </div></td> -->
+				  </tr>
+                 <tr style="vertical-align:top" class="style7 collapse lincoln2">
+				 <td><span class="style7">Town Car</span></td>
+					<td><span class="style7">1990-1992</span></td>
+				  </tr>
+ 				  </tbody>
+                </table>
+                </div>
+                  </div>	
+                </div> 
+				 
+				  <div class="row">	
+                <div class="col-md-3"> 
+                 <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".mazda2">
+				  <b>MAZDA</b>
+				  </div>
+                <div class="c">
+				<table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody><tr style="vertical-align:top" class="style7 collapse mazda2">
+                    <td colspan="2"><b>Windshield Feature: </b>Solar Control</td>
+                   </tr>
+<tr style="vertical-align:bottom" class="style7 collapse mazda2">
+	        		<th> <span class="style1" style="display: block; text-align: center">Model</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Year</span> </th>
+					<!-- <th> <span class="style1">Windshield Feature</span> </th> -->
+				  </tr>
+
+				  <tr style="vertical-align:top" class="style7 collapse mazda2">
+				  <td><span class="style7">626</span></td>
+					<td><span class="style7">1995 Only</span></td>
+				<!-- 	<td rowspan="2"><div style="text-align:left"> <span class="style7">SOLAR CONTROL</span> </div></td> -->
+				  </tr>
+                 <tr style="vertical-align:top" class="style7 collapse mazda2">
+				 <td><span class="style7">929</span></td>
+					<td><span class="style7">1988-1995</span></td>
+				  </tr>
+ 				  </tbody>
+                </table>
+                </div>
+				
+				 </div>	
+                <div class="col-md-3"> 
+                
+                 <div  class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".mercury2">
+				 <b> MERCURY</b>
+				  </div>
+                <div class="c">
+				<table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody><tr style="vertical-align:top" class="style7 collapse mercury2">
+                    <td colspan="2"><b>Windshield Feature: </b>Insta-Clear</td>
+                   </tr><tr style="vertical-align:bottom" class="style7 collapse mercury2">
+	        		<th> <span class="style1" style="display: block; text-align: center">Model</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Year</span> </th>
+					<!-- <th> <span class="style1">Windshield Feature</span> </th> -->
+				  </tr>
+
+				  <tr style="vertical-align:top" class="style7 collapse mercury2">
+				 <td><span class="style7">Grand Marquis</span></td>
+					<td><span class="style7">1988-1992</span></td>
+					<!-- <td rowspan="2"><div style="text-align:left"> <span class="style7">Insta-Clear</span> </div></td> -->
+				  </tr>
+                 <tr style="vertical-align:top" class="style7 collapse mercury2">
+				<td><span class="style7">Sable</span></td>
+					<td><span class="style7">1986-1991</span></td>
+				  </tr>
+ 				  </tbody>
+                </table>
+                </div>
+                 </div>	
+                
+                <div class="col-md-3"> 
+                 <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".oldsmobile2">
+				 <b> OLDSMOBILE</b>
+				  </div>
+                <div class="c">
+				<table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody><tr style="vertical-align:top" class="style7 collapse oldsmobile2">
+                    <td colspan="2"><b>Windshield Feature: </b>PPG Sungate</td>
+                   </tr>
+<tr style="vertical-align:bottom" class="style7 collapse oldsmobile2">
+	        		<th> <span class="style1" style="display: block; text-align: center">Model</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Year</span> </th>
+					<!-- <th> <span class="style1">Windshield Feature</span> </th> -->
+				  </tr>
+
+				  <tr style="vertical-align:top" class="style7 collapse oldsmobile2">
+				 <td><span class="style7">Custom Cruiser- <br>
+					  Station Wagon</span></td>
+					<td><span class="style7">1990-1996</span></td>
+					<!-- <td><div style="text-align:left"> <span class="style7">PPG Sungate</span> </div></td> -->
+				  </tr>
+<tr style="vertical-align:top" class="style7 collapse oldsmobile2">
+                    <td colspan="2"><b>Windshield Feature: </b>Heated</td>
+                   </tr>
+<tr style="vertical-align:bottom" class="style7 collapse oldsmobile2">
+	        		<th> <span class="style1" style="display: block; text-align: center">Model</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Year</span> </th>
+					<!-- <th> <span class="style1">Windshield Feature</span> </th> -->
+				  </tr>
+                 <tr style="vertical-align:top" class="style7 collapse oldsmobile2">
+				<td><span class="style7">Eighty-Eight</span></td>
+					<td><span class="style7">1992 Only</span></td>
+					<!-- <td rowspan="2"><div style="text-align:left"> <span class="style7">HEATED</span> </div></td> -->
+				  </tr>
+                  <tr style="vertical-align:top" class="style7 collapse oldsmobile2">
+				<td><span class="style7">Ninety-Eight</span></td>
+					<td><span class="style7">1991-1995</span></td>
+				  </tr>      
+ 				  </tbody>
+                </table>
+                </div>
+                </div>	
+                <div class="col-md-3"> 
+                 <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".pontiac2">
+				 <b> PONTIAC</b>
+				  </div>
+                <div class="c">
+				<table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody><tr style="vertical-align:top" class="style7 collapse pontiac2">
+                    <td colspan="2"><b>Windshield Feature: </b>Heated</td>
+                   </tr><tr style="vertical-align:bottom" class="style7 collapse pontiac2">
+	        		<th> <span class="style1" style="display: block; text-align: center">Model</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Year</span> </th>
+					<!-- <th> <span class="style1">Windshield Feature</span> </th> -->
+				  </tr>
+
+				  <tr style="vertical-align:top" class="style7 collapse pontiac2">
+				 <td><span class="style7">Bonneville</span></td>
+					<td><span class="style7">1992 Only</span></td>
+					<!-- <td><div style="text-align:left"> <span class="style7">HEATED</span> </div></td> -->
+				  </tr>      
+ 				  </tbody>
+                </table>
+                </div>
+                </div>	
+                </div> 
+<div class="row">          
+<div class="col-md-3">      
+ <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".volvo2">
+				 <b>VOLVO</b>
+				  </div>
+
+
+                <div class="c">
+				<table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody><tr style="vertical-align:top" class="style7 collapse volvo2">
+                    <td colspan="2"><b>Windshield Feature: </b>Infrared Reflecting</td>
+                   </tr><tr style="vertical-align:bottom" class="style7 collapse volvo2">
+	        		<th> <span class="style1" style="display: block; text-align: center">Model</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Year</span> </th>
+					<!-- <th> <span class="style1">Windshield Feature</span> </th> -->
+				  </tr>
+
+				  <tr style="vertical-align:top" class="style7 collapse volvo2">
+				 <td><span class="style7">S80</span></td>
+					<td><span class="style7">2002-2004</span></td>
+				<!-- 	<td rowspan="2"><div style="text-align:left"> <span class="style7">INFRARED REFLECTING</span> </div></td> -->
+				  </tr>
+                 <tr style="vertical-align:top" class="style7 collapse volvo2">
+						<td><span class="style7">XC90</span></td>
+					<td><span class="style7">2002-2004</span></td>
+				  </tr>
+ 		  </tbody>
+                </table>
+                </div>
+</div>
+</div>
+				<p>The following vehicle types must use a Bumper Mount transponder. Click vehicle make below to determine if this applies to your vehicle. </p>
+		        
+				<div class="row">	
+                <div class="col-md-3"> 
+                 <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".bentley3">
+				 <b> BENTLEY</b>
+				  </div>
+                <div class="c">
+				<table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody><tr style="vertical-align:bottom" class="style7 collapse bentley3">
+					<th> <span class="style1" style="display: block; text-align: center">Model</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Year</span> </th>
+				  </tr>
+				  <tr style="vertical-align:top" class="style7 collapse bentley3">
+				 <td><span class="style7">Continental GT</span></td>
+					<td><span class="style7">2004-2009</span></td>
+				  </tr>
+                
+                     <tr style="vertical-align:top" class="style7 collapse bentley3">
+                    <td><span class="style7">Continental Flying Spur</span></td>
+					 <td><span class="style7">2006-2009</span></td>
+				  </tr>
+ 		  </tbody>
+                </table>
+                </div>
+                </div>	
+                <div class="col-md-3">                    
+				   
+                 <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".buick3">
+				 <b>BUICK</b>
+				  </div>
+                <div class="c">
+				<table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody><tr style="vertical-align:bottom" class="style7 collapse buick3">
+					<th> <span class="style1" style="display: block; text-align: center">Model</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Year</span> </th>
+				  </tr>
+				  <tr style="vertical-align:top" class="style7 collapse buick3">
+				<td><span class="style7">Roadmaster Wagon</span></td>
+					<td><span class="style7">ALL</span></td>
+				  </tr>
+ 		  </tbody>
+                </table>
+                </div>
+				</div>	
+               	
+                <div class="col-md-3">      
+                 <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".car3">
+				 <b>Car hauler with overhead rack</b>
+				  </div>
+                <div class="c">
+				<table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody><tr style="vertical-align:bottom" class="style7 collapse car3">
+					<th> <span class="style1" style="display: block; text-align: center">Model</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Year</span> </th>
+				  </tr>
+				  <tr style="vertical-align:top" class="style7 collapse car3">
+				<td><span class="style7"></span></td>
+					<td><span class="style7">ALL</span></td>
+				  </tr>
+ 		  </tbody>
+                </table>
+                </div>
+               </div>	
+                <div class="col-md-3">                       
+					  
+                 <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".chevrolet3">
+				 <b>CHEVROLET</b>
+				  </div>
+                <div class="c">
+				<table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody><tr style="vertical-align:bottom" class="style7 collapse chevrolet3">
+					<th> <span class="style1" style="display: block; text-align: center">Model</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Year</span> </th>
+				  </tr>
+				  <tr style="vertical-align:top" class="style7 collapse chevrolet3">
+				<td><span class="style7">Lumina APV (van)</span></td>
+					<td><span class="style7">ALL (1990-1996)</span></td>
+				  </tr>
+ 		  </tbody>
+                </table>
+                </div>
+                   </div>	
+                </div>  
+
+                <div class="row">	
+                <div class="col-md-3"> 				
+                 <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".oldsmobile3">
+				 <b>OLDSMOBILE</b>
+				  </div>
+                <div class="c">
+				<table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody><tr style="vertical-align:bottom" class="style7 collapse oldsmobile3">
+					<th> <span class="style1" style="display: block; text-align: center">Model</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Year</span> </th>
+				  </tr>
+				  <tr style="vertical-align:top" class="style7 collapse oldsmobile3">
+				<td><span class="style7">Silhouette</span></td>
+					<td><span class="style7">1990-1996</span></td>
+				  </tr>
+ 		  </tbody>
+                </table>
+                </div>
+                  </div>	
+                <div class="col-md-3">   
+                 <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".pontaic3">
+				 <b> PONTIAC</b>
+				  </div>
+                <div class="c">
+				<table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody><tr style="vertical-align:bottom" class="style7 collapse pontaic3">
+					<th> <span class="style1" style="display: block; text-align: center">Model</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Year</span> </th>
+				  </tr>
+				  <tr style="vertical-align:top" class="style7 collapse pontaic3">
+				<td><span class="style7">Transport</span></td>
+					<td><span class="style7">1990-1996</span></td>
+				  </tr>
+ 		  </tbody>
+                </table>
+                </div>
+                   </div>	
+               
+                <div class="col-md-3"> 				
+                 <div  class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".porsche3">
+				  <b>PORSCHE</b>
+				  </div>
+                <div class="c">
+				<table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody><tr style="vertical-align:bottom" class="style7 collapse porsche3">
+					<th> <span class="style1" style="display: block; text-align: center">Model</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Year</span> </th>
+				  </tr>
+				  <tr style="vertical-align:top" class="style7 collapse porsche3">
+				<td><span class="style7">Panamera (Turbo)</span></td>
+					<td><span class="style7">2010 only</span></td>
+				  </tr>
+ 		  </tbody>
+                </table>
+                </div>
+                </div>	
+                <div class="col-md-3"> 
+                 <div class="col-md-12 col-sm-12 panel-heading b" data-toggle="collapse" data-target=".tesla3">
+				 <b> TESLA</b>
+				  </div>
+                <div class="c">
+				<table class="table" style="table-layout:fixed;word-wrap:break-word;border-color: #999999;width:100%;padding:3;cellspacing;0; border:1;" aria-describedby="tableSummaryId">
+				  
+				  <tbody><tr style="vertical-align:bottom" class="style7 collapse tesla3">
+					<th> <span class="style1" style="display: block; text-align: center">Model</span> </th>
+					<th> <span class="style1" style="display: block; text-align: center">Year</span> </th>
+				  </tr>
+				  <tr style="vertical-align:top" class="style7 collapse tesla3">
+				<td><span class="style7">S (Nose Cone Style)</span></td>
+					<td><span class="style7">2012-2016</span></td>
+				  </tr>
+ 		  </tbody>
+                </table>
+                </div>
+		</div>	
+                </div> 
+				
+			<p>The exterior SunPass Bumper Mount Transponder comes with special screws and a special wrench. If your car is not equipped for a front license plate it
+may require modifications before the SunPass Bumper Mount transponder can be attached. SunPass provides the exterior transponder, special screws
+and wrench, but does not install the transponder. 
+</p>	
+			</div>
+			</div>
+</div>
+
+<br> 
+<br>
+<hr style="border-color: #009d57;;margin-top:-10px;margin-bottom: 10px;">
+
+<div  id="fytnghh">
+<span class="boxHeadingText1">FIND YOUR TRANSPONDER NUMBER</span><br>
+<br>
+<p>
+Finding your SunPass transponder number is easy. Your transponder number may be used to log in to your account online along with your password. Be
+sure to only enter the first 12 digits without dashes when logging into your account.
+</p>
+<p>Choose the transponder type below and locate the number as shown in the highlighted area in red.<p>
+<div class="row ">
+<div class="col-md-6 col-xs-9">
+<div class=" row divheaderTransponder">
+SUNPASS MINI
+</div>
+
+<div class="row">
+<br>
+<img src="../common/images/SunPass Mini Find Number.png" alt="Windshield locations for installation." style="margin: auto;display: block;">
+</div>
+</div>
+<div class="col-md-6 col-xs-9  vertical-lineNoTable">
+
+<div class="row">
+
+<div class="divheaderTransponder">
+SUNPASS PORTABLE
+</div>
+</div>
+<!-- </div> -->
+<div class="row">
+<br>
+<img src="../common/images/SunPass Portable Find Number.png" alt="Windshield locations for installation." >
+
+</div>
+<br>
+</div>
+</div>
+</div>
+
+
+	
+
+		
+</div>
+
+    
+
+</div>
+</div>
+ <!-- End content -->
+	<!--#include file="../includes/footer.html"-->
+<span id="topnavitem" class="invisible">hsw</span>
+</div>
+<!--#include file="../includes/footer_include.html"-->
+</body>
+</html>

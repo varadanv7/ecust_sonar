@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>FasTrak</title>
+	<!--#include file="../common/headerinclude.html"-->
+    <!--#include file="../common/html/pageheader.shtml"-->
+	
+	 <script>
+  function boo(event){
+   var x = event.screenX;
+    var y = event.screenY;
+    var coords = "X coords: " + x + ", Y coords: " + y;
+	X = x + 0;
+    document.getElementById("detailed").style.top = '200px';
+    document.getElementById("detailed").style.left = '10%';
+    document.getElementById("detailed").style.right = '10%';
+    
+    bloop = "#" + "detailed";
+	$(bloop).fadeIn(900);
+
+  }
+  </script>
+</head>
+
+<body onLoad="setWindowSizeP()">
+<div class="container">
+<ol class="breadcrumb">
+	  <li><a href="../home/index.shtml"><img src="../images/breadcrumb/Home_icon.png"></a></li>
+	  <li>Guide</li>
+	  <li class="active">How To Mount a Toll Tag</li>
+</ol>
+</div>
+<div id="detailed" style="max-width: 90%;">
+<a href="#detailed" onClick="closer('detailed')" class="searchButton" style="margin-bottom: 15px; float: right;">X</a>
+	<div style="clear: both; text-align: left;">
+	<b>Lawful positioning of a toll tag.</b><br>
+	Amendment to SEC.77, Section 26708 of the Vehicle Code, permitting: An electronic communication device affixed to the center uppermost portion of the interior of a windshield within an area that is not greater than 5 inches square, if the device provides either of the following:
+	<br>
+		<div style="padding-left: 25px;">
+		(A) The capability for enforcement facilities of the Department of the California Highway Patrol to communicate with a vehicle equipped with the device.
+		<br>
+		(B) The capability for electronic toll and traffic management on public or private roads or facilities.
+		</div>
+	<br>
+	SEC. 77, Section 26708 of the Vehicle Code is amended to read: Signs, stickers, or other materials which are displayed in a 7-inch square in the lower corner of the windshield farthest removed from the driver, signs, stickers, or other materials which are displayed in a 7-inch square in the lower corner of the rear window farthest removed from the driver, or signs, stickers, or other materials which are displayed in a 5-inch square in the lower corner of the windshield nearest the driver.
+</div>
+</div>
+<div class="contentEnvelope" editarea="howToMount" editareadesc="how to mount">
+<!-- content -->
+	<div class="contentTitle">HOW TO MOUNT A TOLL TAG</div>
+	<!--cars-->
+	<div id="cars">
+		<div class="mountTitles">
+			<div class="mountGreen">Car</div>
+			<a href="#" class="mountLink" onClick="mountChanger('motorcycles')"><div class="mountGrey">Motorcycle</div></a>
+			<a href="#" class="mountLink" onClick="mountChanger('exterior')"><div class="mountGrey">Exterior Toll Tag</div></a>
+		</div>
+		<div class="mountCopyBlock">
+		<div class="orangeTitleCallout">Inside a Car or Other Vehicle</div>
+		Mount the FasTrak toll tag inside your windshield so that it will be easily detected and <a href="#detailed" onclick="boo(event)" name="detailed" class="inLineLinkk">positioned safely and lawfully</a>. Before you start, check to see if your windshield might prevent your tag from being read properly. <a href="../images/MetalOxideWindshieldList.pdf" target="_blank" class="inLineLinkk greenLink">Special Windshields</a>.
+		<ol>
+			<li class="lister">Choose where to mount the toll tag inside your windshield. See the illustration.</li>
+			<li class="lister">Clean the glass on the inside of your windshield for the placement area. </li>
+			<li class="lister">Remove the plastic tape from the Velcro mounting strips on the toll tag. </li>
+			<li class="lister">Position and firmly press the toll tag against the glass. </li>
+		</ol>
+		<div class="tipsBlock">
+			<div class="tipsBlockTitle">Don't hold up the toll tag</div>
+			It is illegal to hold up a toll tag up by hand while driving through a toll collection point. 
+			</div>
+		<div class="tipsBox">TIP</div>
+		<img src="../images/mountCar.png" style="margin-top: 15px; width: 100%; max-width:100%">
+		<div class="orangeTitleCallout">Inside a Car or Other Vehicle</div>
+		<div>
+			<table cellpadding= "3" cellspacing="2" border="0" width="80%">
+				<tr>
+					<td valign="center" width="10%"><img src="../images/mount_A.png" style="width: 33px;"></td>
+					<td valign="center" width="40%">Preferred</td>
+					<td valign="center" width="10%"><img src="../images/mount_B.png" style="width: 33px;"></td>
+					<td valign="center" width="40%">Alternative</td>
+				</tr>
+			</table>
+		</div>
+		</div>
+	</div>
+	<!-- motorcycles-->
+	<div id="motorcycles">
+		<div class="mountTitles">
+			<a href="#" class="mountLink" onClick="mountChanger('cars')"><div class="mountGrey">Car</div></a>
+			<div class="mountGreen">Motorcycle</div>
+			<a href="#" class="mountLink" onClick="mountChanger('exterior')"><div class="mountGrey">Exterior Toll Tag</div></a>
+		</div>
+		<div class="mountGreen" style="visibility: hidden;">Motorcycle</a></div>
+		<div class="mountCopyBlock">
+		Mount or place the FasTrak toll tag where it will be easily detected.
+		<div class="orangeTitleCallout">Windscreen</div>
+		Mount the toll tag inside your windshield so that it will be easily detected and <a href="#detailed" onclick="boo(event)" name="detailed" class="inLineLinkk">positioned safely and lawfully</a >.
+		
+		<ol>
+			<li class="lister">Identify where to mount your tag inside your windshield. See the illustration.</li>
+			<li class="lister">Clean the glass on the inside of your windshield for the placement area.</li>
+			<li class="lister">Remove the plastic tape from the back of the Velcro mounting strips on the toll tag.</li>
+			<li class="lister">Position and press the toll tag firmly against the glass.</li>
+		</ol>
+		FasTrak is not responsible for a lost toll tag due to the toll tag not adhering to the motorcycle windshield.
+		<img src="../images/mountMotorcycle.png" style="margin-top: 15px; width: 100%; max-width: 313px">
+		<div class="orangeTitleCallout">Other secure locations</div>
+		Place the toll tag where it will be secure and be detected, such as
+			<ul>
+				<li class="lister">In your clothing front pocket, since the antennae can read a toll tag through many materials</li>
+				<li class="lister">Inside a cycle net draped over the gas tank, or elsewhere on the top part of the vehicle</li>
+			</ul>
+		<div class="tipsBlock">
+			<div class="tipsBlockTitle">Don't hold up the toll tag</div>
+			It is illegal to hold up a toll tag up by hand while driving through a toll collection point. 
+			</div>
+		<div class="tipsBox">TIP</div>
+		</div>
+	</div>
+	<!--exterior-->
+	<div id="exterior">
+		<div class="mountTitles">
+			<a href="#" class="mountLink" onClick="mountChanger('cars')"><div class="mountGrey">Car</div></a>
+			<a href="#" class="mountLink" onClick="mountChanger('motorcycles')"><div class="mountGrey">Motorcycle</div></a>
+			<div class="mountGreen">Exterior Toll Tag</div>
+		</div>
+		<div class="mountCopyBlock" style="text-align: center;">
+			<div>
+			<img src="../images/mountExterior_1.png" style="margin-top: 15px; margin-bottom: 5px; width: 100%; max-width: 247px">
+			</div>
+			<div>
+			Exterior toll tag mounted above license plate<br>
+			<img src="../images/mountExterior_2.png" style="margin-top: 25px;  margin-bottom: 5px; width: 100%; max-width: 247px">
+			</div>
+			<div>
+			Exterior toll tag mounted below license plate<br>
+			<img src="../images/mountExterior_3.png" style="margin-top: 25px; width: 100%; max-width: 247px">
+			</div>
+		</div>
+		<div class="mountCopyBlockEX">
+		Your exterior toll tag is designed to be attached to the front of your vehicle, on a flat surface. You screw-mount an exterior toll tag on the front bumper either above or below where the license plate is usually located. Your toll tag is equipped with tamper-resistant screws and a unique wrench for installing these screws. After mounting the toll tag, keep this unique wrench in a secure place for future adjustment or removal of the toll tag.
+			<br><br>
+			<ol>
+				<li class="lister">Choose where to mount the exterior toll tag, either above or below the license plate.</li>
+				<li class="lister">Remove the top (or bottom) two mounting screws from license plate.</li>
+				<li class="lister">Put the provided screws through the holes in the toll tag and then through the holes in the license plate from where you removed the original mounting screws.</li>
+				<li class="lister">Position the toll tag so that the provided screws line up with the holes in the front bumper.</li>
+				<li class="lister">Tighten the screws with the unique wrench that came with your toll tag to secure both the toll tag and your license plate to your vehicle.</li>
+			</ol>
+		<div class="tipsBlock">
+			<div class="tipsBlockTitle">An overhanging bumper</div>
+			If the license plate area on your vehicle is partially obstructed by an overhanging bumper, it might prevent the toll tag from being read properly. Please ask the FasTrak Customer Service Center for an alternate mounting location. Call 1-877-229-8655. 
+			</div>
+		<div class="tipsBox">TIP</div>
+		</div>
+	</div>
+<!-- end content -->
+</div>
+<script>
+function motorc(){
+	var str = window.location.search.substring(1);
+	if(str == 'motor')
+		mountChanger('motorcycles')
+}
+</script>
+<script src="../common/js/footer.js"></script>
+
+  </body>
+</html>

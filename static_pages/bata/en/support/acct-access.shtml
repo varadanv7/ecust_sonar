@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+<head style="display:none;">
+<title class="faq-title" style="">FasTrak Accounts</title>
+<meta charset="UTF-8">
+	<style style="color:white;">
+        .featherlight-content{width:65%;min-width:360px;}
+    </style>
+
+</head>
+
+<body>
+<div  editarea="img111">
+    <div class="container row custom-wrap modal-feather">
+		<div class="col-md-12">
+	        <h3>Account Access</h3>
+            <div class="custom-wrap3">
+                <div class="acclinks bach custom1">
+                    <p><a href="#access" class="collapseLink FasTrak" ref="access">How can I access my FasTrak account information?</a></p>
+                    <p><a href="#username" class="collapseLink FasTrak" ref="username">What is a Username?</a></p>
+                    <p><a href="#password" class="collapseLink FasTrak" ref="password">What is a Password?</a></p>
+                    <p><a href="#pin" class="collapseLink FasTrak" ref="pin">What is a PIN?</a></p>
+                    <p><a href="#forgotup" class="collapseLink FasTrak" ref="forgotup">What do I do if I forgot my Username or Password?</a></p>
+                    <p><a href="#forgotpin" class="collapseLink FasTrak" ref="forgotpin">What do I do if I forgot my PIN?</a></p>
+                </div>
+            </div>
+		</div>
+    </div>
+
+	<div class="panel-group" id="accordion">
+	  <div class="panel panel-default">
+		<div class="panel-heading">
+		  <h4 class="panel-title">
+			<a href="#access">How can I access my FasTrak account information?</a>
+		  </h4>
+		</div>
+		<div id="access" class="panel-collapse collapse collapsediv">
+		  <div id="faq_acc_301" class="panel-body">
+			<p>To access account information online, you must enter a Username and Password. To access your account information through our automated phone system, you must use your Account Number and 4-digit Personal Identification Number (PIN) or mailing address zip code.</p>
+          </div>
+        </div>
+      </div>
+
+	  <div class="panel panel-default">
+		<div class="panel-heading">
+		  <h4 class="panel-title">
+			<a href="#username">What is a Username?</a>
+		  </h4>
+		</div>
+		<div id="username" class="panel-collapse collapse collapsediv">
+		  <div id="faq_acc_301" class="panel-body">
+			<h4>What is a Username?</h4>
+			<p>A Username is a unique login name that you create to access your account information online. The Username must be alphanumeric with a minimum of 6 and a maximum of 20 characters. If you select a Username that is currently in use, you will receive a message advising you to choose another one.</p>
+		  </div>
+        </div>
+      </div>
+      
+	  <div class="panel panel-default">
+		<div class="panel-heading">
+		  <h4 class="panel-title">
+			<a href="#password">What is a Password?</a>
+		  </h4>
+		</div>
+		<div id="password" class="panel-collapse collapse collapsediv">
+		  <div id="faq_acc_302" class="panel-body">
+			<p>A Password is a secret word or expression that you create to prove your right to access your FasTrak account information online. Your Password must be between 6 and 12 characters and contain at least 1 uppercase letter, 1 lowercase letter, and at least 1 number. Your Password can be changed at any time by signing into your account online and going to your Account Settings.</p>
+          </div>
+        </div>
+      </div>
+
+	  <div class="panel panel-default">
+		<div class="panel-heading">
+		  <h4 class="panel-title">
+			<a href="#pin">What is a PIN?</a>
+		  </h4>
+		</div>
+		<div id="pin" class="panel-collapse collapse collapsediv">
+		  <div id="faq_acc_303" class="panel-body">
+			<p>A PIN is a 4-digit number that you must create when opening a new FasTrak account. This PIN is used to access account information through our automated phone system. It is also used to view your statements, if you chose to receive your statements via email. This number can be changed at any time by logging into your account online or by calling the FasTrak Customer Service Center at (877) 229-8655 during normal business hours.</p>
+		  </div>
+        </div>
+      </div>
+
+	  <div class="panel panel-default">
+		<div class="panel-heading">
+		  <h4 class="panel-title">
+			<a href="#forgotup">What do I do if I forgot either my Username or Password?</a>
+		  </h4>
+		</div>
+		<div id="forgotup" class="panel-collapse collapse collapsediv">
+		  <div id="faq_acc_304" class="panel-body">
+			<p>If you forgot either your Username or Password, click <a href="../../vector/account/maintenance/bataforgotPassword.do" target="_blank">here</a>. To retrieve your username, you will need to provide your account number <strong>or</strong> toll tag number <strong>and</strong> the zip code of the mailing address for your account. To reset your password, you will need your username and the mailing zip code of the mailing address for your account. You will be prompted to reset your password.</p>
+			<p>You can also contact the FasTrak Customer Service Center at (877) 229-8655 during normal business hours for assistance. They will be able to provide you with this information after standard verification.</p>
+		  </div>
+        </div>
+      </div>
+
+	  <div class="panel panel-default">
+		<div class="panel-heading">
+		  <h4 class="panel-title">
+			<a href="#forgotpin">What do I do if I forgot my PIN? </a>
+		  </h4>
+		</div>
+		<div id="forgotpin" class="panel-collapse collapse collapsediv">
+		  <div id="faq_acc_305" class="panel-body">
+			<p>If you forgot your PIN, you must contact the FasTrak Customer Service Center at (877) 229-8655 during normal business hours. They will be able to provide you with this information after standard verification.</p>
+          </div>
+        </div>
+      </div>
+
+	</div> <!-- accordion -->
+</div>
+	<div id="conceal">
+	<script>	
+        $(function () { 
+            $('.collapseLink').on('click', 
+                function(){
+                    var divid=this.href.split('#')[1];
+                    $('.collapsediv').hide();
+                    $('#'+divid).show(0,'linear');	
+                    $('html, body').animate({
+                        scrollTop: $('#'+divid).parent().offset().top
+                    }, 1000);
+                }
+            );
+            
+            $('.panel-heading').on('click', 
+                function(){
+                    var toshow = $(this).next("div").css("display");
+                    $('.collapsediv').hide();
+                    if(toshow == 'none'){
+                        $(this).next("div").show(0,'linear');
+                        $('html, body').animate({
+                            scrollTop: $(this).offset().top
+                        }, 1000);
+                    }
+                }
+            );
+        });
+		
+		$(function(){
+			$('a').each(function(){
+			   var href=$(this).attr("href");
+						if(href != null && href != 'undefined'){
+						if(href.startsWith('#')){
+									var path = location.protocol+'//'+location.host+location.pathname+href;
+									$(this).attr("href", path);
+						}
+						}
+			}); 
+		})
+
+    </script>
+    </div>
+
+</body>
+</html>

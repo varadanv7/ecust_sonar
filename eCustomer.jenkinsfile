@@ -1,0 +1,19 @@
+@Library('sharedLibs')
+import com.conduent.notifications.SparseNotify
+
+node('FLCSS_eCustomer') {
+  notify('joseph.dowling@conduent.com, Mani.Viswanathan@conduent.com, USA.PDSI.FLCCSS.JAVA@conduent.com') {
+    stage('Checkout') {
+      def repo = "http://subversion.acs-inc.com/svn/Vec-Web/eCustomer/trunk/eCustomer_Integration/eCustomer_Java"
+      initialCheckout(repo)
+      def co = load 'checkout.groovy'
+      co.checkout(repo)
+    }
+
+    stage('Build') {
+        withEnv(['PATH+SDP85=C:/IBM/SDP85/jdk/bin', 'JAVA_HOME=C:/IBM/SDP85/jdk']) {
+            bat './gradlew clean build --no-daemon'
+        }
+    }
+  }
+}

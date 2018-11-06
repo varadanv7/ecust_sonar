@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+    <head>
+	<!--#include file="../common/headerinclude.html"-->
+    </head>
+    <body>
+	<div class="container clstatic" editarea="img111">
+		<h1 class="page-header-noborder">
+			C&#243;mo ingresar el n&#250;mero de placa de su veh&#237;culo
+		</h1>
+		<div class="container row">
+			<div class="col-md-6">
+				<h4 class="page-header-noborder">
+					Placas comunes
+				</h1>
+				Ingrese las letras y los n&#250;meros que aparecen en la placa sin guiones o espacios.
+			</div>
+		</div>
+		<div class="container row">
+			<div class="col-md-6">
+				<h4 class="page-header-noborder">
+					Placas que comienzan con letras dispuestas en vertical
+				</h4>
+				Las placas personalizadas a veces tienen letras dispuestas en forma vertical frente al n&#250;mero. Estas letras verticales forman parte del n&#250;mero de la placa. Si la placa de su veh&#237;culo tiene letras frente al n&#250;mero, primero ingrese las letras verticales y luego el resto del n&#250;mero.
+				<p>
+				Por ejemplo, <span class="medcontent"><b>CAP0000</b></span> es el n&#250;mero de esta placa:
+				<p class="pad30">
+				<img src="../images/hwToEnter_LP1.jpg" border="1" height="100px" alt="Civil Air Patrol license plate">
+			</div>
+		</div>
+		<div class="container row">
+			<div class="col-md-6">
+				<h4 class="page-header-noborder">
+					Placas que finalizan con letras en vertical
+				</h4>
+				A veces la parte vertical est&#225; despu&eacute;s del n&#250;mero. En este caso, ingrese primero el n&#250;mero y luego las letras comenzando de arriba hacia abajo. Recuerde: de izquierda a derecha, de arriba abajo.
+				<p>
+				Por ejemplo, <span class="medcontent"><b>0000VN</b></span> es el n&#250;mero de esta placa:
+				<p>
+				 <img src="../images/hwToEnter_LP2.gif" style="border: 1px solid;" height="100px" alt="Vietnam Veteran license plate">
+			</div>
+		</div>
+	</div>
+	<!--#include file="../common/footerinclude.html"-->
+    </body>
+</html>

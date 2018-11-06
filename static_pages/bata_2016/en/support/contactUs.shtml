@@ -1,0 +1,275 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="utf-8" />
+
+  <title>FasTrak</title>
+
+ 		<meta http-equiv="Cache-Control" content="no-store" />
+		<meta http-equiv="Cache-Control" content="no-cache" />
+		<meta http-equiv="Pragma" content="no-cache" />
+		<meta http-equiv="Expires" content="-1" />
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>FasTrak&reg; - Keeping the Bay Area Moving</title>
+		<link rel="shortcut icon" href="../images/favicon.ico" />
+        <link rel="stylesheet" href="../common/css/bootstrap.css" />
+        <style>
+        </style>
+        <link rel="stylesheet" href="../common/css/bootstrap-theme.css" />
+        <link rel="stylesheet" href="../common/css/main.css" />
+		<link rel="stylesheet" href="../common/css/owc-custom.css" />
+		<link rel="stylesheet" href="../common/css/featherlight.min.css" />
+		
+		<link href="../common/css/bootstrap-responsive.css" rel="stylesheet" />  
+  		<link href="../common/css/carouFredSel.css" rel="stylesheet" />
+  		<link href="../common/css/superfish.css" rel="stylesheet" />
+ 		<link href="../common/css/meanmenu.css" rel="stylesheet" />
+  		<link href="../common/css/styles.css" rel="stylesheet" />
+		
+
+    
+	    
+      <!-- SET BROWSER WIDTH & LOCK SCALE -->
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+  
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+    <script src="../assets/js/html5shiv.js"></script>
+  <![endif]-->
+  
+  <script>
+  window.addEventListener('resize', setWindowSize);
+  
+  
+function setWindowSize() {
+if( /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+  document.getElementById('wert').style.backgroundSize = '240%';
+  } else {
+
+  if (typeof (window.innerWidth) == 'number') {
+    myWidth = window.innerWidth;
+    myHeight = window.innerHeight;
+  } else {
+    if (document.documentElement && (document.documentElement.clientWidth || document.documentElement.clientHeight)) {
+      myWidth = document.documentElement.clientWidth;
+      myHeight = document.documentElement.clientHeight;
+    } else {
+      if (document.body && (document.body.clientWidth || document.body.clientHeight)) {
+        myWidth = document.body.clientWidth;
+        myHeight = document.body.clientHeight;
+       
+      }
+    }
+  }
+   var ploot = myWidth * .51;
+   document.getElementById('wert').style.height = ploot + 'px';
+}
+}
+  </script>
+
+  
+
+   
+ 
+</head><body onload="setWindowSizeP()"><div class="row12" id="swart" style="background: url(../images/headerBG.jpg); width: 100%; height: 100%; background-size: 100%; background-repeat: no-repeat;">
+<div style="padding-top: 20px; padding-left: 10%; max-width: 132px; float: left;"><a href="../home/index.shtml"><img src="../images/fastrakLogo.png" border="0" /></a></div>
+<script src="../common/js/nav.js"></script>
+</div>
+
+
+  
+  <script>
+  function boo(event){
+   var x = event.screenX;
+    var y = event.screenY;
+    
+	X = x + 1;
+	//alert(X)
+    document.getElementById("detailed").style.top = '12%';
+    document.getElementById("detailed").style.left = "10%";
+    document.getElementById("detailed").style.right = '10%';
+    
+    bloop = "#" + "detailed";
+	$(bloop).fadeIn(900);
+
+  }
+  </script>
+  
+
+
+
+
+<div class="container"><ol class="breadcrumb">
+	  <li><a href="../home/index.shtml"><img src="../images/breadcrumb/Home_icon.png" /></a></li>
+	  <li>Support</li>
+	  <li class="active">Contact US</li>
+</ol></div>
+<div id="detailed" style="max-width: 100%;">
+<a href="#detailed" onClick="closer('detailed')" class="searchButton" style="margin-bottom: 15px; float: right;">X</a>
+	<div style="clear: both">
+	
+	
+	<table cellpadding="3" cellspacing="2" width="100%" style="max-width: 700px; margin-left: auto; margin-right: auto;">
+		
+		<tbody><tr>
+			<td colspan="3"><div class="orangeTitleCallout">2018 FasTrak Customer Service Center Holiday Schedule</div></td>
+		</tr>
+		<tr>
+		<td width="30%">January 1</td><td width="30%">Monday</td><td width="40%" align="right">New Year's Day</td>
+		</tr>
+		<tr>
+		<td width="30%">January 15</td><td width="30%">Monday</td><td width="40%" align="right">Martin Luther King Jr. Day</td>
+		</tr>
+		<tr>
+		<td width="30%">February 19</td><td width="30%">Monday</td><td width="40%" align="right">Presidents' Day</td>
+		</tr>
+		<tr>
+		<td width="30%">May 28</td><td width="30%">Monday</td><td width="40%" align="right">Memorial Day</td>
+		</tr>
+		<tr>
+		<td width="30%">July 4</td><td width="30%">Wednesday</td><td width="40%" align="right">Independence Day</td>
+		</tr>
+		<tr>
+		<td width="30%">September 3</td><td width="30%">Monday</td><td width="40%" align="right">Labor Day</td>
+		</tr>
+		<tr>
+		<td width="30%">November 12</td><td width="30%">Monday</td><td width="40%" align="right">Veterans Day</td>
+		</tr>
+		<tr>
+		<td width="30%">November 22-24</td><td width="30%">Thursday-Saturday</td><td width="40%" align="right">Thanksgiving Weekend</td>
+		</tr>
+		<tr>
+		<td width="30%">December 25</td><td width="30%">Tuesday</td><td width="40%" align="right">Christmas</td>
+		</tr>
+		<tr>
+		<td width="30%">January 1</td><td width="30%">Tuesday</td><td width="40%" align="right">New Year's Day (2019)</td>
+		</tr>
+	</tbody></table>
+	</div>
+</div>
+
+<div class="contentEnvelope" editarea="contactUs" editareadesc="contactUs"><!-- content --> 
+<div class="contentTitle"><!--<div style="float: right;"><a href="#" onMouseOver="opacitieer('chatty')" onMouseOut="disopacitieer('chatty')"><img src="media/chatToAsk.png" border="0" style="max-width: 230px;" id="chatty"></a></div>-->CONTACT US &amp; HOURS</div>
+	
+	<!-- begin hidden warning -->
+	<div id="hiddenWarning" style="display:none" editarea="contactusalert" editareadesc="contact us alert description" class=""></div>
+	<!-- end hidden warning -->
+	
+	<div class="greenArticleTop">Customer Service</div>
+	<div editarea="contactusdetails" editareadesc="contact us details">
+		<div class="thirdsies" style="width: 250px">
+		<div class="orangeTitleCallout">By Phone</div>
+		Call 1-877-BAY-TOLL or<br />
+		1-877-229-8655
+		<br /><br />
+		From outside the USA call<br />
+		+1-415-486-8655
+		<br /><br />
+		To speak to a person, call our Customer Service Center during the hours of operation.
+		<br /><br />
+		Our Automated Phone System is available all days, all hours to access your account.
+		</div>
+		
+		<div class="thirdsies" style="width: 270px">
+		<div class="orangeTitleCallout">In Person</div>
+		To receive in-person service, visit <br />The Hub @ 375 Beale, located in the ground floor lobby of the Bay Area Metro Center. Bring government-issued proof of identification*, which is required for some services.
+		<br /><br />
+		Bay Area Metro Center<br />
+		375 Beale Street<br />
+		(between Folsom and Harrison streets)<br />
+		San Francisco, CA 94105
+		<br /><br />
+			<div style="font-size: 12px; line-height: 15px;">
+			*A few examples of acceptable forms of identification include driver's license, government-issued identification card, military identification card, and passport.
+			</div>
+		</div>
+		
+		<div class="thirdsies"  style="width: 350px">
+		<img src="../images/mapplesby.png" style="margin: 40px 0 0 0; width: 343px;" />
+		</div>
+	</div>
+	<div class="goldSchlager" editarea="contactus1" editareadesc="contact us details1">
+		<div style="margin-bottom: 10px;">Hours of Operation</div>
+	To speak to a Customer Service Representative or visit us in person:<br />
+	Mon - Fri 8:30 am to 5:30 pm and Sat 9:00 am to 1:00 pm<br />
+	We are closed these <a href="#detailed" onclick="boo(event)" name="detailed" class="inLineLinkkWhite">Holidays</a>.
+	</div>
+	<div class="greenArticleTop">Other Ways To Contact Us</div>
+		<div>
+		<div class="thirdsies" style="width: 250px">
+		<div class="orangeTitleCallout">By Email</div>
+		<a href="../routers/contactUs.html" target="_blank" class="beigeButton">Email FasTrak</a>
+		<div class="orangeTitleCallout">By Fax</div>
+		1-415-974-6356
+		</div>
+		
+		<div class="thirdsies" style="width: 270px">
+		<div class="orangeTitleCallout">By Mail</div>
+		<div style="color: #a4b391">For General Inquiries</div>
+		Bay Area FasTrak<br />
+		P.O. Box 26926<br />
+		San Francisco, CA 94126
+		<br /><br />
+		<div style="color: #a4b391">For New and Existing Accounts</div>
+		FasTrak<br />
+		FasTrak Accounts<br />
+		P.O. Box 26926<br />
+		San Francisco, CA 94126
+		<br /><br />
+		<div style="color: #a4b391">License Plate and One Time Payment Accounts</div>
+		FasTrak<br />
+		Golden Gate Bridge Accounts<br />
+		P.O. Box 26898 <br />
+		San Francisco, CA 94126
+		<br />
+		</div>
+		
+		<div class="thirdsies" style="width: 350px">
+		<div class="orangeTitleCallout">&nbsp;</div>
+		<div style="color: #a4b391">To Respond to an Invoice or Violation Notice </div>
+		FasTrak Invoices <br />
+		P.O. Box 26879 <br />
+		San Francisco, CA 94126
+		<br /><br />
+		FasTrak Violations <br />
+		P.O. Box 26925 <br />
+		San Francisco, CA 94126
+		<br />
+		</div>
+	</div>
+		</div> 
+<!-- end content -->
+
+
+    <script>
+
+    // initialise plugins
+    jQuery(function(){
+      jQuery('#ebur_sf').superfish({
+        //useClick: true
+      });
+
+      jQuery('header nav').meanmenu();
+      
+      //$("#carouselb").carouFredSel();
+      
+      //$("#carouselc").carouFredSel();
+    });
+    
+	</script>	
+
+<div class="footerTopperRelated">
+	<div class="footerToppler">Keep moving with FasTrak</div>
+</div>
+
+<script src="../common/js/footer.js"></script>
+  <script>
+	
+	$(document).ready(function() {
+		 if ($("#hiddenWarning").text().length > 0) {
+		 
+			$('#hiddenWarning').show();
+		}                            
+	});
+	</script>
+
+</body></html>

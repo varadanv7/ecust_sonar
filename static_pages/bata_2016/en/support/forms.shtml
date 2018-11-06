@@ -1,0 +1,163 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>FasTrak</title>
+
+ <!--#include file="../common/headerinclude.html"-->
+ <!--#include file="../common/html/pageheader.shtml"-->
+</head>
+
+<body onLoad="setWindowSizeP()">
+<div class="container"><ol class="breadcrumb">
+	  <li><a href="../home/index.shtml"><img src="../images/breadcrumb/Home_icon.png"></a></li>
+	  <li>SUPPORT</a></li>
+	  <li class="active">FORMS & DOCUMENTS</li>
+</div>
+<div class="contentEnvelope" editarea="forms" editareadesc="forms">
+<!-- content -->
+	<div class="contentTitle"><!--<div style="float: right;"><a href="#" title='Click to chat with an online representative' class="chat_image" onMouseOver="opacitieer('chatty')" onMouseOut="disopacitieer('chatty')"><img src="../images/chatToAsk.png" border="0" style="max-width: 230px;" id="chatty"></a></div>-->FORMS & DOCUMENTS</div>
+	<div style="clear: both;"></div>
+	
+	
+	<!-- English  -->
+	<div id="english">
+	<div class="mountTitles">
+			<div class="mountGreen">English</div>
+			<a href="#" class="mountLink" onClick="langChanger('spanish')"><div class="mountGrey">Espa&#241;ol</div></a>
+			<a href="#" class="mountLink" onClick="langChanger('chinese')"><div class="mountGrey">中文</div></a>
+	</div>
+	<div class="left2Col">
+		<div class="formsList">
+		<span style="color: #4D4D4F">Applications <!--<a href="#" class="formsLink" target="_blank">Espa&#241;ol</a> or <a href="#" class="formsLink" target="_blank">中文</a>--></span>
+		<br>
+		<a href="../images/FTApplicationJan17.pdf" class="formsLink" target="_blank" style="margin-left: 25px; font-size: 14px;">FasTrak Account Application (PDF)</a>
+		<br>
+		<a href="../images/application_lp.pdf" class="formsLink" target="_blank" style="margin-left: 25px; font-size: 14px;">License Plate Account Application (PDF)</a>
+		<br>
+		<span style="color: #4D4D4F">Updates to your Account</span>
+		<br>
+		<a href="../images/account_update.pdf" class="formsLink" target="_blank" style="margin-left: 25px; font-size: 14px;">FasTrak Account update Form (PDF)</a>
+		<br>
+		<a href="../images/LicensePlateAccountUpdateForm.pdf" class="formsLink" target="_blank" style="margin-left: 25px; font-size: 14px;">License Plate Account update Form (PDF)</a>
+		<br>
+		<span style="color: #4D4D4F">Requests</span>
+		<br>
+		<a href="../images/toll_tag_request_form.pdf" class="formsLink" target="_blank" style="margin-left: 25px; font-size: 14px;">Toll Tag Request Form (PDF)</a>
+		<br>
+		<a href="../images/account_closure.pdf" class="formsLink" target="_blank" style="margin-left: 25px; font-size: 14px;">FasTrak Account Closure Form (PDF)</a>
+		<br>
+		<a href="../images/LicensePlateAccountClosureForm.pdf" class="formsLink" target="_blank" style="margin-left: 25px; font-size: 14px;">License Plate Account Closure Form (PDF)</a>
+		<br>
+		<a href="../images/dmv_registration_hold_dispute.pdf" class="formsLink" target="_blank" style="margin-left: 25px; font-size: 14px;">DMV Hold Dispute Form (PDF)</a>
+		</div>
+	</div>
+	<div class="right2Col">
+		<div class="formsListR">
+		<span style="color: #4D4D4F">Account Holder Responsibilities</span>
+		<br>
+		<a href="../images/handbook.pdf" class="formsLink" target="_blank" style="margin-left: 25px; font-size: 14px;">FasTrak Customer Handbook (PDF)</a>
+		<br>
+		<a href="../images/ApplicationandLicenseAgreement.pdf" class="formsLink" target="_blank" style="margin-left: 25px; font-size: 14px;">FasTrak Account Terms and Conditions (PDF)</a>
+		<br>
+		<a href="../images/LP_LicenseAgreement.pdf" class="formsLink" target="_blank" style="margin-left: 25px; font-size: 14px;">License Plate Account Terms and Conditions (PDF)</a>
+		<br>
+		<a href="../images/One-TimePaymentAgreement.pdf" class="formsLink" target="_blank" style="margin-left: 25px; font-size: 14px;">One Time Payment Terms and Conditions (PDF)</a>
+		<br>
+		<span style="color: #4D4D4F">Website</span>
+		<br>
+		<a href="../images/privacy.pdf" class="formsLink" target="_blank" style="margin-left: 25px; font-size: 14px;">Privacy Policy</a>
+		</div>
+	</div>
+	</div>
+	<!--End English-->
+	
+	
+	<!--Spanish-->
+	<div id="spanish">
+	<div class="mountTitles">
+			<a href="#" class="mountLink" onClick="langChanger('english')"><div class="mountGrey">English</div></a>
+			<div class="mountGreen">Espa&#241;ol</div>
+			<a href="#" class="mountLink" onClick="langChanger('chinese')"><div class="mountGrey">中文</div></a>
+	</div>
+	<div class="left2Col" style="width: 350px;">
+		<div class="formsList">
+
+		<div style="color: #4D4D4F">Solicitudes</div>
+
+		<a href="../images/FTApplicationSp.pdf" class="formsLink" target="_blank" style="margin-left: 25px; font-size: 15px;">Solicitud de la cuenta de FasTrak (PDF)</a>
+		<br>
+			<div style="margin-left: 25px; line-height: 18px; margin-top: 5px;">
+			<a href="../images/LPApplicationSp.pdf" class="formsLink" target="_blank" style=" font-size: 15px;">Solicitud de la Cuenta de Placa o Matr&iacutelcula (PDF)</a>
+			</div>
+		<span style="color: #4D4D4F">Peticiones</span>
+			<div style="margin-left: 25px; line-height: 18px; margin-top: 5px;">
+			<a href="../images/FTClosureSp.pdf" class="formsLink" target="_blank" style=" font-size: 15px;">Formulario de cierre de la cuenta de FasTrak (PDF)</a>
+			</div>
+		</div>
+	</div>
+	<div class="right2Col">
+		<div class="formsListR">
+		<span style="color: #4D4D4F">Responsabilidades del titular de la cuenta</span>
+		<br>
+		<div style="margin-left: 25px; line-height: 18px; margin-top: 5px;">
+		<a href="../images/FTTermsandConditionsSp.pdf" class="inLineLinkk" target="_blank" style=" font-size: 15px;">T&eacute;rminos y condiciones de la Cuenta de placa o matr&iacute;cula (PDF) </a>
+		</div>
+
+		<a href="../images/HandbookSp.pdf" class="formsLink" target="_blank" style="margin-left: 25px; font-size: 15px;">Manual del Cliente de FasTrak (PDF) </a>
+		<br>
+		<span style="color: #4D4D4F">Sitio web</span>
+		<br>
+		<a href="../images/FTPrivacyPolicySP.pdf" class="formsLink" style="margin-left: 25px; font-size: 15px;" target="_blank">Privacidad</a>
+		</div>
+	</div>
+	</div>
+	<!--End Spanish-->
+	
+	<!--Chinese-->
+	<div id="chinese">
+	<div class="mountTitles">
+			<a href="#" class="mountLink" onClick="langChanger('english')"><div class="mountGrey">English</div></a>
+			<a href="#" class="mountLink" onClick="langChanger('spanish')"><div class="mountGrey">Espa&#241;ol</div></a>
+			<div class="mountGreen">中文</div>
+	</div>
+	<div class="left2Col">
+		<div class="formsList">
+		<div style="color: #4D4D4F">申請</div>
+
+		<a href="../images/FTApplicationCh.pdf" class="formsLink" target="_blank" style="margin-left: 25px; font-size: 15px;">FasTrak 賬戶申請 (PDF)</a>
+		<br>
+		<a href="../images/LPApplicationCh.pdf" class="formsLink" target="_blank" style="margin-left: 25px; font-size: 15px;">車牌照賬戶申請 (PDF)</a>
+		<br>
+		<span style="color: #4D4D4F">請求</span>
+		<br>
+		<a href="../images/FTClosureCh.pdf" class="formsLink" target="_blank" style="margin-left: 25px; font-size: 15px;">FasTrak 賬戶關閉表 (PDF)</a>
+		</div>
+	</div>
+	<div class="right2Col">
+		<div class="formsListR">
+		<span style="color: #4D4D4F">賬戶持有人責任</span>
+		<br>
+		<a href="../images/FTTermsandConditionsCh.pdf" class="formsLink" target="_blank" style="margin-left: 25px; font-size: 15px;">車牌照賬戶條款和條件 (PDF)</a>
+		<br>
+		<a href="../images/HandbookCh.pdf" target="_blank" class="formsLink" style="margin-left: 25px; font-size: 15px;">FasTrak 客戶手冊 (PDF)</a>
+		<br>
+		<span style="color: #4D4D4F">網站</span>
+		<br>
+		<a href="../images/FTPrivacyPolicyCh.pdf" class="formsLink" style="margin-left: 25px; font-size: 15px;" target="_blank">隱私權</a>
+		</div>
+	</div>
+	</div>
+	<!--End Chinese-->
+<!-- end content -->
+</div>
+<div class="footerTopperRelated">
+	<div class="footerToppler">Keep moving with FasTrak</div>
+</div>
+<script src="../common/js/footer.js"></script>
+
+
+  </body>
+</html>

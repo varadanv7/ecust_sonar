@@ -1,0 +1,195 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+
+<title>FasTrak</title>
+
+<!--#include file="../common/headerinclude.html"-->
+<!--#include file="../common/html/pageheader.shtml"-->
+
+<script>
+	function dropShower(arg, arg1) {
+		var chudd = document.getElementById('ploot').value
+		var gibbery = "#" + arg;
+
+		document.getElementById('subClaim').style.display = 'none'
+
+		if (chudd == 'X') {
+			$(gibbery).fadeIn("slow");
+			document.getElementById(arg1).src = '../images/orangeArrowD.png';
+			document.getElementById('ploot').value = 'Y'
+		} else if (chudd == 'Y') {
+			$(gibbery).fadeOut("slow");
+			document.getElementById(arg1).src = '../images/orangeArrowL.png';
+			document.getElementById('ploot').value = 'X'
+		}
+	}
+
+	function closeby() {
+		document.getElementById('subClaim').style.display = 'none';
+		document.getElementById('orangeArrowX').src = '../images/orangeArrowL.png';
+	}
+</script>
+</head>
+
+<body onLoad="setWindowSizeP()">
+	<input type="hidden" id="ploot" value="X">
+	<div class="container">
+		<ol class="breadcrumb">
+			<li><a href="../home/index.shtml"><img
+					src="../images/breadcrumb/Home_icon.png"> </a>
+			</li>
+			<li>Support
+			</li>
+			<li>Unclaimed Property</li>
+			<li class="active">Documentation</li>
+		</ol>
+	</div>
+	<div class="contentEnvelope" style="max-width: 1000px;" editarea="eschRequired" editareadesc="esch Required">
+		<!-- content -->
+		<div class="contentTitle">
+			<div
+				style="display: inline-block; float: left; width: 240px; padding: 0 0 0 0;">&nbsp;</div>
+			<div style="display: inline-block; padding: 0 0 0 0;">REQUIRED
+				DOCUMENTATION</div>
+		</div>
+		<div class="menuCol">
+			<div class="menuBox">
+				<div class="navBox" id="overview">
+					<div class="arrowSpace">&nbsp;</div>
+					<a href="eschOverview.shtml" class="leftNav">OVERVIEW</a>
+				</div>
+				<div class="navBox" id="filing">
+					<div class="arrowSpace">&nbsp;</div>
+					<a href="eschFiling.shtml" class="leftNav">FILING A CLAIM</a>
+				</div>
+				<div class="navBox" id="claim">
+					<div id="claimOrangeArrow" class="arrowSpace">
+						<img src="../images/orangeArrowL.png" id="orangeArrowX">
+					</div>
+					<a href="#" onClick="dropShower('subClaim','orangeArrowX')"
+						class="leftNav">CLAIM FORM</a>
+				</div>
+				<div id="subClaim">
+					<div class="subby">
+						<a href="../images/EscheatmentClaimFormi123016-2b.pdf"
+							class="subbyLink" target="_blank">ENGLISH</a>
+					</div>
+					<div class="subby">
+						<a href="../images/EscheatmentClaimFormSpanishi020917.pdf"
+							class="subbyLink" target="_blank">ESPA&Ntilde;OL</a>
+					</div>
+					<div class="subby">
+						<a href="../images/EscheatmentClaimFormChinesei020917.pdf"
+							class="subbyLink" target="_blank">中文</a>
+					</div>
+				</div>
+				<div class="navBoxActive" id="required">
+					<div class="arrowSpace">&nbsp;</div>
+					REQUIRED DOCUMENTATION
+				</div>
+				<div class="navBox" id="faq">
+					<div id="faqOrangeArrow" class="arrowSpace">
+						<img src="../images/orangeArrowL.png" id="orangeArrowY">
+					</div>
+					<a href="eschFAQen.shtml" class="leftNav">FAQs</a>
+				</div>
+			</div>
+		</div>
+		<div id="contentCol">
+			<div class="colFullCopy">
+				<div class="indentoFaqo">
+					The documents required to support your Claim Form depend on your
+					relationship to the owner of the unclaimed property. Please select
+					the appropriate link below to view the list of documentation that
+					must accompany the signed Claim Form.
+					<div class="faqLink" data-toggle="collapse" data-target="#faq1">
+						<img src="../images/orangeArrowSmL.png"
+							style="margin-right: 5px; float: left;">Original Owner
+						Filing a Claim
+					</div>
+					<div id="faq1" class="collapse" style="max-width: 550px;">
+						If you found your name on the list of unclaimed property, complete
+						the Claim Form and include the following documentation:
+						<div style="margin: 15px 0 0 20px">
+							1. Copy of your valid state-issued ID, such as a driver’s license
+							<ul>
+								<li class="lister" style="margin: 10px 0 10px 0">If submitting a claim in person rather
+									than by mail, fax or online, you may show a valid state-issued
+									ID to the FasTrak Customer Service Representative for
+									verification of identity and do not need to submit a copy of
+									the ID</li>
+							</ul>
+							2. Proof of name change, if different than on the unclaimed
+							property account, such as marriage certificate or court documents<br>
+							<br> 3. Proof associating yourself with the last address
+							known by the FasTrak Customer Service Center<br> <br>
+							4. Original or copy of the check, if available
+						</div>
+					</div>
+					<div class="faqLink" data-toggle="collapse" data-target="#faq2">
+						<img src="../images/orangeArrowSmL.png"
+							style="margin-right: 5px; float: left;">Filing a Claim for
+						a Deceased Owner
+					</div>
+					<div id="faq2" class="collapse" style="max-width: 550px;">
+						If you are an heir, beneficiary, or duly appointed representative
+						of a deceased person found on the list of unclaimed property,
+						complete the Claim Form and include the following documentation:
+						<div style="margin: 15px 0 0 20px">
+							1. Copy of your valid state-issued ID, such as a driver’s license
+							<ul>
+								<li class="lister" style="margin: 10px 0 10px 0">If submitting a claim in person rather
+									than by mail, you may show a valid state-issued ID to the
+									FasTrak Customer Service Representative for verification of
+									identity and do not need to submit a copy of the ID</li>
+							</ul>
+							2. Copy of death certificate of the deceased owner and death
+							certificate of predeceased spouse, if applicable<br> <br>
+							3. Proof that you have the right to file a claim on behalf of the
+							deceased
+							<ul>
+								<li class="lister" style="margin: 10px 0 10px 0">If the estate is in probate and you are
+									the executor or administrator of the estate, include the estate
+									tax identification number and a copy of the certified letter of
+									testamentary, dated within six months, showing your appointment
+									as executor or administrator of the deceased’s estate</li>
+							</ul>
+							4. Original or copy of the check, if available
+						</div>
+					</div>
+					<div class="faqLink" data-toggle="collapse" data-target="#faq3">
+						<img src="../images/orangeArrowSmL.png"
+							style="margin-right: 5px; float: left;">Business Claim
+					</div>
+					<div id="faq3" class="collapse" style="max-width: 550px;">
+						If you are an authorized officer or official of a business or
+						government entity found on the list of unclaimed property,
+						complete the Claim Form and include the following documentation:
+						<div style="margin: 15px 0 20px 20px">
+							1. Letter of authorization with the names of officers or
+							officials with authority to sign and submit claim on behalf of
+							the business<br> <br> 2. Copy of current photo
+							identification for each authorized officer or official making the
+							claim<br> <br> 3. Business card of the authorized
+							officer or official<br> <br> 4. Proof of the business's
+							association with the last known address that matches the check<br>
+							<br> 5. If the company merged with another company, a copy
+							of the merger agreement<br> <br> 6. If the company was
+							dissolved, a copy of the articles of dissolution<br> <br>
+							7. Original or copy of the check, if available<br>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end content -->
+	</div>
+	<div class="footerTopperRelated">
+		<div class="footerToppler">Keep moving with FasTrak</div>
+	</div>
+	<script src="../common/js/footer.js"></script>
+</body>
+</html>

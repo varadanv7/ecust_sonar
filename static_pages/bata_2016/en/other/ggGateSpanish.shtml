@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+
+<title>FasTrak</title>
+
+<!--#include file="../common/headerinclude.html"-->
+
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+    <script src="../assets/js/html5shiv.js"></script>
+  <![endif]-->
+
+</head>
+
+<body onLoad="setWindowSizeP()">
+	<!--#include file="../common/html/pageheader.shtml"-->
+	<div class="contentTopper">
+		<ol class="breadcrumb">
+			<li><a href="../home/index.shtml"><img
+					src="../images/breadcrumb/Home_icon.png">
+			</a>
+			</li>
+			<li class="active">Peaje en el Golden Gate Bridge</li>
+		</ol>
+	</div>
+	<div class="contentEnvelope" editarea="ggGateSpanish" editareadesc="ggGate Spanish">
+		<!-- content -->
+		<div class="contentTitle">
+			<div
+				style="display: inline-block; float: left; width: 240px; padding: 0 0 0 0;">&nbsp;</div>
+			<div style="display: inline-block; padding: 0 0 0 0;">Peaje en
+				el Golden Gate Bridge</div>
+		</div>
+		<div class="menuCol">
+			<div class="menuBox">
+				<div class="navBox" id="benefit">
+					<div id="benefitOrangeBox">&nbsp;</div>
+					<a href="benefitsSpanish.shtml" class="leftNav"
+						onMouseover="langMouse('benefit','benefitOrangeBox')"
+						onMouseOut="langMouseOut('benefit','benefitOrangeBox')">VENTAJAS</a>
+				</div>
+				<div class="navBox" id="getting">
+					<div id="gettingOrangeBox">&nbsp;</div>
+					<a href="startedSpanish.shtml" class="leftNav"
+						onMouseover="langMouse('getting','gettingOrangeBox')"
+						onMouseOut="langMouseOut('getting','gettingOrangeBox')">C&Oacute;MO
+						EMPEZAR</a>
+				</div>
+				<div class="navBox" id="get">
+					<div id="getOrangeBox">&nbsp;</div>
+					<a href="tollTagSpanish.shtml" class="leftNav"
+						onMouseover="langMouse('get','getOrangeBox')"
+						onMouseOut="langMouseOut('get','getOrangeBox')">DISPOSITIVO
+						ELECTR&Oacute;NICO de PEAJE DE FASTRAK</a>
+				</div>
+				<div class="navBox" id="use">
+					<div id="useOrangeBox">&nbsp;</div>
+					<a href="usingSpanish.shtml" class="leftNav"
+						onMouseover="langMouse('use','useOrangeBox')"
+						onMouseOut="langMouseOut('use','useOrangeBox')">USO de FASTRAK</a>
+				</div>
+				<div class="navBox" id="where">
+					<div id="whereOrangeBox">&nbsp;</div>
+					<a href="whereSpanish.shtml" class="leftNav"
+						onMouseover="langMouse('where','whereOrangeBox')"
+						onMouseOut="langMouseOut('where','whereOrangeBox')">D&Oacute;NDE
+						USAR FASTRAK</a>
+				</div>
+				<div class="navBoxActive" id="GG">
+					<div id="GGOrangeBox" style="visibility: visible;">&nbsp;</div>
+					PEAJE en el GOLDEN GATE
+				</div>
+				<div class="navBox" id="invoice">
+					<div id="invoiceOrangeBox">&nbsp;</div>
+					<a href="invoiceSpanish.shtml" class="leftNav"
+						onMouseover="langMouse('invoice','invoiceOrangeBox')"
+						onMouseOut="langMouseOut('invoice','invoiceOrangeBox')">FACTURA
+						o INFRACCI&Oacute;N</a>
+				</div>
+				<div class="navBox" id="discount">
+					<div id="discountOrangeBox">&nbsp;</div>
+					<a href="discountsSpanish.shtml" class="leftNav"
+						onMouseover="langMouse('discount','discountOrangeBox')"
+						onMouseOut="langMouseOut('discount','discountOrangeBox')">DESCUENTOS
+						y RECORRIDOS SIN PEAJE</a>
+				</div>
+				<div class="navBox" id="contact">
+					<div id="contactOrangeBox">&nbsp;</div>
+					<a href="contactSpanish.shtml" class="leftNav"
+						onMouseover="langMouse('contact','contactOrangeBox')"
+						onMouseOut="langMouseOut('contact','contactOrangeBox')">COMUN&Iacute;QUESE
+						CON NOSOTROS</a>
+				</div>
+			</div>
+		</div>
+		<div id="contentCol">
+			<div class="colFullCopy">
+				<img src="../images/ggGate_1.jpg" width="100%"
+					style="max-width: 742px">
+				<div class="indento">
+					<br> Este Puente requiere el pago de peaje al conducir con
+					rumbo al sur hacia San Francisco. Debe pagar el peaje
+					electr&oacute;nicamente con un dispositivo electr&oacute;nico de
+					peaje de FasTrak o a trav&eacute;s de otro m&eacute;todo utilizando
+					su n&uacute;mero de placa o matr&iacute;cula. <br>
+					<br> En este puente no es necesario detenerse para pagar el
+					peaje. No se dispone de personal que acepte el pago en el puente ni
+					en el centro para turistas. Para pagar el peaje, usted debe hacer
+					uso de una de las opciones descritas aqu&iacute;.
+				</div>
+				<div class="greenArticleTop">A. Pago con FasTrak</div>
+				<div class="indento">
+					Use FasTrak y autom&aacute;ticamente recibir&aacute; una tarifa de
+					peaje con descuento. Los veh&iacute;culos compartidos reciben un
+					mayor descuento cuando utilizan FasTrak y conducen en el carril de
+					viajes compartidos durante horarios de tr&aacute;fico intenso. <br>
+					<br> Puede usar su dispositivo electr&oacute;nico de peaje de
+					FasTrak y su cuenta para pagar los peajes de todos los
+					veh&iacute;culos que desee, incluyendo un veh&iacute;culo
+					alquilado, pero s&oacute;lo temporalmente. <br>
+					<br> <a href="#ggLink1" class="inLineLinkk">Uso de FasTrak
+						en veh&iacute;culos temporales</a>.
+					<div class="orangeTitleCallout">Tarifas de peaje</div>
+					<img src="../images/ggGate_2Span.png" width="100%"
+						style="max-width: 464px"> <br>
+					<br> Para veh&iacute;culos con remolques, veh&iacute;culos
+					multi-eje y cuentas de placa o matr&iacute;cula, obtenga la <br>
+					<a
+						href="../images/multi-axle-vehicle-toll-chart-2017.pdf"
+						class="inLineLinkk" target="_blank">Informaci&oacute;n
+						completa de peaje del Golden Gate Bridge</a>.
+				</div>
+				<div class="greenArticleTop">B. Pago sin FasTrak</div>
+				<div class="indento">
+					<br> Si usted no cuenta con FasTrak y cruz&oacute; el puente,
+					no se aplica una multa. FasTrak le enviar&aacute; por correo una
+					factura por el monto del peaje al propietario registrado del
+					veh&iacute;culo, quien tendr&aacute; 21 d&iacute;as para pagar la
+					factura. <br>
+					<br> Si usted no es el propietario registrado del
+					veh&iacute;culo o desea pagar el peaje de inmediato, efect&uacute;e
+					"Un solo pago &uacute;nico". Se trata de una cuenta a corto plazo.
+					Puede pagar el peaje de un solo cruce o de m&uacute;ltiples cruces
+					del Golden Gate Bridge. Usted paga los peajes de un veh&iacute;culo
+					en particular durante un periodo de tiempo determinado, hasta un
+					m&aacute;ximo de 30 d&iacute;as. Debe establecer este pago antes de
+					cruzar el Golden Gate Bridge con destino al sur hacia San Francisco
+					o dentro del periodo de 48 horas posterior a haberlo cruzado.
+					Obtenga informaci&oacute;n adicional en <a href="#ggLink2"
+						class="inLineLinkk">C&oacute;mo efectuar un solo pago
+						&uacute;nico por Internet</a>.
+					<div style="max-width: 468px; padding-top: 5px;">
+						<div class="tipsBlock">
+							<div class="tipsBlockTitle">Pague el peaje ahora y evite
+								una factura m&aacute;s tarde</div>
+							Si no utiliza una cuenta de FasTrak para pagar el peaje del
+							Golden Gate Bridge, FasTrak le facturar&aacute; al propietario
+							registrado del veh&iacute;culo la cantidad del peaje
+							&uacute;nicamente. Si desea evitar que el propietario reciba esta
+							factura, puede pagar el peaje utilizando "Un solo pago
+							&uacute;nico". <br>
+							<br> <a href="#ggLink3" class="inLineLinkk">Ver
+								C&oacute;mo efectuar un solo pago &uacute;nico</a>
+						</div>
+						<div class="tipsBox">SUGERENCIA</div>
+					</div>
+				</div>
+				<br> <a href="#top" class="backToTop" style="float: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Regresar
+					al Inicio</a> <br>
+				<a name="ggLink1"></a>
+				<div class="greenArticleTop">Usuarios de veh&iacute;culos
+					alquilados</div>
+				<div class="indento">
+					Puede pagar el peaje del Golden Gate Bridge de tres formas.
+					<div class="orangeTitleCallout">1. Previamente hacer un
+						arreglo con la compa&ntilde;&iacute;a de alquiler</div>
+					La mayor&iacute;a de las agencias de alquiler de autos cuentan con
+					un programa de pago de peajes. Generalmente aplican un cargo
+					adicional a los peajes en que usted incurra. Consulte su contrato
+					de alquiler del veh&iacute;culo para enterarse de los
+					t&eacute;rminos y condiciones. Si desea pagar el peaje por su
+					cuenta, excl&uacute;yase de este servicio antes de firmar el
+					contrato de alquiler.
+					<div class="orangeTitleCallout">2 . Pagar el peaje por su
+						cuenta a trav&eacute;s de "Un solo pago &uacute;nico"</div>
+					"Un solo pago &uacute;nico" es una cuenta a corto plazo que utiliza
+					el n&uacute;mero de placa o matr&iacute;cula del veh&iacute;culo y
+					las fechas que usted elija. Debe establecer "Un solo pago
+					&uacute;nico" antes de cruzar el Golden Gate Bridge o dentro del
+					periodo de 48 horas posterior a haberlo cruzado. Elija un periodo
+					que corresponda con las fechas de vigencia de su contrato de
+					alquiler a fin de cubrir todos los peajes en los que pudiera
+					incurrir. <br>
+					<br> Puede establecer "Un solo pago &uacute;nico" de las
+					siguientes formas: <br>
+					<ul>
+						<li class="lister">Por Internet a trav&eacute;s <a
+							href="https://www.bayareafastrak.org/en/howitworks/oneTime.shtml"
+							class="inLineLinkk" target="_blank">del sitio web en
+								ingl&eacute;s</a>
+						</li>
+						<li class="lister">En <a
+							href="https://www.bayareafastrak.org/en/howitworks/cashLocationsMap.html"
+							class="inLineLinkk" target="_blank">establecimientos locales
+								de pago en efectivo </a>
+						</li>
+						<li class="lister"><a href="contactSpanish.shtml"
+							class="inLineLinkk">Por tel&eacute;fono</a>
+						</li>
+					</ul>
+					Obtenga informaci&oacute;n adicional sobre c&oacute;mo efectuar un
+					solo pago &uacute;nico por Internet <a href="#ggLink3"
+						class="inLineLinkk">aqu&iacute;:</a><br>
+					<div class="orangeTitleCallout">3. Pagar el peaje usando su
+						cuenta de FasTrak</div>
+					Hay dos formas en las que usted puede a&ntilde;adir temporalmente
+					cualquier veh&iacute;culo a su cuenta de FasTrak para pagar los
+					peajes, incluso si es alquilado. <br>
+					<ul>
+						<li class="lister">Ingrese a su cuenta por Internet y
+							a&ntilde;ada un veh&iacute;culo en Add A Vehicle. Use las fechas
+							de vigencia de su periodo de alquiler. Instale su dispositivo
+							electr&oacute;nico de peaje en el veh&iacute;culo alquilado.</li>
+						<li class="lister">O ll&aacute;menos y le ayudaremos a
+							hacerlo.</li>
+					</ul>
+					<div style="max-width: 468px;">
+						<div class="tipsBlock">
+							<div class="tipsBlockTitle">"Un solo pago &uacute;nico" es
+								la mejor opci&oacute;n para muchos usuarios de veh&iacute;culos
+								alquilados</div>
+							Si decide efectuar "Un solo pago &uacute;nico", pague el peaje
+							antes de cruzar el Golden Gate Bridge con destino al sur hacia
+							San Francisco o dentro del periodo de 48 horas posterior a
+							haberlo cruzado. De lo contrario, la compa&ntilde;&iacute;a de
+							alquiler podr&iacute;a aplicarle un cargo de servicio adicional.
+
+						</div>
+						<div class="tipsBox">SUGERENCIA</div>
+					</div>
+					<br>
+					<br> Obtenga aqu&iacute; informaci&oacute;n sobre el <a
+						href="http://goldengate.org/tolls/spanish.php" class="inLineLinkk"
+						target="_blank">Peaje del Golden Gate Bridge</a>
+				</div>
+				<br> <a href="#top" class="backToTop" style="float: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Regresar
+					al Inicio</a> <br>
+				<a name="ggLink3"></a><a name="ggLink2"></a>
+				<div class="greenArticleTop">C&oacute;mo efectuar un solo pago
+					&uacute;nico por Internet</div>
+				<div class="indento">
+					"Un solo pago &uacute;nico" es una cuenta a corto plazo para pagar
+					uno o m&aacute;s peajes de un veh&iacute;culo espec&iacute;fico en
+					el Golden Gate Bridge dentro de un periodo de tiempo determinado.
+					Esta cuenta usa el n&uacute;mero de placa o matr&iacute;cula del
+					veh&iacute;culo y las fechas que usted elija. <br>
+					<br> Debe establecer este pago antes de cruzar el Golden Gate
+					Bridge con destino al sur hacia San Francisco o dentro del periodo
+					de 48 horas posterior a haberlo cruzado.
+					<div class="orangeTitleCallout">Si ya cruz&oacute; el Golden
+						Gate Bridge</div>
+					Debe pagar el peaje si cruz&oacute; este puente con rumbo al sur
+					hacia San Francisco. Siga estos pasos: <br>
+					<br>
+					<ol>
+						<li class="lister">En el sitio web en ingl&eacute;s, acuda a
+							la p&aacute;gina <a
+							href="https://www.bayareafastrak.org/en/howitworks/oneTime.shtml"
+							class="inLineLinkk" target="_blank">One Time Payment For
+								Golden Gate Bridge Tolls</a>
+						</li>
+						<li class="lister">Seleccione Pay Recent and Future Toll<br>
+						<img src="../images/payRecent.png" style="margin: 10px 0 10px 0;">
+						</li>
+						<li class="lister">Ingrese la informaci&oacute;n que se
+							solicita sobre el veh&iacute;culo y la tarjeta de cr&eacute;dito</li>
+						<li class="lister">Seleccione una fecha de inicio (start
+							date) en el pasado, antes de la hora y la fecha en que
+							cruz&oacute; el Golden Gate Bridge en la direcci&oacute;n en la
+							que debe pagar peaje. Tenga presente que la fecha de
+							conclusi&oacute;n (end date) debe ser el d&iacute;a en curso o en
+							el futuro. Con esta cuenta a corto plazo, puede pagar los cruces
+							que haga en el futuro durante hasta 30 d&iacute;as</li>
+						<li class="lister">Incluya una direcci&oacute;n de correo
+							electr&oacute;nico para recibir la confirmaci&oacute;n de que
+							estableci&oacute; "Un solo pago &uacute;nico". A medida que vaya
+							incurriendo en peajes, &eacute;stos aparecer&aacute;n en el
+							estado de cuenta de su tarjeta de cr&eacute;dito</li>
+					</ol>
+					<div class="orangeTitleCallout">Si tiene pensado cruzar el
+						Golden Gate Bridge durante los siguientes 30 d&iacute;as</div>
+					Debe pagar el peaje en este puente si lo cruza con rumbo al sur
+					hacia San Francisco y puede efectuar el pago anticipadamente. Para
+					hacerlo, siga estos pasos:<br>
+					<br>
+					<ol>
+						<li class="lister">En el sitio web en ingl&eacute;s, acuda a
+							la p&aacute;gina <a
+							href="https://www.bayareafastrak.org/en/howitworks/oneTime.shtml"
+							class="inLineLinkk" target="_blank">One Time Payment For
+								Golden Gate Bridge Tolls</a>
+						</li>
+						<li class="lister">Seleccione Set up To Pay Future Toll<br>
+						<img src="../images/futureToll.png" style="margin: 10px 0 10px 0;">
+						</li>
+						<li class="lister">Ingrese la informaci&oacute;n que se
+							solicita sobre el veh&iacute;culo y la tarjeta de cr&eacute;dito</li>
+						<li class="lister">Ingrese las fechas. <i>Tenga presente
+								que Current Date debe ser la fecha del d&iacute;a en curso. La
+								fecha de conclusi&oacute;n (end date) puede ser hasta 30
+								d&iacute;as en el futuro</i>
+						</li>
+						<li class="lister">Incluya una direcci&oacute;n de correo
+							electr&oacute;nico para recibir la confirmaci&oacute;n de que
+							estableci&oacute; "Un solo pago &uacute;nico". A medida que vaya
+							incurriendo en peajes, &eacute;stos aparecer&aacute;n en el
+							estado de cuenta de su tarjeta de cr&eacute;dito</li>
+					</ol>
+				</div>
+				<br> <a href="#top" class="backToTop" style="float: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Regresar
+					al Inicio</a>
+			</div>
+		</div>
+	</div>
+	<!-- end content -->
+	</div>
+	<div class="footerTopperRelated">
+		<div class="footerToppler">Keep moving with FasTrak</div>
+	</div>
+	<script src="../common/js/footer.js"></script>
+
+</body>
+</html>
